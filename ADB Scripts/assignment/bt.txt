@@ -1,0 +1,133 @@
+Bluetooth Status
+  enabled: true
+  state: 12
+  address: AC:C1:EE:62:92:92
+  name: Redmi
+
+Bonded devices:
+
+Profile: BtGatt.GattService
+  mAdvertisingServiceUuids:
+  mMaxScanFilters: 0
+
+GATT Client Map
+  Entries: 1
+
+  Application Id: 5
+  UUID: d15eb6fc-5a7b-4109-ad6a-184c63090cf5
+  Connections: 0
+
+GATT Server Map
+  Entries: 0
+
+GATT Handle Map
+  Entries: 0
+  Requests: 0
+
+Profile: HeadsetService
+  mCurrentDevice: null
+  mTargetDevice: null
+  mIncomingDevice: null
+  mActiveScoDevice: null
+  mMultiDisconnectDevice: null
+  mVirtualCallStarted: false
+  mVoiceRecognitionStarted: false
+  mWaitingForVoiceRecognition: false
+  StateMachine: HeadsetStateMachine:
+ total records=15
+ rec[0]: time=04-13 11:00:27.193 processed=Disconnected org=Disconnected dest=<null> what=10(0xa)
+ rec[1]: time=04-13 11:00:27.193 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[2]: time=04-13 11:00:27.237 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[3]: time=04-13 11:00:27.237 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[4]: time=04-13 11:00:27.455 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+ rec[5]: time=04-13 11:00:28.640 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[6]: time=04-13 11:00:33.766 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[7]: time=04-13 11:00:40.167 processed=Disconnected org=Disconnected dest=<null> what=10(0xa)
+ rec[8]: time=04-13 11:00:44.002 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[9]: time=04-13 11:01:09.605 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[10]: time=04-13 11:01:10.238 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+ rec[11]: time=04-13 11:01:10.240 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+ rec[12]: time=04-13 11:01:11.846 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[13]: time=04-13 11:01:14.087 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[14]: time=04-13 11:01:17.781 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+curState=Disconnected
+
+  mPhoneState: com.android.bluetooth.hfp.HeadsetPhoneState@de10b9f
+  mAudioState: 10
+
+Profile: A2dpService
+  mCurrentDevice: null
+  mTargetDevice: null
+  mIncomingDevice: null
+  mPlayingA2dpDevice: []
+  StateMachine: A2dpStateMachine:
+ total records=0
+curState=Disconnected
+
+AVRCP:
+  mMetadata: Metadata[artist=null trackTitle=null albumTitle=null genre=null tracknum=-1]
+  mTransportControlFlags: 957
+  mCurrentPlayState: 0
+  mPlayStatusChangedNT: 1
+  mTrackChangedNT: 1
+  mTrackNumber: -1
+  mCurrentPosMs: 0
+  mPlayStartTimeMs: 174079400
+  mSongLengthMs: 0
+  mPlaybackIntervalMs: 0
+  mPlayPosChangedNT: 1
+  mNextPosMs: 0
+  mPrevPosMs: 0
+  mSkipStartTime: 0
+  mFeatures: 0
+  mAbsoluteVolume: -1
+  mLastSetVolume: -1
+  mLastDirection: 0
+  mVolumeStep: 8
+  mAudioStreamMax: 15
+  mVolCmdInProgress: false
+  mAbsVolRetryTimes: 0
+  mSkipAmount: 0
+
+Profile: HidService
+  mTargetDevice: null
+  mInputDevices:
+
+Profile: HealthService
+  mHealthChannels:
+  mApps:
+  mHealthDevices:
+
+Profile: PanService
+  mMaxPanDevices: 5
+  mPanIfName: bt-pan
+  mTetherOn: false
+  mPanDevices:
+  mBluetoothIfaceAddresses:
+
+Profile: BluetoothMapService
+  mRemoteDevice: null
+  sRemoteDeviceName: null
+  mState: 0
+  mAppObserver: com.android.bluetooth.map.BluetoothMapAppObserver@65694ec
+  mIsWaitingAuthorization: false
+  mRemoveTimeoutMsg: false
+  mPermission: 0
+  mAccountChanged: false
+  mBluetoothMnsObexClient: null
+  mMasInstanceMap:
+    null : MasId: 0 Uri:null SMS/MMS:true
+  mEnabledAccounts:
+
+Profile: AvrcpControllerService
+
+Profile: SapService
+
+Profile: HidDevService
+
+Connection Events:
+  None
+
+--- BEGIN:BTSNOOP_LOG_SUMMARY (3107 bytes in) ---
+AY/iZy+0aQUAeJzlVl1oE1kU/u5MJukk00wmaavNQjN1jcafGbG1FftQa7tbG7qKxKJlXf8V8Y9lN8QHFX/xwd1FRAV3kXUXpY0ItjZqX7qLUHyQFgR1kX2oUrFWiy8V/MfQPZOk07KNkIGFfeg8hMz57nfPuec75875iJ0vKjnVJ72LbN2yezsm3+PAWxfgcduYT8JrnJwJqBHpJbOLqYwU84LiVCTFrXiVQqVICSiaMk+Bt0xhAnP838H/h48DPZk8RCR62aVSHlYnecbghCwZiIOtTk5hTC7C4nkp0MsMIv0cNndx4rxzdC0hbjsGptFaSeVA2ZqhpD1IKlxYU06AS3WwmkBNgJHLX6Q06lJhRyiUphnAuWKTZkdVCQGClAIiYhoQJORhc5iAKsnGyn8870BvfhqqkiBg/ecE+SXGO9CYceI37IW6aa+QTftHxBaQfVL3xAef2RM6fiKTp3oOx3jWVb/u8qPpgZIRO5ioorr/Tu2Mmj0HDkTvPrh0evjPc7sHdqzd/+TGawRCk7aPTk03+ygPv2N8Vb7LG1eVzTCr7ykbV5UnxuyizbSLWG7YmU2gnZzkZtDgyDYwZtPQKRSQRLOpK9jzW33bvm8s4ZjfP/IVJDcamv9+tuJK+18bv9t5671HcHmG64MdMtphqEqNZMtQ0KHj2z+YNak7NKht1nxf1xA0YrdAScg4PiHcRBD9YSPcabQPhooKbu49VMQxgefR6xYbmurU2pXql4sWVlYsafEiP+VSJn5mKc85ba1U3HqhxeLW0TNYYI2T0FA7hX3yyOHmr5MnSwdezUI41Jk58jUZxezfR76m4eA3hZb2oXBvH7Uo6lUdGx/7LHI0zLR/WtVsoXXKcE84YmcQsZcYVbU7u6p1ZXULyxaQquKYqt2mqi1B3Pk5t8KIe3EPWQqjRUfspsWsUeRdb7ncIg+igkeuEcazRhiCTss91UEj3/WVsbboUDFPX8rUNsPOfDH8xfz5FSt2xaJqQ4Qc7uNyy2qrF8u4LFm9pGFxH2et9mRMnSAwFeSJGGcttdd1dC01P0J9n0XvN9lNTlviSGnp/jNvKqOx/sbLq64Mno3/uvnDDxd0bPqNWea0xy1yWu24SBkZnXHO+M1hRcZD48rekHTRjEN/eGNYcqCBS6/YkGRExdicc0w0qUGUSzlfbSPZ6iOuYeiCz5JcdMvOnSBX4h99uh90
+--- END:BTSNOOP_LOG_SUMMARY (1221 bytes out) ---

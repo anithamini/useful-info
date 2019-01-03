@@ -1,0 +1,507 @@
+<4>[25974.644385] IRQ5 no longer affine to CPU7
+<6>[25976.391443] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.391467] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.399493] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.399516] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.415598] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.415617] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.416614] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.416636] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.417357] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.423587] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.423602] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.424975] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.424997] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.425341] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.431728] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.431748] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.432694] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.432718] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.433062] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.447793] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.447803] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.448392] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.448403] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.448621] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.455953] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.455963] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.456548] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.456559] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.456780] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.463961] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.463973] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.464728] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.464739] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.464964] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.472122] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.472132] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.473993] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.474006] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.474227] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.480199] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.480205] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.480765] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.480774] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.480990] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.488098] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.488106] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.488879] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.488888] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.489268] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.496243] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.496254] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.496836] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.496848] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.497071] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.504348] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.504990] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.504999] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.505207] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.512341] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.512349] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.512959] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.512967] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.513169] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.520392] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.520399] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.520939] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.520947] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.521146] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.545232] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.545243] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.545597] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.552698] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.552704] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.553240] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.553250] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.553466] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.560713] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.561274] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.561285] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.561503] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.568927] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.568934] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.569494] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.569504] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.569723] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.576884] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.576891] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.577437] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.577447] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.577664] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.585101] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.585115] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.585940] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.585962] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.586295] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.593020] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.593034] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.593710] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.593730] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.594055] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.601214] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.601230] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.601925] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.601945] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.602268] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.609428] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.609448] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.610586] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.610610] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.610953] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.617218] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.617238] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.618101] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.618123] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.618458] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.625376] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.625392] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.626392] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.626414] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.626754] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.633454] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.633471] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.635563] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.635586] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.635947] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.641507] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.641526] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.642529] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.642553] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.642903] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.649575] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.649590] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.650317] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.650340] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.650679] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.657635] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.657650] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.658365] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.658385] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.658722] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.665701] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.665715] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.666431] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.666452] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.666786] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.673740] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.673753] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.675125] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.675146] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.675502] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.681806] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.681823] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.689751] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.689766] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.690480] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.690501] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.690835] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.697945] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.697962] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.698871] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.698892] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.699228] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.705866] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.705879] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.706602] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.706623] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.706962] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.714071] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.714088] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.715856] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.715878] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.716231] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.722114] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.722132] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.730180] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.730196] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.731462] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.731484] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.731834] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.746281] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.746301] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.747313] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.747335] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.747684] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.754107] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.754123] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.755934] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.762319] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.770284] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.770299] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.771008] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.771029] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.771353] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.778384] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.778400] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.779101] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.779121] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.779443] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.786391] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.786408] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.787300] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.787322] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.787647] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.794454] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.794469] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.795274] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.795296] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.795624] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.802532] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.802546] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.803213] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.803234] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.803554] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.810579] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25976.810595] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25976.811336] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25976.811358] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(906,1942)[27]
+<6>[25976.811690] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25976.835405] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.180905] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.180920] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.184919] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.184935] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.185371] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.197042] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.197058] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.205145] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.205158] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.206209] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.206222] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.206831] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.213192] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.213204] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.213793] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.213803] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.214021] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.269626] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.269642] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.270917] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.270936] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.272820] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.277670] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.277687] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.279672] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.279692] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.279982] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.285814] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.285827] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.286422] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.286433] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.286736] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.293800] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.293812] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.294429] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.294439] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.309886] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.309898] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.310717] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.310729] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.311008] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.318650] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.318660] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(889,1926)[29]
+<6>[25978.349118] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25978.349129] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25978.350058] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25978.350068] <<GTP-DBG>>[gt1x_touch_event_handler:1404]Additional Int Pulse.
+<6>[25978.350451] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25978.424950] R0: [cds_mc_thread][1548137973177] [11:41:21.944635]  wlan: [3355:E :WMA] wma_roam_scan_fill_fils_params- NULL
+<6>[25978.424971] R0: [cds_mc_thread][1548137973574] [11:41:21.944655]  wlan: [3355:I :WMI] LFR3:OKC enabled
+<6>[25978.424981] R0: [cds_mc_thread][1548137973766] [11:41:21.944665]  wlan: [3355:I :WMI] LFR3:PMKSA caching enabled
+<6>[25978.425054] R0: [cds_mc_thread][1548137975162] [11:41:21.944738]  wlan: [3355:E :PE ] lim_update_fils_rik: 1871: Fils rik len(0) max 64
+<6>[25978.425122] R0: [cds_mc_thread][1548137976482] [11:41:21.944807]  wlan: [3355:E :WMA] wma_roam_scan_fill_fils_params- NULL
+<6>[25978.425270] R0: [cds_mc_thread][1548137979313] [11:41:21.944954]  wlan: [3355:I :WMI] 2437,
+<6>[25978.445536] R0: [wpa_supplicant][1548138368328] [11:41:21.965216]  wlan: [15770:I :HDD] __wlan_hdd_cfg80211_disconnect: 17926: Disconnect request from user space with reason: 3 (WLAN_REASON_DEAUTH_LEAVING) internal reason code: 3
+<6>[25978.445586] R0: [wpa_supplicant][1548138369397] [11:41:21.965271]  wlan: [15770:I :HDD] wlan_hdd_disconnect: 17704: Disabling queues
+<6>[25978.447378] R0: [wpa_supplicant][1548138403705] [11:41:21.967058]  wlan: [15770:I :HDD] hdd_sme_roam_callback: 4932: Disabling queues
+<6>[25978.447930] R0: [cds_mc_thread][1548138414337] [11:41:21.967612]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[25978.447946] R0: [cds_mc_thread][1548138414700] [11:41:21.967631]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[25978.448087] R0: [cds_mc_thread][1548138417393] [11:41:21.967771]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[25978.448099] R0: [cds_mc_thread][1548138417639] [11:41:21.967784]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[25978.448288] R0: [cds_mc_thread][1548138421250] [11:41:21.967972]  wlan: [3355:E :PE ] lim_update_fils_rik: 1871: Fils rik len(0) max 64
+<6>[25978.480723] R0: [cds_mc_thread][1548139043935] [11:41:22.000403]  wlan: [3355:W :WMA] wma_delete_bss: 5190: Outstanding msdu packets: 0
+<6>[25978.493362] R0: [cds_mc_thread][1548139286562] [11:41:22.013040]  wlan: [3355:E :PE ] pe_delete_session: 692: session is not valid
+<6>[25978.493578] R0: [cds_mc_thread][1548139290820] [11:41:22.013262]  wlan: [3355:I :HDD] hdd_dis_connect_handler: 1547: Disabling queues
+<6>[25978.493606] R0: [cds_mc_thread][1548139291327] [11:41:22.013288]  wlan: [3355:F :HDD] __hdd_ipa_wlan_evt:5860: wlan0: WLAN_STA_DISCONNECT evt, MAC: f0:9f:c2:bf:5d:61 sta_id: 1
+<6>[25978.493622] R0: [cds_mc_thread][1548139291662] [11:41:22.013306]  wlan: [3355:F :HDD] hdd_ipa_cleanup_iface:5525: enter
+<6>[25978.493719] R0: [cds_mc_thread][1548139293528] [11:41:22.013403]  wlan: [3355:F :HDD] hdd_ipa_cleanup_iface:5552: exit: num_iface=0
+<6>[25978.493732] R0: [cds_mc_thread][1548139293782] [11:41:22.013416]  wlan: [3355:F :HDD] __hdd_ipa_wlan_evt:6066: sta_connected=0
+<6>[25978.493854] R0: [cds_mc_thread][1548139296116] [11:41:22.013538]  wlan: [3355:I :HDD] hdd_send_association_event: 1354: wlan: disconnected
+<6>[25978.493926] R0: [cds_mc_thread][1548139297481] [11:41:22.013609]  wlan: [3355:E :QDF] cds_need_opportunistic_upgrade: 4032: driver isn't dbs capable, no further action needed
+<6>[25978.493952] R0: [cds_mc_thread][1548139297975] [11:41:22.013635]  wlan: [3355:I :HDD] hdd_send_peer_status_ind_to_oem_app: 798: sending peer f0:9f:c2:bf:5d:61 status(2), peerTimingMeasCap(0), vdevId(0), chanId(0) to oem app pid(-1468003486), center freq 1 (0), center freq 2 (0), info (0x0), frequency (0),reg info 1 (0x0), reg info 2 (0x0)
+<6>[25978.495064] R0: [cds_mc_thread][1548139319292] [11:41:22.014745]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[25978.495081] R0: [cds_mc_thread][1548139319664] [11:41:22.014764]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[25978.495113] R0: [cds_mc_thread][1548139320297] [11:41:22.014797]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 0, tdls_chan_swit_prohibited: 0
+<6>[25978.495156] R0: [cds_mc_thread][1548139321107] [11:41:22.014839]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 2061: TDLS Set state cnt 1
+<6>[25978.548040] R0: [wpa_supplicant][1548140336409] [11:41:22.067720]  wlan: [15770:I :HDD] __wlan_hdd_cfg80211_disconnect: 17926: Disconnect request from user space with reason: 3 (WLAN_REASON_DEAUTH_LEAVING) internal reason code: 3
+<6>[25978.548064] R0: [wpa_supplicant][1548140336967] [11:41:22.067749]  wlan: [15770:I :HDD] wlan_hdd_disconnect: 17704: Disabling queues
+<6>[25978.548381] R0: [cds_mc_thread][1548140343016] [11:41:22.068064]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[25978.548397] R0: [cds_mc_thread][1548140343360] [11:41:22.068082]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[25978.548436] R0: [cds_mc_thread][1548140344107] [11:41:22.068121]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 2061: TDLS Set state cnt 0
+<6>[25978.561051] R0: [wpa_supplicant][1548140586212] [11:41:22.080730]  wlan: [15770:E :SME] csr_neighbor_roam_indicate_disconnect: 844: Ignore disconn ind rcvd from nonSTA persona sessionId: 1 csrPersonna 2
+<6>[25978.563292] R0: [cds_mc_thread][1548140629236] [11:41:22.082971]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[25978.563334] R0: [cds_mc_thread][1548140629725] [11:41:22.082997]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[25978.582425] R0: [cds_mc_thread][1548140996603] [11:41:22.102105]  wlan: [3355:E :PE ] pe_delete_session: 692: session is not valid
+<6>[25978.582638] R0: [cds_mc_thread][1548141000775] [11:41:22.102322]  wlan: [3355:I :HDD] hdd_dis_connect_handler: 1547: Disabling queues
+<6>[25978.582713] R0: [cds_mc_thread][1548141002224] [11:41:22.102398]  wlan: [3355:I :HDD] hdd_send_association_event: 1354: wlan: disconnected
+<6>[25978.582758] R0: [cds_mc_thread][1548141003070] [11:41:22.102442]  wlan: [3355:E :QDF] cds_dump_current_concurrency: 3310: unexpected num_connections value 0
+<6>[25978.582783] R0: [cds_mc_thread][1548141003568] [11:41:22.102468]  wlan: [3355:E :QDF] cds_need_opportunistic_upgrade: 4032: driver isn't dbs capable, no further action needed
+<6>[25978.582807] R0: [cds_mc_thread][1548141004009] [11:41:22.102491]  wlan: [3355:I :HDD] hdd_send_peer_status_ind_to_oem_app: 798: sending peer ba:de:5e:00:9e:d9 status(2), peerTimingMeasCap(0), vdevId(1), chanId(0) to oem app pid(-1468003486), center freq 1 (0), center freq 2 (0), info (0x0), frequency (0),reg info 1 (0x0), reg info 2 (0x0)
+<6>[25978.583597] R0: [cds_mc_thread][1548141019149] [11:41:22.103279]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[25978.583611] R0: [cds_mc_thread][1548141019446] [11:41:22.103295]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[25978.594208] R0: [wpa_supplicant][1548141222727] [11:41:22.113882]  wlan: [15770:I :HDD] hdd_wlan_start_modules: 2058: Driver modules already Enabled
+<6>[25978.594525] R0: [wpa_supplicant][1548141229019] [11:41:22.114210]  wlan: [15770:I :HDD] hdd_stop_adapter: 4099: Disabling queues
+<6>[25978.594577] R0: [wpa_supplicant][1548141230033] [11:41:22.114263]  wlan: [15770:W :SME] dump_csr_command_info: 515: Unhandled command: 65542 session: 1
+<6>[25978.608706] R0: [wpa_supplicant][1548141501256] [11:41:22.128389]  wlan: [15770:W :SME] dump_csr_command_info: 515: Unhandled command: 65541 session: 1
+<6>[25978.611112] R0: [cds_mc_thread][1548141547412] [11:41:22.130793]  wlan: [3355:E :WMA] unknown type 1 subtype 1
+<6>[25978.611391] R0: [wpa_supplicant][1548141552837] [11:41:22.131075]  wlan: [15770:I :HDD] hdd_init_station_mode: 3132: send HT/VHT IE per band using nondbs hwmode
+<6>[25978.697479] R0: [cds_mc_thread][1548143205711] [11:41:22.217163]  wlan: [3355:E :WMI] send_enable_specific_fw_logs_cmd_tlv: Not received event/log list from FW, yet
+<14>[25978.883973] init: processing action (bluetooth.dun.status=stopped) from (/vendor/etc/init/hw/init.qcom.rc:536)
+<14>[25978.884114] init: Sending signal 9 to service 'bt-dun' (pid 18225) process group...
+<6>[25979.144568] R0: [wificond][1548151789690] [11:41:22.664245]  wlan: [2836:E :HDD] __wlan_hdd_cfg80211_get_txpower: 2422: invalid session id: 255
+<6>[25979.147687] R0: [wificond][1548151849480] [11:41:22.667359]  wlan: [2836:I :HDD] __hdd_stop: 2347: Disabling queues
+<6>[25979.147754] R0: [wificond][1548151850925] [11:41:22.667434]  wlan: [2836:I :HDD] hdd_stop_adapter: 4099: Disabling queues
+<6>[25979.147888] R0: [wificond][1548151853460] [11:41:22.667566]  wlan: [2836:W :SME] dump_csr_command_info: 515: Unhandled command: 65542 session: 1
+<6>[25979.148847] R0: [cds_mc_thread][1548151871828] [11:41:22.668523]  wlan: [3355:I :TRX] ol_txrx_peer_detach:peer 0000000000000000 (ba:de:5e:95:87:a0)
+<6>[25979.171460] R0: [wificond][1548152305928] [11:41:22.691132]  wlan: [2836:I :HDD] wlan_hdd_tdls_exit: 912: pHddTdlsCtx is NULL, adapter device mode: QDF_P2P_DEVICE_MODE(7)
+<3>[25979.346988] bt_ioctl: BT_CMD_PWR_CTRL pwr_cntrl:0
+<6>[25979.963905] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25979.963923] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25979.967749] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25979.970367] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25979.970389] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25979.973297] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25979.973395] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25979.974046] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25979.978444] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25979.978463] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25979.979255] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25979.979269] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25979.979616] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25979.986472] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25979.986491] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25979.988133] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25979.988155] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25979.988693] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25979.994539] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25979.994554] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25979.995322] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25979.995333] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25979.996129] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.002643] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.002663] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.003647] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.003665] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25980.004006] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.010663] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.010680] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.011397] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.011407] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25980.011720] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.018746] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.018765] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.019576] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.019590] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25980.019930] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.026795] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.027526] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25980.034799] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.034816] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.035990] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.036007] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25980.037086] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.042843] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.042862] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.043607] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.043619] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25980.043936] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.050226] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.050246] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.052805] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.052832] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(558,2118)[36]
+<6>[25980.053211] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.058182] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.058200] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.059051] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.059078] <<GTP-DBG>>[gt1x_touch_event_handler:1388]Released Touch.
+<6>[25980.059581] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.066243] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.066262] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.069925] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.069949] <<GTP-DBG>>[gt1x_touch_event_handler:1404]Additional Int Pulse.
+<6>[25980.070690] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.074486] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.074503] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.076113] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.076135] <<GTP-DBG>>[gt1x_touch_event_handler:1404]Additional Int Pulse.
+<6>[25980.076840] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<3>[25980.507039] msm_adsp_init_mixer_ctl_pp_event_queue: kctl_prtd is not NULL at initialization.
+<3>[25980.508863] afe_find_cal: no matching cal_block found
+<6>[25980.631475] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.631497] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.634560] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.634584] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(809,2040)[42]
+<6>[25980.639342] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.639551] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.639561] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.640270] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.640287] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(809,2040)[42]
+<6>[25980.640611] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.647576] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.647599] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.652878] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.652913] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(809,2040)[42]
+<6>[25980.653325] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.655637] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.655657] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.656560] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.656581] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(809,2040)[42]
+<6>[25980.656958] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.663662] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.663677] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.679852] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.679870] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.680636] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.680659] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(777,2036)[42]
+<6>[25980.681871] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.687881] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.687907] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.689370] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.689394] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(773,2034)[42]
+<6>[25980.690034] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.695937] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.695961] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.696843] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.696866] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(771,2033)[42]
+<6>[25980.699909] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.703987] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.704015] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.720225] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.720251] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.721833] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.721857] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(771,2032)[42]
+<6>[25980.722437] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.728889] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.735417] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.735444] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.746279] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.746326] <<GTP-DBG>>[gt1x_touch_event_handler:1388]Released Touch.
+<6>[25980.746916] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.747307] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.747321] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.756570] <<GTP-DBG>>[gt1x_request_event_handler:1162]Request state:0xff.
+<6>[25980.756598] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.756725] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.756739] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.760208] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.760621] <<GTP-DBG>>[gt1x_touch_event_handler:1404]Additional Int Pulse.
+<6>[25980.761113] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.761233] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.761246] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.766159] <<GTP-DBG>>[gt1x_request_event_handler:1162]Request state:0xff.
+<6>[25980.766176] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25980.767529] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25980.767541] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25980.768355] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25980.768368] <<GTP-DBG>>[gt1x_touch_event_handler:1404]Additional Int Pulse.
+<6>[25980.768635] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25981.526178] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25981.526196] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25981.527200] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25981.527211] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(767,2130)[34]
+<6>[25981.528188] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25981.534331] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25981.534350] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25981.538549] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25981.538563] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(767,2130)[34]
+<6>[25981.538799] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25981.542208] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25981.542218] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25981.542835] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25981.542846] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(767,2130)[34]
+<6>[25981.543079] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25981.558344] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25981.558358] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25981.559255] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25981.559265] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(767,2130)[34]
+<6>[25981.559567] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25981.597789] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25981.597804] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25981.600122] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25981.600142] <<GTP-DBG>>[gt1x_touch_event_handler:1404]Additional Int Pulse.
+<6>[25981.600665] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25981.605868] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25981.605883] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25981.606562] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25981.606572] <<GTP-DBG>>[gt1x_touch_event_handler:1404]Additional Int Pulse.
+<6>[25981.606799] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25982.286830] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25982.286865] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(725,1539)[53]
+<6>[25982.287302] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25982.292287] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[25982.292307] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[25982.293751] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[25982.293799] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(725,1539)[53]
+<6>[25982.294208] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[25982.317120] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(659,1526)[53]

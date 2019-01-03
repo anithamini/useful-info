@@ -1,0 +1,133 @@
+Bluetooth Status
+  enabled: true
+  state: 12
+  address: AC:C1:EE:62:92:92
+  name: Redmi
+
+Bonded devices:
+
+Profile: BtGatt.GattService
+  mAdvertisingServiceUuids:
+  mMaxScanFilters: 0
+
+GATT Client Map
+  Entries: 1
+
+  Application Id: 5
+  UUID: d15eb6fc-5a7b-4109-ad6a-184c63090cf5
+  Connections: 0
+
+GATT Server Map
+  Entries: 0
+
+GATT Handle Map
+  Entries: 0
+  Requests: 0
+
+Profile: HeadsetService
+  mCurrentDevice: null
+  mTargetDevice: null
+  mIncomingDevice: null
+  mActiveScoDevice: null
+  mMultiDisconnectDevice: null
+  mVirtualCallStarted: false
+  mVoiceRecognitionStarted: false
+  mWaitingForVoiceRecognition: false
+  StateMachine: HeadsetStateMachine:
+ total records=15
+ rec[0]: time=04-13 11:00:27.193 processed=Disconnected org=Disconnected dest=<null> what=10(0xa)
+ rec[1]: time=04-13 11:00:27.193 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[2]: time=04-13 11:00:27.237 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[3]: time=04-13 11:00:27.237 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[4]: time=04-13 11:00:27.455 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+ rec[5]: time=04-13 11:00:28.640 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[6]: time=04-13 11:00:33.766 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[7]: time=04-13 11:00:40.167 processed=Disconnected org=Disconnected dest=<null> what=10(0xa)
+ rec[8]: time=04-13 11:00:44.002 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[9]: time=04-13 11:01:09.605 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[10]: time=04-13 11:01:10.238 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+ rec[11]: time=04-13 11:01:10.240 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+ rec[12]: time=04-13 11:01:11.846 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[13]: time=04-13 11:01:14.087 processed=<null> org=Disconnected dest=<null> what=11(0xb)
+ rec[14]: time=04-13 11:01:17.781 processed=Disconnected org=Disconnected dest=<null> what=9(0x9)
+curState=Disconnected
+
+  mPhoneState: com.android.bluetooth.hfp.HeadsetPhoneState@de10b9f
+  mAudioState: 10
+
+Profile: A2dpService
+  mCurrentDevice: null
+  mTargetDevice: null
+  mIncomingDevice: null
+  mPlayingA2dpDevice: []
+  StateMachine: A2dpStateMachine:
+ total records=0
+curState=Disconnected
+
+AVRCP:
+  mMetadata: Metadata[artist=null trackTitle=null albumTitle=null genre=null tracknum=-1]
+  mTransportControlFlags: 957
+  mCurrentPlayState: 0
+  mPlayStatusChangedNT: 1
+  mTrackChangedNT: 1
+  mTrackNumber: -1
+  mCurrentPosMs: 0
+  mPlayStartTimeMs: 174079400
+  mSongLengthMs: 0
+  mPlaybackIntervalMs: 0
+  mPlayPosChangedNT: 1
+  mNextPosMs: 0
+  mPrevPosMs: 0
+  mSkipStartTime: 0
+  mFeatures: 0
+  mAbsoluteVolume: -1
+  mLastSetVolume: -1
+  mLastDirection: 0
+  mVolumeStep: 8
+  mAudioStreamMax: 15
+  mVolCmdInProgress: false
+  mAbsVolRetryTimes: 0
+  mSkipAmount: 0
+
+Profile: HidService
+  mTargetDevice: null
+  mInputDevices:
+
+Profile: HealthService
+  mHealthChannels:
+  mApps:
+  mHealthDevices:
+
+Profile: PanService
+  mMaxPanDevices: 5
+  mPanIfName: bt-pan
+  mTetherOn: false
+  mPanDevices:
+  mBluetoothIfaceAddresses:
+
+Profile: BluetoothMapService
+  mRemoteDevice: null
+  sRemoteDeviceName: null
+  mState: 0
+  mAppObserver: com.android.bluetooth.map.BluetoothMapAppObserver@65694ec
+  mIsWaitingAuthorization: false
+  mRemoveTimeoutMsg: false
+  mPermission: 0
+  mAccountChanged: false
+  mBluetoothMnsObexClient: null
+  mMasInstanceMap:
+    null : MasId: 0 Uri:null SMS/MMS:true
+  mEnabledAccounts:
+
+Profile: AvrcpControllerService
+
+Profile: SapService
+
+Profile: HidDevService
+
+Connection Events:
+  None
+
+--- BEGIN:BTSNOOP_LOG_SUMMARY (12047 bytes in) ---
+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
+--- END:BTSNOOP_LOG_SUMMARY (3537 bytes out) ---

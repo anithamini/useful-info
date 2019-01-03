@@ -1,0 +1,11 @@
+<14>[ 9625.151828] init: processing action (persist.service.sdlog.enable=1 && sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.rc:1004)
+<14>[ 9625.153077] init: starting service 'sdlog'...
+<11>[ 9625.155150] init: property_set("ro.boottime.sdlog", "15099089821270") failed: property already set
+<14>[ 9625.155340] init: processing action (persist.service.sdlog.enable=1) from (/vendor/etc/init/hw/init.qcom.rc:1007)
+<31>[ 9625.237831] logd: logdr: UID=0 GID=0 PID=26533 b tail=0 logMask=2 pid=0 start=0ns timeout=0ns
+<6>[ 9625.844174] sec_ts 1-0048: [P] tID:0 x:869 y:1950 z:34 major:8 minor:8 tc:1 type:0
+<6>[ 9626.981204] R0: [cds_mc_thread][290000723065] [18:41:10.476583]  wlan: [1781:I :WMI] WMI --> WMI_ROAM_AP_PROFILE and other parameters
+<14>[ 9627.452715] init: processing action (bluetooth.dun.status=stopped) from (/vendor/etc/init/hw/init.qcom.rc:536)
+<14>[ 9627.452777] init: Sending signal 9 to service 'bt-dun' (pid 26210) process group...
+<14>[ 9627.458392] init: Successfully killed process cgroup uid 1002 pid 26210 in 5ms
+<14>[ 9627.459768] init: Service 'bt-dun' (pid 26210) killed by signal 9

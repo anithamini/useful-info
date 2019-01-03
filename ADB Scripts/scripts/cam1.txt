@@ -1,0 +1,759 @@
+
+== Service global info: ==
+
+Number of camera devices: 2
+Number of normal camera devices: 2
+Active Camera Clients:
+[
+(Camera ID: 0, Cost: 0, PID: 18568, Score: 0, State: 2User Id: 0, Client Package Name: com.mediatek.camera, Conflicting Client Devices: {})
+]
+Allowed user IDs: 0
+
+== Camera service events log (most recent at top): ==
+  03-10 20:27:27 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:27:26 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:27:25 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:27:15 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:27:14 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:27:14 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:27:04 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:27:03 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:27:02 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:26:52 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:52 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:51 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:26:41 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:40 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:39 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:26:29 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:29 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:28 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:26:19 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:18 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:17 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:26:07 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:06 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:26:05 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:25:56 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:55 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:54 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:25:43 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:43 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:42 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:25:32 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:31 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:30 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:25:20 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:20 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:19 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:25:09 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:08 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:25:07 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:24:57 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:57 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:56 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:24:45 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:45 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:44 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:24:33 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:33 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:32 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:24:22 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:22 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:21 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:24:11 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:10 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:24:09 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:23:59 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:59 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:58 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:23:48 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:47 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:46 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:23:36 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:36 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:35 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:23:25 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:24 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:23 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:23:13 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:13 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:11 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:23:01 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:23:00 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:59 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:22:50 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:49 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:47 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:22:38 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:37 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:36 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:22:26 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:25 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:24 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:22:15 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:14 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:13 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:22:03 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:02 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:22:01 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:21:51 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:51 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:50 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:21:40 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:39 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:38 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:21:29 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:28 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:27 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:21:17 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:17 : DISCONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  03-10 20:21:16 : EVICT device 0 client held by package com.mediatek.camera (PID 18568, score 0, state 2)
+ - Evicted by device 0 client for package com.mediatek.camera (PID 18568, score 0, state 2)
+  03-10 20:21:06 : CONNECT device 0 client for package com.mediatek.camera (PID 18568)
+  ...
+
+== Camera device 0 dynamic info: ==
+  Camera1 API shim is using parameters:
+        CameraParameters::dump: mMap.size = 174
+	3dnr-mode: off
+	3dnr-mode-values: off
+	afeng-max-focus-step: 1023
+	afeng-min-focus-step: 0
+	aflamp-mode: off
+	aflamp-mode-values: off,on,auto
+	antibanding: off
+	antibanding-values: off,50hz,60hz,auto
+	auto-exposure-lock-supported: true
+	auto-whitebalance-lock-supported: true
+	brightness: middle
+	brightness-values: low,middle,high
+	brightness_value: 0
+	burst-num: 1
+	cap-mode: normal
+	cap-mode-values: normal,face_beauty,continuousshot,smileshot,bestshot,autorama,asd
+	capfname: /sdcard/DCIM/cap00
+	contrast: middle
+	contrast-values: low,middle,high
+	cshot-indicator: true
+	cshot-indicator-supported: true
+	disp-rot-supported: true
+	disp-rot-supported-values: true
+	dynamic-frame-rate: true
+	dynamic-frame-rate-supported: true
+	edge: middle
+	edge-values: low,middle,high
+	effect: none
+	effect-values: none,mono,negative,sepia,aqua,whiteboard,blackboard,posterize,nashville,hefe,valencia,xproll,lofi,sierra,walden
+	eng-gis-cali-s: false
+	eng-mfll-e: false
+	eng-mfll-s: false
+	eng-s-shad-t: 0
+	eng-shad-t: 0
+	exposure-compensation: 0
+	exposure-compensation-step: 1.0
+	fb-enlarge-eye: 0
+	fb-enlarge-eye-max: 4
+	fb-enlarge-eye-min: -4
+	fb-extreme-beauty: false
+	fb-extreme-beauty-supported: false
+	fb-face-pos: -2000:-2000
+	fb-sharp: 0
+	fb-sharp-max: 12
+	fb-sharp-max-values: 12
+	fb-sharp-min: -12
+	fb-sharp-min-values: -12
+	fb-skin-color: 0
+	fb-skin-color-default: 9
+	fb-skin-color-max: 12
+	fb-skin-color-max-values: 12
+	fb-skin-color-min: -12
+	fb-skin-color-min-values: -12
+	fb-slim-face: 0
+	fb-slim-face-max: 12
+	fb-slim-face-max-values: 12
+	fb-slim-face-min: -12
+	fb-slim-face-min-values: -12
+	fb-smooth-level: 0
+	fb-smooth-level-default: 3
+	fb-smooth-level-max: 12
+	fb-smooth-level-max-values: 12
+	fb-smooth-level-min: -12
+	fb-smooth-level-min-values: -12
+	fb-touch-pos: -2000:-2000
+	feature-max-fps: 24@VFB+EIS
+	flash-duty-max: 1
+	flash-duty-min: 0
+	flash-duty-value: -1
+	flash-mode: off
+	flash-mode-values: off,on,auto,red-eye,torch
+	flash-step-max: 0
+	flash-step-min: 0
+	focal-length: 3.5
+	focus-distances: 0.95,1.9,Infinity
+	focus-fs-fi: 0
+	focus-fs-fi-max: 65535
+	focus-fs-fi-min: 0
+	focus-mode: auto
+	focus-mode-values: auto,macro,infinity,continuous-picture,continuous-video,manual,fullscan
+	gesture-shot: false
+	gesture-shot-supported: false
+	horizontal-view-angle: 67
+	hue: middle
+	hue-values: low,middle,high
+	iso-speed: auto
+	iso-speed-values: auto,100,200,400,800,1600
+	jpeg-quality: 100
+	jpeg-thumbnail-height: 128
+	jpeg-thumbnail-quality: 100
+	jpeg-thumbnail-size-values: 0x0,160x128,256x192
+	jpeg-thumbnail-width: 160
+	m-sr-g: 0
+	m-ss: 0
+	max-exposure-compensation: 3
+	max-num-detected-faces-hw: 15
+	max-num-detected-faces-sw: 0
+	max-num-focus-areas: 1
+	max-num-metering-areas: 9
+	max-num-ot: 0
+	max-zoom: 10
+	mfb: off
+	mfb-values: off,mfll,ais
+	min-exposure-compensation: -3
+	mnr-e: 0
+	mnr-s: true
+	mtk-123-shad-s: true
+	mtk-awb-s: true
+	mtk-cam-mode: 0
+	mtk-shad-s: true
+	native-pip: false
+	native-pip-supported: false
+	pdaf: true
+	pdaf-supported: true
+	picture-format: jpeg
+	picture-format-values: jpeg
+	picture-size: 2560x1920
+	picture-size-values: 320x240,640x480,1024x768,1280x720,1280x768,1280x960,1600x1200,1920x1088,2048x1536,2560x1440,2560x1920,3264x2448,3328x1872,2880x1728,3600x2160,4096x2304,3120x3120,4096x3072,4160x3120,4208x3120,1440x720,2016x1008,3168x1584,4032x2016
+	pip-fps-zsd-off: 30
+	pip-fps-zsd-on: 15
+	preferred-preview-size-for-video: 1920x1088
+	preview-format: yuv420sp
+	preview-format-values: yuv420sp,yuv420p,yuv420i-yyuvyy-3plane
+	preview-fps-range: 5000,30000
+	preview-fps-range-values: (20000,20000),(5000,30000),(30000,30000)
+	preview-frame-rate: 30
+	preview-frame-rate-values: 10,15,20,20,30,30
+	preview-size: 640x480
+	preview-size-values: 176x144,320x240,352x288,480x320,480x368,640x480,720x480,800x480,800x600,864x480,960x540,1280x720,1440x1080,1920x1080,1920x1088,1680x1248,1440x720,1440x1440
+	rotation: 0
+	saturation: middle
+	saturation-values: low,middle,high
+	scene-mode: auto
+	scene-mode-values: auto,portrait,landscape,night,night-portrait,theatre,beach,snow,sunset,steadyphoto,fireworks,sports,party,candlelight,hdr
+	sen-mode-s: 0
+	sensor-type: 252
+	smooth-zoom-supported: true
+	sr-awb-s: true
+	sr-shad-s: true
+	stereo-capture-frame-rate: 15
+	stereo-capture-mode: off
+	stereo-capture-mode-values: off
+	stereo-preview-frame-rate: 15
+	sv1-s: 3
+	sv2-s: 3
+	vdr-cc2m-s: true
+	vdr-r: 0
+	vdr-r2m-s: true
+	vdr-r4k2k-s: true
+	vertical-view-angle: 51
+	vfb-supported: true
+	vfb-supported-values: true
+	video-frame-format: yuv420p
+	video-hdr: off
+	video-hdr-values: off
+	video-size: 640x480
+	video-size-values: 176x144,320x240,352x288,480x320,640x480,864x480,1280x720,1920x1080,720x480,1280x736,1920x1088,3840x2160,3840x2176
+	video-snapshot-supported: true
+	video-stabilization: false
+	video-stabilization-supported: true
+	vr-buf-count: 10
+	vrd-mfr-e: true
+	vrd-mfr-high: 30
+	vrd-mfr-low: 15
+	vrd-mfr-max: 30
+	vrd-mfr-min: 15
+	vrd-mfr-s: true
+	whitebalance: auto
+	whitebalance-values: auto,incandescent,fluorescent,warm-fluorescent,daylight,cloudy-daylight,twilight,shade
+	zoom: 0
+	zoom-ratios: 100,114,132,151,174,200,229,263,303,348,400
+	zoom-supported: true
+	zsd-mode: on
+	zsd-mode-values: off,on
+  Device 0 is open. Client instance dump:
+    Client priority score: 0 state: 2
+    Client PID: 18568
+    Client package: com.mediatek.camera
+Client[0] (0xac2728b0) with UID 10048
+Latest set parameters:
+CameraParameters::dump: mMap.size = 185
+	3dnr-mode: off
+	3dnr-mode-values: off
+	afeng-max-focus-step: 1023
+	afeng-min-focus-step: 0
+	aflamp-mode: off
+	aflamp-mode-values: off,on,auto
+	antibanding: auto
+	antibanding-values: off,50hz,60hz,auto
+	arc-funtion: none
+	arcfb-eye-enlargement-level: 0
+	arcfb-slender-level: 0
+	arcfb-soften-level: 0
+	arcfb-whiten-level: 0
+	auto-exposure-lock: false
+	auto-exposure-lock-supported: true
+	auto-whitebalance-lock: false
+	auto-whitebalance-lock-supported: true
+	brightness: middle
+	brightness-values: low,middle,high
+	brightness_value: 0
+	burst-num: 0
+	cap-mode: normal
+	cap-mode-values: normal,face_beauty,continuousshot,smileshot,bestshot,autorama,asd
+	capfname: /sdcard/DCIM/cap00
+	contrast: middle
+	contrast-values: low,middle,high
+	cshot-indicator: true
+	cshot-indicator-supported: true
+	disp-rot-supported: true
+	disp-rot-supported-values: true
+	dynamic-frame-rate: true
+	dynamic-frame-rate-supported: true
+	edge: middle
+	edge-values: low,middle,high
+	effect: none
+	effect-values: none,mono,negative,sepia,aqua,whiteboard,blackboard,posterize,nashville,hefe,valencia,xproll,lofi,sierra,walden
+	eng-gis-cali-s: false
+	eng-mfll-e: false
+	eng-mfll-s: false
+	eng-s-shad-t: 0
+	eng-shad-t: 0
+	exposure-compensation: 0
+	exposure-compensation-step: 1.0
+	fb-enlarge-eye: 0
+	fb-enlarge-eye-max: 4
+	fb-enlarge-eye-min: -4
+	fb-extreme-beauty: false
+	fb-extreme-beauty-supported: false
+	fb-face-pos: -2000:-2000
+	fb-sharp: 0
+	fb-sharp-max: 12
+	fb-sharp-max-values: 12
+	fb-sharp-min: -12
+	fb-sharp-min-values: -12
+	fb-skin-color: 0
+	fb-skin-color-default: 9
+	fb-skin-color-max: 12
+	fb-skin-color-max-values: 12
+	fb-skin-color-min: -12
+	fb-skin-color-min-values: -12
+	fb-slim-face: 0
+	fb-slim-face-max: 12
+	fb-slim-face-max-values: 12
+	fb-slim-face-min: -12
+	fb-slim-face-min-values: -12
+	fb-smooth-level: 0
+	fb-smooth-level-default: 3
+	fb-smooth-level-max: 12
+	fb-smooth-level-max-values: 12
+	fb-smooth-level-min: -12
+	fb-smooth-level-min-values: -12
+	fb-touch-pos: -2000:-2000
+	feature-max-fps: 24@VFB+EIS
+	flash-duty-max: 1
+	flash-duty-min: 0
+	flash-duty-value: -1
+	flash-mode: off
+	flash-mode-values: off,on,auto,red-eye,torch
+	flash-step-max: 0
+	flash-step-min: 0
+	focal-length: 3.5
+	focus-areas: (0,0,0,0,0)
+	focus-distances: 0.95,1.9,Infinity
+	focus-fs-fi: 0
+	focus-fs-fi-max: 65535
+	focus-fs-fi-min: 0
+	focus-mode: continuous-picture
+	focus-mode-values: auto,macro,infinity,continuous-picture,continuous-video,manual,fullscan
+	gesture-shot: false
+	gesture-shot-supported: false
+	hdr-auto-mode: off
+	horizontal-view-angle: 67
+	hue: middle
+	hue-values: low,middle,high
+	iso-speed: auto
+	iso-speed-values: auto,100,200,400,800,1600
+	jpeg-quality: 100
+	jpeg-thumbnail-height: 128
+	jpeg-thumbnail-quality: 100
+	jpeg-thumbnail-size-values: 0x0,160x128,256x192
+	jpeg-thumbnail-width: 160
+	m-sr-g: 0
+	m-ss: 0
+	max-exposure-compensation: 3
+	max-num-detected-faces-hw: 15
+	max-num-detected-faces-sw: 0
+	max-num-focus-areas: 1
+	max-num-metering-areas: 9
+	max-num-ot: 0
+	max-zoom: 10
+	metering-areas: (0,0,0,0,0)
+	mfb: off
+	mfb-values: off,mfll,ais
+	min-exposure-compensation: -3
+	mnr-e: 0
+	mnr-s: true
+	mtk-123-shad-s: true
+	mtk-awb-s: true
+	mtk-cam-mode: 1
+	mtk-shad-s: true
+	native-pip: false
+	native-pip-supported: false
+	panel-size: 1440x720
+	pdaf: true
+	pdaf-supported: true
+	picture-format: jpeg
+	picture-format-values: jpeg
+	picture-size: 4032x2016
+	picture-size-values: 320x240,640x480,1024x768,1280x720,1280x768,1280x960,1600x1200,1920x1088,2048x1536,2560x1440,2560x1920,3264x2448,3328x1872,2880x1728,3600x2160,4096x2304,3120x3120,4096x3072,4160x3120,4208x3120,1440x720,2016x1008,3168x1584,4032x2016
+	pip-fps-zsd-off: 30
+	pip-fps-zsd-on: 15
+	preferred-preview-size-for-video: 1920x1088
+	preview-format: yuv420sp
+	preview-format-values: yuv420sp,yuv420p,yuv420i-yyuvyy-3plane
+	preview-fps-range: 5000,30000
+	preview-fps-range-values: (20000,20000),(5000,30000),(30000,30000)
+	preview-frame-rate: 30
+	preview-frame-rate-values: 10,15,20,20,30,30
+	preview-size: 1440x720
+	preview-size-values: 176x144,320x240,352x288,480x320,480x368,640x480,720x480,800x480,800x600,864x480,960x540,1280x720,1440x1080,1920x1080,1920x1088,1680x1248,1440x720,1440x1440
+	rotation: 90
+	saturation: middle
+	saturation-values: low,middle,high
+	scene-mode: hdr
+	scene-mode-values: auto,portrait,landscape,night,night-portrait,theatre,beach,snow,sunset,steadyphoto,fireworks,sports,party,candlelight,hdr
+	sen-mode-s: 0
+	sensor-type: 252
+	smooth-zoom-supported: true
+	sr-awb-s: true
+	sr-shad-s: true
+	stereo-capture-frame-rate: 15
+	stereo-capture-mode: off
+	stereo-capture-mode-values: off
+	stereo-preview-frame-rate: 15
+	sv1-s: 3
+	sv2-s: 3
+	vdr-cc2m-s: true
+	vdr-r: 0
+	vdr-r2m-s: true
+	vdr-r4k2k-s: true
+	vertical-view-angle: 51
+	vfb-supported: true
+	vfb-supported-values: true
+	video-frame-format: yuv420p
+	video-hdr: off
+	video-hdr-values: off
+	video-size: 640x480
+	video-size-values: 176x144,320x240,352x288,480x320,640x480,864x480,1280x720,1920x1080,720x480,1280x736,1920x1088,3840x2160,3840x2176
+	video-snapshot-supported: true
+	video-stabilization: false
+	video-stabilization-supported: true
+	vr-buf-count: 10
+	vrd-mfr-e: true
+	vrd-mfr-high: 30
+	vrd-mfr-low: 15
+	vrd-mfr-max: 30
+	vrd-mfr-min: 15
+	vrd-mfr-s: true
+	whitebalance: auto
+	whitebalance-values: auto,incandescent,fluorescent,warm-fluorescent,daylight,cloudy-daylight,twilight,shade
+	zoom: 0
+	zoom-ratios: 100,114,132,151,174,200,229,263,303,348,400
+	zoom-supported: true
+	zsd-mode: off
+	zsd-mode-values: off,on
+
+
+== Camera device 1 dynamic info: ==
+  Camera1 API shim is using parameters:
+        CameraParameters::dump: mMap.size = 170
+	3dnr-mode: off
+	3dnr-mode-values: off
+	afeng-max-focus-step: 1023
+	afeng-min-focus-step: 0
+	antibanding: auto
+	antibanding-values: off,50hz,60hz,auto
+	auto-exposure-lock-supported: true
+	auto-whitebalance-lock-supported: true
+	brightness: middle
+	brightness-values: low,middle,high
+	brightness_value: 0
+	burst-num: 1
+	cap-mode: normal
+	cap-mode-values: normal,face_beauty,smileshot,bestshot,asd
+	capfname: /sdcard/DCIM/cap00
+	contrast: middle
+	contrast-values: low,middle,high
+	cshot-indicator: true
+	cshot-indicator-supported: true
+	disp-rot-supported: true
+	disp-rot-supported-values: true
+	dynamic-frame-rate: true
+	dynamic-frame-rate-supported: true
+	edge: middle
+	edge-values: low,middle,high
+	effect: none
+	effect-values: none,mono,negative,sepia,aqua,whiteboard,blackboard,posterize,nashville,hefe,valencia,xproll,lofi,sierra,walden
+	eng-gis-cali-s: false
+	eng-mfll-e: false
+	eng-mfll-s: false
+	eng-s-shad-t: 0
+	eng-shad-t: 0
+	exposure-compensation: 0
+	exposure-compensation-step: 1.0
+	fb-enlarge-eye: 0
+	fb-enlarge-eye-max: 4
+	fb-enlarge-eye-min: -4
+	fb-extreme-beauty: false
+	fb-extreme-beauty-supported: false
+	fb-face-pos: -2000:-2000
+	fb-sharp: 0
+	fb-sharp-max: 12
+	fb-sharp-max-values: 12
+	fb-sharp-min: -12
+	fb-sharp-min-values: -12
+	fb-skin-color: 0
+	fb-skin-color-default: 9
+	fb-skin-color-max: 12
+	fb-skin-color-max-values: 12
+	fb-skin-color-min: -12
+	fb-skin-color-min-values: -12
+	fb-slim-face: 0
+	fb-slim-face-max: 12
+	fb-slim-face-max-values: 12
+	fb-slim-face-min: -12
+	fb-slim-face-min-values: -12
+	fb-smooth-level: 0
+	fb-smooth-level-default: 3
+	fb-smooth-level-max: 12
+	fb-smooth-level-max-values: 12
+	fb-smooth-level-min: -12
+	fb-smooth-level-min-values: -12
+	fb-touch-pos: -2000:-2000
+	feature-max-fps: 24@VFB+EIS
+	flash-duty-max: 1
+	flash-duty-min: 0
+	flash-duty-value: -1
+	flash-mode: off
+	flash-mode-values: off
+	flash-step-max: 0
+	flash-step-min: 0
+	focal-length: 3.5
+	focus-distances: 0.95,1.9,Infinity
+	focus-fs-fi: 0
+	focus-fs-fi-max: 65535
+	focus-fs-fi-min: 0
+	focus-mode: fixed
+	focus-mode-values: fixed
+	gesture-shot: false
+	gesture-shot-supported: false
+	horizontal-view-angle: 71
+	hue: middle
+	hue-values: low,middle,high
+	iso-speed: auto
+	iso-speed-values: auto,100,200,400,800,1600
+	jpeg-quality: 100
+	jpeg-thumbnail-height: 128
+	jpeg-thumbnail-quality: 100
+	jpeg-thumbnail-size-values: 0x0,160x128,256x192
+	jpeg-thumbnail-width: 160
+	m-sr-g: 0
+	m-ss: 0
+	max-exposure-compensation: 3
+	max-num-detected-faces-hw: 15
+	max-num-detected-faces-sw: 0
+	max-num-focus-areas: 0
+	max-num-metering-areas: 9
+	max-num-ot: 0
+	max-zoom: 10
+	mfb: off
+	mfb-values: off
+	min-exposure-compensation: -3
+	mnr-e: 0
+	mnr-s: true
+	mtk-123-shad-s: true
+	mtk-awb-s: true
+	mtk-cam-mode: 0
+	mtk-shad-s: true
+	native-pip: false
+	native-pip-supported: false
+	picture-format: jpeg
+	picture-format-values: jpeg
+	picture-size: 2560x1920
+	picture-size-values: 320x240,640x480,1024x768,1280x720,1280x768,1280x960,1600x1200,1920x1088,2048x1536,2560x1440,2560x1920,1440x720,2016x1008,2880x1440
+	pip-fps-zsd-off: 30
+	pip-fps-zsd-on: 15
+	preferred-preview-size-for-video: 1920x1088
+	preview-format: yuv420sp
+	preview-format-values: yuv420sp,yuv420p,yuv420i-yyuvyy-3plane
+	preview-fps-range: 5000,30000
+	preview-fps-range-values: (15000,15000),(20000,20000),(24000,24000),(5000,30000),(30000,30000)
+	preview-frame-rate: 30
+	preview-frame-rate-values: 10,15,20,15,20,24,30,30
+	preview-size: 640x480
+	preview-size-values: 176x144,320x240,352x288,480x320,480x368,640x480,720x480,800x480,800x600,864x480,960x540,1280x720,1440x1080,1920x1080,1920x1088,1440x720
+	rotation: 0
+	saturation: middle
+	saturation-values: low,middle,high
+	scene-mode: auto
+	scene-mode-values: auto,portrait,landscape,night,night-portrait,theatre,beach,snow,sunset,steadyphoto,fireworks,sports,party,candlelight,hdr
+	sen-mode-s: 0
+	sensor-type: 252
+	smooth-zoom-supported: true
+	sr-awb-s: true
+	sr-shad-s: true
+	stereo-capture-frame-rate: 15
+	stereo-capture-mode: off
+	stereo-capture-mode-values: off
+	stereo-preview-frame-rate: 15
+	sv1-s: 3
+	sv2-s: 3
+	vdr-cc2m-s: true
+	vdr-r: 0
+	vdr-r2m-s: true
+	vdr-r4k2k-s: true
+	vertical-view-angle: 51
+	vfb-supported: true
+	vfb-supported-values: true
+	video-frame-format: yuv420p
+	video-hdr: off
+	video-hdr-values: off
+	video-size: 640x480
+	video-size-values: 176x144,320x240,352x288,480x320,640x480,720x480,864x480,1280x720,1920x1080,1920x1088
+	video-snapshot-supported: true
+	video-stabilization: false
+	video-stabilization-supported: true
+	vr-buf-count: 10
+	vrd-mfr-e: true
+	vrd-mfr-high: 30
+	vrd-mfr-low: 15
+	vrd-mfr-max: 30
+	vrd-mfr-min: 15
+	vrd-mfr-s: true
+	whitebalance: auto
+	whitebalance-values: auto,incandescent,fluorescent,warm-fluorescent,daylight,cloudy-daylight,twilight,shade
+	zoom: 0
+	zoom-ratios: 100,114,132,151,174,200,229,263,303,348,400
+	zoom-supported: true
+	zsd-mode: on
+	zsd-mode-values: off,on
+  Device 1 is closed, no client instance
+== Camera Provider HAL internal/0 (v2.4, remote) static info: 2 devices: ==
+== Camera HAL device device@1.0/internal/0 (v1.0) static information: ==
+  Resource cost: 0
+  Conflicting devices: None
+  API1 info:
+    Has a flash unit: true
+    Facing: Back
+    Orientation: 90
+  API2 not directly supported
+== Camera HAL device device@1.0/internal/1 (v1.0) static information: ==
+  Resource cost: 0
+  Conflicting devices: None
+  API1 info:
+    Has a flash unit: false
+    Facing: Front
+    Orientation: 270
+  API2 not directly supported
+
+== Vendor tags: ==
+
+  Dumping vendor tag descriptors for vendor with id 3571857947 
+  Dumping configured vendor tag descriptors: 42 entries
+    0x80000000 (gesturemode) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000001 (gestureresult) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000002 (smiledetectmode) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000003 (smiledetectresult) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000004 (asdmode) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000005 (asdresult) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000006 (availablegesturemodes) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000007 (availablesmiledetectmodes) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000008 (availableasdmodes) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80000009 (forceface3a) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x8000000a (availableforceface3a) with type 1 (int32) defined in section com.mediatek.facefeature
+    0x80010000 (3dnrmode) with type 1 (int32) defined in section com.mediatek.nrfeature
+    0x80010001 (available3dnrmodes) with type 1 (int32) defined in section com.mediatek.nrfeature
+    0x80020000 (doflevel) with type 1 (int32) defined in section com.mediatek.stereofeature
+    0x80020001 (supporteddoflevel) with type 1 (int32) defined in section com.mediatek.stereofeature
+    0x80020002 (resultdoflevel) with type 1 (int32) defined in section com.mediatek.stereofeature
+    0x80020003 (stereowarning) with type 1 (int32) defined in section com.mediatek.stereofeature
+    0x80020004 (depthafon) with type 1 (int32) defined in section com.mediatek.stereofeature
+    0x80020005 (distancemeasureon) with type 1 (int32) defined in section com.mediatek.stereofeature
+    0x80020006 (resultdistance) with type 2 (float) defined in section com.mediatek.stereofeature
+    0x80020007 (touchposition) with type 1 (int32) defined in section com.mediatek.stereofeature
+    0x80020008 (shotmode) with type 0 (byte) defined in section com.mediatek.stereofeature
+    0x80020009 (stereostatus) with type 0 (byte) defined in section com.mediatek.stereofeature
+    0x80030000 (hdrMode) with type 1 (int32) defined in section com.mediatek.hdrfeature
+    0x80030001 (hdrDetectionResult) with type 1 (int32) defined in section com.mediatek.hdrfeature
+    0x80030002 (availableHdrModesPhoto) with type 1 (int32) defined in section com.mediatek.hdrfeature
+    0x80030003 (availableHdrModesVideo) with type 1 (int32) defined in section com.mediatek.hdrfeature
+    0x80030004 (availableVhdrModes) with type 1 (int32) defined in section com.mediatek.hdrfeature
+    0x80030005 (availableSingleFrameHdr) with type 0 (byte) defined in section com.mediatek.hdrfeature
+    0x80040000 (mfbmode) with type 1 (int32) defined in section com.mediatek.mfnrfeature
+    0x80040001 (mfbresult) with type 1 (int32) defined in section com.mediatek.mfnrfeature
+    0x80040002 (availablemfbmodes) with type 1 (int32) defined in section com.mediatek.mfnrfeature
+    0x80040003 (aismode) with type 1 (int32) defined in section com.mediatek.mfnrfeature
+    0x80040004 (aisresult) with type 1 (int32) defined in section com.mediatek.mfnrfeature
+    0x80040005 (availableaismodes) with type 1 (int32) defined in section com.mediatek.mfnrfeature
+    0x80060000 (aeroi) with type 1 (int32) defined in section com.mediatek.3afeature
+    0x80060001 (afroi) with type 1 (int32) defined in section com.mediatek.3afeature
+    0x80060002 (awbroi) with type 1 (int32) defined in section com.mediatek.3afeature
+    0x80070000 (isNeedOverrideTimestamp) with type 0 (byte) defined in section com.mediatek.eisfeature
+    0x80070001 (newShutterTimestamp) with type 3 (int64) defined in section com.mediatek.eisfeature
+    0x80080000 (recordState) with type 1 (int32) defined in section com.mediatek.streamingfeature
+    0x80080001 (availableRecordStates) with type 1 (int32) defined in section com.mediatek.streamingfeature
+
+== Camera error traces (0): ==
+  No camera traces collected.

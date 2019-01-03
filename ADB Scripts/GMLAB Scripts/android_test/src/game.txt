@@ -1,0 +1,1 @@
+  * Recent #0: TaskRecord{e1167c5 #36 A=com.imangi.templerun U=0 StackId=1 sz=1}

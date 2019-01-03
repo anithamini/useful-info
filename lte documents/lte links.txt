@@ -1,0 +1,23 @@
+https://www.rcrwireless.com/20140509/telecom-software/3-call-flow-gsm-cdma 
+
+https://www.youtube.com/watch?v=HEFufDM9bX8 
+
+https://www.youtube.com/watch?v=HEFufDM9bX8 
+ 
+
+
+hemaaaaaaaaaaaa:
+=========================
+
+2G => https://www.radio-electronics.com/info/cellulartelecomms/gsm_technical/gsm_architecture.php 
+
+Lte=> https://www.tutorialspoint.com/lte/lte_network_architecture.htm
+
+http://www.ques10.com/p/2624/explain-umts-network-architecture-list-important-f/ 
+https://www.radio-electronics.com/info/cellulartelecomms/umts/utra-utran-umts-radio-access-network.php 
+ 
+anithaaaaaaaaa:
+===================
+
+http://www.3glteinfo.com/volte-call-flow-procedures/
+http://www.telecomhall.com/what-is-csfb-and-srvcc-in-lte.aspx

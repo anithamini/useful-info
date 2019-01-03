@@ -1,0 +1,8 @@
+---------------------------------------------------
+Id	TC_Description	Result
+---------------------------------------------------
+TC_1	Test EnableMobileData	PASS
+TC_2	Test DisableMobileData	FAIL
+
+MobileData_sanity
+---------------------------------------------------

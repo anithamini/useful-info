@@ -1,0 +1,84 @@
+last known state:
+  Phone Id=0
+  mCallState=2
+  mCallIncomingNumber=
+  mServiceState=0 0 voice home data home !dea !dea 40407 !dea !dea 40407  UMTS HSPA CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+  mSignalStrength=SignalStrength: 16 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+  mMessageWaiting=false
+  mCallForwarding=false
+  mDataActivity=4
+  mDataConnectionState=0
+  mDataConnectionPossible=true
+  mDataConnectionReason=2GVoiceCallEnded
+  mDataConnectionApn=
+  mDataConnectionLinkProperties=null
+  mDataConnectionNetworkCapabilities=null
+  mCellLocation=Bundle[mParcelledData.dataSize=64]
+  mCellInfo=null
+  Phone Id=1
+  mCallState=0
+  mCallIncomingNumber=
+  mServiceState=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+  mSignalStrength=SignalStrength: 0 0 -120 -160 -120 0 -1 0 2147483647 2147483647 0 0 2147483647 gsm|lte
+  mMessageWaiting=false
+  mCallForwarding=false
+  mDataActivity=0
+  mDataConnectionState=-1
+  mDataConnectionPossible=false
+  mDataConnectionReason=radioTurnedOff
+  mDataConnectionApn=
+  mDataConnectionLinkProperties=null
+  mDataConnectionNetworkCapabilities=null
+  mCellLocation=Bundle[{cid=-1, lac=-1, psc=-1}]
+  mCellInfo=null
+  mDcRtInfo=mTime=9223372036854775807 mDcPowerState=2147483647
+registrations: count=49
+  {callingPackage=android binder=android.telephony.PhoneStateListener$2@5bd84be callback=android.telephony.PhoneStateListener$2@5bd84be onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=-1 events=2000 canReadPhoneState=false}
+  {callingPackage=android binder=android.telephony.PhoneStateListener$2@917991f callback=android.telephony.PhoneStateListener$2@917991f onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=1 phoneId=0 events=1c1 canReadPhoneState=true}
+  {callingPackage=android binder=android.telephony.PhoneStateListener$2@cadd46c callback=android.telephony.PhoneStateListener$2@cadd46c onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=-1 events=20 canReadPhoneState=true}
+  {callingPackage=android binder=android.telephony.PhoneStateListener$2@4448a35 callback=android.telephony.PhoneStateListener$2@4448a35 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=-1 events=20 canReadPhoneState=true}
+  {callingPackage=com.miui.securitycenter binder=android.os.BinderProxy@d492eca callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@ea6a83b callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.systemui binder=android.os.BinderProxy@cd9cb58 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@2c094b1 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=-1 events=20 canReadPhoneState=true}
+  {callingPackage=com.miui.securitycenter binder=android.os.BinderProxy@b336d96 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@84d8d17 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=-1 events=100 canReadPhoneState=false}
+  {callingPackage=android binder=android.telephony.PhoneStateListener$2@cc4504 callback=android.telephony.PhoneStateListener$2@cc4504 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=-1 events=20 canReadPhoneState=true}
+  {callingPackage=android binder=android.telephony.SubscriptionManager$OnSubscriptionsChangedListener$2@918caed callback=null onSubscriptionsChangedListenererCallback=android.telephony.SubscriptionManager$OnSubscriptionsChangedListener$2@918caed callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.quicinc.cne.CNEService binder=android.os.BinderProxy@db0cd22 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@d13e3b3 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=-1 events=1 canReadPhoneState=false}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@4aad70 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@54428e9 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@fb2996e callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@2df080f callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@805309c callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@3ad6aa5 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=10000 canReadPhoneState=false}
+  {callingPackage=com.android.systemui binder=android.os.BinderProxy@7f2de7a callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@e8e162b callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@d82ba88 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@2af0c21 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@cc06846 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@9d5ea07 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@5ccf734 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@1cf495d onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=10000 canReadPhoneState=false}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@88ac2d2 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@add1fa3 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@adc52a0 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@8bc1e59 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@b2e3a1e callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@99812ff callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@bc3f8cc callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@2074715 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@3ffda2a callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@ee4e01b onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=1 canReadPhoneState=false}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@39dd5b8 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@5a23f91 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=1 phoneId=0 events=c canReadPhoneState=true}
+  {callingPackage=com.google.android.gms binder=android.os.BinderProxy@996ef6 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@96762f7 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=40 canReadPhoneState=true}
+  {callingPackage=com.qualcomm.location binder=android.telephony.PhoneStateListener$2@3369564 callback=android.telephony.PhoneStateListener$2@3369564 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=11 canReadPhoneState=false}
+  {callingPackage=com.android.phone binder=android.os.BinderProxy@f1a43cd callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@c658482 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=200 canReadPhoneState=false}
+  {callingPackage=android binder=android.telephony.PhoneStateListener$2@4253793 callback=android.telephony.PhoneStateListener$2@4253793 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=20 canReadPhoneState=true}
+  {callingPackage=com.android.mms.service binder=android.os.BinderProxy@979a3d0 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@b944fc9 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.systemui binder=android.os.BinderProxy@8f64c6c callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@3afa235 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=1 phoneId=0 events=1e1 canReadPhoneState=true}
+  {callingPackage=com.android.systemui binder=android.os.BinderProxy@f3266ca callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@e03803b onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483644 phoneId=1 events=1e1 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@131c358 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@9c52cb1 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@e782596 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@c9fe517 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@eabbd04 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@7cee2ed callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@c890522 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@33bbb3 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.miui.securitycenter binder=android.os.BinderProxy@8a9a570 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@543c0e9 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@fd6516e callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@424600f callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@35ba89c callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@e82a5 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.truecaller binder=android.os.BinderProxy@29a167a callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@ad0ee2b onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=20 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@3c8b288 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@9a421 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@6a32046 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@36e4207 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@67a6f34 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@63b615d callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@9e0fad2 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@1a2f7a3 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.facebook.katana binder=android.os.BinderProxy@4e94aa0 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@3d1b659 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=1 canReadPhoneState=false}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@7aff21e callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@2e36aff callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.mms binder=android.os.BinderProxy@5a870cc callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@4de5f15 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.google.android.googlequicksearchbox binder=android.os.BinderProxy@49a26f6 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@5c5baf7 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=20 canReadPhoneState=true}
+  {callingPackage=com.android.bluetooth binder=android.os.BinderProxy@44ebb96 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@eb1c317 callerUserId=0 subId=-1 phoneId=-1 events=0 canReadPhoneState=true}
+  {callingPackage=com.android.bluetooth binder=android.os.BinderProxy@5eb4304 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@caef0ed onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=1 phoneId=0 events=101 canReadPhoneState=false}
+  {callingPackage=com.android.incallui binder=android.os.BinderProxy@832fb22 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@48579b3 onSubscriptionsChangedListenererCallback=null callerUserId=0 subId=2147483647 phoneId=0 events=20 canReadPhoneState=true}

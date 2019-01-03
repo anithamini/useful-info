@@ -1,0 +1,251 @@
+--------- beginning of main
+07-13 12:11:28.416  1322  1355 D         : DpmQmiMgr areAllIfaceActive 
+07-13 12:11:28.666   770   770 W ADebug  : Failed to get property persist.sys.media.traces
+07-13 12:11:28.692   770   770 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-13 12:11:28.810   770   770 I app_process: The ClassLoaderContext is a special shared library.
+07-13 12:11:28.856   770   770 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-13 12:11:28.863   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132740, downTime=18132740, deviceId=4, source=0x1002 }
+07-13 12:11:28.901  2315  2315 D StatusBar: disable<e i a s b h r c s q >
+07-13 12:11:28.903   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132740, downTime=18132740, deviceId=4, source=0x1002 }
+07-13 12:11:28.938   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=80.00001, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132820, downTime=18132820, deviceId=4, source=0x1002 }
+07-13 12:11:28.957   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=99.00001, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132839, downTime=18132839, deviceId=4, source=0x1002 }
+07-13 12:11:28.967  2315  2315 D StatusBar: disable<e i a s b h r c s q >
+07-13 12:11:28.969   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=111.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132851, downTime=18132851, deviceId=4, source=0x1002 }
+07-13 12:11:28.982   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=124.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132864, downTime=18132864, deviceId=4, source=0x1002 }
+07-13 12:11:29.000   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=142.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132882, downTime=18132882, deviceId=4, source=0x1002 }
+07-13 12:11:29.017   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=160.00002, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132900, downTime=18132900, deviceId=4, source=0x1002 }
+07-13 12:11:29.032   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=174.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132914, downTime=18132914, deviceId=4, source=0x1002 }
+07-13 12:11:29.049   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=192.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132932, downTime=18132932, deviceId=4, source=0x1002 }
+07-13 12:11:29.066   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=208.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132948, downTime=18132948, deviceId=4, source=0x1002 }
+07-13 12:11:29.083   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=225.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132965, downTime=18132965, deviceId=4, source=0x1002 }
+07-13 12:11:29.100   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=241.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132981, downTime=18132981, deviceId=4, source=0x1002 }
+07-13 12:11:29.117   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=259.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18132999, downTime=18132999, deviceId=4, source=0x1002 }
+07-13 12:11:29.133   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=276.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18133016, downTime=18133016, deviceId=4, source=0x1002 }
+07-13 12:11:29.148   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=291.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18133031, downTime=18133031, deviceId=4, source=0x1002 }
+07-13 12:11:29.166   770   770 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=0.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18133048, downTime=18133048, deviceId=4, source=0x1002 }
+07-13 12:11:29.172   770   770 D AndroidRuntime: Shutting down VM
+07-13 12:11:29.700   781   781 W ADebug  : Failed to get property persist.sys.media.traces
+07-13 12:11:29.717   781   781 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-13 12:11:29.838   781   781 I app_process: The ClassLoaderContext is a special shared library.
+07-13 12:11:29.889   781   781 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-13 12:11:29.894   781   781 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=990.0, y[0]=176.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18133772, downTime=18133772, deviceId=4, source=0x1002 }
+07-13 12:11:29.902   781   781 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=990.0, y[0]=176.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18133772, downTime=18133772, deviceId=4, source=0x1002 }
+07-13 12:11:29.908   781   781 D AndroidRuntime: Shutting down VM
+07-13 12:11:29.921  1336  1336 I AudioPolicyManagerCustom: FLAG None hence request for a primary output
+07-13 12:11:29.923  1336  1336 I AudioPolicyManagerCustom: FLAG None hence request for a primary output
+07-13 12:11:29.936  1337 16792 I CameraProviderManager: Camera device device@1.0/legacy/0 torch status is now AVAILABLE_ON
+07-13 12:11:29.936   784  6848 D audio_hw_primary: start_output_stream: enter: stream(0xeb3dd000)usecase(12: audio-ull-playback) devices(0x2)
+07-13 12:11:29.936  1337 16792 I CameraService: onTorchStatusChangedLocked: Torch status changed for cameraId=0, newStatus=2
+07-13 12:11:29.937   807   839 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+07-13 12:11:29.937   784  6848 D audio_hw_primary: select_devices for use case (audio-ull-playback)
+07-13 12:11:29.938   784  6848 D audio_hw_primary: select_devices: out_snd_device(2: speaker) in_snd_device(0: )
+07-13 12:11:29.938   784  6848 I msm8916_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 12 device (speaker)
+07-13 12:11:29.938   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+07-13 12:11:29.938   784  6848 I msm8916_platform: platform_check_and_set_codec_backend_cfg: becf: new_snd_devices[0] is speaker
+07-13 12:11:29.938   784  6848 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 current bit width: 16 sample rate: 48000 channels: 2 usecase 12 device (speaker)
+07-13 12:11:29.938   784  6848 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+07-13 12:11:29.938   784  6848 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 sample rate: 48000 channels: 2
+07-13 12:11:29.938   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+07-13 12:11:29.938   784  6848 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+07-13 12:11:29.938   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+07-13 12:11:29.938   784  6848 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+07-13 12:11:29.939   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+07-13 12:11:29.939   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+07-13 12:11:29.939   784  6848 D hardware_info: hw_info_append_hw_type : device_name = speaker
+07-13 12:11:29.939   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+07-13 12:11:29.939   784  6848 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+07-13 12:11:29.939   784  6848 D audio_route: Apply path: speaker
+07-13 12:11:29.939   784  6848 D audio_hw_primary: audio_is_true_native_stream_active:napb: (0) (audio-ull-playback)id (12) sr 48000 bw (16) device speaker
+07-13 12:11:29.939   784  6848 V audio_hw_primary: enable_audio_route: enter: usecase(12)
+07-13 12:11:29.939   784  6848 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+07-13 12:11:29.939   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+07-13 12:11:29.939   784  6848 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+07-13 12:11:29.939   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+07-13 12:11:29.939   784  6848 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 15, path = 0, app id = 0x11131, sample rate = 48000
+07-13 12:11:29.939   784  6848 D ACDB-LOADER: ACDB -> send_asm_topology
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> send_adm_topology
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> send_audtable
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> send_audvoltable
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> send_audstrmtable
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> send_afe_topology
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 15, Topology Id 1025e
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> send_afe_cal
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 15 path = 0
+07-13 12:11:29.940   784  6848 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+07-13 12:11:29.941   784  6848 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+07-13 12:11:29.941   784  6848 D audio_route: Apply path: audio-ull-playback speaker
+07-13 12:11:29.943   784  6848 V audio_hw_primary: enable_audio_route: exit
+07-13 12:11:29.943   784  6848 D audio_hw_primary: select_devices: done
+07-13 12:11:29.943   784  6848 V audio_hw_primary: start_output_stream: Opening PCM device card_id(0) device_id(17) format(0)
+07-13 12:11:29.986   784  6848 V audio_hw_primary: start_output_stream: pcm_prepare
+07-13 12:11:30.067   784  6848 D msm8916_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map17
+07-13 12:11:30.067   784  6848 D msm8916_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+07-13 12:11:30.073   784  6848 D audio_hw_primary: start_output_stream: exit
+07-13 12:11:30.073   784  6848 W qc_adm  : margin check: adm_request_focus_v2(p) failed diff -48
+07-13 12:11:30.073   784  6848 W qc_adm  : margin check: adm_abandon_focus(p) failed diff -48
+07-13 12:11:30.217   784  2731 V audio_hw_primary: out_get_latency: Latency 10
+07-13 12:11:30.237   784  2731 V audio_hw_primary: out_get_latency: Latency 10
+07-13 12:11:32.627   834   834 W ADebug  : Failed to get property persist.sys.media.traces
+07-13 12:11:32.646   834   834 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-13 12:11:32.768   834   834 I app_process: The ClassLoaderContext is a special shared library.
+07-13 12:11:32.806   834   834 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-13 12:11:32.810   834   834 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=990.0, y[0]=176.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18136689, downTime=18136689, deviceId=4, source=0x1002 }
+07-13 12:11:32.818   834   834 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=990.0, y[0]=176.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18136689, downTime=18136689, deviceId=4, source=0x1002 }
+07-13 12:11:32.822   834   834 D AndroidRuntime: Shutting down VM
+07-13 12:11:32.849  1337 16792 I CameraProviderManager: Camera device device@1.0/legacy/0 torch status is now AVAILABLE_OFF
+07-13 12:11:32.849  1337 16792 I CameraService: onTorchStatusChangedLocked: Torch status changed for cameraId=0, newStatus=1
+07-13 12:11:32.855  1336  1336 I AudioPolicyManagerCustom: FLAG None hence request for a primary output
+07-13 12:11:32.856  1336  1336 I AudioPolicyManagerCustom: FLAG None hence request for a primary output
+07-13 12:11:32.956   784  2731 V audio_hw_primary: out_get_latency: Latency 10
+07-13 12:11:32.995   784  2731 V audio_hw_primary: out_get_latency: Latency 10
+07-13 12:11:33.259   867   867 W ADebug  : Failed to get property persist.sys.media.traces
+07-13 12:11:33.277   867   867 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-13 12:11:33.391   867   867 I app_process: The ClassLoaderContext is a special shared library.
+07-13 12:11:33.427   867   867 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-13 12:11:33.432   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=400.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137311, downTime=18137311, deviceId=4, source=0x1002 }
+07-13 12:11:33.436   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=400.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137311, downTime=18137311, deviceId=4, source=0x1002 }
+07-13 12:11:33.452   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=24.0, y[0]=368.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137335, downTime=18137335, deviceId=4, source=0x1002 }
+07-13 12:11:33.472   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=43.0, y[0]=342.66666, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137354, downTime=18137354, deviceId=4, source=0x1002 }
+07-13 12:11:33.490   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=62.0, y[0]=317.33334, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137373, downTime=18137373, deviceId=4, source=0x1002 }
+07-13 12:11:33.508   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=79.0, y[0]=294.6667, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137390, downTime=18137390, deviceId=4, source=0x1002 }
+07-13 12:11:33.521   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=93.0, y[0]=276.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137404, downTime=18137404, deviceId=4, source=0x1002 }
+07-13 12:11:33.536   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=108.00001, y[0]=256.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137419, downTime=18137419, deviceId=4, source=0x1002 }
+07-13 12:11:33.553   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=125.0, y[0]=233.33334, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137436, downTime=18137436, deviceId=4, source=0x1002 }
+07-13 12:11:33.571   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=142.0, y[0]=210.66667, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137453, downTime=18137453, deviceId=4, source=0x1002 }
+07-13 12:11:33.587   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=158.99998, y[0]=188.00002, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137470, downTime=18137470, deviceId=4, source=0x1002 }
+07-13 12:11:33.602   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=174.0, y[0]=168.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137485, downTime=18137485, deviceId=4, source=0x1002 }
+07-13 12:11:33.619   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=191.0, y[0]=145.33334, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137502, downTime=18137502, deviceId=4, source=0x1002 }
+07-13 12:11:33.636   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=207.0, y[0]=124.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137518, downTime=18137518, deviceId=4, source=0x1002 }
+07-13 12:11:33.652   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=223.0, y[0]=102.66666, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137534, downTime=18137534, deviceId=4, source=0x1002 }
+07-13 12:11:33.668   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=240.0, y[0]=80.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137551, downTime=18137551, deviceId=4, source=0x1002 }
+07-13 12:11:33.686   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=257.0, y[0]=57.333313, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137568, downTime=18137568, deviceId=4, source=0x1002 }
+07-13 12:11:33.704   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=276.0, y[0]=32.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137587, downTime=18137587, deviceId=4, source=0x1002 }
+07-13 12:11:33.719   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=291.0, y[0]=12.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137602, downTime=18137602, deviceId=4, source=0x1002 }
+07-13 12:11:33.738   867   867 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=300.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18137620, downTime=18137620, deviceId=4, source=0x1002 }
+07-13 12:11:33.744   867   867 D AndroidRuntime: Shutting down VM
+07-13 12:11:33.902  2315  2315 D StatusBar: disable<e i a s b h r c s q >
+07-13 12:11:34.029  2315  2315 D StatusBar: disable<e i a s b h r c s q >
+07-13 12:11:35.010  1322  1355 D         : DpmQmiMgr areAllIfaceActive 
+07-13 12:11:35.992   784  2731 D audio_hw_primary: out_standby: enter: stream (0xeb3dd000) usecase(12: audio-ull-playback)
+07-13 12:11:36.101   784  2731 V audio_hw_primary: stop_output_stream: enter: usecase(12: audio-ull-playback)
+07-13 12:11:36.101   784  2731 V audio_hw_primary: disable_audio_route: enter: usecase(12)
+07-13 12:11:36.101   784  2731 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+07-13 12:11:36.104   784  2731 V audio_hw_primary: disable_audio_route: exit
+07-13 12:11:36.104   784  2731 D hardware_info: hw_info_append_hw_type : device_name = speaker
+07-13 12:11:36.104   784  2731 D audio_hw_primary: disable_snd_device: snd_device(2: speaker)
+07-13 12:11:36.104   784  2731 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+07-13 12:11:36.104   784  2731 V audio_hw_primary: stop_output_stream: exit: status(0)
+07-13 12:11:36.104   784  2731 D audio_hw_primary: out_standby: exit
+07-13 12:11:36.246   885   885 W ADebug  : Failed to get property persist.sys.media.traces
+07-13 12:11:36.264   885   885 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-13 12:11:36.384   885   885 I app_process: The ClassLoaderContext is a special shared library.
+07-13 12:11:36.428   885   885 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-13 12:11:36.434   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140311, downTime=18140311, deviceId=4, source=0x1002 }
+07-13 12:11:36.472  2315  2315 D StatusBar: disable<e i a s b h r c s q >
+07-13 12:11:36.474   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140311, downTime=18140311, deviceId=4, source=0x1002 }
+07-13 12:11:36.511   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=82.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140393, downTime=18140393, deviceId=4, source=0x1002 }
+07-13 12:11:36.527   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=97.99999, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140409, downTime=18140409, deviceId=4, source=0x1002 }
+07-13 12:11:36.542  2315  2315 D StatusBar: disable<e i a s b h r c s q >
+07-13 12:11:36.543   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=115.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140426, downTime=18140426, deviceId=4, source=0x1002 }
+07-13 12:11:36.562   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=134.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140445, downTime=18140445, deviceId=4, source=0x1002 }
+07-13 12:11:36.578   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=149.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140460, downTime=18140460, deviceId=4, source=0x1002 }
+07-13 12:11:36.596   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=167.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140478, downTime=18140478, deviceId=4, source=0x1002 }
+07-13 12:11:36.611   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=183.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140494, downTime=18140494, deviceId=4, source=0x1002 }
+07-13 12:11:36.626   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=198.00002, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140509, downTime=18140509, deviceId=4, source=0x1002 }
+07-13 12:11:36.645   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=214.99998, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140526, downTime=18140526, deviceId=4, source=0x1002 }
+07-13 12:11:36.663   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=235.00002, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140546, downTime=18140546, deviceId=4, source=0x1002 }
+07-13 12:11:36.679   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=251.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140562, downTime=18140562, deviceId=4, source=0x1002 }
+07-13 12:11:36.693   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=265.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140576, downTime=18140576, deviceId=4, source=0x1002 }
+07-13 12:11:36.709   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=281.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140592, downTime=18140592, deviceId=4, source=0x1002 }
+07-13 12:11:36.728   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=299.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140610, downTime=18140610, deviceId=4, source=0x1002 }
+07-13 12:11:36.743   885   885 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=0.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18140626, downTime=18140626, deviceId=4, source=0x1002 }
+07-13 12:11:36.751   885   885 D AndroidRuntime: Shutting down VM
+07-13 12:11:37.246   905   905 W ADebug  : Failed to get property persist.sys.media.traces
+07-13 12:11:37.264   905   905 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-13 12:11:37.384   905   905 I app_process: The ClassLoaderContext is a special shared library.
+07-13 12:11:37.431   905   905 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-13 12:11:37.441   905   905 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=990.0, y[0]=176.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18141314, downTime=18141314, deviceId=4, source=0x1002 }
+07-13 12:11:37.450   905   905 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=990.0, y[0]=176.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=18141314, downTime=18141314, deviceId=4, source=0x1002 }
+07-13 12:11:37.457   905   905 D AndroidRuntime: Shutting down VM
+07-13 12:11:37.462  1336  1336 I AudioPolicyManagerCustom: FLAG None hence request for a primary output
+07-13 12:11:37.463  1336  1336 I AudioPolicyManagerCustom: FLAG None hence request for a primary output
+07-13 12:11:37.467   784  6848 D audio_hw_primary: start_output_stream: enter: stream(0xeb3dd000)usecase(12: audio-ull-playback) devices(0x2)
+07-13 12:11:37.468   784  6848 D audio_hw_primary: select_devices for use case (audio-ull-playback)
+07-13 12:11:37.468   784  6848 D audio_hw_primary: select_devices: out_snd_device(2: speaker) in_snd_device(0: )
+07-13 12:11:37.468   784  6848 I msm8916_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 12 device (speaker)
+07-13 12:11:37.468   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+07-13 12:11:37.468   784  6848 I msm8916_platform: platform_check_and_set_codec_backend_cfg: becf: new_snd_devices[0] is speaker
+07-13 12:11:37.469   784  6848 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 current bit width: 16 sample rate: 48000 channels: 2 usecase 12 device (speaker)
+07-13 12:11:37.469   784  6848 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+07-13 12:11:37.469   784  6848 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 sample rate: 48000 channels: 2
+07-13 12:11:37.469   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+07-13 12:11:37.469   784  6848 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+07-13 12:11:37.469   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+07-13 12:11:37.469   784  6848 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+07-13 12:11:37.469   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+07-13 12:11:37.469   784  6848 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+07-13 12:11:37.469   784  6848 D hardware_info: hw_info_append_hw_type : device_name = speaker
+07-13 12:11:37.470   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+07-13 12:11:37.470   784  6848 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+07-13 12:11:37.470   784  6848 D audio_route: Apply path: speaker
+07-13 12:11:37.470   784  6848 D audio_hw_primary: audio_is_true_native_stream_active:napb: (0) (audio-ull-playback)id (12) sr 48000 bw (16) device speaker
+07-13 12:11:37.470   784  6848 V audio_hw_primary: enable_audio_route: enter: usecase(12)
+07-13 12:11:37.470   784  6848 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+07-13 12:11:37.471   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+07-13 12:11:37.471   784  6848 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+07-13 12:11:37.471   784  6848 D msm8916_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+07-13 12:11:37.471   784  6848 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 15, path = 0, app id = 0x11131, sample rate = 48000
+07-13 12:11:37.471   784  6848 D ACDB-LOADER: ACDB -> send_asm_topology
+07-13 12:11:37.471   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+07-13 12:11:37.471   784  6848 D ACDB-LOADER: ACDB -> send_adm_topology
+07-13 12:11:37.471   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+07-13 12:11:37.471   784  6848 D ACDB-LOADER: ACDB -> send_audtable
+07-13 12:11:37.471   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+07-13 12:11:37.472  1337 16792 I CameraProviderManager: Camera device device@1.0/legacy/0 torch status is now AVAILABLE_ON
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+07-13 12:11:37.472  1337 16792 I CameraService: onTorchStatusChangedLocked: Torch status changed for cameraId=0, newStatus=2
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> send_audvoltable
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> send_audstrmtable
+07-13 12:11:37.472   807   839 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+07-13 12:11:37.472   784  6848 D ACDB-LOADER: ACDB -> send_afe_topology
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 15, Topology Id 1025e
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> send_afe_cal
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 15 path = 0
+07-13 12:11:37.473   784  6848 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+07-13 12:11:37.473   784  6848 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+07-13 12:11:37.473   784  6848 D audio_route: Apply path: audio-ull-playback speaker
+07-13 12:11:37.476   784  6848 V audio_hw_primary: enable_audio_route: exit
+07-13 12:11:37.476   784  6848 D audio_hw_primary: select_devices: done
+07-13 12:11:37.476   784  6848 V audio_hw_primary: start_output_stream: Opening PCM device card_id(0) device_id(17) format(0)
+07-13 12:11:37.519   784  6848 V audio_hw_primary: start_output_stream: pcm_prepare
+07-13 12:11:37.599   784  6848 D msm8916_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map17
+07-13 12:11:37.600   784  6848 D msm8916_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+07-13 12:11:37.606   784  6848 D audio_hw_primary: start_output_stream: exit
+07-13 12:11:37.606   784  6848 W qc_adm  : margin check: adm_request_focus_v2(p) failed diff -48
+07-13 12:11:37.606   784  6848 W qc_adm  : margin check: adm_abandon_focus(p) failed diff -48

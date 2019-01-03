@@ -1,0 +1,1415 @@
+07-10 11:55:54.935  1313  1313 D RILD    : **RIL Daemon Started**
+07-10 11:55:54.935  1313  1313 D RILD    : **RILd param count=1**
+07-10 11:55:55.888  1313  1313 D RILD    : RIL_Init argc = 3 clientId = 0
+07-10 11:55:55.890  1313  1313 E RILQ    : log to /data/vendor/radio/ril_log for QCRIL logging is not enabled
+07-10 11:55:56.332  1313  1313 W RILC    : RIL_onUnsolicitedResponse called before RIL_register
+07-10 11:55:56.333  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] qcril_qmi_lte_direct_disc_pack_msg_tag: Message id and type doesnt co-exist. Cannot encode the tag
+07-10 11:55:56.397  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] sendIndication: OemHookImpl::sendIndication indicationCb is null
+07-10 11:55:56.397  1313  1313 W RILC    : RIL_onUnsolicitedResponse called before RIL_register
+07-10 11:55:56.398  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] sendIndication: OemHookImpl::sendIndication indicationCb is null
+07-10 11:55:56.399  1313  1313 W RILC    : RIL_onUnsolicitedResponse called before RIL_register
+07-10 11:55:56.400  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] qcril_qmi_lte_direct_disc_pack_msg_tag: encoding the MsgHeader
+07-10 11:55:56.400  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] sendIndication: OemHookImpl::sendIndication indicationCb is null
+07-10 11:55:56.401  1313  1313 D RILD    : RIL_Init rilInit completed
+07-10 11:55:56.401  1313  1313 I RILC    : SIM_COUNT: 1
+07-10 11:55:56.402  1313  1313 E RILC    : RIL_register: RIL version 15
+07-10 11:55:56.402  1313  1313 I RILC    : s_registerCalled flag set, 1
+07-10 11:55:56.402  1313  1313 D RILC    : registerService: starting android::hardware::radio::V1_1::IRadio slot1
+07-10 11:55:56.405  1313  1313 I RILC    : RILHIDL called registerService
+07-10 11:55:56.405  1313  1313 D RILD    : RIL_Init RIL_register completed
+07-10 11:55:56.405  1313  1313 D RILD    : RIL_register_socket started
+07-10 11:55:56.406  1313  1313 D RIL_UIM_SOCKET: Adding socket with id: 0
+07-10 11:55:56.406  1313  1313 I RILC    : RIL_register_socket: calling registerService
+07-10 11:55:56.406  1313  1313 D RIL_SAP : registerService: starting ISap slot1 for slotId 0
+07-10 11:55:56.410  1313  1313 D RIL_SAP : registerService: started ISap slot1 status 0
+07-10 11:55:56.410  1313  1313 D RILD    : RIL_register_socket completed
+07-10 11:55:56.450  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] qcril_qmi_qti_radio_service_init: qcril_qmi_qti_radio_service_init
+07-10 11:55:56.493  1313  1630 E RILC    : cdmaPrlChangedInd: radioService[0]->mRadioIndication == NULL
+07-10 11:55:56.495  1313  1827 E RILQ    : (0/1313): RIL[0][(1313,1827)] qcril_pd_notifier_start_listening: Updated to state 2 for domain msm/adsp/audio_pd
+07-10 11:55:56.500  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] qcril_qmi_nas_retrieve_custom_emergency_numbers_configured_value: Invalid value for properties count 0
+07-10 11:55:56.502  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] sendIndication: OemHookImpl::sendIndication indicationCb is null
+07-10 11:55:56.522  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] sendIndication: OemHookImpl::sendIndication indicationCb is null
+07-10 11:55:56.523  1313  1630 E RILC    : oemHookRawInd: oemHookService[0]->mOemHookIndication == NULL
+07-10 11:55:56.523  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:55:56.525  1313  1630 E RILC    : currentSignalStrengthInd: radioService[0]->mRadioIndication == NULL
+07-10 11:55:56.525  1313  1630 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+07-10 11:55:56.526  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 0
+07-10 11:55:56.526  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:55:56.530  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:55:56.533  1313  1630 E RILC    : voiceRadioTechChangedInd: radioService[0]->mRadioIndication == NULL
+07-10 11:55:56.533  1313  1630 E RILC    : currentSignalStrengthInd: radioService[0]->mRadioIndication == NULL
+07-10 11:55:56.534  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 0
+07-10 11:55:56.534  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:55:57.346  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:55:57.347  1313  1775 E RILQ    : (0/1313): RIL[0][(1313,1775)] sendIndication: OemHookImpl::sendIndication indicationCb is null
+07-10 11:55:57.347  1313  1775 E RILC    : oemHookRawInd: oemHookService[0]->mOemHookIndication == NULL
+07-10 11:55:57.347  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 0
+07-10 11:55:57.347  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:55:57.351  1313  1775 E RILC    : simStatusChangedInd: radioService[0]->mRadioIndication == NULL
+07-10 11:55:57.351  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+07-10 11:55:57.351  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:55:57.558  1288  1288 D TelephonyManager: No /proc/cmdline exception=java.io.FileNotFoundException: /proc/cmdline (Permission denied)
+07-10 11:55:57.558  1288  1288 D TelephonyManager: /proc/cmdline=
+07-10 11:56:02.649  1290  1290 D TelephonyManager: No /proc/cmdline exception=java.io.FileNotFoundException: /proc/cmdline (Permission denied)
+07-10 11:56:02.649  1290  1290 D TelephonyManager: /proc/cmdline=
+07-10 11:56:04.154  1978  2258 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:04.568  1978  1978 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:04.621  1978  2011 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:04.629  1978  2387 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:04.645  1978  1978 D TelephonyRegistry: systemRunning register for intents
+07-10 11:56:04.902  1978  2388 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:05.112  2442  2442 D TDC     : updateOrInsert: inserting: Modem { uuid=modem, state=0, rilModel=0, rat={}, maxActiveVoiceCall=1, maxActiveDataCall=1, maxStandby=1 }
+07-10 11:56:05.112  2442  2442 D TDC     : updateOrInsert: inserting: Sim { uuid=sim, modemUuid=modem, state=0 }
+07-10 11:56:05.141  2442  2442 D TelephonyComponentFactory: classLoader = dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/qti-telephony-common.jar"],nativeLibraryDirectories=[/system/lib64, /vendor/lib64]]]
+07-10 11:56:05.142  2442  2442 D TelephonyComponentFactory: cls = class com.qualcomm.qti.internal.telephony.QtiTelephonyComponentFactory
+07-10 11:56:05.142  2442  2442 D TelephonyComponentFactory: constructor method = public com.qualcomm.qti.internal.telephony.QtiTelephonyComponentFactory()
+07-10 11:56:05.148  2442  2442 D CdmaSSM : subscriptionSource from settings: 0
+07-10 11:56:05.148  2442  2442 I PhoneFactory: Cdma Subscription set to 0
+07-10 11:56:05.149  2442  2442 I PhoneFactory: ImsResolver: defaultImsPackage: org.codeaurora.ims
+07-10 11:56:05.159  2442  2442 I PhoneFactory: Network Mode set to 9
+07-10 11:56:05.159  2442  2442 D QtiTelephonyComponentFactory: makeQtiRIL
+07-10 11:56:05.160  2442  2442 D RILJ    : RIL: init preferredNetworkType=9 cdmaSubscription=0)
+07-10 11:56:05.170  1313  1313 D RILC    : setResponseFunctions
+07-10 11:56:05.172  1313  1313 D RILC    : rilConnectedInd
+07-10 11:56:05.172  1313  1313 D RILC    : radioStateChangedInd: radioState 0
+07-10 11:56:05.172  1313  1313 I RILC    : RIL Daemon version: Qualcomm RIL 1.0
+07-10 11:56:05.173  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:05.174  2442  2601 D RILJ    : [UNSL]< UNSOL_RIL_CONNECTED [SUB0]
+07-10 11:56:05.176  2442  2601 D RILJ    : [3649]> RADIO_POWER on = false [SUB0]
+07-10 11:56:05.176  2442  2442 D RILJ    : [3650]> GET_HARDWARE_CONFIG [SUB0]
+07-10 11:56:05.176  1313  1313 D RILC    : setRadioPower: serial 1 on 0
+07-10 11:56:05.177  2442  2601 D RILJ    : [3651]> RIL_REQUEST_CDMA_SET_SUBSCRIPTION_SOURCE cdmaSubscription = 0 [SUB0]
+07-10 11:56:05.178  2442  2601 D RILJ    : [3652]> RIL_REQUEST_SET_CELL_INFO_LIST_RATE rateInMillis = 2147483647 [SUB0]
+07-10 11:56:05.179  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:05.179  2442  2601 D RILJ    : [UNSL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED radioStateChanged: RADIO_OFF [SUB0]
+07-10 11:56:05.179  2442  2442 D QTIRILJ : QtiRIL
+07-10 11:56:05.179  2442  2601 D RILJ    : [3650]< GET_HARDWARE_CONFIG error 6 [SUB0]
+07-10 11:56:05.180  2442  2601 D RilRequest: [3650]< GET_HARDWARE_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret= 
+07-10 11:56:05.183  2442  2601 D RILJ    : [3651]< RIL_REQUEST_CDMA_SET_SUBSCRIPTION_SOURCE error 6 [SUB0]
+07-10 11:56:05.183  2442  2601 D RilRequest: [3651]< RIL_REQUEST_CDMA_SET_SUBSCRIPTION_SOURCE error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:05.183  2442  2601 D RILJ    : [3652]< RIL_REQUEST_SET_CELL_INFO_LIST_RATE  [SUB0]
+07-10 11:56:05.183  2442  2442 I PhoneFactory: Creating SubscriptionController
+07-10 11:56:05.183  2442  2442 D QtiTelephonyComponentFactory: initSubscriptionController
+07-10 11:56:05.183  2442  2601 D QTIRILJ : QtiRadio interface service started vendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio slot1 preexisting =true
+07-10 11:56:05.186  2442  2601 D QTIRILJ : initQtiRadio: mQtiRadiovendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio@Proxy
+07-10 11:56:05.186  2442  2442 D SubscriptionController: [SubscriptionController] init by Context
+07-10 11:56:05.187  2442  2442 D QtiSubscriptionController:  init by Context
+07-10 11:56:05.188  2442  2442 D UiccController: Creating UiccController
+07-10 11:56:05.188  2442  2442 D QtiTelephonyComponentFactory: makePhone
+07-10 11:56:05.190  2442  2442 D TelephonyTester: register for intent action=com.qualcomm.qti.internal.telephony.action_detached
+07-10 11:56:05.190  2442  2442 D TelephonyTester: register for intent action=com.qualcomm.qti.internal.telephony.action_attached
+07-10 11:56:05.207  2442  2442 D Phone   : mDoesRilSendMultipleCallRing=false
+07-10 11:56:05.207  2442  2442 D Phone   : mCallRingDelay=3000
+07-10 11:56:05.207  2442  2442 D QtiTelephonyComponentFactory: makeSmsStorageMonitor
+07-10 11:56:05.207  2442  2442 D TelephonyComponentFactory: makeSmsStorageMonitor
+07-10 11:56:05.210  2442  2442 D QtiTelephonyComponentFactory: makeSmsUsageMonitor
+07-10 11:56:05.215  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_dms_op_state_update_handler: reported op mode LPM
+07-10 11:56:05.215  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_dms_op_state_update_handler: expected op mode LPM
+07-10 11:56:05.215  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:05.216  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:05.217  1313  2613 D RILC    : setRadioPowerResponse: serial 1
+07-10 11:56:05.218  2442  2601 D RILJ    : [3649]< RADIO_POWER  [SUB0]
+07-10 11:56:05.218  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] qcril_qmi_nas_set_nw_select_state: Invalid state..to move to DONE state
+07-10 11:56:05.220  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:05.220  2442  2601 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+07-10 11:56:05.221  1978  1978 D TelephonyRegistry: notifyCellLocationForSubscriber: subId=0 cellLocation=Bundle[{cid=-1, lac=-1, psc=-1}]
+07-10 11:56:05.221  2442  2442 D RILJ    : [3655]> RIL_REQUEST_START_LCE reportIntervalMs = 200 pullMode = true [SUB0]
+07-10 11:56:05.221  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+07-10 11:56:05.222  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:56:05.222  2442  2462 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:05.223  1313  1630 D RILC    : radioStateChangedInd: radioState 0
+07-10 11:56:05.223  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] qcril_qmi_lte_direct_disc_pack_msg_tag: encoding the MsgHeader
+07-10 11:56:05.223  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] sendIndication: OemHookImpl::sendIndication indicationCb is null
+07-10 11:56:05.225  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:05.225  2442  2601 D RILJ    : [UNSL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED radioStateChanged: RADIO_OFF [SUB0]
+07-10 11:56:05.228  2442  2601 D RILJ    : [3655]< RIL_REQUEST_START_LCE [1, 0] [SUB0]
+07-10 11:56:05.313  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:05.847  2442  2460 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:08.596  2442  2442 D QtiTelephonyComponentFactory: makeGsmCdmaCallTracker
+07-10 11:56:08.596  2442  2442 D TelephonyComponentFactory: makeGsmCdmaCallTracker
+07-10 11:56:08.598  2442  2442 D QtiTelephonyComponentFactory: makeQtiIccPhoneBookInterfaceManager
+07-10 11:56:08.600  2442  2442 D QtiRilInterface:  in constructor 
+07-10 11:56:08.601  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Starting QcrilMsgTunnel Service
+07-10 11:56:08.616  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Attempt to bind service returned with: true
+07-10 11:56:08.616  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Registering for intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:08.617  2442  2442 D QtiTelephonyComponentFactory: makeIccSmsInterfaceManager
+07-10 11:56:08.618  2442  2442 D TelephonyComponentFactory: makeIccSmsInterfaceManager
+07-10 11:56:08.620  2442  2442 E RIL_ImsSms: getFormat should never be called from here!
+07-10 11:56:08.620  2442  2442 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=unknown mSmsSendDisabled=false
+07-10 11:56:08.620  2442  2442 D RIL_ImsSms: ImsSMSDispatcher created
+07-10 11:56:08.620  2442  2442 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsSendDisabled=false
+07-10 11:56:08.621  2442  2442 D CdmaSMSDispatcher: CdmaSMSDispatcher created
+07-10 11:56:08.626  2442  2442 D QtiTelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.626  2442  2442 D TelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.629  2442  2442 D QtiTelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.629  2442  2442 D TelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.629  2442  2442 D GsmInboundSmsHandler: created InboundSmsHandler
+07-10 11:56:08.629  2442  2738 D GsmInboundSmsHandler: entering Startup state
+07-10 11:56:08.632  2442  2442 D QtiTelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.632  2442  2442 D TelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.634  2442  2442 D QtiTelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.634  2442  2442 D TelephonyComponentFactory: getIDeviceIdleController
+07-10 11:56:08.634  2442  2442 D CdmaInboundSmsHandler: created InboundSmsHandler
+07-10 11:56:08.636  2442  2745 D CdmaInboundSmsHandler: entering Startup state
+07-10 11:56:08.637  2442  2442 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsSendDisabled=false
+07-10 11:56:08.637  2442  2442 D GsmSMSDispatcher: GsmSMSDispatcher created
+07-10 11:56:08.638  2442  2738 D GsmInboundSmsHandler: StartupState.processMessage:6
+07-10 11:56:08.638  2442  2745 D CdmaInboundSmsHandler: StartupState.processMessage:6
+07-10 11:56:08.638  2442  2738 D GsmInboundSmsHandler: entering Idle state
+07-10 11:56:08.638  2442  2745 D CdmaInboundSmsHandler: entering Idle state
+07-10 11:56:08.638  2442  2738 D GsmInboundSmsHandler: IdleState.processMessage:5
+07-10 11:56:08.638  2442  2745 D CdmaInboundSmsHandler: IdleState.processMessage:5
+07-10 11:56:08.638  2442  2738 D GsmInboundSmsHandler: Idle state processing message type 5
+07-10 11:56:08.638  2442  2745 D CdmaInboundSmsHandler: Idle state processing message type 5
+07-10 11:56:08.639  2442  2442 D QtiTelephonyComponentFactory: makeIccCardProxy
+07-10 11:56:08.639  2442  2738 D GsmInboundSmsHandler: mWakeLock released
+07-10 11:56:08.639  2442  2442 D TelephonyComponentFactory: makeIccCardProxy
+07-10 11:56:08.639  2442  2745 D CdmaInboundSmsHandler: mWakeLock released
+07-10 11:56:08.639  2442  2442 D IccCardProxy: ctor: ci=com.qualcomm.qti.internal.telephony.QtiRIL@9d3862c phoneId=0
+07-10 11:56:08.639  2442  2442 D CdmaSSM : subscriptionSource from settings: 0
+07-10 11:56:08.639  2442  2442 D CdmaSSM : cdmaSSM constructor: 0
+07-10 11:56:08.639  2442  2442 D IccCardProxy: update icc_operator_numeric=
+07-10 11:56:08.639  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.numeric value:  propVal=
+07-10 11:56:08.640  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.iso-country value:  propVal=
+07-10 11:56:08.642  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.alpha value:  propVal=
+07-10 11:56:08.643  2442  2442 D QtiTelephonyComponentFactory: getCdmaSubscriptionSourceManagerInstance
+07-10 11:56:08.643  2442  2442 D TelephonyComponentFactory: getCdmaSubscriptionSourceManagerInstance
+07-10 11:56:08.643  2442  2442 D QtiTelephonyComponentFactory: makeEriManager
+07-10 11:56:08.643  2442  2442 D TelephonyComponentFactory: makeEriManager
+07-10 11:56:08.645  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] Precise phone type 1
+07-10 11:56:08.645  2442  2442 D RILJ    : setPhoneType=1 old value=0 [SUB0]
+07-10 11:56:08.645  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.current.phone-type value: 1 propVal=1
+07-10 11:56:08.647  2442  2442 D IccCardProxy: Setting radio tech UMTS
+07-10 11:56:08.647  2442  2442 D IccCardProxy: updateQuietMode: 3GPP subscription -> newQuietMode=false
+07-10 11:56:08.647  2442  2442 D IccCardProxy: updateQuietMode: no changes don't setExternalState
+07-10 11:56:08.647  2442  2442 D IccCardProxy: updateQuietMode: QuietMode is false (app_type=1 cdmaSource=-1)
+07-10 11:56:08.648  2442  2442 D CarrierActionAgent: [0]Creating CarrierActionAgent
+07-10 11:56:08.648  2442  2442 W CarrierConfigManager: Error getting config for subId 2147483643 ICarrierConfigLoader is null
+07-10 11:56:08.649  2442  2442 D QtiTelephonyComponentFactory: makeQtiServiceStateTracker
+07-10 11:56:08.651  2442  2442 W CarrierConfigManager: Error getting config for subId 2147483643 ICarrierConfigLoader is null
+07-10 11:56:08.651  1978  2258 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:09.225  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+07-10 11:56:09.231  2442  2442 D RILJ    : [3657]> SIGNAL_STRENGTH [SUB0]
+07-10 11:56:09.232  2442  2442 D SST     : notifyDataRegStateRilRadioTechnologyChanged: drs=1 rat=0
+07-10 11:56:09.235  2442  2601 D RILJ    : [3657]< SIGNAL_STRENGTH SignalStrength: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 cdma [SUB0]
+07-10 11:56:09.237  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+07-10 11:56:09.248  2442  2442 D QtiTelephonyComponentFactory: makeQtiDcTracker
+07-10 11:56:09.251  2442  2442 D         : [0]DCT.constructor
+07-10 11:56:09.266  1978  2001 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:09.271  2442  2442 D Dcc     : E ctor
+07-10 11:56:09.271  2442  2442 D Dcc     : X ctor
+07-10 11:56:09.277  2442  2442 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:09.278  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:09.278  2442  2811 D DcTesterDeacativateAll: register for intent action=com.android.internal.telephony.dataconnection.action_deactivate_all
+07-10 11:56:09.278  2442  2811 D DcTesterDeacativateAll: register for intent action=com.qualcomm.qti.internal.telephony.action_detached
+07-10 11:56:09.279  2442  2811 D Dcc     : DccDefaultState: msg.what=EVENT_RIL_CONNECTED mRilVersion=15
+07-10 11:56:09.280  2442  2442 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.dataconnection.action_fail_bringup
+07-10 11:56:09.280  2442  2442 D DcTesterFailBrinupAll: register for intent action=com.qualcomm.qti.internal.telephony.action_detached
+07-10 11:56:09.280  2442  2442 D DcTesterFailBrinupAll: register for intent action=com.qualcomm.qti.internal.telephony.action_attached
+07-10 11:56:09.281  2442  2442 D SST     : notifyDataRegStateRilRadioTechnologyChanged: drs=1 rat=0
+07-10 11:56:09.282  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+07-10 11:56:09.287  2442  2442 D         : [0]update sub = 2147483643
+07-10 11:56:09.287  2442  2442 D         : [0]update(): Active DDS, register for all events now!
+07-10 11:56:09.289  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] updateCurrentCarrierInProvider: mSubId = 2147483643 currentDds = 2 operatorNumeric = null
+07-10 11:56:09.292  2442  2442 D         : [0]initApnContexts: E
+07-10 11:56:09.292  2442  2442 D         : [0]initApnContexts: skipping unknown type=1
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=default mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: skipping unknown type=7
+07-10 11:56:09.293  2442  2442 D         : [0]initApnContexts: apnContext={mApnType=emergency mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+07-10 11:56:09.342  2442  2442 D QtiGsmDCT: [0]QtiGsmDCT.constructor
+07-10 11:56:09.350  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] GsmCdmaPhone: constructor: sub = 0
+07-10 11:56:09.350  2442  2442 D QtiGsmCdmaPhone: Constructor
+07-10 11:56:09.350  2442  2442 I PhoneFactory: Creating Phone with type = 1 sub = 0
+07-10 11:56:09.387  2442  2442 I PhoneFactory: defaultSmsApplication: com.google.android.apps.messaging
+07-10 11:56:09.473  2442  2442 I PhoneFactory: Creating SubInfoRecordUpdater 
+07-10 11:56:09.490  2442  2442 D QtiTelephonyComponentFactory: makeSubscriptionInfoUpdater
+07-10 11:56:09.490  2442  2442 D SubscriptionInfoUpdater: Constructor invoked
+07-10 11:56:09.752  2442  2442 I ImsManager: Creating ImsService using ImsResolver
+07-10 11:56:09.753  2442  2442 W ImsManager: getServiceProxy: b is null! Phone Id: 0
+07-10 11:56:09.790  2442  2442 D Phone   : updateImsPhone mImsServiceReady=true
+07-10 11:56:09.793  2442  2442 D TelephonyTester: register for intent action=com.android.internal.telephony.imsphone.action_detached
+07-10 11:56:09.793  2442  2442 D TelephonyTester: register for intent action=com.android.internal.telephony.imsphone.action_attached
+07-10 11:56:09.793  2442  2442 D TelephonyTester: register for intent action=com.android.internal.telephony.TestConferenceEventPackage
+07-10 11:56:09.794  2442  2442 D Phone   : mDoesRilSendMultipleCallRing=false
+07-10 11:56:09.794  2442  2442 D Phone   : mCallRingDelay=3000
+07-10 11:56:09.795  2442  2442 D QtiTelephonyComponentFactory: makeImsPhoneCallTracker
+07-10 11:56:09.795  2442  2442 D TelephonyComponentFactory: makeImsPhoneCallTracker
+07-10 11:56:09.798  2442  2442 E ImsPhoneCallTracker: [ImsPhoneCallTracker] cacheCarrierConfiguration: No carrier config service found or not active subId = 2147483643
+07-10 11:56:09.802  2442  2442 D SST     : notifyDataRegStateRilRadioTechnologyChanged: drs=1 rat=0
+07-10 11:56:09.802  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+07-10 11:56:09.803  2442  2442 D ImsPhone: updateDataServiceState: defSs = {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=0, mSystemId=0, mCdmaRoamingIndicator=0, mCdmaDefaultRoamingIndicator=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0} imsSs = {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}
+07-10 11:56:09.804  2442  2442 D DefaultPhoneNotifier: nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@9885463 ss={mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=0, mSystemId=0, mCdmaRoamingIndicator=0, mCdmaDefaultRoamingIndicator=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0} sender=Handler (com.qualcomm.qti.internal.telephony.QtiGsmCdmaPhone) {544860} phondId=0 subId=2147483643
+07-10 11:56:09.806  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:09.811  2442  2442 D CallManager: registerPhone(ImsPhone Handler (com.android.internal.telephony.imsphone.ImsPhone) {7a2c01d})
+07-10 11:56:09.812  1978  2257 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:09.813  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:09.815  2442  2442 D QtiTelephonyComponentFactory: makeQtiPhoneSwitcher
+07-10 11:56:09.817  1978  2463 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:09.819  2442  2442 D PhoneSwitcher: PhoneSwitcher started
+07-10 11:56:09.821  2442  2442 D ProxyController: Constructor - Enter
+07-10 11:56:09.827  2442  2442 D ProxyController: clearTransaction
+07-10 11:56:09.827  2442  2442 D ProxyController: clearTransaction: phoneId=0 status=IDLE
+07-10 11:56:09.828  2442  2442 D ProxyController: Constructor - Exit
+07-10 11:56:09.841  2442  2442 D TelephonyNetworkFactory[0]: Registering NetworkFactory
+07-10 11:56:09.842  2442  2442 D QtiTelephonyComponentFactory:  makeExtTelephonyClasses 
+07-10 11:56:09.843  2442  2442 D QtiUiccCardProvisioner:  Invoking constructor, no of phones = 1
+07-10 11:56:09.848  2442  2442 D QtiRadioCapabilityController: getInstance
+07-10 11:56:09.901  2442  2442 D QtiRadioCapabilityController: Constructor - Exit
+07-10 11:56:09.903  2442  2442 D ExtTelephonyServiceImpl: init constructor 
+07-10 11:56:09.919  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:09.925  2442  2442 D CallManager: registerPhone(GSM Handler (com.qualcomm.qti.internal.telephony.QtiGsmCdmaPhone) {544860})
+07-10 11:56:09.932  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:09.947  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:09.950  1978  2257 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:09.952  2442  2442 D CallManager: registerForMmiComplete
+07-10 11:56:10.044  2442  2442 D RILJ    : [3658]> RIL_REQUEST_SET_TTY_MODE ttyMode = 0 [SUB0]
+07-10 11:56:10.054  2442  2442 D ImsPhone: sendErrorResponse
+07-10 11:56:10.056  1978  2257 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:10.058  2442  2442 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:10.058  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.062  2442  2601 D RILJ    : [3658]< RIL_REQUEST_SET_TTY_MODE  [SUB0]
+07-10 11:56:10.068  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.073  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.082  2442  2442 D UiccController: Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-10 11:56:10.087  2442  2442 D RILJ    : [3659]> GET_SIM_STATUS [SUB0]
+07-10 11:56:10.089  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 30
+07-10 11:56:10.090  2442  2601 D RILJ    : responseIccCardStatus: from HIDL: IccCardState {CARDSTATE_ABSENT,PINSTATE_UNKNOWN,num_apps=0,gsm_id=-1,cdma_id=-1,ims_id=-1} [SUB0]
+07-10 11:56:10.090  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 37
+07-10 11:56:10.090  2442  2601 D RILJ    : [3659]< GET_SIM_STATUS IccCardState {CARDSTATE_ABSENT,PINSTATE_UNKNOWN,num_apps=0,gsm_id=-1,cdma_id=-1,ims_id=-1} [SUB0]
+07-10 11:56:10.091  2442  2442 D GsmSMSDispatcher: GsmSMSDispatcher: subId = 2147483643 slotId = 0
+07-10 11:56:10.091  2442  2442 D IccCardProxy: setExternalState: !override and newstate unchanged from UNKNOWN
+07-10 11:56:10.091  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.092  2442  2442 D IccCardProxy: setExternalState: !override and newstate unchanged from UNKNOWN
+07-10 11:56:10.092  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 1
+07-10 11:56:10.093  2442  2442 D RILJ    : [3660]> BASEBAND_VERSION [SUB0]
+07-10 11:56:10.095  2442  2442 D RILJ    : [3661]> RIL_REQUEST_DEVICE_IDENTITY [SUB0]
+07-10 11:56:10.097  2442  2442 D RILJ    : [3662]> RIL_REQUEST_GET_RADIO_CAPABILITY [SUB0]
+07-10 11:56:10.097  2442  2442 D RILJ    : [3663]> RIL_REQUEST_START_LCE reportIntervalMs = 200 pullMode = true [SUB0]
+07-10 11:56:10.098  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 8
+07-10 11:56:10.098  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] Event EVENT_RADIO_OFF_OR_NOT_AVAILABLE Received
+07-10 11:56:10.098  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 41
+07-10 11:56:10.098  2442  2442 D IccCardProxy: setExternalState: !override and newstate unchanged from UNKNOWN
+07-10 11:56:10.098  2442  2442 D SST     : mDeviceShuttingDown=false, mDesiredPowerState=true, getRadioState=RADIO_OFF, mPowerOffDelayNeed=true, mAlarmSwitch=false, mRadioDisabledByCarrier=false
+07-10 11:56:10.099  2442  2442 D RILJ    : [3664]> RADIO_POWER on = true [SUB0]
+07-10 11:56:10.099  2442  2442 D SST     : pollState: modemTriggered=true
+07-10 11:56:10.100  2442  2601 D RILJ    : [3661]< RIL_REQUEST_DEVICE_IDENTITY {865843024982891, 00, 00000000, 00000000000000} [SUB0]
+07-10 11:56:10.101  2442  2442 D RILJ    : [3665]> OPERATOR [SUB0]
+07-10 11:56:10.101  2442  2442 D RILJ    : [3666]> DATA_REGISTRATION_STATE [SUB0]
+07-10 11:56:10.102  2442  2442 D RILJ    : [3667]> VOICE_REGISTRATION_STATE [SUB0]
+07-10 11:56:10.104  2442  2442 D RILJ    : [3668]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+07-10 11:56:10.104  2442  2442 D SST     : mDeviceShuttingDown=false, mDesiredPowerState=true, getRadioState=RADIO_OFF, mPowerOffDelayNeed=true, mAlarmSwitch=false, mRadioDisabledByCarrier=false
+07-10 11:56:10.104  1313  1313 D RILC    : setRadioPower: serial 16 on 1
+07-10 11:56:10.106  2442  2442 D RILJ    : [3669]> RADIO_POWER on = true [SUB0]
+07-10 11:56:10.106  2442  2442 D SST     : pollState: modemTriggered=true
+07-10 11:56:10.106  1313  1313 D RILC    : setRadioPower: serial 21 on 1
+07-10 11:56:10.107  2442  2442 D RILJ    : [3670]> OPERATOR [SUB0]
+07-10 11:56:10.107  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:10.108  2442  2442 D RILJ    : [3671]> DATA_REGISTRATION_STATE [SUB0]
+07-10 11:56:10.109  2442  2442 D RILJ    : [3672]> VOICE_REGISTRATION_STATE [SUB0]
+07-10 11:56:10.110  2442  2601 D RILJ    : convertHalRadioCapability: session=0, phase=0, rat=81928, logicModemUuid=0, status=1 [SUB0]
+07-10 11:56:10.110  2442  2442 D RILJ    : [3673]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+07-10 11:56:10.110  2442  2601 D RILJ    : [3662]< RIL_REQUEST_GET_RADIO_CAPABILITY {mPhoneId = 0 mVersion=1 mSession=0 mPhase=0 mRadioAccessFamily=81928 mLogicModemId=0 mStatus=1} [SUB0]
+07-10 11:56:10.110  2442  2601 D RILJ    : [3665]< OPERATOR {, , } [SUB0]
+07-10 11:56:10.111  2442  2601 D RILJ    : [3660]< BASEBAND_VERSION 660_GEN_PACK-1.153823.1.154414.1 [SUB0]
+07-10 11:56:10.112  2442  2601 D RILJ    : [3666]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:10.112  2442  2442 I CSST    : PrefNetworkNotification: sendMessage() w/values: ,false,-1,false,false
+07-10 11:56:10.113  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:10.113  2442  2442 I CSST    : canceling notifications: 1000
+07-10 11:56:10.113  2442  2442 D Phone   : isWifiCallingEnabled =false
+07-10 11:56:10.113  2442  2442 D CSST    : isPhoneRegisteredForWifiCalling: false
+07-10 11:56:10.113  2442  2442 D Phone   : isWifiCallingEnabled =false
+07-10 11:56:10.113  2442  2442 I CSST    : EmergencyNetworkNotification: sendMessage() w/values: ,false,-1,false,false
+07-10 11:56:10.113  2442  2442 I CSST    : canceling notifications: 1001
+07-10 11:56:10.114  2442  2442 I CSST    : PrefNetworkNotification: sendMessage() w/values: ,false,-1,false,false
+07-10 11:56:10.115  2442  2442 I CSST    : canceling notifications: 1000
+07-10 11:56:10.115  2442  2442 D Phone   : isWifiCallingEnabled =false
+07-10 11:56:10.115  2442  2442 D CSST    : isPhoneRegisteredForWifiCalling: false
+07-10 11:56:10.115  2442  2442 D Phone   : isWifiCallingEnabled =false
+07-10 11:56:10.115  2442  2442 I CSST    : EmergencyNetworkNotification: sendMessage() w/values: ,false,-1,false,false
+07-10 11:56:10.115  2442  2442 I CSST    : canceling notifications: 1001
+07-10 11:56:10.117  2442  2601 D RILJ    : [3663]< RIL_REQUEST_START_LCE [1, 0] [SUB0]
+07-10 11:56:10.118  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-865ms what=270369 obj=android.os.AsyncResult@e5dde45 target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:10.119  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcrilMsgTunnelService Connected Successfully (onServiceConnected)
+07-10 11:56:10.119  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Calling onQcRilHookReady callback
+07-10 11:56:10.119  2442  2442 D QtiRilInterface: Service ready, notifying registrants
+07-10 11:56:10.119  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-838ms what=270337 obj=android.os.AsyncResult@60ed99a target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:10.120  2442  2442 D QtiGsmDCT: [0]onRadioAvailable
+07-10 11:56:10.120  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-838ms what=270342 obj=android.os.AsyncResult@1bbc2cb target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:10.120  2442  2442 D QtiGsmDCT: [0]onRadioOffOrNotAvailable: is off and clean up all connections
+07-10 11:56:10.120  2442  2442 D QtiGsmDCT: [0]cleanUpAllConnections: tearDown=false reason=radioTurnedOff
+07-10 11:56:10.120  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=default ret=DISCONNECTED
+07-10 11:56:10.121  2442  2601 D RILJ    : [3667]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:10.121  2442  2601 D RILJ    : [3668]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+07-10 11:56:10.122  2442  2601 D RILJ    : [3670]< OPERATOR {, , } [SUB0]
+07-10 11:56:10.122  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:10.122  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.123  2442  2601 D RILJ    : [3671]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:10.125  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.127  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.128  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.129  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=mms ret=DISCONNECTED
+07-10 11:56:10.129  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.132  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.134  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.135  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.136  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.136  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.136  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=cbs ret=DISCONNECTED
+07-10 11:56:10.136  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:10.137  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.138  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.138  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.139  2442  2601 D RILJ    : [3672]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:10.139  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.139  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.140  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.141  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.142  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=fota ret=DISCONNECTED
+07-10 11:56:10.143  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.144  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.146  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.146  2442  2601 D RILJ    : [3673]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+07-10 11:56:10.147  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.152  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.154  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.154  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=supl ret=DISCONNECTED
+07-10 11:56:10.155  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.156  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.157  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.158  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.159  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:10.159  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.159  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=emergency ret=DISCONNECTED
+07-10 11:56:10.160  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:10.162  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.163  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.165  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.166  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_dms_op_state_update_handler: reported op mode ONLINE
+07-10 11:56:10.166  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_dms_op_state_update_handler: expected op mode ONLINE
+07-10 11:56:10.167  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=emergency mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.167  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=dun ret=DISCONNECTED
+07-10 11:56:10.168  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:10.168  2442  2601 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+07-10 11:56:10.169  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.169  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.169  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:10.169  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.170  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.170  1313  3128 D RILC    : setRadioPowerResponse: serial 16
+07-10 11:56:10.171  1313  3128 D RILC    : setRadioPowerResponse: serial 21
+07-10 11:56:10.171  2442  2601 D RILJ    : [3664]< RADIO_POWER  [SUB0]
+07-10 11:56:10.171  2442  2601 D RILJ    : [3669]< RADIO_POWER  [SUB0]
+07-10 11:56:10.173  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:10.173  2442  2601 V RILJ    : [UNSL]< UNSOL_OEM_HOOK_RAW 514f454d484f4f4bf2030800040000000050c011 [SUB0]
+07-10 11:56:10.178  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:10.179  2442  2601 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+07-10 11:56:10.182  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.182  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=hipri ret=DISCONNECTED
+07-10 11:56:10.186  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.187  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+07-10 11:56:10.187  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:56:10.189  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.190  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+07-10 11:56:10.190  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:56:10.191  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.193  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.194  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=ims ret=DISCONNECTED
+07-10 11:56:10.196  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.197  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.198  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.200  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-10 11:56:10.201  2442  2442 D QtiGsmDCT: [0]stopNetStatPoll
+07-10 11:56:10.203  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.203  2442  2442 D QtiGsmDCT: [0]cleanUpConnection: mDisconnectPendingCount = 0
+07-10 11:56:10.213  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.215  1313  1630 D RILC    : radioStateChangedInd: radioState 10
+07-10 11:56:10.216  2442  2601 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB0]
+07-10 11:56:10.216  2442  2601 D RILJ    : [UNSL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED radioStateChanged: RADIO_ON [SUB0]
+07-10 11:56:10.216  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:56:10.217  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+07-10 11:56:10.217  1313  1630 E RILQ    : (0/1313): RIL[0][(1313,1630)] get_ecc_property_name: ecc list name : ril.ecclist.
+07-10 11:56:10.217  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.219  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.221  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.250  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.251  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.252  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.254  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.254  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.262  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 3 lines
+07-10 11:56:10.267  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.271  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.272  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.273  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.279  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.281  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.282  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.301  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.302  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.303  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.308  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.312  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.314  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.316  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.326  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.330  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.333  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.338  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.342  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.343  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.346  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.357  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.359  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.360  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.365  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-1s83ms what=270345 obj=android.os.AsyncResult@f0f566 target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:10.365  2442  2442 D QtiGsmDCT: [0]onDataConnectionDetached: stop polling and notify detached
+07-10 11:56:10.365  2442  2442 D QtiGsmDCT: [0]stopNetStatPoll
+07-10 11:56:10.368  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.368  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.368  2442  2442 D QtiGsmDCT: [0]notifyDataConnection: reason=dataDetached
+07-10 11:56:10.370  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.371  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.371  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.373  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.378  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.379  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.382  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.382  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.383  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.385  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.387  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:10.389  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.392  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.395  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.400  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.400  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.402  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.405  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.406  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.412  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.420  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.421  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.422  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.451  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.451  2442  2712 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:10.451  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.453  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.454  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.457  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.458  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.462  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.466  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.466  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.468  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.472  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.475  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.480  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.487  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-1s205ms what=270348 obj=android.os.AsyncResult@441c0a7 target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:10.487  2442  2442 D QtiGsmDCT: [0]onDataRoamingOff
+07-10 11:56:10.494  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.495  2442  2442 D QtiGsmDCT: [0]notifyDataConnection: reason=roamingOff
+07-10 11:56:10.497  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.499  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.499  2442  2712 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:10.500  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.507  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.518  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.540  1978  3159 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:10.540  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.540  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.542  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.543  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.544  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.546  2442  2462 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:10.546  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.549  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.552  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.553  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.554  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.564  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.572  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:10.573  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.586  2442  2460 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.586  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.588  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.591  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.601  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.620  2442  2460 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.621  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.622  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.624  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.633  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.634  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.638  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.641  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.642  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.645  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.648  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.650  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.651  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.654  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.655  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.656  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.662  2442  2442 D QtiGsmDCT: [0]isEmergency: result=false
+07-10 11:56:10.667  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.673  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-1s387ms what=270377 obj=android.os.AsyncResult@dc1954 target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:10.676  2442  2442 D RILJ    : [3678]> RIL_REQUEST_SEND_DEVICE_STATE 1:false [SUB0]
+07-10 11:56:10.678  2442  2442 D RILJ    : [3679]> RIL_REQUEST_SEND_DEVICE_STATE 2:false [SUB0]
+07-10 11:56:10.678  2442  2601 D RILJ    : [3678]< RIL_REQUEST_SEND_DEVICE_STATE  [SUB0]
+07-10 11:56:10.679  2442  2601 D RILJ    : [3679]< RIL_REQUEST_SEND_DEVICE_STATE  [SUB0]
+07-10 11:56:10.681  2442  2442 D RILJ    : [3680]> RIL_REQUEST_SEND_DEVICE_STATE 0:false [SUB0]
+07-10 11:56:10.682  2442  2460 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:10.682  2442  2442 D RILJ    : [3681]> RIL_REQUEST_SET_UNSOLICITED_RESPONSE_FILTER 7 [SUB0]
+07-10 11:56:10.683  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:10.683  2442  2442 D QtiGsmDCT: [0]Wifi state changed
+07-10 11:56:10.683  2442  2442 D QtiGsmDCT: [0]WIFI_STATE_CHANGED_ACTION: enabled=true mIsWifiConnected=false
+07-10 11:56:10.683  2442  2442 D WAP PUSH: Received broadcast android.intent.action.USER_UNLOCKED
+07-10 11:56:10.683  2442  2601 D RILJ    : [3680]< RIL_REQUEST_SEND_DEVICE_STATE  [SUB0]
+07-10 11:56:10.684  2442  2442 D WAP PUSH: Received broadcast android.intent.action.USER_UNLOCKED
+07-10 11:56:10.684  2442  2442 D SmsBroadcastUndelivered: Received broadcast android.intent.action.USER_UNLOCKED
+07-10 11:56:10.685  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] handleMessage what=23
+07-10 11:56:10.686  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] onDataEnabledChanged: enabled=true, reason=0
+07-10 11:56:10.686  2442  2442 I ImsManager: Creating ImsService using ImsResolver
+07-10 11:56:10.686  2442  2601 D RILJ    : [3681]< RIL_REQUEST_SET_UNSOLICITED_RESPONSE_FILTER  [SUB0]
+07-10 11:56:10.689  2442  2442 W ImsManager: getServiceProxy: b is null! Phone Id: 0
+07-10 11:56:10.689  2442  2442 D ImsManager: setDataEnabled: true
+07-10 11:56:10.691  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] Ignore data enabled - carrier policy indicates that data is not metered for ViLTE calls.
+07-10 11:56:10.691  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] handleMessage what=24
+07-10 11:56:10.691  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] getImsService
+07-10 11:56:10.691  2442  2442 I ImsManager: Creating ImsService using ImsResolver
+07-10 11:56:10.692  2442  2442 W ImsManager: getServiceProxy: b is null! Phone Id: 0
+07-10 11:56:10.693  2442  2442 E ImsPhoneCallTracker: [ImsPhoneCallTracker] getImsService: com.android.ims.ImsException: Binder is not active!(106)
+07-10 11:56:10.693  2442  2442 I ImsManager: Creating ImsService using ImsResolver
+07-10 11:56:10.694  2442  2442 W ImsManager: getServiceProxy: b is null! Phone Id: 0
+07-10 11:56:10.697  2442  2442 E ImsPhoneCallTracker: [ImsPhoneCallTracker] getImsService: Retrying getting ImsService...
+07-10 11:56:10.697  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-894ms what=270377 obj=android.os.AsyncResult@58b76c0 target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:10.697  2442  2442 D ImsPhone: handleMessage what=56
+07-10 11:56:10.697  2442  2442 D ImsPhone: EVENT_DEFAULT_PHONE_DATA_STATE_CHANGED
+07-10 11:56:10.697  2442  2442 D ImsPhone: updateDataServiceState: defSs = {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0} imsSs = {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}
+07-10 11:56:10.703  2442  2442 D TelephonyNetworkFactory[0]: onActivePhoneSwitch(false, false)
+07-10 11:56:10.703  2442  2442 D TelephonyNetworkFactory[0]: onSubIdChange -1->2147483643
+07-10 11:56:10.704  2442  2442 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+07-10 11:56:10.704  2442  2442 D TelephonyNetworkFactory[0]: got request NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+07-10 11:56:10.704  2442  2442 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+07-10 11:56:10.704  2442  2442 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+07-10 11:56:10.704  2442  2442 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+07-10 11:56:10.704  2442  2442 E QtiUiccCardProvisioner: Error: Invalid card index EVENT_ICC_CHANGED 
+07-10 11:56:10.705  2442  2442 D DebugService: DebugService DebugService:
+07-10 11:56:10.710  2442  3226 D SmsBroadcastUndelivered: scanning raw table for undelivered messages
+07-10 11:56:10.716  2442  2442 D SipService: SipService: started!
+07-10 11:56:10.741  2442  2442 D SipService: start:
+07-10 11:56:10.768  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.770  2442  2442 D RILJ    : [3682]> RIL_REQUEST_QUERY_TTY_MODE [SUB0]
+07-10 11:56:10.795  2442  2601 D RILJ    : [3682]< RIL_REQUEST_QUERY_TTY_MODE {0} [SUB0]
+07-10 11:56:10.841  2442  3226 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.843  2442  3226 D SmsBroadcastUndelivered: finished scanning raw table in 133 ms
+07-10 11:56:10.853  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:10.857  1978  2463 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+07-10 11:56:10.898  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] processRequest: ImsRadioImpl::processRequest - Error 0
+07-10 11:56:10.978  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:10.993  2442  2462 I chatty  : uid=1001(radio) Binder:2442_2 identical 1 line
+07-10 11:56:10.997  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.073  2442  2442 D UiccController: Received EVENT_GET_ICC_STATUS_DONE
+07-10 11:56:11.073  2442  2442 D UiccCard: Creating
+07-10 11:56:11.073  2442  2442 D UiccCard: 0 applications
+07-10 11:56:11.073  2442  2442 D UiccCard: Before privilege rules: null : CARDSTATE_ABSENT
+07-10 11:56:11.073  2442  2442 D UiccCard: update: radioState=RADIO_ON mLastRadioState=RADIO_UNAVAILABLE
+07-10 11:56:11.073  2442  2442 D UiccController: Notifying IccChangedRegistrants
+07-10 11:56:11.073  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 21
+07-10 11:56:11.073  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 35
+07-10 11:56:11.073  2442  2442 D QtiRadioCapabilityController:  radioCapabilityUpdated phoneId[0] rc = {mPhoneId = 0 mVersion=1 mSession=0 mPhase=0 mRadioAccessFamily=81928 mLogicModemId=0 mStatus=1}
+07-10 11:56:11.074  2442  2442 D GsmCdmaPhone: EVENT_GET_RADIO_CAPABILITY: phone rc: {mPhoneId = 0 mVersion=1 mSession=0 mPhase=0 mRadioAccessFamily=81928 mLogicModemId=0 mStatus=1}
+07-10 11:56:11.074  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 6
+07-10 11:56:11.074  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] Baseband version: 660_GEN_PACK-1.153823.1.154414.1
+07-10 11:56:11.075  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 37
+07-10 11:56:11.076  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 50
+07-10 11:56:11.076  2442  2442 D QtiGsmCdmaPhone: EVENT_OEM_HOOK_SERVICE_READY received
+07-10 11:56:11.076  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.076  2442  2442 D PhoneSwitcher: handle event - 111
+07-10 11:56:11.084  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 1
+07-10 11:56:11.084  2442  2442 I QtiRilInterface: getMaxDataAllowed maxData = 2 exception: null
+07-10 11:56:11.091  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 1
+07-10 11:56:11.092  2442  2442 I QtiRilInterface: getLpluslSupportStatus: true exception: null
+07-10 11:56:11.092  2442  2442 D QtiDdsSwitchController: updateLplusLStatus - status: true
+07-10 11:56:11.092  2442  2442 D QtiDdsSwitchController: Register for call state change on phone: 0
+07-10 11:56:11.092  2442  2442 D QtiUiccCardProvisioner:  query  provision info, card state[0] = CARDSTATE_ABSENT
+07-10 11:56:11.092  2442  2442 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+07-10 11:56:11.092  2442  2442 D SST     : handlPollStateResultMessage: GsmSST setDataRegState=1 regState=2 dataRadioTechnology=0
+07-10 11:56:11.092  2442  2442 D SST     : handlPollVoiceRegResultMessage: regState=2 radioTechnology=0
+07-10 11:56:11.092  2442  2442 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+07-10 11:56:11.095  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.095  2442  2442 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=1 mNewMaxDataCalls=20 oldReasonDataDenied=-1 mNewReasonDataDenied=0
+07-10 11:56:11.095  2442  2442 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=true hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
+07-10 11:56:11.095  2442  2442 D SST     : updateSpnDisplay: radio is on but out of service, set plmn='No service'
+07-10 11:56:11.098  2442  2442 D SST     : updateSpnDisplay: changed sending intent rule=0 showPlmn='true' plmn='No service' showSpn='false' spn='' dataSpn='' subId='2147483643'
+07-10 11:56:11.102  2442  2442 D SubscriptionController: [setCarrierText]+ text:No service subId:2147483643
+07-10 11:56:11.105  2442  2462 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.107  2442  2442 D SubscriptionController: notifySubscriptionInfoChanged:
+07-10 11:56:11.108  1978  2258 D TelephonyRegistry: notifySubscriptionInfoChanged: first invocation mRecords.size=22
+07-10 11:56:11.110  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.111  2442  2460 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.115  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.alpha value:  propVal=
+07-10 11:56:11.116  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.numeric value:  propVal=
+07-10 11:56:11.116  2442  2462 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.119  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.119  2442  2442 D SST     : operatorNumeric  is invalid
+07-10 11:56:11.119  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.iso-country value:  propVal=
+07-10 11:56:11.120  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.isroaming value: false propVal=false
+07-10 11:56:11.121  2442  2442 D SST     : Broadcasting ServiceState : {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}
+07-10 11:56:11.122  2442  2442 D DefaultPhoneNotifier: nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@9885463 ss={mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0} sender=Handler (com.qualcomm.qti.internal.telephony.QtiGsmCdmaPhone) {544860} phondId=0 subId=2147483643
+07-10 11:56:11.124  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.126  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.126  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.131  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.140  2442  2442 D SST     : pollState: modemTriggered=true
+07-10 11:56:11.141  2442  2442 D RILJ    : [3683]> OPERATOR [SUB0]
+07-10 11:56:11.141  2442  2442 D RILJ    : [3684]> DATA_REGISTRATION_STATE [SUB0]
+07-10 11:56:11.142  2442  2601 D RILJ    : [3683]< OPERATOR {, , } [SUB0]
+07-10 11:56:11.143  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:11.144  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.146  2442  2442 D RILJ    : [3685]> VOICE_REGISTRATION_STATE [SUB0]
+07-10 11:56:11.146  2442  2601 D RILJ    : [3684]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:11.149  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:11.149  2442  2442 D RILJ    : [3686]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+07-10 11:56:11.150  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.150  2442  2601 D RILJ    : [3685]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:11.152  2442  2601 D RILJ    : [3686]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+07-10 11:56:11.153  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.156  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.156  1978  2975 W SignalStrength: isWCDMA tech=0
+07-10 11:56:11.180  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 34
+07-10 11:56:11.180  2442  2442 D SST     : pollState: modemTriggered=true
+07-10 11:56:11.181  2442  2442 D RILJ    : [3687]> OPERATOR [SUB0]
+07-10 11:56:11.182  2442  2442 D RILJ    : [3688]> DATA_REGISTRATION_STATE [SUB0]
+07-10 11:56:11.182  2442  2442 D RILJ    : [3689]> VOICE_REGISTRATION_STATE [SUB0]
+07-10 11:56:11.183  2442  2601 D RILJ    : [3687]< OPERATOR {, , } [SUB0]
+07-10 11:56:11.183  2442  2442 D RILJ    : [3690]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+07-10 11:56:11.183  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:11.184  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:11.184  2442  2442 D SST     : mDeviceShuttingDown=false, mDesiredPowerState=true, getRadioState=RADIO_ON, mPowerOffDelayNeed=true, mAlarmSwitch=false, mRadioDisabledByCarrier=false
+07-10 11:56:11.184  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:11.184  2442  2442 D SST     : pollState: modemTriggered=true
+07-10 11:56:11.185  2442  2442 D RILJ    : [3691]> OPERATOR [SUB0]
+07-10 11:56:11.186  2442  2601 D RILJ    : [3688]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:11.187  2442  2442 D RILJ    : [3692]> DATA_REGISTRATION_STATE [SUB0]
+07-10 11:56:11.188  2442  2442 D RILJ    : [3693]> VOICE_REGISTRATION_STATE [SUB0]
+07-10 11:56:11.188  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:11.188  2442  2442 D RILJ    : [3694]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+07-10 11:56:11.189  2442  2442 D RILJ    : [3695]> GET_CURRENT_CALLS [SUB0]
+07-10 11:56:11.190  2442  2442 D RILJ    : [3696]> RIL_REQUEST_IMS_REGISTRATION_STATE [SUB0]
+07-10 11:56:11.191  2442  2442 D RILJ    : [3697]> RIL_REQUEST_CDMA_GET_SUBSCRIPTION_SOURCE [SUB0]
+07-10 11:56:11.191  2442  2442 D IccCardProxy: setExternalState: !override and newstate unchanged from UNKNOWN
+07-10 11:56:11.191  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 5
+07-10 11:56:11.191  2442  2442 D CdmaSSM : getcdmasubscriptionSource: 0
+07-10 11:56:11.191  2442  2442 D QtiGsmCdmaPhone:  mCdmaNVSubscriptionSource:  -1 newSubscriptionSource:  0
+07-10 11:56:11.191  2442  2442 E QtiGsmCdmaPhone:  handleNVChanged: isNVReady: false
+07-10 11:56:11.191  2442  2442 D QtiSubscriptionInfoUpdater: updateNVRecord, isNVReady: false slotId: 0
+07-10 11:56:11.191  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] Event EVENT_RADIO_ON Received
+07-10 11:56:11.192  2442  2442 D RILJ    : [3698]> RIL_REQUEST_VOICE_RADIO_TECH [SUB0]
+07-10 11:56:11.193  2442  2601 D RILJ    : [3689]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:11.193  2442  2601 D RILJ    : [3690]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+07-10 11:56:11.193  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.193  2442  2442 D PhoneSwitcher: handle event - 103
+07-10 11:56:11.194  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.195  2442  2868 D QtiSubscriptionInfoUpdater:  handleMessage: EVENT:  101
+07-10 11:56:11.195  2442  2601 D RILJ    : [3691]< OPERATOR {, , } [SUB0]
+07-10 11:56:11.195  2442  2868 D SubscriptionController: [getSubInfoUsingSlotIndexWithCheck]+ slotIndex:0
+07-10 11:56:11.196  2442  2442 D PhoneSwitcher: evaluating due to netRequest default 0->2 phone[0] 0->2147483643
+07-10 11:56:11.197  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.197  2442  2442 D PhoneSwitcher: InformDdsToRil rild= 0, DDS=0
+07-10 11:56:11.197  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: dds phoneId: 0 reason: 0
+07-10 11:56:11.199  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:11.201  2442  2601 D RILJ    : [3692]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:11.205  1313  3327 E RILC    : responseInt: Invalid response
+07-10 11:56:11.206  2442  2601 D RILJ    : [3697]< RIL_REQUEST_CDMA_GET_SUBSCRIPTION_SOURCE error 6 [SUB0]
+07-10 11:56:11.206  2442  2601 D RilRequest: [3697]< RIL_REQUEST_CDMA_GET_SUBSCRIPTION_SOURCE error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret={-1}
+07-10 11:56:11.208  1313  1630 I RILQ    : (0/1313):RIL[0][(1313,1630)] qcril_qmi_nas_reset_data_snapshot_cache_and_timer: Resetting snapshot timer
+07-10 11:56:11.210  2442  2601 D RILJ    : [3693]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+07-10 11:56:11.211  2442  2601 D RILJ    : [3695]< GET_CURRENT_CALLS {} [SUB0]
+07-10 11:56:11.212  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+07-10 11:56:11.212  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.212  2442  2442 D PhoneSwitcher: handle event - 103
+07-10 11:56:11.212  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.213  2442  2442 D PhoneSwitcher: evaluating due to netRequest
+07-10 11:56:11.215  2442  2601 D RILJ    : [3694]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+07-10 11:56:11.216  2442  2601 D RILJ    : [3698]< RIL_REQUEST_VOICE_RADIO_TECH {3} [SUB0]
+07-10 11:56:11.218  2442  2868 D SubscriptionController: [getSubInfoUsingSlotIndex]- null info return
+07-10 11:56:11.220  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+07-10 11:56:11.220  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.220  2442  2442 D PhoneSwitcher: handle event - 103
+07-10 11:56:11.221  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.221  2442  2442 D PhoneSwitcher: evaluating due to netRequest
+07-10 11:56:11.221  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.221  2442  2442 D PhoneSwitcher: InformDdsToRil rild= 0, DDS=0
+07-10 11:56:11.221  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: dds phoneId: 0 reason: 0
+07-10 11:56:11.232  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+07-10 11:56:11.232  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.232  2442  2442 D PhoneSwitcher: handle event - 103
+07-10 11:56:11.233  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.233  2442  2442 D PhoneSwitcher: evaluating due to netRequest
+07-10 11:56:11.233  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.233  2442  2442 D PhoneSwitcher: InformDdsToRil rild= 0, DDS=0
+07-10 11:56:11.233  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: dds phoneId: 0 reason: 0
+07-10 11:56:11.236  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+07-10 11:56:11.236  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.236  2442  2442 D PhoneSwitcher: handle event - 103
+07-10 11:56:11.237  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.237  2442  2442 D PhoneSwitcher: evaluating due to netRequest
+07-10 11:56:11.237  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.237  2442  2442 D PhoneSwitcher: InformDdsToRil rild= 0, DDS=0
+07-10 11:56:11.238  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: dds phoneId: 0 reason: 0
+07-10 11:56:11.242  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+07-10 11:56:11.243  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:11.243  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:11.244  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:11.244  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:11.247  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:11.278  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 30
+07-10 11:56:11.278  2442  2442 D GsmSMSDispatcher: GsmSMSDispatcher: subId = 2147483643 slotId = 0
+07-10 11:56:11.278  2442  2442 D IccCardProxy: Icc changed. Reregistering.
+07-10 11:56:11.279  2442  2442 D IccCardProxy: setExternalState: set mPhoneId=0 mExternalState=ABSENT
+07-10 11:56:11.279  2442  2442 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.state value: ABSENT propVal=ABSENT
+07-10 11:56:11.281  2442  2442 D IccCardProxy: broadcastIccStateChangedIntent intent ACTION_SIM_STATE_CHANGED value=ABSENT reason=null for mPhoneId=0
+07-10 11:56:11.283  2442  2442 D QtiGsmDCT: [0]QtiDcTracker handleMessage msg={ when=-210ms what=270369 obj=android.os.AsyncResult@52ea34c target=com.qualcomm.qti.internal.telephony.dataconnection.QtiDcTracker }
+07-10 11:56:11.283  2442  2442 D QtiUiccCardProvisioner: updateIccAvailability, card state[0] = CARDSTATE_ABSENT
+07-10 11:56:11.283  2442  2442 D QtiRadioCapabilityController: handleRadioCapsAvailable... 
+07-10 11:56:11.283  2442  2442 D QtiRadioCapabilityController: updateStackBindingIfRequired
+07-10 11:56:11.284  2442  2442 E QtiRadioCapabilityController: No need to update Stack Bindingm prop = nw_mode ph count = 1
+07-10 11:56:11.284  2442  2442 D QtiRadioCapabilityController: notifyRadioCapsUpdated: radio caps updated false
+07-10 11:56:11.286  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.288  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.293  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.298  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.300  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.304  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.306  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.306  2442  2442 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2147483643 subList=null subInfo=null
+07-10 11:56:11.307  2442  2442 I ImsManager: Creating ImsService using ImsResolver
+07-10 11:56:11.313  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.318  2442  2442 I chatty  : uid=1001(radio) com.android.phone identical 5 lines
+07-10 11:56:11.319  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.348  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.348  2442  2442 D QtiGsmDCT: [0]SubscriptionListener.onSubscriptionInfoChanged
+07-10 11:56:11.349  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.349  2442  2442 D PhoneSwitcher: handle event - 102
+07-10 11:56:11.350  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.350  2442  2442 D SST     : SubscriptionListener.onSubscriptionInfoChanged
+07-10 11:56:11.350  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] updateVoiceMail countVoiceMessages = 0 subId 2147483643
+07-10 11:56:11.350  2442  2442 E Phone   : setVoiceMessageCount in sharedPreference: invalid subId 2147483643
+07-10 11:56:11.350  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.351  2442  2442 D ImsPhone: handleMessage what=57
+07-10 11:56:11.351  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.351  2442  2442 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+07-10 11:56:11.352  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.352  2442  2442 D PhoneSwitcher: handle event - 110
+07-10 11:56:11.353  2442  2442 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+07-10 11:56:11.353  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] handleMessage what=24
+07-10 11:56:11.353  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] getImsService
+07-10 11:56:11.353  2442  2442 D ImsPhoneCallTracker: [ImsPhoneCallTracker] Status Changed: 2
+07-10 11:56:11.365  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] processRequest: ImsRadioImpl::processRequest - Error 0
+07-10 11:56:11.365  2442  2442 D ImsManager: RegistrationListenerProxy registered.
+07-10 11:56:11.365  2442  2442 D ImsManager: Local registration listener added: com.android.internal.telephony.imsphone.ImsPhoneCallTracker$4@f4ac576
+07-10 11:56:11.365  2442  2442 D ImsManager: open: Session started and registration listener added.
+07-10 11:56:11.366  2442  2442 D ImsEcbm : ImsEcbm created
+07-10 11:56:11.369  1313  1313 E RILQ    : (0/1313): RIL[0][rild(1313,1313)] processRequest: ImsRadioImpl::processRequest - Error 0
+07-10 11:56:11.370  2442  2442 D ImsMultiEndpoint: ImsMultiEndpoint created
+07-10 11:56:11.370  2442  2442 D ImsMultiEndpoint: setExternalCallStateListener
+07-10 11:56:11.372  2442  2442 D SST     : handlPollStateResultMessage: GsmSST setDataRegState=1 regState=2 dataRadioTechnology=0
+07-10 11:56:11.372  2442  2442 D CdmaSSM : CDMA_SUBSCRIPTION_SOURCE event = 2
+07-10 11:56:11.372  2442  2442 W CdmaSSM : Unable to get CDMA Subscription Source, Exception: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED, result: [I@a443777
+07-10 11:56:11.372  2442  2442 D SST     : handlPollVoiceRegResultMessage: regState=2 radioTechnology=0
+07-10 11:56:11.372  2442  2442 D GsmCdmaCallTracker: Event EVENT_POLL_CALLS_RESULT Received
+07-10 11:56:11.372  2442  2442 D GsmCdmaCallTracker: [GsmCdmaCallTracker] update phone state, old=IDLE new=IDLE
+07-10 11:56:11.372  2442  2442 E RIL_ImsSms: IMS State query failed with exp com.android.internal.telephony.CommandException: INVALID_MODEM_STATE
+07-10 11:56:11.372  2442  2442 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+07-10 11:56:11.374  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.374  2442  2442 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+07-10 11:56:11.374  2442  2442 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
+07-10 11:56:11.374  2442  2442 D QtiGsmCdmaPhone: handleMessage: Event: 40
+07-10 11:56:11.374  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] EVENT_REQUEST_VOICE_RADIO_TECH_DONE: newVoiceTech=3
+07-10 11:56:11.374  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] phoneObjectUpdater: newVoiceRadioTech=3
+07-10 11:56:11.374  2442  2442 D GsmCdmaPhone: [GsmCdmaPhone] phoneObjectUpdater: No change ignore, newVoiceRadioTech=3 mActivePhone=GSM
+07-10 11:56:11.374  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:11.374  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:11.375  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:11.375  2442  2442 D IccCardProxy: setExternalState: !override and newstate unchanged from ABSENT
+07-10 11:56:11.375  2442  2442 D SAT     : [0]onSimAbsent, reset activation state to UNKNOWN
+07-10 11:56:11.375  2442  2442 D SAT     : [0]setVoiceActivationState=0
+07-10 11:56:11.376  2442  2442 D SAT     : [0]setDataActivationState=0
+07-10 11:56:11.376  2442  2442 D QtiSimPhoneBookAdnRecordCache: ACTION_SIM_STATE_CHANGED intent received simStatus: ABSENTphoneId: 0
+07-10 11:56:11.377  2442  2442 D QtiSimPhoneBookAdnRecordCache: invalidateAdnCache
+07-10 11:56:11.377  2442  2442 D SubscriptionInfoUpdater: [Receiver]+
+07-10 11:56:11.377  2442  2442 D SubscriptionInfoUpdater: Action: android.intent.action.SIM_STATE_CHANGED
+07-10 11:56:11.377  2442  2442 D SubscriptionInfoUpdater: slotIndex: 0
+07-10 11:56:11.377  2442  2442 D SubscriptionInfoUpdater: simStatus: ABSENT
+07-10 11:56:11.377  2442  2442 D SubscriptionInfoUpdater: [Receiver]-
+07-10 11:56:11.377  2442  2868 D QtiSubscriptionInfoUpdater:  handleMessage: EVENT:  4
+07-10 11:56:11.377  2442  2442 D PhoneSwitcher: mSimStateIntentReceiver: phoneId = 0 value = ABSENT
+07-10 11:56:11.377  2442  2868 D SubscriptionInfoUpdater: All IccIds query complete
+07-10 11:56:11.377  2442  2868 D SubscriptionInfoUpdater: updateSubscriptionInfoByIccId:+ Start
+07-10 11:56:11.377  2442  2868 D SubscriptionInfoUpdater: insertedSimCount = 0
+07-10 11:56:11.377  2442  2868 D SubscriptionController: [getSubInfoUsingSlotIndexWithCheck]+ slotIndex:0
+07-10 11:56:11.383  2442  2868 D SubscriptionController: [getSubInfoUsingSlotIndex]- null info return
+07-10 11:56:11.383  2442  2868 D SubscriptionInfoUpdater: updateSubscriptionInfoByIccId: No SIM in slot 0 last time
+07-10 11:56:11.383  2442  2868 D SubscriptionInfoUpdater: updateSubscriptionInfoByIccId: oldIccId[0] = , sIccId[0] = 
+07-10 11:56:11.383  2442  2868 D SubscriptionInfoUpdater: updateSubscriptionInfoByIccId: No SIM inserted in slot 0 this time
+07-10 11:56:11.383  2442  2868 D SubscriptionInfoUpdater: updateSubscriptionInfoByIccId: sInsertSimState[0] = -99
+07-10 11:56:11.384  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.385  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.387  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.387  2442  2442 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2147483643 subList=null subInfo=null
+07-10 11:56:11.389  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.390  2442  2868 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.390  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.391  2442  2868 D SubscriptionInfoUpdater: updateSubscriptionInfoByIccId: nSubCount = 0
+07-10 11:56:11.391  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.394  2442  2442 I chatty  : uid=1001(radio) com.android.phone identical 3 lines
+07-10 11:56:11.395  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.393  2442  2868 D QtiSubscriptionController: isVoiceCallActive: false
+07-10 11:56:11.397  2442  2868 D SubscriptionController: [updateAllDataConnectionTrackers] sPhones.length=1
+07-10 11:56:11.398  2442  2868 D SubscriptionController: [updateAllDataConnectionTrackers] phoneId=0
+07-10 11:56:11.398  2442  2868 D QtiGsmDCT: [0]update sub = 2147483643
+07-10 11:56:11.398  2442  2868 D QtiGsmDCT: [0]update(): Active DDS, register for all events now!
+07-10 11:56:11.399  2442  2868 D GsmCdmaPhone: [GsmCdmaPhone] updateCurrentCarrierInProvider: mSubId = 2147483643 currentDds = 2 operatorNumeric = null
+07-10 11:56:11.399  2442  2868 D SubscriptionController: [broadcastDefaultDataSubIdChanged] subId=2
+07-10 11:56:11.402  2442  2868 D SubscriptionController: notifySubscriptionInfoChanged:
+07-10 11:56:11.405  2442  3365 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.405  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.405  2442  3264 D ImsManager: registrationDisconnected :: imsReasonInfoImsReasonInfo :: {1000, 0, null}
+07-10 11:56:11.405  2442  2442 D PhoneSwitcher: handle event - 110
+07-10 11:56:11.406  2442  3264 D ImsPhoneCallTracker: [ImsPhoneCallTracker] onImsDisconnected imsReasonInfo=ImsReasonInfo :: {1000, 0, null}
+07-10 11:56:11.406  2442  3264 D ImsPhoneCallTracker: [ImsPhoneCallTracker] Resetting Capabilities...
+07-10 11:56:11.406  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.406  2442  3264 D ImsPhone: updateDataServiceState: defSs = {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0} imsSs = {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}
+07-10 11:56:11.406  2442  2442 D PhoneSwitcher: handle event - 110
+07-10 11:56:11.406  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.406  2442  2442 D PhoneSwitcher: handle event - 110
+07-10 11:56:11.406  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.407  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.407  2442  2442 D PhoneSwitcher: handle event - 110
+07-10 11:56:11.407  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.407  2442  2442 D PhoneSwitcher: handle event - 110
+07-10 11:56:11.408  2442  2442 E CarrierActionAgent: [0]Unsupported action: 7
+07-10 11:56:11.408  2442  2442 D CarrierActionAgent: [0]EVENT_SIM_STATE_CHANGED status: ABSENT
+07-10 11:56:11.409  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.410  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.411  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.411  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.411  2442  2442 D PhoneSwitcher: handle event - 102
+07-10 11:56:11.411  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.412  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.412  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.413  2442  2442 D QtiGsmDCT: [0]SubscriptionListener.onSubscriptionInfoChanged
+07-10 11:56:11.413  2442  3365 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.414  2442  2442 D SST     : SubscriptionListener.onSubscriptionInfoChanged
+07-10 11:56:11.415  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.415  2442  2460 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.416  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.421  2442  2460 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.424  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.426  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.427  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.427  2442  2442 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2147483643 subList=null subInfo=null
+07-10 11:56:11.428  2442  3365 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.428  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.435  2442  2442 I chatty  : uid=1001(radio) com.android.phone identical 5 lines
+07-10 11:56:11.436  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.440  2442  2868 D SubscriptionInfoUpdater: updateSubscriptionInfoByIccId:- SubscriptionInfo update complete
+07-10 11:56:11.440  2442  2868 D QtiSubscriptionInfoUpdater: SIM state changed, Updating user preference 
+07-10 11:56:11.446  2442  2868 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.446  2442  2868 I QtiSubscriptionController: updateUserPreferences: Subscription list is empty
+07-10 11:56:11.450  2442  2868 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.451  2442  2868 D SubscriptionController: [clearVoiceSubId] records: null
+07-10 11:56:11.451  2442  2868 D SubscriptionController: [shouldDefaultBeCleared: subId] 2147483643
+07-10 11:56:11.451  2442  2868 D SubscriptionController: [shouldDefaultBeCleared] return true no records subId=2147483643
+07-10 11:56:11.451  2442  2868 D SubscriptionController: [clearVoiceSubId] clear voice sub id
+07-10 11:56:11.452  2442  2868 D SubscriptionController: [setDefaultVoiceSubId] subId=2147483643
+07-10 11:56:11.453  2442  2868 D SubscriptionController: [broadcastDefaultVoiceSubIdChanged] subId=2147483643
+07-10 11:56:11.455  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.455  2442  2442 D PhoneSwitcher: handle event - 101
+07-10 11:56:11.456  2442  2442 D PhoneSwitcher: isAnyVoiceCallActiveOnDevice: false
+07-10 11:56:11.456  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.458  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.460  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.466  2442  2442 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:11.467  2442  2442 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2147483643 subList=null subInfo=null
+07-10 11:56:11.469  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.482  2442  2442 I chatty  : uid=1001(radio) com.android.phone identical 5 lines
+07-10 11:56:11.484  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.485  2442  2868 D SubscriptionController: [setDefaultFallbackSubId] subId=2147483643
+07-10 11:56:11.486  2442  2868 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.486  2442  2868 D SubscriptionController: [setDefaultFallbackSubId] set mDefaultFallbackSubId=2147483643
+07-10 11:56:11.489  2442  2868 D SubscriptionController: [setDefaultFallbackSubId] broadcast default subId changed phoneId=0 subId=2147483643
+07-10 11:56:11.497  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.508  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 2 lines
+07-10 11:56:11.514  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.635  2442  2735 D GsmCellBroadcastHandler: mWakeLock released
+07-10 11:56:11.635  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:11.637  2442  2744 D CellBroadcastHandler: mWakeLock released
+07-10 11:56:11.638  2442  2747 D CdmaServiceCategoryProgramHandler: mWakeLock released
+07-10 11:56:11.714  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:11.779  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:11.811  2442  2442 I chatty  : uid=1001(radio) com.android.phone identical 3 lines
+07-10 11:56:11.826  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:11.867  2442  3315 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:11.868  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:11.924  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.063  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:12.086  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=true
+07-10 11:56:12.101  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=true
+07-10 11:56:12.104  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.116  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.126  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:12.140  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.143  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.151  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.160  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.222  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:12.245  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.248  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:12.249  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.261  2442  3315 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:12.261  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.268  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 3 lines
+07-10 11:56:12.278  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.298  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:12.337  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 1 line
+07-10 11:56:12.377  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:12.583  2442  2442 D TelephonyNetworkFactory[0]: not releasing - isApp=false, isAct=false NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:12.584  2442  2442 D TelephonyNetworkFactory[0]: not releasing - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:12.584  2442  2442 D TelephonyNetworkFactory[0]: not releasing - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:12.584  2442  2442 D TelephonyNetworkFactory[0]: not releasing - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:12.612  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.660  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:12.776  2427  2427 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Starting QcrilMsgTunnel Service
+07-10 11:56:12.785  2427  2427 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Attempt to bind service returned with: true
+07-10 11:56:12.789  2427  2427 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Registering for intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:12.823  2442  2712 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:12.824  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:12.825  2427  2427 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcrilMsgTunnelService Connected Successfully (onServiceConnected)
+07-10 11:56:13.110  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:13.657  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:13.708  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:14.104  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:14.114  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:14.389  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 1 line
+07-10 11:56:14.715  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:14.729  2442  3315 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:14.730  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:14.762  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 1 line
+07-10 11:56:14.944  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:15.576  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:15.577  2442  3315 D GsmCdmaPhone: [GsmCdmaPhone] getDataConnectionState apnType=default ret=DISCONNECTED
+07-10 11:56:16.113  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:16.146  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 7 lines
+07-10 11:56:16.147  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:16.352  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.376  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:16.489  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 4 lines
+07-10 11:56:16.495  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:16.650  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.653  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:16.868  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.872  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.872  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:56:16.879  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.880  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.882  2442  2712 D RILJ    : [3699]> RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:16.883  2442  2712 D RILJ    : {.serviceCategory = 4096, .language = 1, .selected = true} [SUB0]
+07-10 11:56:16.889  2442  2601 D RILJ    : [3699]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:16.889  2442  2601 D RilRequest: [3699]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:16.892  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.893  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.895  2442  2712 D RILJ    : [3700]> RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:16.895  2442  2712 D RILJ    : {.serviceCategory = 4097, .language = 1, .selected = true} [SUB0]
+07-10 11:56:16.899  2442  2601 D RILJ    : [3700]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:16.900  2442  2601 D RilRequest: [3700]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:16.903  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.904  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.908  2442  2712 D RILJ    : [3701]> RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:16.908  2442  2712 D RILJ    : {.serviceCategory = 4098, .language = 1, .selected = true} [SUB0]
+07-10 11:56:16.914  2442  2601 D RILJ    : [3701]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:16.915  2442  2601 D RilRequest: [3701]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:16.919  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.920  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.922  2442  2712 D RILJ    : [3702]> RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:16.922  2442  2712 D RILJ    : {.serviceCategory = 4099, .language = 1, .selected = true} [SUB0]
+07-10 11:56:16.926  2442  2601 D RILJ    : [3702]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:16.926  2442  2601 D RilRequest: [3702]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:16.929  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.930  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.939  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.941  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.944  2442  2712 D RILJ    : [3703]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:16.944  2442  2712 D RILJ    : SmsBroadcastConfigInfo: Id [4352,4354] Code [0,255] ENABLED [SUB0]
+07-10 11:56:16.951  2442  2601 D RILJ    : [3703]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:16.951  2442  2601 D RilRequest: [3703]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:16.955  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.957  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.967  2442  2712 D RILJ    : [3704]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:16.967  2442  2712 D RILJ    : SmsBroadcastConfigInfo: Id [4356,4356] Code [0,255] ENABLED [SUB0]
+07-10 11:56:16.972  2442  2601 D RILJ    : [3704]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:16.972  2442  2601 D RilRequest: [3704]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:16.975  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.978  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.985  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:16.987  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:16.989  2442  2712 D RILJ    : [3705]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:16.990  2442  2712 D RILJ    : SmsBroadcastConfigInfo: Id [4370,4370] Code [0,255] ENABLED [SUB0]
+07-10 11:56:16.995  2442  2601 D RILJ    : [3705]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:16.995  2442  2601 D RilRequest: [3705]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.003  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.004  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.006  2442  3315 D RILJ    : [3706]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:17.006  2442  3315 D RILJ    : SmsBroadcastConfigInfo: Id [4371,4372] Code [0,255] ENABLED [SUB0]
+07-10 11:56:17.010  2442  2601 D RILJ    : [3706]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:17.010  2442  2601 D RilRequest: [3706]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.015  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.016  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.019  2442  3315 D RILJ    : [3707]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:17.019  2442  3315 D RILJ    : SmsBroadcastConfigInfo: Id [4373,4378] Code [0,255] ENABLED [SUB0]
+07-10 11:56:17.025  2442  2601 D RILJ    : [3707]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:17.025  2442  2601 D RilRequest: [3707]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.032  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.033  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.038  2442  3315 D RILJ    : [3708]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:17.038  2442  3315 D RILJ    : SmsBroadcastConfigInfo: Id [4379,4379] Code [0,255] ENABLED [SUB0]
+07-10 11:56:17.042  2442  2601 D RILJ    : [3708]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:17.042  2442  2601 D RilRequest: [3708]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.046  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.048  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.052  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.053  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.056  2442  3315 D RILJ    : [3709]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:17.056  2442  3315 D RILJ    : SmsBroadcastConfigInfo: Id [4383,4383] Code [0,255] ENABLED [SUB0]
+07-10 11:56:17.060  2442  2601 D RILJ    : [3709]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:17.060  2442  2601 D RilRequest: [3709]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.064  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.065  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.068  2442  2712 D RILJ    : [3710]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:17.068  2442  2712 D RILJ    : SmsBroadcastConfigInfo: Id [4384,4385] Code [0,255] ENABLED [SUB0]
+07-10 11:56:17.072  2442  2601 D RILJ    : [3710]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:17.072  2442  2601 D RilRequest: [3710]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.077  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.078  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.080  2442  2712 D RILJ    : [3711]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:17.080  2442  2712 D RILJ    : SmsBroadcastConfigInfo: Id [4386,4391] Code [0,255] ENABLED [SUB0]
+07-10 11:56:17.083  2442  2601 D RILJ    : [3711]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:17.083  2442  2601 D RilRequest: [3711]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.087  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.090  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.091  2442  2712 D RILJ    : [3712]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 1 configs :  [SUB0]
+07-10 11:56:17.091  2442  2712 D RILJ    : SmsBroadcastConfigInfo: Id [4392,4392] Code [0,255] ENABLED [SUB0]
+07-10 11:56:17.096  2442  2601 D RILJ    : [3712]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error 6 [SUB0]
+07-10 11:56:17.097  2442  2601 D RilRequest: [3712]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-10 11:56:17.105  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:17.106  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.465  2442  2442 D CAT     : com.android.stk.BootCompletedReceiver: [ACTION_BOOT_COMPLETED]
+07-10 11:56:17.466  2442  2442 D CAT     : com.android.stk.StkAppService: onCreate()+
+07-10 11:56:17.466  2442  2442 D CAT     : com.android.stk.StkAppService: simCount: 1
+07-10 11:56:17.466  2442  2442 D CAT     : com.android.stk.StkAppService: slotId: 0
+07-10 11:56:17.468  2442  2442 D CAT     : com.android.stk.StkAppService: onStart sim id: 0, op: 5, *****
+07-10 11:56:17.468  2442  2442 D CAT     : com.android.stk.StkAppService: mStkService is: -1
+07-10 11:56:17.469  2442  2442 D CAT     : StkAppInstaller: [setAppState]+
+07-10 11:56:17.470  2442  2442 D CAT     : StkAppInstaller: Need not change app state!!
+07-10 11:56:17.470  2442  2442 D CAT     : StkAppInstaller: [setAppState]-
+07-10 11:56:17.471  2442  2442 D CAT     : com.android.stk.StkAppService: onDestroy()
+07-10 11:56:17.496  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:17.579  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:17.750  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:17.762  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.792  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:17.795  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:18.474  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:18.742  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:19.495  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:19.532  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:19.819  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:20.002  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:20.007  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:21.346  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 21 lines
+07-10 11:56:21.348  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:21.484  2442  2442 D RILJ    : [3713]> RIL_REQUEST_GET_ACTIVITY_INFO [SUB0]
+07-10 11:56:21.488  2442  2601 D RILJ    : [3713]< RIL_REQUEST_GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=51954 mSleepTimeMs=5203 mIdleTimeMs=19906 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0} [SUB0]
+07-10 11:56:21.589  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:22.202  2442  2442 D RILJ    : [3714]> RIL_REQUEST_GET_ACTIVITY_INFO [SUB0]
+07-10 11:56:22.647  2442  2712 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:22.647  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:22.658  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:22.738  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:22.925  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:23.049  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:23.066  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:23.090  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:23.092  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:23.094  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:23.099  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:23.099  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:56:23.101  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:23.248  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:23.250  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:23.253  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:23.263  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:23.263  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:56:23.266  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:23.342  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:25.051  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:25.188  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:25.767  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:26.415  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:26.766  2442  2442 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=16, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 55
+07-10 11:56:26.766  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:26.766  2442  2442 D PhoneSwitcher: handle event - 103
+07-10 11:56:26.766  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:26.766  2442  2442 D PhoneSwitcher: evaluating due to netRequest
+07-10 11:56:26.767  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:26.767  2442  2442 D PhoneSwitcher: InformDdsToRil rild= 0, DDS=0
+07-10 11:56:26.767  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: dds phoneId: 0 reason: 0
+07-10 11:56:26.773  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+07-10 11:56:26.777  2427  2427 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:26.777  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:26.777  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:26.777  2427  2427 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+07-10 11:56:26.778  2442  2442 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:26.778  2442  2442 D PhoneSwitcher: handle event - 110
+07-10 11:56:27.140  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:27.289  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:27.291  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:27.370  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:27.440  2442  2442 D RILJ    : [3715]> RIL_REQUEST_GET_ACTIVITY_INFO [SUB0]
+07-10 11:56:27.443  2442  2601 D RILJ    : [3715]< RIL_REQUEST_GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=57909 mSleepTimeMs=1096 mIdleTimeMs=4860 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0} [SUB0]
+07-10 11:56:27.460  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:27.496  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:27.665  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:27.773  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:27.918  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:27.930  2442  3365 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:28.149  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:28.269  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:28.307  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 4 lines
+07-10 11:56:28.310  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:28.312  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:28.319  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:28.327  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:28.328  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:28.330  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:29.607  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 2 lines
+07-10 11:56:29.610  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:29.698  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:29.701  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:29.703  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:29.705  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:29.717  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 4 lines
+07-10 11:56:29.721  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:29.727  3084  3353 D TelephonyManager: getCellLocation returning null due to NullPointerException java.lang.NullPointerException: Attempt to invoke virtual method 'boolean android.os.Bundle.isEmpty()' on a null object reference
+07-10 11:56:30.257  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:30.260  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:30.297  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:30.757  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 7 lines
+07-10 11:56:30.918  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:30.929  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:31.097  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.281  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 5 lines
+07-10 11:56:31.317  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.591  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:31.617  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.628  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 5 lines
+07-10 11:56:31.634  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.635  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.692  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 11 lines
+07-10 11:56:31.693  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.693  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.779  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 2 lines
+07-10 11:56:31.781  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.784  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:31.785  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.923  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 4 lines
+07-10 11:56:31.925  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.929  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.938  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:31.939  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:56:31.950  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:32.236  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Starting QcrilMsgTunnel Service
+07-10 11:56:32.263  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Attempt to bind service returned with: true
+07-10 11:56:32.266  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Registering for intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+07-10 11:56:32.267  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcrilMsgTunnelService Connected Successfully (onServiceConnected)
+07-10 11:56:32.267  2442  2442 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Calling onQcRilHookReady callback
+07-10 11:56:32.274  2442  2442 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:32.280  2442  2712 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: QCRIL send data enable status DONE!
+07-10 11:56:32.282  2442  2712 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: QCRIL send data roaming enable status DONE!
+07-10 11:56:32.341  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:32.623  2442  2712 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:32.623  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:33.647  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:33.715  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 1 line
+07-10 11:56:33.717  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:33.718  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:33.721  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:33.723  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:33.727  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:33.730  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:33.732  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:33.733  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 1 line
+07-10 11:56:34.073  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:34.194  2442  3315 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:34.195  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:34.257  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 2 lines
+07-10 11:56:34.476  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:34.922  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:35.682  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:35.829  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:35.830  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:35.840  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:36.234  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:36.236  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:36.241  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:36.425  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 4 lines
+07-10 11:56:36.426  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:36.729  2442  2712 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:56:36.729  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:37.665  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 3 lines
+07-10 11:56:37.668  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:38.006  2468  2468 I ImsManager: Creating ImsService using ImsResolver
+07-10 11:56:38.029  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:38.035  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:38.057  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:38.163  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:38.259  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:38.277  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:38.278  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:38.304  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:38.310  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 2 lines
+07-10 11:56:38.312  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:38.323  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:38.329  2442  3315 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:56:38.332  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:38.338  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:40.042  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 11 lines
+07-10 11:56:40.658  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:40.666  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:40.673  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:40.678  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:40.808  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:40.908  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:40.969  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 expire 4 lines
+07-10 11:56:40.976  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:41.238  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:41.640  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:41.647  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:41.657  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:41.666  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:41.679  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 4 lines
+07-10 11:56:41.686  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:41.717  3084  3298 D TelephonyManager: getCellLocation returning null due to NullPointerException java.lang.NullPointerException: Attempt to invoke virtual method 'boolean android.os.Bundle.isEmpty()' on a null object reference
+07-10 11:56:41.994  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:42.103  2442  3365 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.128  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:42.143  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.143  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 1 line
+07-10 11:56:42.153  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.153  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:42.158  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.179  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:42.180  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:42.182  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:42.183  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:42.183  2442  2442 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=16, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-10 11:56:42.201  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.277  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.283  2442  2442 D QtiGsmDCT: [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+07-10 11:56:42.288  2442  2442 D QtiGsmDCT: [0]Wifi state changed
+07-10 11:56:42.288  2442  2442 D QtiGsmDCT: [0]WIFI_STATE_CHANGED_ACTION: enabled=false mIsWifiConnected=false
+07-10 11:56:42.306  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.383  2442  3365 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:56:42.393  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.410  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.422  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 4 lines
+07-10 11:56:42.428  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.438  3084  6248 D TelephonyManager: getCellLocation returning null due to NullPointerException java.lang.NullPointerException: Attempt to invoke virtual method 'boolean android.os.Bundle.isEmpty()' on a null object reference
+07-10 11:56:42.617  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.622  2442  2442 D QtiGsmDCT: [0]Wifi state changed
+07-10 11:56:42.622  2442  2442 D QtiGsmDCT: [0]WIFI_STATE_CHANGED_ACTION: enabled=false mIsWifiConnected=false
+07-10 11:56:42.854  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.912  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:56:42.931  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:01.621  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 4 lines
+07-10 11:57:01.666  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:16.694  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:23.590  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:24.498  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:25.222  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:25.229  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:25.231  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:25.243  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:25.247  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:25.249  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:27.364  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:30.091  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:43.103  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:43.169  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 4 lines
+07-10 11:57:43.174  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:44.072  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:47.008  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:47.121  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:49.242  2442  2442 D QtiGsmDCT: [0]Wifi state changed
+07-10 11:57:49.242  2442  2442 D QtiGsmDCT: [0]WIFI_STATE_CHANGED_ACTION: enabled=false mIsWifiConnected=false
+07-10 11:57:49.250  2442  2442 D QtiGsmDCT: [0]Wifi state changed
+07-10 11:57:49.250  2442  2442 D QtiGsmDCT: [0]WIFI_STATE_CHANGED_ACTION: enabled=true mIsWifiConnected=false
+07-10 11:57:50.669  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:51.458  2442  3315 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:57:51.462  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:51.463  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:51.656  2442  3315 D SubscriptionController: [getPhoneId] asked for default subId=2147483643
+07-10 11:57:51.656  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:54.082  2442  3315 I chatty  : uid=1001(radio) Binder:2442_6 identical 1 line
+07-10 11:57:56.340  2442  3315 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:57:59.901  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:58:00.203  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:58:00.536  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:58:01.236  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:01.237  2442  2712 I chatty  : uid=1001(radio) Binder:2442_3 identical 1 line
+07-10 11:58:01.239  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:08.499  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:58:08.503  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:08.517  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:08.532  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:58:08.534  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:08.536  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:11.975  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:58:11.978  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:11.982  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:22.974  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:22.989  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:58:23.085  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:23.085  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:58:23.092  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:23.092  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:58:23.253  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:23.254  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=1 subList=null subInfo=null
+07-10 11:58:23.258  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:23.259  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=1 subList=null subInfo=null
+07-10 11:58:23.406  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:23.406  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:58:23.410  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:23.410  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:58:26.613  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0
+07-10 11:58:26.615  2442  2712 D QtiSubscriptionController: getPhoneId, received dummy subId 2147483643
+07-10 11:58:26.618  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:26.622  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:26.622  2442  2712 D SubscriptionController: [getActiveSubInfoForSubscriber]- subId=2 subList=null subInfo=null
+07-10 11:58:26.625  2442  2712 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+07-10 11:58:26.701  2442  2712 D SubscriptionController: [getPhoneId]- no sims, returning default phoneId=0

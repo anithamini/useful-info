@@ -1,0 +1,33 @@
+
+------------------AT commands for SMS--------------------
+
+cu -l /dev/ttyUSB1
+o:connected
+i:AT
+o:OK
+i:AT+CMGS
+o:ERROR
+i:AT+CMGF=1	#For Single message
+o:OK
+i:AT+CMGF="ALL"	#For all messages
+o:OK
+i:AT+CMGS="Mobile Number"
+o:>hello
+   +CMGS:152
+   OK
+
+i:AT+CPIN=8560
+o:
+i:AT+CPIN=8560
+o:OK
+  Call Ready
+  SMS Ready
+============
+1.echo "Test message sent from my RPi" | sudo gammu --sendsms TEXT 00447xxxxxxxxx
+
+===============
+
+------------------Messages related------------
+sendsms +phone number "message"     =>sent sms to given number
+readmessages                        => prints a list of messages received with an index number
+deletemessage 0                     =>deletes the supplied message index number

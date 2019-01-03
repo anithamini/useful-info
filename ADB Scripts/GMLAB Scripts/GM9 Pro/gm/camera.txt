@@ -1,0 +1,11 @@
+GM9 Pro -T029
+
+camera issues
+======================
+
+
+1)delay in launching the camera(black screen is visible for few seconds while launching camera)
+2)delay in capturing picture
+3)GPS navigation is also recording while recording video
+4)Unable to get/slide the last picture during Slide show process 
+5)unable to get the notification for a call when DUt is recording mode or camcorder mode

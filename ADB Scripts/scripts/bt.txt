@@ -1,0 +1,253 @@
+Bluetooth Status
+  enabled: true
+  state: ON
+  address: 7A:7D:46:00:00:D4
+  name: GM8 go
+  time since enabled: 00:00:03.236
+
+Enable log:
+  03-18 02:19:15  Enabled  by com.android.settings
+  03-18 02:19:22 Disabled  by com.android.settings
+  03-18 02:19:28  Enabled  by com.android.settings
+  03-18 02:19:34 Disabled  by com.android.settings
+  03-18 02:19:40  Enabled  by com.android.settings
+  03-18 02:19:47 Disabled  by com.android.settings
+  03-18 02:28:33  Enabled  by com.android.settings
+  03-18 02:28:40 Disabled  by com.android.settings
+  03-18 02:28:46  Enabled  by com.android.settings
+  03-18 02:28:52 Disabled  by com.android.settings
+  03-18 02:28:58  Enabled  by com.android.settings
+  03-18 02:29:05 Disabled  by com.android.settings
+  03-18 03:28:59  Enabled  by com.android.settings
+  03-18 03:29:05 Disabled  by com.android.settings
+  03-18 03:29:12  Enabled  by com.android.settings
+  03-18 03:29:18 Disabled  by com.android.settings
+  03-18 03:29:24  Enabled  by com.android.settings
+  03-18 03:29:30 Disabled  by com.android.settings
+  03-18 03:29:37  Enabled  by com.android.settings
+  03-18 03:29:43 Disabled  by com.android.settings
+  03-18 03:29:49  Enabled  by com.android.settings
+Bluetooth crashed 0 times
+
+1 BLE App registered:
+  com.google.android.gms
+
+Bonded devices:
+
+Profile: BtGatt.GattService
+  mAdvertisingServiceUuids:
+  mMaxScanFilters: 0
+
+GATT Scanner Map
+  Entries: 1
+
+  com.google.uid.shared:10015 (Registered)
+  LE scans (started/stopped)         : 2 / 0
+  Scan time in ms (min/max/avg/total): 1673 / 1673 / 836 / 1673
+  Total number of results            : 0
+  Ongoing scans                      :
+    2018/03/18 03:29:51 - 1673ms Filter 0 results (5)
+    2018/03/18 03:29:51 - 1599ms Filter 0 results (6)
+  Application ID                     : 5
+  UUID                               : 39c8e79a-3dd7-4e13-83e7-8d5a6df505d9
+  Connections: 0
+
+GATT Client Map
+  Entries: 0
+
+GATT Server Map
+  Entries: 0
+
+GATT Handle Map
+  Entries: 0
+  Requests: 0
+
+Profile: HeadsetService
+  mCurrentDevice: null
+  mTargetDevice: null
+  mIncomingDevice: null
+  mActiveScoDevice: null
+  mMultiDisconnectDevice: null
+  mVirtualCallStarted: false
+  mVoiceRecognitionStarted: false
+  mWaitingForVoiceRecognition: false
+  StateMachine: name=HeadsetStateMachine state=Disconnected
+  mPhoneState: com.android.bluetooth.hfp.HeadsetPhoneState@4482c41
+  mAudioState: 10
+
+Profile: A2dpService
+  mCurrentDevice: null
+  mTargetDevice: null
+  mIncomingDevice: null
+  mPlayingA2dpDevice: null
+  StateMachine: name=A2dpStateMachine state=Disconnected
+AVRCP:
+  mMediaAttributes: [MediaAttributes: none]
+  mTransportControlFlags: 0
+  mCurrentPlayState: PlaybackState {state=0, position=-1, buffered position=0, speed=0.0, updated=143601326, actions=0, custom actions=[], active item id=-1, error=null}
+  mPlayStatusChangedNT: 2
+  mTrackChangedNT: 1
+  mPlaybackIntervalMs: 0
+  mPlayPosChangedNT: 1
+  mNextPosMs: -1
+  mPrevPosMs: -1
+  mFeatures: 0
+  mRemoteVolume: -1
+  mLastRemoteVolume: -1
+  mLastDirection: 0
+  mVolumeStep: 8
+  mAudioStreamMax: 15
+  mVolCmdAdjustInProgress: false
+  mVolCmdSetInProgress: false
+  mAbsVolRetryTimes: 0
+  mVolumeMapping: {}
+  
+  Media Players:
+  
+  AddressedPlayer info:
+  mLastTrackIdSent: -1
+  mNowPlayingList: 0 elements
+  
+  0 passthrough operations: 
+  
+  Runtime Blacklisted Devices (absolute volume):
+    None
+
+Profile: HidService
+  mTargetDevice: null
+  mInputDevices:
+
+Profile: HealthService
+  mHealthChannels:
+  mApps:
+  mHealthDevices:
+
+Profile: PanService
+  mMaxPanDevices: 5
+  mPanIfName: bt-pan
+  mTetherOn: false
+  mPanDevices:
+
+Profile: BluetoothMapService
+  mRemoteDevice: null
+  sRemoteDeviceName: null
+  mState: 0
+  mAppObserver: com.android.bluetooth.map.BluetoothMapAppObserver@b7cd5e6
+  mIsWaitingAuthorization: false
+  mRemoveTimeoutMsg: false
+  mPermission: 0
+  mAccountChanged: false
+  mBluetoothMnsObexClient: null
+  mMasInstanceMap:
+    null : MasId: 0 Uri:null SMS/MMS:true
+  mEnabledAccounts:
+
+Profile: BluetoothOppService
+
+Profile: BluetoothPbapService
+
+Connection Events:
+  None
+
+Bond Events: 
+  Total Number of events: 0
+
+A2DP State:
+  TxQueue:
+  Counts (enqueue/dequeue/readbuf)                        : 0 / 0 / 0
+  Last update time ago in ms (enqueue/dequeue/readbuf)    : 0 / 0 / 0
+  Frames per packet (total/max/ave)                       : 0 / 0 / 0
+  Counts (flushed/dropped/dropouts)                       : 0 / 0 / 0
+  Counts (max dropped)                                    : 0
+  Last update time ago in ms (flushed/dropped)            : 0 / 0
+  Counts (underflow)                                      : 0
+  Bytes (underflow)                                       : 0
+  Last update time ago in ms (underflow)                  : 0
+  Enqueue deviation counts (overdue/premature)            : 0 / 0
+  Enqueue overdue scheduling time in ms (total/max/ave)   : 0 / 0 / 0
+  Enqueue premature scheduling time in ms (total/max/ave) : 0 / 0 / 0
+  Dequeue deviation counts (overdue/premature)            : 0 / 0
+  Dequeue overdue scheduling time in ms (total/max/ave)   : 0 / 0 / 0
+  Dequeue premature scheduling time in ms (total/max/ave) : 0 / 0 / 0
+
+A2DP Codecs State:
+  Current Codec: None
+
+A2DP LDAC State:
+  Priority: 5001
+  Encoder interval (ms): 20
+  Config: Invalid
+  Selectable: Invalid
+  Local capability: Rate=44100|48000|88200|96000 Bits=16|24|32 Mode=STEREO
+  Packet counts (expected/dropped)                        : 0 / 0
+  PCM read counts (expected/actual)                       : 0 / 0
+  PCM read bytes (expected/actual)                        : 0 / 0
+  LDAC quality mode                                       : HIGH
+  LDAC transmission bitrate (Kbps)                        : -1
+  LDAC saved transmit queue length                        : 0
+
+A2DP AAC State:
+  Priority: 2001
+  Encoder interval (ms): 20
+  Config: Invalid
+  Selectable: Invalid
+  Local capability: Rate=44100 Bits=16 Mode=STEREO
+  Packet counts (expected/dropped)                        : 0 / 0
+  PCM read counts (expected/actual)                       : 0 / 0
+  PCM read bytes (expected/actual)                        : 0 / 0
+
+A2DP SBC State:
+  Priority: 1001
+  Encoder interval (ms): 20
+  Config: Invalid
+  Selectable: Invalid
+  Local capability: Rate=44100 Bits=16 Mode=MONO|STEREO
+  Packet counts (expected/dropped)                        : 0 / 0
+  PCM read counts (expected/actual)                       : 0 / 0
+  PCM read bytes (expected/actual)                        : 0 / 0
+  Frames counts (expected/dropped)                        : 0 / 0
+
+Bluetooth Config:
+  Config Source: Original file
+  Devices loaded: 0
+  File created/tagged: 2018-03-16 18:57:47
+  File source: Empty
+
+Bluetooth HF Client BTA Statistics
+
+Bluetooth Wakelock Statistics:
+  Is acquired                    : false
+  Acquired/released count        : 76 / 76
+  Acquired/released error count  : 0 / 0
+  Last acquire/release error code: 0 / 0
+  Last acquired time (ms)        : 1
+  Acquired time min/max/avg (ms) : 1 / 12 / 1
+  Total acquired time (ms)       : 125
+  Total run time (ms)            : 2578
+
+Bluetooth Memory Allocation Statistics:
+  Total allocated/free/used counts : 0 / 0 / 0
+  Total allocated/free/used octets : 0 / 0 / 0
+
+Bluetooth Alarms Statistics:
+  Total Alarms: 1
+
+  Alarm : btm_ble_addr.refresh_raddr_timer (SINGLE)
+    Action counts (sched/resched/exec/cancel)      : 1 / 0 / 0 / 0
+    Deviation counts (overdue/premature)           : 0 / 0
+    Time in ms (since creation/interval/remaining) : 2485 / 900000 / 897515
+    Overdue scheduling time in ms (total/max/avg)  : 0 / 0 / 0
+    Premature scheduling time in ms (total/max/avg): 0 / 0 / 0
+
+--- BEGIN:BTSNOOP_LOG_SUMMARY (6860 bytes in) ---
+AgDiRVXnRte6eJztmc9rE0EUx9/b2V9Jpslu2tRYSjP2R9pDQWlBbEEt9EcE7UX7AxShJz0VT14EsSc9iPgHCNqzf4En+w949ObBHr1KET0kWV+yzWZmus1GEApJ37vk
+9fvy3Z3PDLObqQkmNEIwDg5lI7ysiVSaLcnyIEsZShmkssY+OYCQoWx2zHPnnR0MQVrxmJc80IMcZShxpNJeueiuwbgRtaQ8GKAMW9JI5VeAtefPogbDgwpl2LCCVAZB
+wL4Ejah+OMr9CG7+fhuMUjs2eoqQGBZl09r0EHzK0DuLpgeABzfe1L8FD15FXVt04/IAtzjYlE1tlxuquMsVe9TsG81hROPLCXApwyYLqfTaYxcEN32sOUjlPtiROioU
+ulQ2oTDJnKktVOLx9TllOEfCfTFmND/LA0Eh2i3cbToHB9eVFmmsqxwNWVuVtIoGsCJpy5q23F6QYpIzbtyX1UkJfZEbIGSxKIk517CU4eTcNpR7NShQhlIeqZzBw9Ie
+zuAOzMhTM8QhoAwbq0jl+sZtsb5x5erCgpiYg/6JaL42a2imINUsvKyNmzUw96pQDdVB/qeyfk08fnJW93l2IS+2QQ6/KBsh7vKf6KRCKsjQijaAHg6ZxV3pcVBUdyMq
+racPP09/f/motcsJS9gp8xb9WfawRDxPxiDfD0Q1ntEuV+bGjiKWT1l4Fsv7/YBKAxXLwiEWpT6g0Q2LFON+P9DohkWGpf1+oNENi4Emi2zP09BYtN7DxSKn3zGv38vy
+oiSPcRPcvPLtMemddkR7px1RNaZpiq3X0dboYAuaFjuxuWhih3t6artZ5H7EotDTNM5ZtOOcRTvOWbTjtAdB8k6vb7udtuuE50unh0QnLXbmBpnl98PcdbOKCydYXO5J
+Gt2wuBDLYs7vNRqn/WberhmA8gnWdg0AozPt7ZrjAJutz9blg1fqcWB6GIZbTXkEtgS+j3vRBbV+hOnINCMcXCoJpm4WGdG+Ky4MVeSqCKiJyd7/6+rxwFrnOCRnbDAP
+SQoCCDQItg7NFAnQyvJMMLA+1gPdlOmmlplgOqWa2vtxpmXV1E4ynVQROHfAKDTOyE8g0IydJAQTrf8ZUP+ADe5h4zPBjaE7pVq7SdbjKojUURwIzTSVBOLSvyzUpVLS
+Qo3p6LhQ/wLopSYs
+--- END:BTSNOOP_LOG_SUMMARY ---

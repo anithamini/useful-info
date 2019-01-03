@@ -1,0 +1,1 @@
+  * Recent #0: TaskRecord{9377a8e #314 I=com.android.launcher3/com.android.searchlauncher.SearchLauncher U=0 StackId=0 sz=1}

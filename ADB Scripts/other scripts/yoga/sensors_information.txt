@@ -1,0 +1,37 @@
+
+
+sensors:
+
+tools used to test sensor:
+
+sensors Toolbox(best tool able to test Accelerometer gyroscope,lux,proximity,magnetic gravity,rotation...)
+sensors multitool
+
+command used to know the diffenrent sensors:
+
+adb shell pm list features  # display all phone features with sensors
+
+
+To get raw acceleration data along the three axes:
+
+adb root
+adb shell
+root@system:/ # find / -type d -iname "sensors"
+/sys/devices/virtual/sensors
+/sys/class/sensors
+
+The '/sys/class/sensors' directory contains:
+
+root@android:/ # ls sys/class/sensors                                          
+accelerometer_sensor
+barometer_sensor
+gyro_sensor
+light_sensor
+magnetic_sensor
+proximity_sensor
+
+TO get touch axes:
+
+	adb shell
+	getevent
+##touch the display screen will show u some axes

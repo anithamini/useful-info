@@ -1,0 +1,14 @@
+<6>[  691.757506] sec_ts 1-0048: [P] tID:0 x:163 y:1651 z:38 major:9 minor:9 tc:1 type:0
+<6>[  691.938572] sec_ts 1-0048: [R] tID:0 mc:5 tc:0 lx:156 ly:1642 v:0107 cal:A2(00) id(0,0) p:0 P00T0000
+<14>[  691.963426] init: processing action (persist.service.sdlog.enable=0) from (/vendor/etc/init/hw/init.qcom.rc:1010)
+<14>[  691.974091] init: processing action (persist.service.sdlog.enable=1 && sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.rc:1004)
+<14>[  691.975104] init: starting service 'sdlog'...
+<11>[  691.977890] init: property_set("ro.boottime.sdlog", "691976317390") failed: property already set
+<14>[  691.978875] init: processing action (persist.service.sdlog.enable=1) from (/vendor/etc/init/hw/init.qcom.rc:1007)
+<31>[  692.061856] logd: logdr: UID=0 GID=0 PID=6736 b tail=0 logMask=2 pid=0 start=0ns timeout=0ns
+<14>[  692.489483] init: processing action (persist.service.sdlog.enable=0) from (/vendor/etc/init/hw/init.qcom.rc:1010)
+<6>[  694.736711] sec_ts 1-0048: [R] tID:0 mc:0 tc:0 lx:939 ly:1963 v:0107 cal:A2(00) id(0,0) p:0 P00T0000
+<6>[  694.770405] R0: [cds_mc_thread][13394620548] [17:02:38.797950]  wlan: [1805:I :WMI] WMI --> WMI_ROAM_AP_PROFILE and other parameters
+<6>[  694.770508] R0: [cds_mc_thread][13394622539] [17:02:38.798053]  wlan: [1805:E :WMA] wma_roam_scan_fill_fils_params- NULL
+<14>[  695.160564] init: processing action (bluetooth.dun.status=stopped) from (/vendor/etc/init/hw/init.qcom.rc:536)
+<14>[  695.160611] init: Sending signal 9 to service 'bt-dun' (pid 6669) process group...

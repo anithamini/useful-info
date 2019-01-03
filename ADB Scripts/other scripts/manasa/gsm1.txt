@@ -1,0 +1,68 @@
+last known state:
+  Phone Id=0
+  mCallState=0
+  mCallIncomingNumber=
+  mServiceState=1 1 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=true
+  mSignalStrength=SignalStrength: 16 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+  mMessageWaiting=false
+  mCallForwarding=false
+  mDataActivity=0
+  mDataConnectionState=-1
+  mDataConnectionPossible=false
+  mDataConnectionReason=roamingOff
+  mDataConnectionApn=
+  mDataConnectionLinkProperties=null
+  mDataConnectionNetworkCapabilities=null
+  mCellLocation=Bundle[{}]
+  mCellInfo=null
+  Phone Id=1
+  mCallState=2
+  mCallIncomingNumber=
+  mServiceState=0 0 home IDEA IDEA 40407  UMTS HSPA CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false
+  mSignalStrength=SignalStrength: 15 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+  mMessageWaiting=false
+  mCallForwarding=false
+  mDataActivity=3
+  mDataConnectionState=0
+  mDataConnectionPossible=true
+  mDataConnectionReason=2GVoiceCallEnded
+  mDataConnectionApn=
+  mDataConnectionLinkProperties=null
+  mDataConnectionNetworkCapabilities=null
+  mCellLocation=Bundle[mParcelledData.dataSize=64]
+  mCellInfo=null
+  mDcRtInfo=mTime=807579220836 mDcPowerState=1
+registrations: count=33
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@16354e54 callback=android.telephony.PhoneStateListener$2@16354e54 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=2000}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@1b8821fd callback=android.telephony.PhoneStateListener$2@1b8821fd onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=1c1}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@39ffbef2 callback=android.telephony.PhoneStateListener$2@39ffbef2 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=20}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@3f3e3943 callback=android.telephony.PhoneStateListener$2@3f3e3943 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=20}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@2fc2fbc0 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@3539e0f9 callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@5c6d83e callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@981269f callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@23bc13ec callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@19ae93b5 callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@13543a4a callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@3db8dbb callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@234c82d8 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@2281b631 callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@11a3b116 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@2fab4a97 callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@472f484 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@d8a846d callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@11a1c8a2 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@1c4ff933 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=0 events=1}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@1c6cd4f0 callback=android.telephony.PhoneStateListener$2@1c6cd4f0 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=0 events=20}
+  {pkgForDebug=com.qualcomm.qti.gesture binder=android.os.BinderProxy@24d7fa69 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@1477ccee onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=0 events=20}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@2586f58f callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@14e2501c onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483643 phoneId=0 events=41e1}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@2a6cd425 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@3297c9fa onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483644 phoneId=1 events=41e1}
+  {pkgForDebug=<unknown> binder=android.os.BinderProxy@3b875bab callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@27d25208 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483643 phoneId=0 events=1}
+  {pkgForDebug=<unknown> binder=android.os.BinderProxy@3bb8da1 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@27888bc6 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483644 phoneId=1 events=1}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@10de0787 callback=android.telephony.PhoneStateListener$2@10de0787 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=0 events=1}
+  {pkgForDebug=com.qualcomm.location binder=android.telephony.PhoneStateListener$2@2e3e86b4 callback=android.telephony.PhoneStateListener$2@2e3e86b4 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=0 events=20}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@20e262dd callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@e719e52 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=0 events=20}
+  {pkgForDebug=com.lenovo.anyshare.gps binder=android.os.BinderProxy@a099523 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@2d975a20 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=0 events=20}
+  {pkgForDebug=com.google.android.gms binder=android.os.BinderProxy@1ba74fd9 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@1b674d9e onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=1 events=40}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@ad6607f callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@fe7f84c onSubscriptionsChangedListenererCallback=null callerUid=0 subId=4 phoneId=0 events=41e1}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@a341095 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@1d76a5aa onSubscriptionsChangedListenererCallback=null callerUid=0 subId=3 phoneId=1 events=41e1}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@3d7a859b callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@32c24d38 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=4 phoneId=0 events=400c}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@1922111 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@15717276 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=3 phoneId=1 events=400c}
+  {pkgForDebug=com.android.phone binder=android.os.BinderProxy@3e6bd4d callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@2d7a4002 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=1 events=200}
+  {pkgForDebug=<unknown> binder=android.os.BinderProxy@166ee149 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@1d505a4e onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=1 events=1}
+  {pkgForDebug=<unknown> binder=android.os.BinderProxy@81658a8 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@3a771fc1 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=1 events=1}
+  {pkgForDebug=com.android.mms.service binder=android.os.BinderProxy@1c637f9b callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@3420bf38 callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=<unknown> binder=android.os.BinderProxy@ab8366 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@984ab11 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=1 events=21}
+  {pkgForDebug=<unknown> binder=android.os.BinderProxy@39cc5754 callback=com.android.internal.telephony.IPhoneStateListener$Stub$Proxy@19c23476 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=1 events=21}

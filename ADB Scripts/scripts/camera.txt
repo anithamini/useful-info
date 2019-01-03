@@ -1,0 +1,1 @@
+Starting: Intent { act=android.media.action.STILL_IMAGE_CAMERA (has extras) }

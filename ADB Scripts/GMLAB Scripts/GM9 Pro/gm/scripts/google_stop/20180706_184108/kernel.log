@@ -1,0 +1,22 @@
+<6>[ 9626.836697] R0: [cds_mc_thread][289997948124] [18:41:10.332055]  wlan: [1781:E :PE ] lim_handle_update_olbc_cache: 1040:  Session not found
+<6>[ 9626.954484] sec_ts 1-0048: [R] tID:0 mc:0 tc:0 lx:908 ly:1974 v:0107 cal:A2(00) id(0,0) p:0 P00T0000
+<7>[ 9628.033255] tfa98xx_get_profile_sr - profile fs: 0x8 = 48000Hz (1 - 0)
+<7>[ 9628.033282] tfa98xx_get_profile_sr - profile fs: 0x8 = 48000Hz (0 - 0)
+<6>[ 9628.033292] pri_i2s_gpio_enable:enable = 1.
+<6>[ 9628.034339] snd_pcm_hw_constraint_integer failed
+<6>[ 9628.034357] msm_pcm_open: P buffer bytes minmax constraint ret 1
+<7>[ 9628.034535] tfa98xx_hw_params(): Requested rate: 48000, sample size: 16, physical size: 16
+<7>[ 9628.034543] tfa98xx_hw_params(): Requested rate: 48000, sample size: 16, physical size: 16
+<7>[ 9628.055692] tfa98xx 6-0034: tfa98xx_mute: state: 0
+<7>[ 9628.055738] tfa98xx 6-0035: tfa98xx_mute: state: 0
+<7>[ 9628.056844] Startup of device [right] is a warmstart
+<7>[ 9628.058242] FAIM disabled (err:0).
+<7>[ 9628.061935] enter tfa_get_swprofile 0,-1
+<7>[ 9628.062360] File header
+<7>[ 9628.062373] 	id:VP version:2_ subversion:01
+<7>[ 9628.062378] 	size:449 CRC:0x37f40e56 
+<7>[ 9628.062382] 	customer:NXP application:devkit type:ver 1.0
+<7>[ 9628.120962] vstep[0][0]
+<7>[ 9628.124005] tfa98xx 6-0035: tfa_dev_start success (0)
+<6>[ 9628.480931] sec_ts 1-0048: [R] tID:0 mc:3 tc:0 lx:252 ly:2066 v:0107 cal:A2(00) id(0,0) p:0 P00T0000
+<14>[ 9629.959929] init: Untracked pid 26525 exited with status 0

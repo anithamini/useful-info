@@ -1,0 +1,118 @@
+<6>[26524.973511] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26524.982935] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26524.982947] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(866,1939)[59]
+<6>[26524.983390] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26524.989620] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26524.989631] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26524.990213] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26524.990222] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(866,1939)[59]
+<6>[26524.990460] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.005906] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.005919] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.006570] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.006580] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(866,1939)[59]
+<6>[26525.006828] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.072758] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<4>[26525.282307] IRQ5 no longer affine to CPU6
+<6>[26525.295960] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.295970] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.297417] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.297429] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(871,1917)[57]
+<6>[26525.297638] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.304718] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.305037] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.312029] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.316460] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.316477] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(871,1917)[57]
+<6>[26525.316860] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.320277] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.320289] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.321117] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.322004] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(871,1917)[57]
+<6>[26525.328241] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.328925] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(871,1917)[57]
+<6>[26525.359450] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.359464] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.363314] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.391447] R0: [cds_mc_thread][1560846333455] [11:52:23.838399]  wlan: [3355:I :WMI] send_per_roam_config_cmd_tlv: 11973: per roam enable=3, vdev=0
+<6>[26525.391509] R0: [cds_mc_thread][1560846334760] [11:52:23.838467]  wlan: [3355:I :WMI] send_per_roam_config_cmd_tlv: 11973: per roam enable=3, vdev=0
+<6>[26525.391577] R0: [cds_mc_thread][1560846336077] [11:52:23.838536]  wlan: [3355:E :PE ] lim_update_fils_rik: 1871: Fils rik len(0) max 64
+<6>[26525.391658] R0: [cds_mc_thread][1560846337615] [11:52:23.838616]  wlan: [3355:E :WMA] wma_roam_scan_fill_fils_params- NULL
+<6>[26525.391816] R0: [cds_mc_thread][1560846340652] [11:52:23.838774]  wlan: [3355:I :WMI] 2437,
+<6>[26525.391925] R0: [cds_mc_thread][1560846342749] [11:52:23.838883]  wlan: [3355:I :WMI] send_roam_scan_offload_rssi_change_cmd_tlv: 12034: roam_scan_rssi_change_thresh=5, bcn_rssi_weight=14
+<6>[26525.391938] R0: [cds_mc_thread][1560846342994] [11:52:23.838896]  wlan: [3355:I :WMI] send_roam_scan_offload_rssi_change_cmd_tlv: 12035: hirssi_delay_btw_scans=15000
+<6>[26525.392012] R0: [cds_mc_thread][1560846344428] [11:52:23.838971]  wlan: [3355:I :WMI] WMI --> WMI_ROAM_AP_PROFILE and other parameters
+<6>[26525.392286] R0: [cds_mc_thread][1560846349676] [11:52:23.839244]  wlan: [3355:E :WMA] wma_roam_scan_fill_fils_params- NULL
+<6>[26525.392311] R0: [cds_mc_thread][1560846350161] [11:52:23.839269]  wlan: [3355:I :WMI] LFR3:OKC enabled
+<6>[26525.392321] R0: [cds_mc_thread][1560846350358] [11:52:23.839279]  wlan: [3355:I :WMI] LFR3:PMKSA caching enabled
+<6>[26525.392406] R0: [cds_mc_thread][1560846351974] [11:52:23.839364]  wlan: [3355:E :PE ] lim_update_fils_rik: 1871: Fils rik len(0) max 64
+<6>[26525.392487] R0: [cds_mc_thread][1560846353539] [11:52:23.839445]  wlan: [3355:E :WMA] wma_roam_scan_fill_fils_params- NULL
+<6>[26525.395879] R0: [wpa_supplicant][1560846418559] [11:52:23.842832]  wlan: [24385:I :HDD] __wlan_hdd_cfg80211_disconnect: 17926: Disconnect request from user space with reason: 3 (WLAN_REASON_DEAUTH_LEAVING) internal reason code: 3
+<6>[26525.395937] R0: [wpa_supplicant][1560846419778] [11:52:23.842895]  wlan: [24385:I :HDD] wlan_hdd_disconnect: 17704: Disabling queues
+<6>[26525.395949] R0: [cds_mc_thread][1560846420001] [11:52:23.842907]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[26525.395963] R0: [cds_mc_thread][1560846420274] [11:52:23.842921]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[26525.397692] R0: [wpa_supplicant][1560846453406] [11:52:23.844646]  wlan: [24385:I :HDD] hdd_sme_roam_callback: 4932: Disabling queues
+<6>[26525.398025] R0: [cds_mc_thread][1560846459848] [11:52:23.844982]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[26525.398126] R0: [cds_mc_thread][1560846461799] [11:52:23.845084]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[26525.398345] R0: [cds_mc_thread][1560846466005] [11:52:23.845303]  wlan: [3355:E :PE ] lim_update_fils_rik: 1871: Fils rik len(0) max 64
+<6>[26525.498702] R0: [wpa_supplicant][1560848392830] [11:52:23.945658]  wlan: [24385:I :HDD] __wlan_hdd_cfg80211_disconnect: 17926: Disconnect request from user space with reason: 3 (WLAN_REASON_DEAUTH_LEAVING) internal reason code: 3
+<6>[26525.498717] R0: [wpa_supplicant][1560848393196] [11:52:23.945677]  wlan: [24385:I :HDD] wlan_hdd_disconnect: 17704: Disabling queues
+<6>[26525.498754] R0: [cds_mc_thread][1560848393893] [11:52:23.945714]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[26525.498762] R0: [cds_mc_thread][1560848394067] [11:52:23.945723]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[26525.498787] R0: [cds_mc_thread][1560848394553] [11:52:23.945748]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 2061: TDLS Set state cnt 0
+<6>[26525.500028] R0: [wpa_supplicant][1560848418312] [11:52:23.946985]  wlan: [24385:E :SME] csr_neighbor_roam_indicate_disconnect: 844: Ignore disconn ind rcvd from nonSTA persona sessionId: 1 csrPersonna 2
+<6>[26525.500093] R0: [cds_mc_thread][1560848419618] [11:52:23.947053]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[26525.500102] R0: [cds_mc_thread][1560848419786] [11:52:23.947062]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[26525.522444] R0: [kworker/5:2][1560848848640] [11:52:23.969399]  wlan: [19897:E :HDD] hdd_bus_bw_work_handler: 6560: bus bandwidth timer running in disconnected state
+<6>[26525.523308] R0: [cds_mc_thread][1560848865226] [11:52:23.970262]  wlan: [3355:E :PE ] pe_delete_session: 692: session is not valid
+<6>[26525.523522] R0: [cds_mc_thread][1560848869418] [11:52:23.970480]  wlan: [3355:I :HDD] hdd_dis_connect_handler: 1547: Disabling queues
+<6>[26525.523592] R0: [cds_mc_thread][1560848870751] [11:52:23.970550]  wlan: [3355:I :HDD] hdd_send_association_event: 1354: wlan: disconnected
+<6>[26525.523651] R0: [cds_mc_thread][1560848871883] [11:52:23.970609]  wlan: [3355:E :QDF] cds_dump_current_concurrency: 3310: unexpected num_connections value 0
+<6>[26525.523676] R0: [cds_mc_thread][1560848872357] [11:52:23.970634]  wlan: [3355:E :QDF] cds_need_opportunistic_upgrade: 4032: driver isn't dbs capable, no further action needed
+<6>[26525.523699] R0: [cds_mc_thread][1560848872798] [11:52:23.970656]  wlan: [3355:I :HDD] hdd_send_peer_status_ind_to_oem_app: 798: sending peer ba:de:5e:00:9e:d9 status(2), peerTimingMeasCap(0), vdevId(1), chanId(0) to oem app pid(-1468003486), center freq 1 (0), center freq 2 (0), info (0x0), frequency (0),reg info 1 (0x0), reg info 2 (0x0)
+<6>[26525.524593] R0: [cds_mc_thread][1560848889479] [11:52:23.971525]  wlan: [3355:I :HDD] wlan_hdd_tdls_notify_disconnect: 2137: Check and update TDLS state
+<6>[26525.524610] R0: [cds_mc_thread][1560848890281] [11:52:23.971567]  wlan: [3355:I :HDD] wlan_hdd_update_tdls_info: 1943: tdls_prohibited: 1, tdls_chan_swit_prohibited: 1
+<6>[26525.526799] R0: [cds_mc_thread][1560848932265] [11:52:23.973754]  wlan: [3355:I :HDD] hdd_print_bss_info: 1478: WIFI DATA LOGGER
+<6>[26525.526814] R0: [cds_mc_thread][1560848932612] [11:52:23.973772]  wlan: [3355:I :HDD] hdd_print_bss_info: 1480: channel: 2437
+<6>[26525.526824] R0: [cds_mc_thread][1560848932816] [11:52:23.973782]  wlan: [3355:I :HDD] hdd_print_bss_info: 1482: dot11mode: 4
+<6>[26525.526834] R0: [cds_mc_thread][1560848933014] [11:52:23.973793]  wlan: [3355:I :HDD] hdd_print_bss_info: 1484: AKM: 1
+<6>[26525.526845] R0: [cds_mc_thread][1560848933212] [11:52:23.973803]  wlan: [3355:I :HDD] hdd_print_bss_info: 1487: ssid: 
+<6>[26525.526855] R0: [cds_mc_thread][1560848933408] [11:52:23.973813]  wlan: [3355:I :HDD] hdd_print_bss_info: 1489: roam count: 0
+<6>[26525.526866] R0: [cds_mc_thread][1560848933614] [11:52:23.973824]  wlan: [3355:I :HDD] hdd_print_bss_info: 1491: ant_info: 0
+<6>[26525.526876] R0: [cds_mc_thread][1560848933809] [11:52:23.973834]  wlan: [3355:I :HDD] hdd_print_bss_info: 1493: datarate legacy 0
+<6>[26525.526886] R0: [cds_mc_thread][1560848934014] [11:52:23.973845]  wlan: [3355:I :HDD] hdd_print_bss_info: 1495: datarate mcs: 0
+<6>[26525.526898] R0: [cds_mc_thread][1560848934211] [11:52:23.973855]  wlan: [3355:I :HDD] hdd_print_bss_info: 1498: ht caps: ff03012c
+<6>[26525.526912] R0: [cds_mc_thread][1560848934505] [11:52:23.973870]  wlan: [3355:I :HDD] hdd_print_bss_info: 1508: signal: 0
+<6>[26525.526922] R0: [cds_mc_thread][1560848934702] [11:52:23.973881]  wlan: [3355:I :HDD] hdd_print_bss_info: 1510: noise: 0
+<14>[26525.740620] init: Successfully killed process cgroup uid 0 pid 24385 in 11ms
+<14>[26525.742413] init: Service 'wpa_supplicant' (pid 24385) killed by signal 9
+<6>[26525.803873] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.803884] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.805495] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.805512] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(898,1936)[52]
+<6>[26525.809861] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.811895] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.811905] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.817655] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.817668] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(898,1936)[52]
+<6>[26525.817965] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[26525.819932] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.819941] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.827995] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.828007] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.829817] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.829833] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(898,1936)[52]
+<6>[26525.836062] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.836072] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.836939] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.836952] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(898,1936)[52]
+<6>[26525.846336] R0: [android.hardwar][1560855067422] [11:52:24.293293]  wlan: [24384:I :HDD] __hdd_stop: 2347: Disabling queues
+<6>[26525.846442] R0: [android.hardwar][1560855069512] [11:52:24.293402]  wlan: [24384:I :HDD] hdd_stop_adapter: 4099: Disabling queues
+<6>[26525.846492] R0: [android.hardwar][1560855070461] [11:52:24.293451]  wlan: [24384:W :SME] dump_csr_command_info: 515: Unhandled command: 65542 session: 0
+<6>[26525.852200] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.852218] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.876288] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[26525.876299] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[26525.877064] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[26525.877075] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(898,1936)[52]
+<6>[26525.877292] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99

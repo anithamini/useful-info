@@ -1,0 +1,989 @@
+06-06 20:52:14.044   593   593 I auditd  : SELinux: Loaded service_contexts from:
+06-06 20:52:14.046   593   593 I auditd  :     /vendor/etc/selinux/vndservice_contexts
+06-06 20:52:14.047   591   591 I auditd  : SELinux: Loaded service_contexts from:
+06-06 20:52:14.048   591   591 I auditd  :     /system/etc/selinux/plat_service_contexts
+06-06 20:52:08.837   590   590 I auditd  : type=2000 audit(0.0:1): initialized
+06-06 20:52:12.849   590   590 I auditd  : type=1403 audit(0.0:2): policy loaded auid=4294967295 ses=4294967295
+06-06 20:52:12.849   590   590 I auditd  : type=1404 audit(0.0:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+06-06 20:52:14.159     1     1 I auditd  : type=1400 audit(0.0:4): avc: granted { open } for comm="init" path="/dev/ipa" dev="tmpfs" ino=15405 scontext=u:r:init:s0 tcontext=u:object_r:ipa_dev:s0 tclass=chr_file
+06-06 20:52:15.549   786   786 I auditd  : type=1400 audit(0.0:5): avc: denied { read write } for comm="android.hardwar" name="diag" dev="tmpfs" ino=15437 scontext=u:r:hal_sensors_default:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+06-06 20:52:15.619   781   781 I auditd  : type=1400 audit(0.0:6): avc: denied { read } for comm="android.hardwar" name="name" dev="sysfs" ino=34893 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-06 20:52:15.619   781   781 I auditd  : type=1400 audit(0.0:7): avc: denied { read } for comm="android.hardwar" name="name" dev="sysfs" ino=35804 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-06 20:52:15.699   781   781 I auditd  : type=1400 audit(0.0:8): avc: denied { read write } for comm="android.hardwar" name="diag" dev="tmpfs" ino=15437 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+06-06 20:52:15.759     1     1 I auditd  : type=1400 audit(0.0:9): avc: denied { write } for comm="init" name="android0" dev="sysfs" ino=46771 scontext=u:r:init:s0 tcontext=u:object_r:sysfs_android_usb:s0 tclass=dir permissive=0
+06-06 20:52:15.759     1     1 I auditd  : type=1400 audit(0.0:10): avc: denied { write } for comm="init" name="android0" dev="sysfs" ino=46771 scontext=u:r:init:s0 tcontext=u:object_r:sysfs_android_usb:s0 tclass=dir permissive=0
+06-06 20:52:15.789   882   882 I auditd  : type=1400 audit(0.0:11): avc: denied { read write } for comm="sensors.qcom" name="diag" dev="tmpfs" ino=15437 scontext=u:r:sensors:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+06-06 20:52:15.799   900   900 I auditd  : type=1400 audit(0.0:12): avc: denied { read } for comm="ueventd" name="mmcblk0p37" dev="tmpfs" ino=20578 scontext=u:r:ueventd:s0 tcontext=u:object_r:mba_debug_dev:s0 tclass=blk_file permissive=0
+06-06 20:52:17.479  1217  1217 I auditd  : type=1400 audit(0.0:13): avc: denied { entrypoint } for comm="vold" path="/vendor/bin/resize_ext4" dev="dm-1" ino=276 scontext=u:r:fsck:s0 tcontext=u:object_r:resize_exec:s0 tclass=file permissive=0
+06-06 20:52:18.239  1253  1253 I auditd  : type=1400 audit(0.0:14): avc: denied { read } for comm="hvdcp_opti" name="name" dev="sysfs" ino=23103 scontext=u:r:hvdcp:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+06-06 20:52:18.239  1251  1251 I auditd  : type=1400 audit(0.0:15): avc: denied { read write } for comm="imsqmidaemon" name="diag" dev="tmpfs" ino=15437 scontext=u:r:ims:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+06-06 20:52:18.269  1268  1268 I auditd  : type=1400 audit(0.0:16): avc: denied { read } for comm="storaged" path="/sys/kernel/debug/mmc0/mmc0:0001/ext_csd" dev="debugfs" ino=14340 scontext=u:r:storaged:s0 tcontext=u:object_r:debugfs_mmc:s0 tclass=file permissive=0
+07-09 09:41:19.523  1249  1249 I auditd  : type=1400 audit(0.0:17): avc: denied { read } for comm="thermal-engine" name="uio" dev="sysfs" ino=34208 scontext=u:r:thermal-engine:s0 tcontext=u:object_r:sysfs_uio:s0 tclass=dir permissive=0
+07-09 09:41:19.608  1249  1356 I liblog  : 142
+07-09 09:41:19.623  1246  1246 I auditd  : type=1400 audit(0.0:18): avc: denied { read write } for comm="cnd" name="diag" dev="tmpfs" ino=15437 scontext=u:r:cnd:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:19.643  1281  1281 I auditd  : type=1400 audit(0.0:19): avc: denied { read write } for comm="dpmd" name="diag" dev="tmpfs" ino=15437 scontext=u:r:dpmd:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:19.670  1255  1255 I boot_progress_start: 9992
+07-09 09:41:19.683  1377  1377 I auditd  : type=1400 audit(0.0:20): avc: denied { read write } for comm="ipacm-diag" name="diag" dev="tmpfs" ino=15437 scontext=u:r:ipacm-diag:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:19.703  1375  1375 I auditd  : type=1400 audit(0.0:21): avc: denied { read write } for comm="imsdatadaemon" name="diag" dev="tmpfs" ino=15437 scontext=u:r:ims:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:19.803  1418  1418 I auditd  : type=1400 audit(0.0:22): avc: denied { read write } for comm="qti" name="diag" dev="tmpfs" ino=15437 scontext=u:r:qti:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:19.973  1451  1451 I auditd  : type=1400 audit(0.0:23): avc: denied { read write } for comm="netmgrd" name="diag" dev="tmpfs" ino=15437 scontext=u:r:netmgrd:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:20.353  1271  1271 I auditd  : type=1400 audit(0.0:24): avc: denied { ioctl } for comm="rild" path="/vendor/radio/qcril_database/qcril.db" dev="dm-1" ino=3487 ioctlcmd=f50c scontext=u:r:rild:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+07-09 09:41:20.963   773   773 I auditd  : type=1400 audit(0.0:25): avc: denied { read write } for comm="HwBinder:773_1" name="diag" dev="tmpfs" ino=15437 scontext=u:r:hal_audio_default:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:20.973  1255  1255 I sysui_histogram: [boot_zygote_init,11296]
+07-09 09:41:20.981  1256  1256 I sysui_histogram: [boot_zygote_init,11297]
+07-09 09:41:20.981  1255  1255 I sysui_multi_action: [757,804,799,boot_zygote_init,801,11296,802,1]
+07-09 09:41:20.994  1255  1255 I boot_progress_preload_start: 11317
+07-09 09:41:20.995  1256  1256 I sysui_multi_action: [757,804,799,boot_zygote_init,801,11297,802,1]
+07-09 09:41:21.754  1255  1255 I boot_progress_preload_end: 12076
+07-09 09:41:21.924  1896  1896 I boot_progress_system_run: 12247
+07-09 09:41:21.926  1896  1896 I sysui_histogram: [boot_system_server_init,12247]
+07-09 09:41:21.926  1896  1896 I sysui_multi_action: [757,804,799,boot_system_server_init,801,12247,802,1]
+07-09 09:41:22.185  1896  1896 I rescue_note: [0,1,12507]
+07-09 09:41:22.194  1896  1896 I sysui_histogram: [boot_package_manager_init_start,12516]
+07-09 09:41:22.194  1896  1896 I sysui_multi_action: [757,804,799,boot_package_manager_init_start,801,12516,802,1]
+07-09 09:41:22.195  1896  1896 I boot_progress_pms_start: 12518
+07-09 09:41:22.336  1896  1896 I boot_progress_pms_system_scan_start: 12658
+07-09 09:41:22.533  1961  1961 I auditd  : type=1400 audit(0.0:26): avc: denied { read write } for comm="ims_rtp_daemon" name="diag" dev="tmpfs" ino=15437 scontext=u:r:hal_imsrtp:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:22.594  1896  1896 I boot_progress_pms_data_scan_start: 12916
+07-09 09:41:22.661  1896  1896 I boot_progress_pms_scan_end: 12983
+07-09 09:41:22.667  1896  1896 I pm_critical_info: Destroying /data/user/0/media due to: com.android.server.pm.PackageManagerException: Package media is unknown
+07-09 09:41:22.893  1896  1896 I boot_progress_pms_ready: 13215
+07-09 09:41:22.966  1896  1896 I sysui_histogram: [boot_package_manager_init_ready,13288]
+07-09 09:41:22.966  1896  1896 I sysui_multi_action: [757,804,799,boot_package_manager_init_ready,801,13288,802,1]
+07-09 09:41:22.971  1896  1896 I am_uid_running: 1000
+07-09 09:41:22.974  1896  1896 I am_uid_active: 1000
+07-09 09:41:22.985  1896  1915 I battery_status: [3,2,1,0,Li-ion]
+07-09 09:41:22.985  1896  1915 I battery_level: [76,3977,340]
+07-09 09:41:23.138  1896  1896 I wm_stack_created: 0
+07-09 09:41:23.159  1896  1896 I configuration_changed: 24056
+07-09 09:41:23.204  1896  2105 I configuration_changed: 1032
+07-09 09:41:23.223  1896  2061 I configuration_changed: 512
+07-09 09:41:23.247  1896  2107 I configuration_changed: 256
+07-09 09:41:23.253  1896  1941 I configuration_changed: 256
+07-09 09:41:23.481  1896  2141 I storage_state: [41217664-9172-527a-b3d5-edabb50a7d69,0,0,49705734144,52225089536]
+07-09 09:41:23.507  1896  1896 I stream_devices_changed: [0,0,1]
+07-09 09:41:23.507  1896  1896 I stream_devices_changed: [2,0,2]
+07-09 09:41:23.507  1896  1896 I stream_devices_changed: [3,0,2]
+07-09 09:41:23.507  1896  1896 I stream_devices_changed: [4,0,2]
+07-09 09:41:23.508  1896  1896 I stream_devices_changed: [6,0,1]
+07-09 09:41:23.523   788   788 I auditd  : type=1400 audit(0.0:27): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:41:23.523   788   788 I auditd  : type=1400 audit(0.0:28): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:41:23.691  1896  1896 I boot_progress_ams_ready: 14013
+07-09 09:41:23.692  1896  1896 I configuration_changed: 256
+07-09 09:41:23.698  1896  1941 I configuration_changed: 256
+07-09 09:41:23.773  1268  1386 I storaged_emmc_info: [emmc 5.1,1,1,1]
+07-09 09:41:24.001  1896  1896 I am_uid_running: 10070
+07-09 09:41:24.008  1896  1896 I am_proc_start: [0,2173,10070,com.google.android.inputmethod.latin,service,com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME]
+07-09 09:41:24.014  1896  1896 I am_uid_running: 10035
+07-09 09:41:24.023   788   788 I auditd  : type=1400 audit(0.0:29): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:41:24.023   788   788 I auditd  : type=1400 audit(0.0:30): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:41:24.025  1896  1896 I am_proc_start: [0,2186,10035,com.android.systemui,service,com.android.systemui/.ImageWallpaper]
+07-09 09:41:24.026  1896  1915 I am_proc_bound: [0,2173,com.google.android.inputmethod.latin]
+07-09 09:41:24.028  1896  1915 I am_uid_active: 10070
+07-09 09:41:24.033  1896  1896 I auditd  : type=1400 audit(0.0:31): avc: denied { write } for comm="Binder:1896_1" name="timerslack_ns" dev="proc" ino=24478 scontext=u:r:system_server:s0 tcontext=u:r:audioserver:s0 tclass=file permissive=0
+07-09 09:41:24.033  1896  1896 I auditd  : type=1400 audit(0.0:32): avc: denied { write } for comm="Binder:1896_1" name="timerslack_ns" dev="proc" ino=24480 scontext=u:r:system_server:s0 tcontext=u:r:audioserver:s0 tclass=file permissive=0
+07-09 09:41:24.033  1896  1896 I auditd  : type=1400 audit(0.0:33): avc: denied { write } for comm="Binder:1896_1" name="timerslack_ns" dev="proc" ino=24484 scontext=u:r:system_server:s0 tcontext=u:r:audioserver:s0 tclass=file permissive=0
+07-09 09:41:24.034  1896  1915 I am_proc_bound: [0,2186,com.android.systemui]
+07-09 09:41:24.035  1896  1915 I am_uid_active: 10035
+07-09 09:41:24.059  1896  1927 I am_uid_running: 1037
+07-09 09:41:24.093  1896  1927 I am_proc_start: [0,2204,1037,WebViewLoader-armeabi-v7a,,]
+07-09 09:41:24.105  1896  1927 I am_proc_start: [0,2219,1037,WebViewLoader-arm64-v8a,,]
+07-09 09:41:24.350  1896  2122 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+07-09 09:41:24.350  1896  2122 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+07-09 09:41:24.403  1896  1896 I am_proc_start: [0,2278,1000,.dataservices,added application,.dataservices]
+07-09 09:41:24.404  1896  1896 I am_uid_running: 1001
+07-09 09:41:24.418  1896  1896 I am_proc_start: [0,2290,1001,com.qualcomm.qti.telephonyservice,added application,com.qualcomm.qti.telephonyservice]
+07-09 09:41:24.431  1896  1896 I am_proc_start: [0,2313,1001,com.android.phone,added application,com.android.phone]
+07-09 09:41:24.550  1896  1896 I wm_task_created: [1,0]
+07-09 09:41:24.551  1896  1896 I wm_task_moved: [1,1,0]
+07-09 09:41:24.551  1896  1896 I wm_task_moved: [1,1,0]
+07-09 09:41:24.551  1896  1896 I am_create_task: [0,1]
+07-09 09:41:24.551  1896  1896 I am_create_activity: [0,144983667,1,com.android.settings/.FallbackHome,android.intent.action.MAIN,NULL,NULL,276824320]
+07-09 09:41:24.552  1896  1896 I wm_task_moved: [1,1,0]
+07-09 09:41:24.566  1896  1896 I am_proc_start: [0,2348,1000,com.android.settings,activity,com.android.settings/.FallbackHome]
+07-09 09:41:24.585  1896  1914 I am_proc_bound: [0,2278,.dataservices]
+07-09 09:41:24.587  1896  1896 I sysui_histogram: [boot_system_server_ready,14909]
+07-09 09:41:24.587  1896  1896 I sysui_multi_action: [757,804,799,boot_system_server_ready,801,14909,802,1]
+07-09 09:41:24.587  1896  2301 I am_proc_bound: [0,2290,com.qualcomm.qti.telephonyservice]
+07-09 09:41:24.588  1896  2301 I am_uid_active: 1001
+07-09 09:41:24.589  1896  2298 I am_proc_bound: [0,2313,com.android.phone]
+07-09 09:41:24.592  1896  2334 I am_proc_bound: [0,2348,com.android.settings]
+07-09 09:41:24.622  1896  2334 I am_restart_activity: [0,144983667,1,com.android.settings/.FallbackHome]
+07-09 09:41:24.623  1896  2334 I am_set_resumed_activity: [0,com.android.settings/.FallbackHome,minimalResumeActivityLocked]
+07-09 09:41:24.728  2186  2398 I sysui_action: [213,2]
+07-09 09:41:24.729  2186  2398 I sysui_multi_action: [757,213,758,4,759,2]
+07-09 09:41:24.789  2348  2348 I am_on_resume_called: [0,com.android.settings.FallbackHome,LAUNCH_ACTIVITY]
+07-09 09:41:24.863  1896  1930 I boot_progress_enable_screen: 15186
+07-09 09:41:24.863  1896  1941 I am_activity_launch_time: [0,144983667,com.android.settings/.FallbackHome,307,307]
+07-09 09:41:24.863  1896  1930 I screen_toggled: 1
+07-09 09:41:24.944  1896  1896 I volume_changed: [3,9,8,15,AudioService]
+07-09 09:41:24.955  1896  1915 I am_pause_activity: [0,144983667,com.android.settings/.FallbackHome]
+07-09 09:41:24.973  2348  2348 I am_on_paused_called: [0,com.android.settings.FallbackHome,handlePauseActivity]
+07-09 09:41:24.975  1896  1930 I am_stop_activity: [0,144983667,com.android.settings/.FallbackHome]
+07-09 09:41:24.975  1896  1930 I sysui_count: [window_time_0,3]
+07-09 09:41:24.976  1896  1930 I sysui_multi_action: [757,803,799,window_time_0,802,3]
+07-09 09:41:24.976  2348  2348 I am_on_stop_called: [0,com.android.settings.FallbackHome,handleStopActivity]
+07-09 09:41:25.057  2186  2186 I sysui_multi_action: [757,1093,758,4,793,8,1094,0,1095,0]
+07-09 09:41:25.834  2186  2186 I sysui_view_visibility: [111,100]
+07-09 09:41:25.834  2186  2186 I sysui_multi_action: [757,111,758,1]
+07-09 09:41:25.834  2186  2186 I sysui_multi_action: [757,126,758,1,759,126,833,0,927,0,928,0]
+07-09 09:41:25.834  2186  2186 I sysui_multi_action: [757,115,758,1,759,115,833,0,927,1,928,0]
+07-09 09:41:25.834  2186  2186 I sysui_multi_action: [757,113,758,1,759,113,833,0,927,2,928,0]
+07-09 09:41:25.834  2186  2186 I sysui_multi_action: [757,122,758,1,759,122,833,0,927,3,928,0]
+07-09 09:41:25.834  2186  2186 I sysui_multi_action: [757,116,758,1,759,116,833,0,927,4,928,0]
+07-09 09:41:25.834  2186  2186 I sysui_multi_action: [757,119,758,1,759,119,833,0,927,5,928,0]
+07-09 09:41:25.844  2186  2186 I sysui_multi_action: [757,196,758,1,759,0]
+07-09 09:41:25.844  2186  2186 I sysui_status_bar_state: [1,1,0,0,0,1]
+07-09 09:41:25.846  1896  2202 I sysui_view_visibility: [127,100]
+07-09 09:41:25.847  1896  2202 I sysui_multi_action: [757,127,758,1]
+07-09 09:41:25.847  1896  2202 I sysui_histogram: [note_load,0]
+07-09 09:41:25.847  1896  2202 I sysui_multi_action: [757,804,799,note_load,801,0,802,1]
+07-09 09:41:25.847  1896  2202 I notification_panel_revealed: 0
+07-09 09:41:27.956   811  2631 I sf_stop_bootanim: 18278
+07-09 09:41:27.957  1896  1941 I wm_boot_animation_done: 18280
+07-09 09:41:27.971  1896  1941 I am_user_state_changed: [0,1]
+07-09 09:41:27.971  1896  1941 I sysui_histogram: [framework_locked_boot_completed,18]
+07-09 09:41:27.971  1896  1941 I sysui_multi_action: [757,804,799,framework_locked_boot_completed,801,18,802,1]
+07-09 09:41:27.973  1896  1941 I am_user_state_changed: [0,2]
+07-09 09:41:28.000  2647  2647 I sysui_multi_action: [757,1098,758,4,1099,]
+07-09 09:41:28.012  2651  2651 I sysui_multi_action: [757,804,799,factory_reset_current_time,801,1531109488,802,1]
+07-09 09:41:28.012  2651  2651 I sysui_multi_action: [757,804,799,factory_reset_record_value,801,1530867275,802,1]
+07-09 09:41:28.025  2653  2653 I sysui_multi_action: [757,804,799,post_decrypt_time_elapsed,801,9,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,last_boot_time_utc,801,1531109487,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,build_date,801,1530121997,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,boot_decryption_complete,801,18,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,factory_reset_boot_complete_post_decrypt,801,41,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,factory_reset_boot_complete,801,50,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,ro.boottime.init,801,4087,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,ro.boottime.init.selinux,801,40,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,ro.boottime.init.cold_boot_wait,801,937,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,boottime.bootloader.total,801,0,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,absolute_boot_time,801,18,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,boot_reason,801,1,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,factory_reset_current_time,801,1531109488,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,factory_reset,801,1530867275,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,time_since_last_boot,801,60603,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,ota_boot_complete_post_decrypt,801,25,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,ota_boot_complete,801,34,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,factory_reset_record_value,801,1530867275,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,time_since_factory_reset,801,242213,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,boot_complete_post_decrypt,801,9,802,1]
+07-09 09:41:28.026  2653  2653 I sysui_multi_action: [757,804,799,boot_complete,801,18,802,1]
+07-09 09:41:28.133  1896  1896 I am_uid_running: 10094
+07-09 09:41:28.154  1896  1896 I am_proc_start: [0,2664,10094,com.google.android.marvin.talkback,broadcast,com.google.android.marvin.talkback/com.google.android.accessibility.talkback.BootReceiver]
+07-09 09:41:28.170  1896  2202 I am_proc_bound: [0,2664,com.google.android.marvin.talkback]
+07-09 09:41:28.211  1896  1930 I am_uid_running: 10014
+07-09 09:41:28.224  1896  1930 I am_proc_start: [0,2683,10014,com.google.android.gms.persistent,service,com.google.android.gms/.backup.component.D2dTransportService]
+07-09 09:41:28.237  1896  2202 I am_proc_bound: [0,2683,com.google.android.gms.persistent]
+07-09 09:41:28.240  1896  2202 I am_uid_active: 10014
+07-09 09:41:28.263  1896  2202 I am_proc_start: [0,2699,1001,com.qualcomm.qcrilmsgtunnel,service,com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService]
+07-09 09:41:28.296  1896  2298 I am_proc_bound: [0,2699,com.qualcomm.qcrilmsgtunnel]
+07-09 09:41:28.370  1896  2202 I am_uid_running: 10054
+07-09 09:41:28.393  1896  2202 I am_proc_start: [0,2727,10054,com.google.android.deskclock,broadcast,com.google.android.deskclock/com.android.deskclock.AlarmInitReceiver]
+07-09 09:41:28.421  1896  2202 I am_proc_bound: [0,2727,com.google.android.deskclock]
+07-09 09:41:28.429  1896  1930 I am_uid_running: 10039
+07-09 09:41:28.449  1896  1930 I am_proc_start: [0,2744,10039,com.google.android.googlequicksearchbox:interactor,service,com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService]
+07-09 09:41:28.523  1896  1930 I am_proc_start: [0,2766,1001,com.qualcomm.qti.loadcarrier,added application,com.qualcomm.qti.loadcarrier]
+07-09 09:41:28.552  1896  1930 I am_proc_start: [0,2775,1000,com.quicinc.wbcserviceapp,added application,com.quicinc.wbcserviceapp]
+07-09 09:41:28.552  1896  1930 I am_uid_running: 10030
+07-09 09:41:28.578  1896  1930 I am_proc_start: [0,2794,10030,com.android.test.soundtrigger,added application,com.android.test.soundtrigger]
+07-09 09:41:28.599  1896  1930 I am_proc_start: [0,2811,1000,com.qualcomm.qti.services.secureui:sui_service,added application,com.qualcomm.qti.services.secureui:sui_service]
+07-09 09:41:28.602  1896  1930 I am_user_state_changed: [0,3]
+07-09 09:41:28.603  1896  1930 I sysui_histogram: [framework_boot_completed,18]
+07-09 09:41:28.603  1896  1930 I sysui_multi_action: [757,804,799,framework_boot_completed,801,18,802,1]
+07-09 09:41:28.606  1896  2334 I am_proc_bound: [0,2744,com.google.android.googlequicksearchbox:interactor]
+07-09 09:41:28.609  1896  2334 I am_uid_active: 10039
+07-09 09:41:28.612  1896  1929 I am_uid_running: 10078
+07-09 09:41:28.626  1896  1929 I am_proc_start: [0,2830,10078,com.android.printspooler,service,com.android.printspooler/.model.PrintSpoolerService]
+07-09 09:41:28.627  1896  2301 I am_proc_bound: [0,2766,com.qualcomm.qti.loadcarrier]
+07-09 09:41:28.632  1896  1915 I am_proc_bound: [0,2794,com.android.test.soundtrigger]
+07-09 09:41:28.633  1896  1915 I am_uid_active: 10030
+07-09 09:41:28.634  1896  2818 I am_proc_bound: [0,2811,com.qualcomm.qti.services.secureui:sui_service]
+07-09 09:41:28.636  1896  1914 I am_proc_bound: [0,2775,com.quicinc.wbcserviceapp]
+07-09 09:41:28.643  1896  1896 I am_uid_running: 10033
+07-09 09:41:28.663  1896  1896 I am_proc_start: [0,2844,10033,com.google.android.setupwizard,service,com.google.android.setupwizard/.deferred.DeferredSetupScheduler]
+07-09 09:41:28.664  1896  2333 I am_finish_activity: [0,144983667,1,com.android.settings/.FallbackHome,app-request]
+07-09 09:41:28.665  1896  2333 I wm_task_moved: [1,1,0]
+07-09 09:41:28.665  1896  2333 I am_destroy_activity: [0,144983667,1,com.android.settings/.FallbackHome,finish-imm]
+07-09 09:41:28.672  1896  1930 I sysui_count: [window_time_0,3]
+07-09 09:41:28.672  1896  1930 I sysui_multi_action: [757,803,799,window_time_0,802,3]
+07-09 09:41:28.678  1896  2333 I wm_task_removed: [1,removeAppToken: last token]
+07-09 09:41:28.678  1896  2333 I wm_task_removed: [1,removeTask]
+07-09 09:41:28.710  1896  2333 I wm_task_created: [173,0]
+07-09 09:41:28.710  1896  2333 I wm_task_moved: [173,1,0]
+07-09 09:41:28.710  1896  2333 I wm_task_moved: [173,1,0]
+07-09 09:41:28.711  1896  2333 I am_create_task: [0,173]
+07-09 09:41:28.711  1896  2333 I am_create_activity: [0,63403618,173,com.android.launcher3/com.android.searchlauncher.SearchLauncher,android.intent.action.MAIN,NULL,NULL,268435712]
+07-09 09:41:28.711  1896  2333 I wm_task_moved: [173,1,0]
+07-09 09:41:28.715  1896  1914 I am_proc_bound: [0,2844,com.google.android.setupwizard]
+07-09 09:41:28.731  1896  1930 I am_proc_start: [0,2873,1000,com.android.launcher3,activity,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:41:28.732  1896  2818 I am_proc_bound: [0,2830,com.android.printspooler]
+07-09 09:41:28.733  1896  2818 I am_uid_active: 10078
+07-09 09:41:28.745  1896  2298 I am_proc_start: [0,2888,10014,com.google.process.gservices,content provider,com.google.android.gsf/.gservices.GservicesProvider]
+07-09 09:41:28.747  1896  2334 I am_proc_bound: [0,2873,com.android.launcher3]
+07-09 09:41:28.751  1896  2334 I am_restart_activity: [0,63403618,173,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:41:28.752  1896  2334 I am_set_resumed_activity: [0,com.android.launcher3/com.android.searchlauncher.SearchLauncher,minimalResumeActivityLocked]
+07-09 09:41:28.754  1896  2334 I am_pause_activity: [0,63403618,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:41:28.759  1896  2334 I am_proc_bound: [0,2888,com.google.process.gservices]
+07-09 09:41:28.786  1896  2818 I am_uid_running: 10011
+07-09 09:41:28.799  1896  2818 I am_proc_start: [0,2919,10011,android.process.media,content provider,com.android.providers.media/.MediaProvider]
+07-09 09:41:28.800  1896  2301 I am_uid_running: 10084
+07-09 09:41:28.815  1896  2301 I am_proc_start: [0,2936,10084,com.android.smspush,service,com.android.smspush/.WapPushManager]
+07-09 09:41:28.817  1896  2202 I am_proc_bound: [0,2919,android.process.media]
+07-09 09:41:28.825  1896  1914 I am_proc_bound: [0,2936,com.android.smspush]
+07-09 09:41:28.826  1896  1914 I am_uid_active: 10084
+07-09 09:41:28.836  1896  1896 I backup_transport_lifecycle: [android/com.android.internal.backup.LocalTransportService,1]
+07-09 09:41:28.904  1896  1929 I am_proc_start: [0,2967,1000,com.android.keychain,service,com.android.keychain/.KeyChainService]
+07-09 09:41:28.905  1896  2334 I am_proc_bound: [0,2967,com.android.keychain]
+07-09 09:41:28.983  1896  1896 I auditd  : type=1400 audit(0.0:34): avc: denied { execute } for comm="system_server" path="/data/dalvik-cache/arm64/system@priv-app@com.qualcomm.location@com.qualcomm.location.apk@classes.dex" dev="dm-2" ino=1863937 scontext=u:r:system_server:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=file permissive=0
+07-09 09:41:28.993  2313  2313 I auditd  : type=1400 audit(0.0:36): avc: denied { read } for comm="m.android.phone" name="u:object_r:opengles_prop:s0" dev="tmpfs" ino=20426 scontext=u:r:radio:s0 tcontext=u:object_r:opengles_prop:s0 tclass=file permissive=0
+07-09 09:41:29.079  1896  2985 I am_uid_running: 10003
+07-09 09:41:29.089  1896  2985 I am_proc_start: [0,3010,10003,android.process.acore,content provider,com.android.providers.contacts/.ContactsProvider2]
+07-09 09:41:29.115  1896  3009 I am_proc_start: [0,3022,1000,com.qualcomm.location.XT,service,com.qualcomm.location.XT/.XTSrv]
+07-09 09:41:29.118  1896  2298 I am_proc_bound: [0,3010,android.process.acore]
+07-09 09:41:29.124  1896  2298 I am_uid_active: 10003
+07-09 09:41:29.131  1896  2987 I am_proc_bound: [0,3022,com.qualcomm.location.XT]
+07-09 09:41:29.140  2186  2404 I sysui_multi_action: [757,1093,758,4,793,4083,1094,9437184,1095,3]
+07-09 09:41:29.157  1896  1914 I am_proc_start: [0,3051,10014,com.google.android.gms,content provider,com.google.android.gms/.fonts.provider.FontsProvider]
+07-09 09:41:29.178  1896  2817 I am_proc_start: [0,3069,10039,com.google.android.googlequicksearchbox:search,service,com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService]
+07-09 09:41:29.179  1896  2301 I am_proc_bound: [0,3051,com.google.android.gms]
+07-09 09:41:29.212  1896  2817 I am_proc_bound: [0,3069,com.google.android.googlequicksearchbox:search]
+07-09 09:41:29.223  2873  2873 I am_on_resume_called: [0,com.android.searchlauncher.SearchLauncher,LAUNCH_ACTIVITY]
+07-09 09:41:29.242  2873  2873 I am_on_paused_called: [0,com.android.searchlauncher.SearchLauncher,handlePauseActivity]
+07-09 09:41:29.245  1896  1930 I am_stop_activity: [0,63403618,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:41:29.246  1896  1930 I sysui_count: [window_time_0,1]
+07-09 09:41:29.246  1896  1930 I sysui_multi_action: [757,803,799,window_time_0,802,1]
+07-09 09:41:29.305  2873  2873 I am_on_stop_called: [0,com.android.searchlauncher.SearchLauncher,handleStopActivity]
+07-09 09:41:29.361  1896  2987 I am_proc_start: [0,3114,1000,com.qualcomm.qti.poweroffalarm,broadcast,com.qualcomm.qti.poweroffalarm/.PowerOffAlarmBroadcastReceiver]
+07-09 09:41:29.382  1896  2983 I am_proc_bound: [0,3114,com.qualcomm.qti.poweroffalarm]
+07-09 09:41:29.509  1896  2301 I am_uid_running: 10076
+07-09 09:41:29.521  1896  2301 I am_proc_start: [0,3151,10076,com.google.android.apps.photos,broadcast,com.google.android.apps.photos/.sdcard.envcache.ExternalStorageStateChangeBroadcastReceiver]
+07-09 09:41:29.545  1896  1914 I am_proc_bound: [0,3151,com.google.android.apps.photos]
+07-09 09:41:29.635  1896  1896 I backup_transport_lifecycle: [com.google.android.gms/.backup.component.D2dTransportService,1]
+07-09 09:41:29.654  1896  2298 I am_proc_start: [0,3172,10014,com.google.process.gapps,content provider,com.google.android.gsf/.settings.GoogleSettingsProvider]
+07-09 09:41:29.672  1896  2301 I am_proc_bound: [0,3172,com.google.process.gapps]
+07-09 09:41:29.707  1896  2983 I am_uid_running: 10022
+07-09 09:41:29.726  1896  2983 I am_proc_start: [0,3194,10022,com.google.android.partnersetup,content provider,com.google.android.partnersetup/.RlzAppProvider]
+07-09 09:41:29.729  1896  2985 I am_proc_bound: [0,3194,com.google.android.partnersetup]
+07-09 09:41:29.731  1896  2985 I am_uid_active: 10022
+07-09 09:41:29.795  1896  1896 I backup_transport_lifecycle: [com.google.android.gms/.backup.BackupTransportService,1]
+07-09 09:41:29.911  1896  1896 I notification_cancel_all: [1000,1896,com.google.android.gms,0,0,0,17,NULL]
+07-09 09:41:29.925  1896  2301 I am_proc_start: [0,3237,1000,com.qualcomm.qti.qmmi,broadcast,com.qualcomm.qti.qmmi/.framework.QmmiReceiver]
+07-09 09:41:29.933  1896  2298 I am_proc_bound: [0,3237,com.qualcomm.qti.qmmi]
+07-09 09:41:29.940  1896  1929 I am_meminfo: [965648384,1568251904,12288,254963712,374815744]
+07-09 09:41:30.228  1896  3298 I sysui_histogram: [boot_mount_all_duration_default,16]
+07-09 09:41:30.228  1896  3298 I sysui_multi_action: [757,804,799,boot_mount_all_duration_default,801,16,802,1]
+07-09 09:41:30.228  1896  3298 I sysui_histogram: [boot_fs_stat_dsp_a,3]
+07-09 09:41:30.228  1896  3298 I sysui_multi_action: [757,804,799,boot_fs_stat_dsp_a,801,3,802,1]
+07-09 09:41:30.239  1896  3298 I sysui_histogram: [shutdown_activity_manager,130]
+07-09 09:41:30.239  1896  3298 I sysui_multi_action: [757,804,799,shutdown_activity_manager,801,130,802,1]
+07-09 09:41:30.239  1896  3298 I sysui_histogram: [shutdown_radios,538]
+07-09 09:41:30.239  1896  3298 I sysui_multi_action: [757,804,799,shutdown_radios,801,538,802,1]
+07-09 09:41:30.239  1896  3298 I sysui_histogram: [shutdown_radio,533]
+07-09 09:41:30.239  1896  3298 I sysui_multi_action: [757,804,799,shutdown_radio,801,533,802,1]
+07-09 09:41:30.239  1896  3298 I sysui_histogram: [shutdown_send_shutdown_broadcast,333]
+07-09 09:41:30.239  1896  3298 I sysui_multi_action: [757,804,799,shutdown_send_shutdown_broadcast,801,333,802,1]
+07-09 09:41:30.239  1896  3298 I sysui_histogram: [shutdown_system_server,1520]
+07-09 09:41:30.239  1896  3298 I sysui_multi_action: [757,804,799,shutdown_system_server,801,1520,802,1]
+07-09 09:41:30.239  1896  3298 I sysui_histogram: [shutdown_package_manager,18]
+07-09 09:41:30.239  1896  3298 I sysui_multi_action: [757,804,799,shutdown_package_manager,801,18,802,1]
+07-09 09:41:30.239  1896  3298 I sysui_histogram: [shutdown_bt,33]
+07-09 09:41:30.240  1896  3298 I sysui_multi_action: [757,804,799,shutdown_bt,801,33,802,1]
+07-09 09:41:30.240  1896  3298 I sysui_histogram: [shutdown_storage_manager,500]
+07-09 09:41:30.240  1896  3298 I sysui_multi_action: [757,804,799,shutdown_storage_manager,801,500,802,1]
+07-09 09:41:30.257  1896  2983 I am_uid_active: 10011
+07-09 09:41:30.281  1896  2983 I am_uid_running: 10016
+07-09 09:41:30.291  1896  2983 I am_proc_start: [0,3310,10016,com.google.android.dialer,broadcast,com.google.android.dialer/com.google.android.apps.dialer.app.GoogleDialerBootReceiver]
+07-09 09:41:30.306  1896  2983 I am_proc_bound: [0,3310,com.google.android.dialer]
+07-09 09:41:30.391  1896  2983 I configuration_changed: 3
+07-09 09:41:30.489  2313  2313 I gsm_service_state_change: [1,1,0,0]
+07-09 09:41:30.490  2313  2313 I gsm_rat_switched_new: [231622669,0,14]
+07-09 09:41:30.646  1896  1896 I notification_cancel_all: [1000,1896,com.google.android.dialer,0,0,0,17,NULL]
+07-09 09:41:30.646  1896  2298 I sysui_multi_action: [757,856,758,2,806,com.google.android.dialer,857,phone_voicemail_account_:8991000900009990147f,858,3]
+07-09 09:41:30.742  1896  2986 I am_proc_start: [0,3361,1000,com.qualcomm.display,broadcast,com.qualcomm.cabl/.CABLReceiver]
+07-09 09:41:30.770  1896  1914 I am_proc_bound: [0,3361,com.qualcomm.display]
+07-09 09:41:30.933  1896  2334 I am_uid_running: 10012
+07-09 09:41:30.947  1896  2334 I am_proc_start: [0,3393,10012,com.android.cellbroadcastreceiver,broadcast,com.android.cellbroadcastreceiver/.CellBroadcastReceiver]
+07-09 09:41:30.983  1896  2817 I am_proc_bound: [0,3393,com.android.cellbroadcastreceiver]
+07-09 09:41:31.110  1896  2818 I am_uid_running: 10023
+07-09 09:41:31.124  1896  2818 I am_proc_start: [0,3418,10023,com.android.hotwordenrollment.okgoogle,broadcast,com.android.hotwordenrollment.okgoogle/.StartupReceiver]
+07-09 09:41:31.150  1896  1915 I am_proc_bound: [0,3418,com.android.hotwordenrollment.okgoogle]
+07-09 09:41:31.177  2186  2404 I sysui_multi_action: [757,1093,758,4,793,2037,1094,9437184,1095,2]
+07-09 09:41:31.253  1896  2818 I am_uid_running: 10024
+07-09 09:41:31.268  1896  2818 I am_proc_start: [0,3450,10024,com.android.managedprovisioning,broadcast,com.android.managedprovisioning/.preprovisioning.BootReminder]
+07-09 09:41:31.283  1896  1915 I am_proc_bound: [0,3450,com.android.managedprovisioning]
+07-09 09:41:31.355  1896  2817 I am_uid_running: 10004
+07-09 09:41:31.371  1896  2817 I am_proc_start: [0,3473,10004,com.android.providers.calendar,broadcast,com.android.providers.calendar/.CalendarReceiver]
+07-09 09:41:31.426  1896  2818 I am_proc_bound: [0,3473,com.android.providers.calendar]
+07-09 09:41:31.532  1896  2134 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+07-09 09:41:31.532  1896  2134 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+07-09 09:41:31.561  1896  2134 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+07-09 09:41:31.561  1896  2134 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+07-09 09:41:31.765   591   591 I auditd  : avc:  denied  { find } for service=regionalization pid=2919 uid=10011 scontext=u:r:mediaprovider:s0:c512,c768 tcontext=u:object_r:regionalization_service:s0 tclass=service_manager permissive=0
+07-09 09:41:31.773  1896  2125 I ntp_success: [time.android.com/216.239.35.12,114,-631]
+07-09 09:41:31.780  1896  2987 I am_uid_running: 10026
+07-09 09:41:31.785  1896  2274 I ntp_success: [time.android.com/216.239.35.12,125,-627]
+07-09 09:41:31.158  1896  2396 I ntp_success: [time.android.com/216.239.35.12,127,-631]
+07-09 09:41:31.167  1896  2987 I am_proc_start: [0,3531,10026,com.android.vending,broadcast,com.android.vending/com.google.android.finsky.boothandler.BootCompletedReceiver]
+07-09 09:41:31.175  1896  2140 I am_uid_active: 10004
+07-09 09:41:31.192  1896  2987 I am_proc_bound: [0,3531,com.android.vending]
+07-09 09:41:31.330  1896  1929 I sync    : [com.google.android.gms.games.background,0,2,1555827538]
+07-09 09:41:31.340  1896  1929 I sync    : [com.android.contacts,0,1,1555827538]
+07-09 09:41:31.342  1896  1929 I am_uid_running: 10057
+07-09 09:41:31.384  1896  1929 I am_proc_start: [0,3547,10057,com.google.process.gapps,service,com.google.android.syncadapters.contacts/.ContactsSyncAdapterService]
+07-09 09:41:31.389  1896  2983 I am_proc_bound: [0,3547,com.google.process.gapps]
+07-09 09:41:31.395  1896  1929 I sync    : [com.google.android.gms.games,0,2,1555827538]
+07-09 09:41:31.406  1896  1929 I sync    : [com.google.android.gms.drive.sync,0,2,1555827538]
+07-09 09:41:31.431  1896  2298 I am_proc_start: [0,3563,10014,com.google.android.play.games.ui,content provider,com.google.android.gms/.games.provider.NotificationStubContentProvider]
+07-09 09:41:31.448  1896  2987 I am_proc_bound: [0,3563,com.google.android.play.games.ui]
+07-09 09:41:31.504  1896  1929 I sync    : [com.google.android.gms.games.background,1,2,1555827538]
+07-09 09:41:31.572  1896  1929 I sync    : [com.google.android.gms.games,1,2,1555827538]
+07-09 09:41:31.753  1896  1896 I notification_cancel_all: [1000,1896,com.android.vending,0,0,0,17,NULL]
+07-09 09:41:31.765  1896  1896 I chatty  : uid=1000 system_server identical 2 lines
+07-09 09:41:31.765  1896  1896 I notification_cancel_all: [1000,1896,com.android.vending,0,0,0,17,NULL]
+07-09 09:41:31.906  1896  1896 I auditd  : type=1400 audit(0.0:37): avc: denied { execute } for comm="system_server" path="/data/dalvik-cache/arm64/system@app@AntHalService@AntHalService.apk@classes.dex" dev="dm-2" ino=1863865 scontext=u:r:system_server:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=file permissive=0
+07-09 09:41:31.919  1896  1929 I sync    : [com.google.android.gms.drive.sync,1,2,1555827538]
+07-09 09:41:31.958  2186  2404 I sysui_multi_action: [757,1093,758,4,793,781,1094,9437184,1095,2]
+07-09 09:41:31.997  1896  1896 I am_uid_running: 10089
+07-09 09:41:32.010  1896  1896 I am_proc_start: [0,3662,10089,com.generalmobile.app.gmfilemanager,broadcast,com.generalmobile.app.gmfilemanager/.core.services.BootCompleteReceiver]
+07-09 09:41:32.037  1896  2987 I am_proc_bound: [0,3662,com.generalmobile.app.gmfilemanager]
+07-09 09:41:32.230  3547  3580 I sync_details: [Sync,0,0,]
+07-09 09:41:32.240  1896  1929 I sync    : [com.android.contacts,1,1,1555827538]
+07-09 09:41:32.480  1896  2818 I am_uid_running: 10092
+07-09 09:41:32.495  1896  2818 I am_proc_start: [0,3730,10092,com.generalmobile.assistant,broadcast,com.generalmobile.assistant/.utils.retail.receiver.OnBootBroadcast]
+07-09 09:41:32.517  1896  2301 I am_proc_bound: [0,3730,com.generalmobile.assistant]
+07-09 09:41:33.137  1896  2298 I am_proc_start: [0,3807,1000,com.generalmobile.gmservice,broadcast,com.generalmobile.gmservice/.utils.receivers.BootReceiver]
+07-09 09:41:33.163  1896  2818 I am_proc_bound: [0,3807,com.generalmobile.gmservice]
+07-09 09:41:33.208  3531  3750 I google_http_request: [341,200,Android-Finsky/10.6.08-all%20%5B0%5D%20%5BPR%5D%20200628961 (api=3,versionCode=81060800,sdk=27,device=GM9PRO_d_sprout,hardware=qcom,product=GM9PRO,platformVersionRelease=8.1.0,model=GM%209%20Pro%20d,buildId=OPM1.171019.019,isWideScreen=0,supportedAbis=arm64-v8a;armeabi-v7a;armeabi),1]
+07-09 09:41:33.222  1896  2987 I am_uid_running: 10091
+07-09 09:41:33.249  1896  2987 I am_proc_start: [0,3823,10091,com.generalmobile.storeoid,broadcast,com.generalmobile.storeoid/.livedevice.OnBootBroadcast]
+07-09 09:41:33.271  1896  2301 I am_proc_bound: [0,3823,com.generalmobile.storeoid]
+07-09 09:41:33.405  1896  1930 I am_uid_running: 10071
+07-09 09:41:33.408  3531  3750 I google_http_request: [154,200,Android-Finsky/10.6.08-all%20%5B0%5D%20%5BPR%5D%20200628961 (api=3,versionCode=81060800,sdk=27,device=GM9PRO_d_sprout,hardware=qcom,product=GM9PRO,platformVersionRelease=8.1.0,model=GM%209%20Pro%20d,buildId=OPM1.171019.019,isWideScreen=0,supportedAbis=arm64-v8a;armeabi-v7a;armeabi),1]
+07-09 09:41:33.423  1896  1930 I am_proc_start: [0,3854,10071,com.google.android.apps.maps,broadcast,com.google.android.apps.maps/com.google.android.apps.gmm.navigation.service.detection.StartDetectionReceiver]
+07-09 09:41:33.441  1896  2298 I am_proc_bound: [0,3854,com.google.android.apps.maps]
+07-09 09:41:33.690  1896  2987 I wm_stack_created: 1
+07-09 09:41:33.691  1896  2987 I wm_task_created: [143,1]
+07-09 09:41:33.691  1896  2987 I wm_task_moved: [143,1,0]
+07-09 09:41:33.786  3854  3854 I auditd  : type=1400 audit(0.0:39): avc: denied { read } for comm="NativeLibLoader" name="stat" dev="proc" ino=4026532072 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=0
+07-09 09:41:33.935  2683  3875 I c2dm    : [-2,,1,1]
+07-09 09:41:33.946  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1987,1094,9437184,1095,2]
+07-09 09:41:34.052  2683  3894 I c2dm    : [3,,1,1]
+07-09 09:41:34.060  2683  3894 I gtalk_heartbeat_reset: [120,74.125.24.188:5228]
+07-09 09:41:34.061  2683  3894 I gtalk_connection: 0
+07-09 09:41:34.066  2683  3894 I c2dm    : [7,,1,1]
+07-09 09:41:34.309  1896  2983 I am_proc_start: [0,3927,10026,com.android.vending:instant_app_installer,service,com.android.vending/com.google.android.finsky.instantapps.statussync.StatusSyncService]
+07-09 09:41:34.351  1896  1915 I am_proc_bound: [0,3927,com.android.vending:instant_app_installer]
+07-09 09:41:34.384  1896  2818 I am_uid_running: 10072
+07-09 09:41:34.395  1896  2818 I am_proc_start: [0,3943,10072,com.google.android.apps.messaging,broadcast,com.google.android.apps.messaging/.shared.receiver.BootAndPackageReplacedReceiver]
+07-09 09:41:34.428  1896  2818 I am_proc_bound: [0,3943,com.google.android.apps.messaging]
+07-09 09:41:34.788  1896  2298 I am_uid_running: 10064
+07-09 09:41:34.801  1896  2298 I am_proc_start: [0,3994,10064,com.google.android.tts,service,com.google.android.tts/.service.GoogleTTSService]
+07-09 09:41:34.822  1896  2987 I am_proc_bound: [0,3994,com.google.android.tts]
+07-09 09:41:34.926  3943  3943 I auditd  : type=1400 audit(0.0:40): avc: denied { read } for comm=".apps.messaging" name="stat" dev="proc" ino=4026532072 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=0
+07-09 09:41:34.936  3943  3943 I chatty  : uid=10072(com.google.android.apps.messaging) identical 1 line
+07-09 09:41:34.946  3943  3943 I auditd  : type=1400 audit(0.0:42): avc: denied { read } for comm=".apps.messaging" name="stat" dev="proc" ino=4026532072 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=0
+07-09 09:41:35.121  1896  1915 I am_proc_start: [0,4038,10072,com.google.android.apps.messaging:rcs,broadcast,com.google.android.apps.messaging/com.google.android.ims.receiver.AutoStartReceiver]
+07-09 09:41:35.146  1896  2818 I am_proc_bound: [0,4038,com.google.android.apps.messaging:rcs]
+07-09 09:41:35.451  1896  2301 I am_uid_running: 10052
+07-09 09:41:35.467  1896  2301 I am_proc_start: [0,4070,10052,com.google.android.calendar,broadcast,com.google.android.calendar/.alerts.HabitsIntentReceiver]
+07-09 09:41:35.491  1896  2301 I am_proc_bound: [0,4070,com.google.android.calendar]
+07-09 09:41:35.859  1896  2818 I am_uid_running: 10006
+07-09 09:41:35.874  1896  2818 I am_proc_start: [0,4116,10006,com.google.android.configupdater,broadcast,com.google.android.configupdater/.MainReceiver]
+07-09 09:41:35.898  1896  2334 I am_proc_bound: [0,4116,com.google.android.configupdater]
+07-09 09:41:36.050  1896  2818 I am_uid_running: 10017
+07-09 09:41:36.064  1896  2818 I am_proc_start: [0,4159,10017,com.google.android.contacts,broadcast,com.google.android.contacts/com.google.android.apps.contacts.interactions.OnBootOrUpgradeReceiver]
+07-09 09:41:36.080  1896  2818 I am_proc_bound: [0,4159,com.google.android.contacts]
+07-09 09:41:36.276  1896  2817 I am_uid_running: 10061
+07-09 09:41:36.287  1896  2817 I am_proc_start: [0,4186,10061,com.google.android.gm,broadcast,com.google.android.gm/.GoogleMailDeviceStartupReceiver]
+07-09 09:41:36.308  1896  2301 I am_proc_bound: [0,4186,com.google.android.gm]
+07-09 09:41:36.966  1896  2817 I am_uid_running: 10059
+07-09 09:41:36.978  1896  2817 I am_proc_start: [0,4262,10059,com.android.chrome,service,com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService]
+07-09 09:41:37.052  1896  2987 I am_proc_bound: [0,4262,com.android.chrome]
+07-09 09:41:37.069  1896  1915 I am_uid_running: 10007
+07-09 09:41:37.089  1896  1915 I am_proc_start: [0,4284,10007,com.google.android.ims,broadcast,com.google.android.ims/.receivers.BootCompletedReceiver]
+07-09 09:41:37.136  1896  2817 I am_proc_bound: [0,4284,com.google.android.ims]
+07-09 09:41:37.217  1896  1929 I sync    : [com.google.android.gms.auth.accountstate,0,3,1555827538]
+07-09 09:41:37.341  1896  1929 I sync    : [com.google.android.gms.auth.accountstate,1,3,1555827538]
+07-09 09:41:37.416  1896  1929 I sync    : [com.google.android.gms.auth.api.credentials,0,3,1555827538]
+07-09 09:41:37.518  3051  4243 I [70220] : 47122
+07-09 09:41:37.539  1896  1929 I sync    : [com.google.android.gms.chromesync,0,3,1555827538]
+07-09 09:41:37.633  1896  2334 I am_proc_start: [0,4356,10014,com.google.android.gms.unstable,service,com.google.android.gms/.droidguard.DroidGuardService]
+07-09 09:41:37.655  1896  1929 I sync    : [com.google.android.gms.auth.api.credentials,1,3,1555827538]
+07-09 09:41:37.667  2888  2992 I force_gc: Binder
+07-09 09:41:37.698  1896  2301 I am_proc_bound: [0,4356,com.google.android.gms.unstable]
+07-09 09:41:37.836  1896  1929 I sync    : [com.google.android.gms.chromesync,1,3,1555827538]
+07-09 09:41:37.873  3051  3989 I aggregation: 1531109497873
+07-09 09:41:37.910  3051  3989 I [70220] : [20484,185]
+07-09 09:41:38.017  1896  2987 I am_uid_active: 10026
+07-09 09:41:38.049  1896  2301 I am_proc_start: [0,4427,10014,com.google.android.gms.ui,service,com.google.android.gms/.chimera.UiIntentOperationService]
+07-09 09:41:38.101  1896  2334 I am_proc_bound: [0,4427,com.google.android.gms.ui]
+07-09 09:41:38.459  1896  1929 I sync    : [subscribedfeeds,0,0,1555827538]
+07-09 09:41:38.690  1896  2984 I am_uid_running: 10066
+07-09 09:41:38.705  1896  2984 I am_proc_start: [0,4533,10066,com.google.android.inputmethod.japanese,broadcast,com.google.android.inputmethod.japanese/com.google.android.apps.inputmethod.libs.framework.core.LauncherIconVisibilityInitializer]
+07-09 09:41:38.739  1896  2987 I am_proc_bound: [0,4533,com.google.android.inputmethod.japanese]
+07-09 09:41:38.746  4356  4356 I auditd  : type=1400 audit(0.0:43): avc: denied { read } for comm="IntentService[D" name="/" dev="tmpfs" ino=13463 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+07-09 09:41:38.746  4356  4356 I auditd  : type=1400 audit(0.0:44): avc: denied { read } for comm="IntentService[D" name="interrupts" dev="proc" ino=4026532069 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_interrupts:s0 tclass=file permissive=0
+07-09 09:41:38.969  1896  2817 I am_uid_running: 10068
+07-09 09:41:38.980  1896  2817 I am_proc_start: [0,4574,10068,com.google.android.inputmethod.korean,broadcast,com.google.android.inputmethod.korean/com.google.android.apps.inputmethod.libs.framework.core.LauncherIconVisibilityInitializer]
+07-09 09:41:39.013  1896  1915 I am_proc_bound: [0,4574,com.google.android.inputmethod.korean]
+07-09 09:41:39.098  2683  4596 I sysui_action: [920,2101142433]
+07-09 09:41:39.098  2683  4596 I sysui_multi_action: [757,920,758,4,759,2101142433]
+07-09 09:41:39.314  1896  1940 I am_uid_running: 1002
+07-09 09:41:39.332  1896  1940 I am_proc_start: [0,4616,1002,com.android.bluetooth,service,com.android.bluetooth/.btservice.AdapterService]
+07-09 09:41:39.347  1896  2987 I am_uid_running: 10063
+07-09 09:41:39.359  1896  2987 I am_proc_start: [0,4629,10063,com.google.android.inputmethod.pinyin,broadcast,com.google.android.inputmethod.pinyin/com.google.android.apps.inputmethod.libs.framework.core.LauncherIconVisibilityInitializer]
+07-09 09:41:39.361  1896  2983 I am_proc_bound: [0,4616,com.android.bluetooth]
+07-09 09:41:39.363  1896  2983 I am_uid_active: 1002
+07-09 09:41:39.391  1896  2817 I am_proc_bound: [0,4629,com.google.android.inputmethod.pinyin]
+07-09 09:41:39.412  1896  1929 I sync    : [subscribedfeeds,1,0,1555827538]
+07-09 09:41:39.615  4616  4656 I bt_config_source: 1
+07-09 09:41:39.719  1896  1914 I am_uid_running: 10019
+07-09 09:41:39.733  1896  1914 I am_proc_start: [0,4679,10019,com.google.android.onetimeinitializer,broadcast,com.google.android.onetimeinitializer/.OneTimeInitializerReceiver]
+07-09 09:41:39.735  1896  1914 I am_kill : [0,2967,com.android.keychain,906,empty #31]
+07-09 09:41:39.748  1896  2983 I am_proc_bound: [0,4679,com.google.android.onetimeinitializer]
+07-09 09:41:39.761  1896  2983 I am_proc_died: [0,2967,com.android.keychain,906,17]
+07-09 09:41:39.844  1896  2983 I am_uid_running: 10021
+07-09 09:41:39.860  1896  2983 I am_proc_start: [0,4701,10021,com.google.android.packageinstaller,broadcast,com.google.android.packageinstaller/com.android.packageinstaller.TemporaryFileManager]
+07-09 09:41:39.862  1896  2987 I am_kill : [0,2844,com.google.android.setupwizard,906,empty #31]
+07-09 09:41:39.886  1896  1915 I am_proc_bound: [0,4701,com.google.android.packageinstaller]
+07-09 09:41:39.890  1896  4580 I am_proc_died: [0,2844,com.google.android.setupwizard,906,17]
+07-09 09:41:39.890  1896  4580 I am_uid_stopped: 10033
+07-09 09:41:39.916  1896  1945 I power_sleep_requested: 0
+07-09 09:41:39.967  1896  4580 I am_kill : [0,3114,com.qualcomm.qti.poweroffalarm,906,empty #31]
+07-09 09:41:39.984  1896  1915 I am_proc_died: [0,3114,com.qualcomm.qti.poweroffalarm,906,17]
+07-09 09:41:40.086  4356  4356 I auditd  : type=1400 audit(0.0:46): avc: denied { read } for comm="Binder:4356_1" name="modules" dev="proc" ino=4026532117 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_modules:s0 tclass=file permissive=0
+07-09 09:41:40.116  4356  4356 I auditd  : type=1400 audit(0.0:47): avc: denied { read } for comm="Binder:4356_1" name="/" dev="tmpfs" ino=13463 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+07-09 09:41:40.186  3051  3989 I [70220] : [5,1531048893182,1531109497873,56,220,71,0,34,30,0,26,0,1679,0,0,3,0,2,43]
+07-09 09:41:40.206  1896  1915 I am_uid_running: 10067
+07-09 09:41:40.223  1896  1915 I am_proc_start: [0,4734,10067,com.google.android.talk,broadcast,com.google.android.talk/com.google.android.apps.hangouts.service.broadcastreceiver.BootReceiver]
+07-09 09:41:40.238  1896  1915 I am_proc_bound: [0,4734,com.google.android.talk]
+07-09 09:41:40.311  1896  1939 I sysui_view_visibility: [223,100]
+07-09 09:41:40.311  1896  1939 I sysui_multi_action: [757,223,758,1]
+07-09 09:41:40.360  1896  1896 I sysui_multi_action: [757,198,758,2,759,3]
+07-09 09:41:40.360  1896  1896 I power_screen_state: [0,3,0,0,0]
+07-09 09:41:40.360  1896  1896 I screen_toggled: 0
+07-09 09:41:40.360  1896  1896 I sysui_histogram: [screen_timeout,60]
+07-09 09:41:40.360  1896  1896 I sysui_multi_action: [757,804,799,screen_timeout,801,60,802,1]
+07-09 09:41:40.361  1896  1896 I power_screen_broadcast_send: 1
+07-09 09:41:40.369  1896  1896 I device_idle: [1,no activity]
+07-09 09:41:40.369  1896  1896 I device_idle_light: [1,no activity]
+07-09 09:41:40.383  1896  1915 I sysui_view_visibility: [127,0]
+07-09 09:41:40.383  1896  1915 I sysui_multi_action: [757,127,758,2]
+07-09 09:41:40.383  1896  1915 I notification_panel_hidden: 
+07-09 09:41:40.416  1896  1896 I power_screen_broadcast_done: [1,55,1]
+07-09 09:41:40.416  1896  1896 I power_screen_broadcast_send: 1
+07-09 09:41:40.458  1896  1896 I power_screen_broadcast_done: [0,41,1]
+07-09 09:41:40.622  1896  2986 I am_uid_running: 10093
+07-09 09:41:40.644  1896  2986 I am_proc_start: [0,4777,10093,com.google.android.youtube,broadcast,com.google.android.youtube/com.google.android.libraries.youtube.mdx.background.MdxBackgroundScanBootReceiver]
+07-09 09:41:40.654  1896  1915 I am_kill : [0,3237,com.qualcomm.qti.qmmi,906,empty #31]
+07-09 09:41:40.666   774   774 I auditd  : type=1400 audit(0.0:49): avc: denied { read write } for comm="bluetooth@1.0-s" name="diag" dev="tmpfs" ino=15437 scontext=u:r:hal_bluetooth_qti:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+07-09 09:41:40.680  1896  2986 I am_proc_bound: [0,4777,com.google.android.youtube]
+07-09 09:41:40.702  1896  2333 I am_proc_died: [0,3237,com.qualcomm.qti.qmmi,906,17]
+07-09 09:41:41.118  1896  2333 I wm_task_created: [148,1]
+07-09 09:41:41.118  1896  2333 I wm_task_moved: [148,0,0]
+07-09 09:41:41.195  1896  1896 I notification_cancel_all: [1000,1896,com.google.android.youtube,0,0,0,17,NULL]
+07-09 09:41:41.445  1896  2333 I am_proc_start: [0,4906,1000,com.longcheertel.midtest,broadcast,com.longcheertel.midtest/.FactoryTestReceiver]
+07-09 09:41:41.446  1896  2333 I am_kill : [0,2348,com.android.settings,906,empty #31]
+07-09 09:41:41.470  1896  2817 I am_proc_died: [0,2348,com.android.settings,906,17]
+07-09 09:41:41.474  1896  2202 I am_proc_bound: [0,4906,com.longcheertel.midtest]
+07-09 09:41:41.591  1896  2818 I am_kill : [0,3022,com.qualcomm.location.XT,906,empty #31]
+07-09 09:41:41.644  1896  1896 I am_proc_start: [0,4935,1000,com.qualcomm.location.XT,broadcast,com.qualcomm.location.XT/.XTBroadcastReceiver]
+07-09 09:41:41.676  1896  2202 I am_proc_bound: [0,4935,com.qualcomm.location.XT]
+07-09 09:41:41.734  1896  2202 I am_uid_running: 10082
+07-09 09:41:41.750  1896  2202 I am_proc_start: [0,4951,10082,com.qualcomm.qti.StatsPollManager,broadcast,com.qualcomm.qti.StatsPollManager/.StatsPollManagerReceiver]
+07-09 09:41:41.769  1896  2202 I am_proc_bound: [0,4951,com.qualcomm.qti.StatsPollManager]
+07-09 09:41:41.789  1896  2202 I am_kill : [0,3361,com.qualcomm.display,906,empty #31]
+07-09 09:41:41.800  1896  1915 I am_proc_died: [0,3361,com.qualcomm.display,906,17]
+07-09 09:41:41.823  1896  1915 I am_proc_start: [0,4970,1001,com.qualcomm.qti.autoregistration,broadcast,com.qualcomm.qti.autoregistration/.AutoRegReceiver]
+07-09 09:41:41.839  1896  1915 I am_proc_bound: [0,4970,com.qualcomm.qti.autoregistration]
+07-09 09:41:41.894  1896  2202 I am_proc_died: [0,4970,com.qualcomm.qti.autoregistration,0,12]
+07-09 09:41:41.894  1896  2202 I am_broadcast_discard_app: [0,179831924,android.intent.action.BOOT_COMPLETED,100,ResolveInfo{c9208e9 com.qualcomm.qti.autoregistration/.AutoRegReceiver m=0x108000}]
+07-09 09:41:41.918  1896  1930 I am_proc_start: [0,4988,1000,com.qualcomm.qti.biometrics.fingerprint.service,broadcast,com.qualcomm.qti.biometrics.fingerprint.service/.ShutdownReceiver]
+07-09 09:41:41.935  1896  2202 I am_proc_bound: [0,4988,com.qualcomm.qti.biometrics.fingerprint.service]
+07-09 09:41:41.991  1896  2202 I am_proc_start: [0,5005,1000,com.qualcomm.qti.callenhancement,broadcast,com.qualcomm.qti.callenhancement/.BootCompletedReceiver]
+07-09 09:41:41.992  1896  2202 I am_kill : [0,2664,com.google.android.marvin.talkback,906,empty #31]
+07-09 09:41:42.007  1896  2202 I am_proc_died: [0,2664,com.google.android.marvin.talkback,906,17]
+07-09 09:41:42.007  1896  2202 I am_uid_stopped: 10094
+07-09 09:41:42.016  1896  2202 I am_proc_bound: [0,5005,com.qualcomm.qti.callenhancement]
+07-09 09:41:42.078  3051  3989 I [70220] : [6,1878,9,0]
+07-09 09:41:42.103  1896  2298 I am_proc_start: [0,5020,1001,com.qualcomm.qti.lpa,broadcast,com.qualcomm.qti.lpa/.UimLpaBootReceiver]
+07-09 09:41:42.124  1896  2298 I am_proc_bound: [0,5020,com.qualcomm.qti.lpa]
+07-09 09:41:42.189  1896  2298 I am_proc_start: [0,5035,1000,com.qualcomm.qti.smcinvokepkgmgr,broadcast,com.qualcomm.qti.smcinvokepkgmgr/.SmcInvokeBroadcastReceiver]
+07-09 09:41:42.191  1896  2298 I am_kill : [0,3393,com.android.cellbroadcastreceiver,906,empty #31]
+07-09 09:41:42.205  1896  2202 I am_proc_bound: [0,5035,com.qualcomm.qti.smcinvokepkgmgr]
+07-09 09:41:42.209  1896  2298 I am_proc_died: [0,3393,com.android.cellbroadcastreceiver,906,17]
+07-09 09:41:42.209  1896  2298 I am_uid_stopped: 10012
+07-09 09:41:42.269  1896  2202 I am_proc_start: [0,5054,1001,com.qualcomm.simcontacts,broadcast,com.qualcomm.simcontacts/.SimStateReceiver]
+07-09 09:41:42.276  3051  3989 I [70220] : [5,1531109497873,1531109497873,36,95,12,0,0,17,0,7,0,0,0,0,1,0,2,20]
+07-09 09:41:42.279  3051  3989 I [70220] : 119
+07-09 09:41:42.283  3051  3989 I [70220] : 24
+07-09 09:41:42.286  1896  1915 I am_proc_bound: [0,5054,com.qualcomm.simcontacts]
+07-09 09:41:42.332  1896  1930 I am_uid_running: 10097
+07-09 09:41:42.347  1896  1930 I am_proc_start: [0,5071,10097,com.google.android.apps.tachyon,broadcast,com.google.android.apps.tachyon/.BootReceiver]
+07-09 09:41:42.362  1896  2298 I am_proc_bound: [0,5071,com.google.android.apps.tachyon]
+07-09 09:41:42.950  1896  2298 I am_uid_running: 10100
+07-09 09:41:42.974  1896  2298 I am_proc_start: [0,5118,10100,com.google.android.keep,broadcast,com.google.android.keep/.notification.ReminderNotificationReceiver]
+07-09 09:41:42.979  1896  1915 I am_kill : [0,3418,com.android.hotwordenrollment.okgoogle,906,empty #31]
+07-09 09:41:43.012  1896  2298 I am_proc_bound: [0,5118,com.google.android.keep]
+07-09 09:41:43.021  1896  2818 I am_proc_died: [0,3418,com.android.hotwordenrollment.okgoogle,906,17]
+07-09 09:41:43.022  1896  2818 I am_uid_stopped: 10023
+07-09 09:41:43.417  1896  2298 I am_uid_running: 10107
+07-09 09:41:43.438  1896  2298 I am_proc_start: [0,5147,10107,com.kimcy929.screenrecorder,broadcast,com.kimcy929.screenrecorder/androidx.work.impl.background.systemalarm.RescheduleReceiver]
+07-09 09:41:43.456  1896  1929 I am_pss  : [2173,10070,com.google.android.inputmethod.latin,28040192,25726976,0]
+07-09 09:41:43.457  1896  2298 I am_proc_bound: [0,5147,com.kimcy929.screenrecorder]
+07-09 09:41:43.521  1896  2818 I am_kill : [0,3450,com.android.managedprovisioning,906,empty #31]
+07-09 09:41:43.546  1896  2818 I am_proc_died: [0,3450,com.android.managedprovisioning,906,17]
+07-09 09:41:43.546  1896  2818 I am_uid_stopped: 10024
+07-09 09:41:45.148  1896  2298 I am_kill : [0,3662,com.generalmobile.app.gmfilemanager,906,empty #31]
+07-09 09:41:45.179  1896  2298 I am_proc_died: [0,3662,com.generalmobile.app.gmfilemanager,906,17]
+07-09 09:41:45.180  1896  2298 I am_uid_stopped: 10089
+07-09 09:41:45.566  1896  2334 I am_kill : [0,2830,com.android.printspooler,906,empty #31]
+07-09 09:41:45.594  1896  2334 I am_proc_died: [0,2830,com.android.printspooler,906,17]
+07-09 09:41:45.595  1896  2334 I am_uid_stopped: 10078
+07-09 09:41:48.610  1896  1929 I am_pss  : [2683,10014,com.google.android.gms.persistent,67426304,55799808,0]
+07-09 09:41:48.661  1896  1929 I am_pss  : [2699,1001,com.qualcomm.qcrilmsgtunnel,3468288,2899968,0]
+07-09 09:41:48.701  1896  1929 I am_pss  : [2936,10084,com.android.smspush,2662400,2121728,0]
+07-09 09:41:48.743  1896  1929 I am_pss  : [2873,1000,com.android.launcher3,38488064,28000256,0]
+07-09 09:41:48.779  1896  1929 I am_pss  : [2744,10039,com.google.android.googlequicksearchbox:interactor,15077376,11575296,0]
+07-09 09:41:49.313  1896  2334 I am_kill : [0,3823,com.generalmobile.storeoid,906,empty #31]
+07-09 09:41:49.347  1896  2334 I am_proc_died: [0,3823,com.generalmobile.storeoid,906,17]
+07-09 09:41:49.348  1896  2334 I am_uid_stopped: 10091
+07-09 09:41:49.382  1896  2817 I am_kill : [0,3807,com.generalmobile.gmservice,906,empty #31]
+07-09 09:41:49.402  1896  2334 I am_proc_died: [0,3807,com.generalmobile.gmservice,906,17]
+07-09 09:41:51.391  1896  2334 I am_kill : [0,3854,com.google.android.apps.maps,906,empty #31]
+07-09 09:41:51.438  1896  1915 I am_proc_died: [0,3854,com.google.android.apps.maps,906,17]
+07-09 09:41:51.438  1896  1915 I am_uid_stopped: 10071
+07-09 09:41:51.744  1896  1915 I am_kill : [0,3563,com.google.android.play.games.ui,906,empty #31]
+07-09 09:41:51.787  1896  1915 I am_proc_died: [0,3563,com.google.android.play.games.ui,906,17]
+07-09 09:41:52.617  1896  1940 I am_uid_running: 10018
+07-09 09:41:52.662  1896  1940 I am_proc_start: [0,5228,10018,com.google.android.ext.services,service,com.google.android.ext.services/android.ext.services.storage.CacheQuotaServiceImpl]
+07-09 09:41:52.687  1896  5226 I am_proc_bound: [0,5228,com.google.android.ext.services]
+07-09 09:41:52.691  1896  5226 I am_uid_active: 10018
+07-09 09:41:52.818  1896  5226 I am_kill : [0,3927,com.android.vending:instant_app_installer,906,empty #31]
+07-09 09:41:52.833  1896  5226 I am_proc_died: [0,3927,com.android.vending:instant_app_installer,906,17]
+07-09 09:41:54.487  1896  1915 I am_proc_start: [0,5256,1000,com.android.keychain,service,com.android.keychain/.KeyChainService]
+07-09 09:41:54.518  1896  1915 I am_proc_bound: [0,5256,com.android.keychain]
+07-09 09:41:54.590  1896  5226 I am_kill : [0,4070,com.google.android.calendar,906,empty #31]
+07-09 09:41:54.606  1896  1915 I am_proc_died: [0,4070,com.google.android.calendar,906,17]
+07-09 09:41:54.606  1896  1915 I am_uid_stopped: 10052
+07-09 09:41:55.080  1896  1915 I am_proc_start: [0,5271,1000,com.android.settings,broadcast,com.android.settings/.sim.SimSelectNotification]
+07-09 09:41:55.105  1896  1915 I am_proc_bound: [0,5271,com.android.settings]
+07-09 09:41:55.206  1896  1915 I am_kill : [0,3473,com.android.providers.calendar,906,empty #31]
+07-09 09:41:55.235  1896  1915 I am_proc_died: [0,3473,com.android.providers.calendar,906,17]
+07-09 09:41:55.235  1896  1915 I am_uid_stopped: 10004
+07-09 09:41:55.348  3051  3051 I [70220] : 2369
+07-09 09:41:55.351  3051  3051 I [70220] : 47106
+07-09 09:41:55.403  3051  3989 I aggregation: 1531109515403
+07-09 09:41:55.436  3051  3989 I [70220] : [32772,51]
+07-09 09:41:55.589  2186  2404 I sysui_multi_action: [757,1093,758,4,793,21643,1094,9437184,1095,2]
+07-09 09:41:55.615  1896  2986 I am_proc_start: [0,5298,1001,com.qualcomm.qti.autoregistration,broadcast,com.qualcomm.qti.autoregistration/.AutoRegReceiver]
+07-09 09:41:55.647  1896  1915 I am_proc_bound: [0,5298,com.qualcomm.qti.autoregistration]
+07-09 09:41:55.667  1896  1929 I sync    : [com.google.android.gms.games,0,2,1555827538]
+07-09 09:41:55.689  1896  1929 I sync    : [com.google.android.gms.games.background,0,2,1555827538]
+07-09 09:41:55.693  1896  1929 I sync    : [com.google.android.gms.drive.sync,0,2,1555827538]
+07-09 09:41:55.719  1896  2298 I am_proc_start: [0,5315,10014,com.google.android.play.games.ui,content provider,com.google.android.gms/.games.provider.NotificationStubContentProvider]
+07-09 09:41:55.721  1896  2986 I am_proc_died: [0,5298,com.qualcomm.qti.autoregistration,0,12]
+07-09 09:41:55.721  1896  2986 I am_broadcast_discard_app: [0,109182942,org.codeaurora.intent.action.ACTION_DDS_SWITCH_DONE,0,ResolveInfo{f32dbf2 com.qualcomm.qti.autoregistration/.AutoRegReceiver m=0x108000}]
+07-09 09:41:55.727  1896  1929 I sync    : [com.google.android.gms.games.background,1,2,1555827538]
+07-09 09:41:55.753  1896  1929 I sync    : [com.google.android.gms.drive.sync,1,2,1555827538]
+07-09 09:41:55.760  1896  1915 I am_proc_bound: [0,5315,com.google.android.play.games.ui]
+07-09 09:41:55.768  3051  3051 I [70220] : 2369
+07-09 09:41:55.768  3051  3051 I [70220] : 47106
+07-09 09:41:55.813  3010  4319 I contacts_aggregation: [1531109515813,-5]
+07-09 09:41:55.816  3010  4319 I contacts_aggregation: [3,5]
+07-09 09:41:55.836  1896  1929 I sync    : [com.google.android.gms.games,1,2,1555827538]
+07-09 09:41:55.857  1896  1930 I am_uid_running: 10012
+07-09 09:41:55.875  1896  1930 I am_proc_start: [0,5339,10012,com.android.cellbroadcastreceiver,broadcast,com.android.cellbroadcastreceiver/.CellBroadcastReceiver]
+07-09 09:41:55.903  1896  2984 I am_proc_bound: [0,5339,com.android.cellbroadcastreceiver]
+07-09 09:41:55.986  1896  2301 I am_uid_active: 10016
+07-09 09:41:55.987  1896  2333 I am_uid_running: 10052
+07-09 09:41:55.998  1896  2333 I am_proc_start: [0,5361,10052,com.google.android.calendar,broadcast,com.google.android.calendar/com.android.calendar.widget.CalendarAppWidgetProvider]
+07-09 09:41:56.016  3010  4319 I contacts_aggregation: [1531109516016,-11]
+07-09 09:41:56.019  3010  4319 I contacts_aggregation: [3,11]
+07-09 09:41:56.025  1896  2333 I am_proc_bound: [0,5361,com.google.android.calendar]
+07-09 09:41:56.129  1896  2984 I am_uid_running: 10004
+07-09 09:41:56.144  1896  2984 I am_proc_start: [0,5384,10004,com.android.providers.calendar,content provider,com.android.providers.calendar/.CalendarProvider2]
+07-09 09:41:56.157  1896  2298 I am_proc_bound: [0,5384,com.android.providers.calendar]
+07-09 09:41:56.162  3010  4319 I contacts_aggregation: [1531109516162,-7]
+07-09 09:41:56.164  3010  4319 I contacts_aggregation: [2,7]
+07-09 09:41:56.254  1896  2298 I am_uid_running: 10095
+07-09 09:41:56.265  1896  2298 I am_proc_start: [0,5415,10095,com.qualcomm.timeservice,broadcast,com.qualcomm.timeservice/.TimeServiceBroadcastReceiver]
+07-09 09:41:56.285  1896  2298 I am_proc_bound: [0,5415,com.qualcomm.timeservice]
+07-09 09:41:56.376  4356  4356 I auditd  : type=1400 audit(0.0:50): avc: denied { read } for comm="Binder:4356_3" name="modules" dev="proc" ino=4026532117 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_modules:s0 tclass=file permissive=0
+07-09 09:41:56.386  4356  4356 I auditd  : type=1400 audit(0.0:51): avc: denied { read } for comm="Binder:4356_3" name="/" dev="tmpfs" ino=13463 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+07-09 09:41:56.386  4356  4356 I auditd  : type=1400 audit(0.0:52): avc: denied { read } for comm="Binder:4356_3" name="interrupts" dev="proc" ino=4026532069 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_interrupts:s0 tclass=file permissive=0
+07-09 09:41:56.425  3051  3989 I [70220] : [5,1531109497873,1531109497873,72,1,33,0,0,61,0,9,0,694,0,0,2,0,3,19]
+07-09 09:41:58.154  1896  1929 I am_pss  : [2727,10054,com.google.android.deskclock,7234560,5771264,0]
+07-09 09:41:58.464  3051  3989 I [70220] : [6,2033,2,0]
+07-09 09:41:58.613  3051  3989 I [70220] : [5,1531109497873,1531109497873,78,1,19,0,1,9,0,9,0,0,0,0,2,0,3,19]
+07-09 09:41:58.615  3051  3989 I [70220] : 119
+07-09 09:41:58.621  3051  3989 I [70220] : 24
+07-09 09:41:58.640  3051  3975 I aggregation: 1531109518640
+07-09 09:41:58.661  3051  3975 I [70220] : [32772,27]
+07-09 09:41:58.676  1896  1929 I am_pss  : [4284,10007,com.google.android.ims,11643904,9908224,0]
+07-09 09:41:58.725  1896  1929 I am_pss  : [3943,10072,com.google.android.apps.messaging,20777984,17932288,0]
+07-09 09:41:58.760  1896  1929 I am_pss  : [3994,10064,com.google.android.tts,51650560,44613632,0]
+07-09 09:41:59.456  4356  4356 I auditd  : type=1400 audit(0.0:53): avc: denied { read } for comm="Binder:4356_1" name="modules" dev="proc" ino=4026532117 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_modules:s0 tclass=file permissive=0
+07-09 09:41:59.466  4356  4356 I auditd  : type=1400 audit(0.0:54): avc: denied { read } for comm="Binder:4356_1" name="/" dev="tmpfs" ino=13463 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+07-09 09:41:59.466  4356  4356 I auditd  : type=1400 audit(0.0:55): avc: denied { read } for comm="Binder:4356_1" name="interrupts" dev="proc" ino=4026532069 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_interrupts:s0 tclass=file permissive=0
+07-09 09:41:59.519  1896  2298 I am_kill : [0,4116,com.google.android.configupdater,906,empty #31]
+07-09 09:41:59.524  3051  3975 I [70220] : [5,1531109497873,1531109497873,59,0,11,0,0,6,0,6,0,728,0,0,2,0,3,32]
+07-09 09:41:59.559  1896  2298 I am_proc_died: [0,4116,com.google.android.configupdater,906,17]
+07-09 09:41:59.560  1896  2298 I am_uid_stopped: 10006
+07-09 09:41:59.569  1896  1929 I am_pss  : [3194,10022,com.google.android.partnersetup,3918848,3317760,0]
+07-09 09:41:59.606  1896  1929 I am_pss  : [4616,1002,com.android.bluetooth,8104960,6864896,0]
+07-09 09:42:01.417  1896  2986 I am_kill : [0,4159,com.google.android.contacts,906,empty #31]
+07-09 09:42:01.468  1896  2986 I am_proc_died: [0,4159,com.google.android.contacts,906,17]
+07-09 09:42:01.468  1896  2986 I am_uid_stopped: 10017
+07-09 09:42:01.663  3051  3975 I [70220] : [6,2133,2,0]
+07-09 09:42:01.851  3051  3975 I [70220] : [5,1531109497873,1531109497873,79,2,18,0,1,41,0,11,0,0,0,0,2,0,4,20]
+07-09 09:42:01.853  3051  3975 I [70220] : 119
+07-09 09:42:01.860  3051  3975 I [70220] : 24
+07-09 09:42:01.913  1896  1929 I am_pss  : [4951,10082,com.qualcomm.qti.StatsPollManager,2509824,1974272,0]
+07-09 09:42:02.777  1896  1929 I am_pss  : [5054,1001,com.qualcomm.simcontacts,4365312,2879488,0]
+07-09 09:42:02.831  1896  1929 I am_pss  : [5035,1000,com.qualcomm.qti.smcinvokepkgmgr,2503680,1978368,0]
+07-09 09:42:02.878  1896  1929 I am_pss  : [5005,1000,com.qualcomm.qti.callenhancement,2551808,2015232,0]
+07-09 09:42:04.314  1896  1896 I am_proc_start: [0,5453,1000,com.generalmobile.gmservice,service,com.generalmobile.gmservice/.utils.services.ActivationJobService]
+07-09 09:42:04.347  1896  5449 I am_proc_bound: [0,5453,com.generalmobile.gmservice]
+07-09 09:42:05.038  1896  5449 I am_kill : [0,3730,com.generalmobile.assistant,906,empty #31]
+07-09 09:42:05.090  1896  2333 I am_proc_died: [0,3730,com.generalmobile.assistant,906,17]
+07-09 09:42:05.090  1896  2333 I am_uid_stopped: 10092
+07-09 09:42:06.185  1896  1896 I am_uid_running: 10017
+07-09 09:42:06.231  1896  1896 I am_proc_start: [0,5484,10017,com.google.android.contacts,service,com.google.android.contacts/com.google.android.apps.contacts.operation.ContactsService]
+07-09 09:42:06.257  1896  2986 I am_proc_bound: [0,5484,com.google.android.contacts]
+07-09 09:42:06.381  1896  2985 I am_kill : [0,4262,com.android.chrome,906,empty #31]
+07-09 09:42:06.410  1896  5449 I am_proc_died: [0,4262,com.android.chrome,906,17]
+07-09 09:42:06.411  1896  5449 I am_uid_stopped: 10059
+07-09 09:42:06.458  1896  2333 I am_uid_running: 10071
+07-09 09:42:06.472  1896  2333 I am_proc_start: [0,5515,10071,com.google.android.apps.maps,broadcast,com.google.android.apps.maps/com.google.android.apps.gmm.ugc.ataplace.AtAPlaceService]
+07-09 09:42:06.508  1896  2985 I am_proc_bound: [0,5515,com.google.android.apps.maps]
+07-09 09:42:06.513  1896  5226 I am_kill : [0,2919,android.process.media,906,empty #31]
+07-09 09:42:06.533  1896  5449 I am_proc_died: [0,2919,android.process.media,906,17]
+07-09 09:42:06.534  1896  5449 I am_uid_stopped: 10011
+07-09 09:42:06.626  5515  5515 I auditd  : type=1400 audit(0.0:56): avc: denied { read } for comm="NativeLibLoader" name="stat" dev="proc" ino=4026532072 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=0
+07-09 09:42:07.274  1896  2985 I am_kill : [0,4427,com.google.android.gms.ui,906,empty #31]
+07-09 09:42:07.306  1896  4580 I am_proc_died: [0,4427,com.google.android.gms.ui,906,17]
+07-09 09:42:07.515  1896  2298 I am_uid_running: 10089
+07-09 09:42:07.532  1896  2298 I am_proc_start: [0,5572,10089,com.generalmobile.app.gmfilemanager:alarm,broadcast,com.generalmobile.app.gmfilemanager/.core.services.AlarmBroadcastReceiver]
+07-09 09:42:07.553  1896  4580 I am_proc_bound: [0,5572,com.generalmobile.app.gmfilemanager:alarm]
+07-09 09:42:08.705  1896  4580 I am_kill : [0,4533,com.google.android.inputmethod.japanese,906,empty #31]
+07-09 09:42:08.731  1896  2817 I am_proc_died: [0,4533,com.google.android.inputmethod.japanese,906,17]
+07-09 09:42:08.732  1896  2817 I am_uid_stopped: 10066
+07-09 09:42:09.136  1896  1929 I am_pss  : [4574,10068,com.google.android.inputmethod.korean,7391232,6455296,0]
+07-09 09:42:09.294  1896  2818 I am_proc_start: [0,5641,10014,com.google.android.gms.ui,service,com.google.android.gms/.chimera.UiIntentOperationService]
+07-09 09:42:09.320  1896  2818 I am_proc_bound: [0,5641,com.google.android.gms.ui]
+07-09 09:42:09.386  1896  1929 I am_pss  : [4038,10072,com.google.android.apps.messaging:rcs,7629824,5726208,0]
+07-09 09:42:09.424  1896  1929 I am_pss  : [4629,10063,com.google.android.inputmethod.pinyin,7918592,6873088,0]
+07-09 09:42:09.782  1896  5226 I am_uid_running: 10098
+07-09 09:42:09.798  1896  5226 I am_proc_start: [0,5664,10098,com.google.android.music:main,broadcast,com.google.android.music/.AccountsBroadcastReceiver]
+07-09 09:42:09.800  1896  1929 I am_pss  : [4679,10019,com.google.android.onetimeinitializer,2574336,2088960,0]
+07-09 09:42:09.811  1896  5226 I am_proc_bound: [0,5664,com.google.android.music:main]
+07-09 09:42:09.946  1896  1929 I am_pss  : [4701,10021,com.google.android.packageinstaller,4111360,3637248,0]
+07-09 09:42:10.300  1896  1929 I am_pss  : [3547,10057,com.google.process.gapps,4099072,3354624,0]
+07-09 09:42:10.516  4356  4356 I auditd  : type=1400 audit(0.0:57): avc: denied { read } for comm="Binder:4356_3" name="modules" dev="proc" ino=4026532117 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_modules:s0 tclass=file permissive=0
+07-09 09:42:10.623  1896  2947 I am_uid_running: 10059
+07-09 09:42:10.637  1896  2947 I am_proc_start: [0,5733,10059,com.android.chrome,broadcast,com.android.chrome/org.chromium.chrome.browser.services.AccountsChangedReceiver]
+07-09 09:42:10.651  1896  2818 I am_proc_bound: [0,5733,com.android.chrome]
+07-09 09:42:10.700  1896  1929 I am_pss  : [4734,10067,com.google.android.talk,15810560,14639104,0]
+07-09 09:42:10.747  1896  1929 I am_pss  : [4777,10093,com.google.android.youtube,40390656,37117952,0]
+07-09 09:42:11.066  4356  4356 I auditd  : type=1400 audit(0.0:58): avc: denied { read } for comm="Binder:4356_3" name="/" dev="tmpfs" ino=13463 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+07-09 09:42:11.286  1896  1929 I sync    : [gmail-ls,0,0,1555827538]
+07-09 09:42:11.295  3531  5787 I google_http_request: [211,200,Android-Finsky/10.6.08-all%20%5B0%5D%20%5BPR%5D%20200628961 (api=3,versionCode=81060800,sdk=27,device=GM9PRO_d_sprout,hardware=qcom,product=GM9PRO,platformVersionRelease=8.1.0,model=GM%209%20Pro%20d,buildId=OPM1.171019.019,isWideScreen=0,supportedAbis=arm64-v8a;armeabi-v7a;armeabi),1]
+07-09 09:42:11.475  3531  5787 I google_http_request: [139,200,Android-Finsky/10.6.08-all%20%5B0%5D%20%5BPR%5D%20200628961 (api=3,versionCode=81060800,sdk=27,device=GM9PRO_d_sprout,hardware=qcom,product=GM9PRO,platformVersionRelease=8.1.0,model=GM%209%20Pro%20d,buildId=OPM1.171019.019,isWideScreen=0,supportedAbis=arm64-v8a;armeabi-v7a;armeabi),1]
+07-09 09:42:11.667  1896  1929 I am_pss  : [4906,1000,com.longcheertel.midtest,3169280,2605056,0]
+07-09 09:42:11.774  1896  2987 I am_proc_start: [0,5823,10026,com.android.vending:instant_app_installer,service,com.android.vending/com.google.android.finsky.instantapps.statussync.StatusSyncService]
+07-09 09:42:11.787  1896  2983 I am_proc_bound: [0,5823,com.android.vending:instant_app_installer]
+07-09 09:42:11.829  1896  1929 I am_pss  : [4935,1000,com.qualcomm.location.XT,3826688,2772992,0]
+07-09 09:42:11.981  1896  1929 I am_pss  : [4988,1000,com.qualcomm.qti.biometrics.fingerprint.service,2573312,2084864,0]
+07-09 09:42:12.083  1896  2983 I am_kill : [0,4038,com.google.android.apps.messaging:rcs,906,empty #31]
+07-09 09:42:12.107  1896  2983 I am_proc_died: [0,4038,com.google.android.apps.messaging:rcs,906,17]
+07-09 09:42:12.209  1896  1929 I am_pss  : [5020,1001,com.qualcomm.qti.lpa,2400256,1925120,0]
+07-09 09:42:12.486  1896  1929 I am_pss  : [5071,10097,com.google.android.apps.tachyon,17696768,16515072,0]
+07-09 09:42:12.506  1896  1929 I sync    : [com.google.android.music.MusicContent,0,0,1555827538]
+07-09 09:42:12.518  1896  1929 I sync    : [com.google.android.music.MusicContent,1,0,1555827538]
+07-09 09:42:12.523  1896  1929 I sync    : [com.google.android.music.MusicContent,0,0,1555827538]
+07-09 09:42:12.671  1896  1929 I sync    : [gmail-ls,1,0,1555827538]
+07-09 09:42:12.672  1896  1929 I sync    : [gmail-ls,0,1,1555827538]
+07-09 09:42:12.700  1896  1929 I sync    : [gmail-ls,1,1,1555827538]
+07-09 09:42:13.887  1896  1929 I am_pss  : [5147,10107,com.kimcy929.screenrecorder,9119744,7749632,0]
+07-09 09:42:14.719  1896  1929 I am_pss  : [3051,10014,com.google.android.gms,66270208,54452224,0]
+07-09 09:42:15.483  1896  2106 I sysui_histogram: [power_consecutive_short_tap_count,1]
+07-09 09:42:15.483  1896  2106 I sysui_multi_action: [757,804,799,power_consecutive_short_tap_count,801,1,802,1]
+07-09 09:42:15.483  1896  2106 I sysui_histogram: [power_double_tap_interval,66429]
+07-09 09:42:15.484  1896  2106 I sysui_multi_action: [757,804,799,power_double_tap_interval,801,66429,802,1]
+07-09 09:42:15.489  1896  1896 I screen_toggled: 1
+07-09 09:42:15.489  1896  1896 I power_screen_broadcast_send: 1
+07-09 09:42:15.504  1896  1896 I device_idle: [0,screen]
+07-09 09:42:15.505  1896  1896 I device_idle_light: [0,screen]
+07-09 09:42:15.505  1896  1929 I device_idle_off_start: screen
+07-09 09:42:15.506  1896  1929 I device_idle_off_complete: 
+07-09 09:42:15.507  1896  2983 I sysui_view_visibility: [127,100]
+07-09 09:42:15.507  1896  2983 I sysui_multi_action: [757,127,758,1]
+07-09 09:42:15.507  1896  2983 I sysui_histogram: [note_load,0]
+07-09 09:42:15.507  1896  2983 I sysui_multi_action: [757,804,799,note_load,801,0,802,1]
+07-09 09:42:15.507  1896  2983 I notification_panel_revealed: 0
+07-09 09:42:15.611  1896  1896 I power_screen_broadcast_done: [1,121,1]
+07-09 09:42:15.765  1896  2202 I am_kill : [0,4574,com.google.android.inputmethod.korean,906,empty #31]
+07-09 09:42:15.775  1896  4580 I am_proc_died: [0,4574,com.google.android.inputmethod.korean,906,17]
+07-09 09:42:15.775  1896  4580 I am_uid_stopped: 10068
+07-09 09:42:15.812  1896  1945 I sysui_multi_action: [757,198,758,1,759,0,793,334]
+07-09 09:42:15.812  1896  1945 I power_screen_state: [1,0,0,0,334]
+07-09 09:42:15.821  1896  1939 I sysui_view_visibility: [223,0]
+07-09 09:42:15.821  1896  1939 I sysui_multi_action: [757,223,758,2]
+07-09 09:42:15.821  1896  1939 I sysui_histogram: [dozing_minutes,0]
+07-09 09:42:15.821  1896  1939 I sysui_multi_action: [757,804,799,dozing_minutes,801,0,802,1]
+07-09 09:42:15.969  1896  2202 I am_kill : [0,4629,com.google.android.inputmethod.pinyin,906,empty #31]
+07-09 09:42:15.979  1896  5226 I am_proc_died: [0,4629,com.google.android.inputmethod.pinyin,906,17]
+07-09 09:42:15.979  1896  5226 I am_uid_stopped: 10063
+07-09 09:42:16.164  1896  2987 I am_kill : [0,4679,com.google.android.onetimeinitializer,906,empty #31]
+07-09 09:42:16.174  1896  2987 I am_proc_died: [0,4679,com.google.android.onetimeinitializer,906,17]
+07-09 09:42:16.175  1896  2987 I am_uid_stopped: 10019
+07-09 09:42:16.622  1896  2987 I am_kill : [0,4701,com.google.android.packageinstaller,906,empty #31]
+07-09 09:42:16.636  1896  2987 I am_proc_died: [0,4701,com.google.android.packageinstaller,906,17]
+07-09 09:42:16.636  1896  2987 I am_uid_stopped: 10021
+07-09 09:42:16.704  5664  5868 I sync_details: [com.google.android.music,8393,53355,]
+07-09 09:42:16.714  1896  1929 I sync    : [com.google.android.music.MusicContent,1,0,1555827538]
+07-09 09:42:16.716  1896  2987 I am_kill : [0,3194,com.google.android.partnersetup,906,empty #31]
+07-09 09:42:16.736  1896  1929 I sync    : [com.google.android.music.MusicContent,0,0,1555827538]
+07-09 09:42:16.749  1896  2987 I am_proc_died: [0,3194,com.google.android.partnersetup,906,17]
+07-09 09:42:16.750  1896  2987 I am_uid_stopped: 10022
+07-09 09:42:16.926  2186  2186 I sysui_multi_action: [757,186,758,4,826,346,827,4268]
+07-09 09:42:16.927  2186  2186 I sysui_lockscreen_gesture: [1,346,4268]
+07-09 09:42:16.934  1896  2987 I sysui_view_visibility: [127,0]
+07-09 09:42:16.935  1896  2987 I sysui_multi_action: [757,127,758,2]
+07-09 09:42:16.935  1896  2987 I notification_panel_hidden: 
+07-09 09:42:16.942  1896  2987 I am_set_resumed_activity: [0,com.android.launcher3/com.android.searchlauncher.SearchLauncher,resumeTopActivityInnerLocked]
+07-09 09:42:16.944  1896  2987 I am_resume_activity: [0,63403618,173,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:42:17.036  2873  2873 I am_on_resume_called: [0,com.android.searchlauncher.SearchLauncher,RESUME_ACTIVITY]
+07-09 09:42:17.227  1896  1941 I am_activity_launch_time: [0,63403618,com.android.launcher3/com.android.searchlauncher.SearchLauncher,49097,49131]
+07-09 09:42:17.228  2186  2186 I sysui_view_visibility: [111,0]
+07-09 09:42:17.228  2186  2186 I sysui_multi_action: [757,111,758,2]
+07-09 09:42:17.231  2186  2186 I sysui_multi_action: [757,196,758,2,759,0]
+07-09 09:42:17.231  2186  2186 I sysui_status_bar_state: [0,0,0,0,0,1]
+07-09 09:42:17.256  1896  1896 I auditd  : type=1400 audit(0.0:60): avc: denied { write } for comm="Binder:1896_10" name="timerslack_ns" dev="proc" ino=63680 scontext=u:r:system_server:s0 tcontext=u:r:hal_audio_default:s0 tclass=file permissive=0
+07-09 09:42:17.270  1896  1930 I am_uid_running: 10091
+07-09 09:42:17.306  1896  1930 I am_proc_start: [0,5934,10091,com.generalmobile.storeoid,broadcast,com.generalmobile.storeoid/.livedevice.OnBootBroadcast]
+07-09 09:42:17.325  1896  2987 I am_proc_bound: [0,5934,com.generalmobile.storeoid]
+07-09 09:42:17.408  1896  2986 I am_kill : [0,4906,com.longcheertel.midtest,906,empty #31]
+07-09 09:42:17.488  1896  2983 I am_proc_died: [0,4906,com.longcheertel.midtest,906,17]
+07-09 09:42:19.087  2186  2404 I sysui_multi_action: [757,1093,758,4,793,23498,1094,9437184,1095,2]
+07-09 09:42:19.804  1896  1929 I am_pss  : [3151,10076,com.google.android.apps.photos,16444416,15499264,0]
+07-09 09:42:20.028  5664  5908 I sync_details: [com.google.android.music,6484,15019,]
+07-09 09:42:20.035  1896  2983 I am_kill : [0,4935,com.qualcomm.location.XT,906,empty #31]
+07-09 09:42:20.038  1896  1929 I sync    : [com.google.android.music.MusicContent,1,0,1555827538]
+07-09 09:42:20.042  1896  1929 I sync    : [com.google.android.music.MusicContent,0,1,1555827538]
+07-09 09:42:20.067  1896  4580 I am_proc_died: [0,4935,com.qualcomm.location.XT,906,17]
+07-09 09:42:20.169  5664  6004 I sync_details: [com.google.android.music,0,0,]
+07-09 09:42:20.175  1896  1929 I sync    : [com.google.android.music.MusicContent,1,1,1555827538]
+07-09 09:42:22.590  2186  2404 I sysui_multi_action: [757,1093,758,4,793,3503,1094,9437184,1095,2]
+07-09 09:42:23.022  1896  1929 I am_pss  : [5228,10018,com.google.android.ext.services,3172352,2289664,0]
+07-09 09:42:24.600  2186  2404 I sysui_multi_action: [757,1093,758,4,793,2010,1094,9437184,1095,2]
+07-09 09:42:25.715  1896  1929 I am_pss  : [5271,1000,com.android.settings,5296128,3461120,0]
+07-09 09:42:25.751  1896  1929 I am_pss  : [5256,1000,com.android.keychain,2598912,2039808,0]
+07-09 09:42:25.753  1896  1929 I sync    : [com.android.contacts,0,1,1555827538]
+07-09 09:42:25.889  1896  1929 I am_pss  : [5315,10014,com.google.android.play.games.ui,6173696,3756032,0]
+07-09 09:42:26.041  3547  6019 I sync_details: [Sync,0,0,]
+07-09 09:42:26.052  1896  1929 I sync    : [com.android.contacts,1,1,1555827538]
+07-09 09:42:26.301  1896  1929 I am_pss  : [3310,10016,com.google.android.dialer,11148288,9596928,0]
+07-09 09:42:26.337  1896  1929 I am_pss  : [5339,10012,com.android.cellbroadcastreceiver,4279296,3620864,0]
+07-09 09:42:26.609  2186  2404 I sysui_multi_action: [757,1093,758,4,793,2010,1094,9437184,1095,2]
+07-09 09:42:26.985  1896  1929 I am_pss  : [5118,10100,com.google.android.keep,10553344,9048064,0]
+07-09 09:42:27.020  1896  1929 I am_pss  : [5415,10095,com.qualcomm.timeservice,2435072,1892352,0]
+07-09 09:42:27.067  1896  1929 I am_pss  : [2873,1000,com.android.launcher3,87996416,82079744,0]
+07-09 09:42:28.897  2186  2404 I sysui_multi_action: [757,1093,758,4,793,2287,1094,9437184,1095,2]
+07-09 09:42:32.641  2186  2404 I sysui_multi_action: [757,1093,758,4,793,3744,1094,9437184,1095,2]
+07-09 09:42:33.659  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1019,1094,9437184,1095,2]
+07-09 09:42:36.141  1896  2986 I am_kill : [0,4988,com.qualcomm.qti.biometrics.fingerprint.service,906,empty #31]
+07-09 09:42:36.175  1896  2301 I am_proc_died: [0,4988,com.qualcomm.qti.biometrics.fingerprint.service,906,17]
+07-09 09:42:36.195  1896  1929 I am_pss  : [5453,1000,com.generalmobile.gmservice,4718592,3555328,0]
+07-09 09:42:37.625  1896  1929 I am_pss  : [5572,10089,com.generalmobile.app.gmfilemanager:alarm,18228224,11534336,0]
+07-09 09:42:37.671  1896  1929 I am_pss  : [5515,10071,com.google.android.apps.maps,42561536,40091648,0]
+07-09 09:42:37.704  1896  1929 I am_pss  : [5484,10017,com.google.android.contacts,10993664,9359360,0]
+07-09 09:42:38.120  1896  1930 I am_uid_idle: 10026
+07-09 09:42:40.886  1896  1929 I am_pss  : [3069,10039,com.google.android.googlequicksearchbox:search,93471744,86327296,0]
+07-09 09:42:40.922  1896  1929 I am_pss  : [5384,10004,com.android.providers.calendar,4443136,3719168,0]
+07-09 09:42:40.950  1896  1929 I am_pss  : [5733,10059,com.android.chrome,8852480,5079040,0]
+07-09 09:42:43.593  1896  2986 I battery_status: [4,2,1,0,Li-ion]
+07-09 09:42:43.615  1896  1929 I am_pss  : [5361,10052,com.google.android.calendar,11371520,9662464,0]
+07-09 09:42:43.656  1896  1929 I am_pss  : [4186,10061,com.google.android.gm,35326976,32161792,0]
+07-09 09:42:43.687  1896  1929 I am_pss  : [5823,10026,com.android.vending:instant_app_installer,16606208,8294400,0]
+07-09 09:42:43.714  1896  1929 I am_pss  : [4284,10007,com.google.android.ims,11794432,9994240,0]
+07-09 09:42:43.740  1896  1929 I am_pss  : [3943,10072,com.google.android.apps.messaging,22366208,19832832,0]
+07-09 09:42:43.761  1896  1929 I am_pss  : [3994,10064,com.google.android.tts,49243136,44494848,0]
+07-09 09:42:44.074  1896  2986 I battery_status: [2,2,1,0,Li-ion]
+07-09 09:42:44.248  1896  4580 I battery_status: [2,2,1,2,Li-ion]
+07-09 09:42:44.246   788   788 I auditd  : type=1400 audit(0.0:61): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:42:44.557  1896  1896 I notification_enqueue: [1000,1896,android,32,NULL,-1,Notification(channel=USB pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC),0]
+07-09 09:42:44.562  1896  1896 I notification_enqueue: [1000,1896,android,26,NULL,-1,Notification(channel=DEVELOPER pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC),0]
+07-09 09:42:44.563  1896  1930 I am_uid_running: 10011
+07-09 09:42:44.586  1896  1930 I am_proc_start: [0,6061,10011,android.process.media,broadcast,com.android.providers.media/.MtpReceiver]
+07-09 09:42:44.608  1896  2298 I am_proc_bound: [0,6061,android.process.media]
+07-09 09:42:44.694  1896  2301 I notification_expansion: [-1|android|26|null|1000,0,1,133,133,0]
+07-09 09:42:44.785  1896  2986 I am_kill : [0,5020,com.qualcomm.qti.lpa,906,empty #31]
+07-09 09:42:44.802  1896  2298 I am_proc_died: [0,5020,com.qualcomm.qti.lpa,906,17]
+07-09 09:42:45.299  2186  2404 I sysui_multi_action: [757,1093,758,4,793,11639,1094,9437184,1095,2]
+07-09 09:42:45.426   788   788 I auditd  : type=1400 audit(0.0:63): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:42:45.500  1896  2986 I am_uid_active: 10026
+07-09 09:42:45.948  1896  2298 I am_kill : [0,5071,com.google.android.apps.tachyon,906,empty #31]
+07-09 09:42:45.971  1896  2987 I am_proc_died: [0,5071,com.google.android.apps.tachyon,906,17]
+07-09 09:42:45.972  1896  2987 I am_uid_stopped: 10097
+07-09 09:42:46.568  1896  2202 I am_kill : [0,5228,com.google.android.ext.services,906,empty #31]
+07-09 09:42:46.598  1896  2202 I am_proc_died: [0,5228,com.google.android.ext.services,906,17]
+07-09 09:42:46.599  1896  2202 I am_uid_stopped: 10018
+07-09 09:42:46.618  1896  1929 I am_pss  : [4356,10014,com.google.android.gms.unstable,33655808,28450816,0]
+07-09 09:42:46.616   788   788 I auditd  : type=1400 audit(0.0:65): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:42:46.659  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1361,1094,9437184,1095,2]
+07-09 09:42:46.679  1896  1929 I am_pss  : [5641,10014,com.google.android.gms.ui,6979584,4075520,0]
+07-09 09:42:47.806   788   788 I auditd  : type=1400 audit(0.0:67): avc: denied { dac_override } for comm="usb@1.0-service" capability=1 scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+07-09 09:42:48.340  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1680,1094,9437184,1095,2]
+07-09 09:42:49.542  1896  1929 I am_pss  : [5934,10091,com.generalmobile.storeoid,6269952,5173248,0]
+07-09 09:42:50.247  1896  1929 I am_pss  : [5664,10098,com.google.android.music:main,28235776,24965120,0]
+07-09 09:42:50.610  2186  2186 I sysui_count: [panel_open,1]
+07-09 09:42:50.610  2186  2186 I sysui_multi_action: [757,803,799,panel_open,802,1]
+07-09 09:42:50.627  1896  5226 I sysui_view_visibility: [127,100]
+07-09 09:42:50.628  1896  5226 I sysui_multi_action: [757,127,758,1]
+07-09 09:42:50.628  1896  5226 I sysui_histogram: [note_load,2]
+07-09 09:42:50.628  1896  5226 I sysui_multi_action: [757,804,799,note_load,801,2,802,1]
+07-09 09:42:50.628  1896  5226 I notification_panel_revealed: 2
+07-09 09:42:50.680  2186  2404 I sysui_multi_action: [757,1093,758,4,793,2340,1094,9437184,1095,2]
+07-09 09:42:51.134  1896  2947 I sysui_multi_action: [757,128,758,1,793,6572,794,0,795,6572,796,26,798,0,806,android,857,DEVELOPER,858,2,947,0]
+07-09 09:42:51.134  1896  2947 I sysui_histogram: [note_freshness,6572]
+07-09 09:42:51.134  1896  2947 I sysui_multi_action: [757,804,799,note_freshness,801,6572,802,1]
+07-09 09:42:51.135  1896  2947 I notification_visibility: [-1|android|26|null|1000,1,6572,6572,0,0]
+07-09 09:42:51.135  1896  2947 I sysui_multi_action: [757,128,758,1,793,6582,794,0,795,6582,796,32,798,1,806,android,857,USB,858,1,947,0]
+07-09 09:42:51.135  1896  2947 I sysui_histogram: [note_freshness,6582]
+07-09 09:42:51.135  1896  2947 I sysui_multi_action: [757,804,799,note_freshness,801,6582,802,1]
+07-09 09:42:51.135  1896  2947 I notification_visibility: [-1|android|32|null|1000,1,6582,6582,0,1]
+07-09 09:42:51.350  1896  2947 I am_uid_active: 10098
+07-09 09:42:51.689  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1010,1094,9437184,1095,2]
+07-09 09:42:51.899  2186  2186 I sysui_action: [407,true]
+07-09 09:42:51.899  2186  2186 I sysui_multi_action: [757,407,758,4,759,1]
+07-09 09:42:51.900  1896  5226 I sysui_multi_action: [757,128,758,3,793,7347,794,765,795,7347,796,32,806,android,857,USB,858,1,947,0]
+07-09 09:42:51.900  1896  5226 I notification_expansion: [-1|android|32|null|1000,1,1,7347,7347,765]
+07-09 09:42:52.872  1896  2202 I sysui_multi_action: [757,128,758,2,793,8310,794,1738,795,8310,796,26,798,0,806,android,857,DEVELOPER,858,2,947,0]
+07-09 09:42:52.872  1896  2202 I notification_visibility: [-1|android|26|null|1000,0,8310,8310,0,0]
+07-09 09:42:52.872  1896  2202 I sysui_view_visibility: [127,0]
+07-09 09:42:52.872  1896  2202 I sysui_multi_action: [757,127,758,2]
+07-09 09:42:52.872  1896  2202 I notification_panel_hidden: 
+07-09 09:42:52.891  1896  2947 I wm_task_created: [174,1]
+07-09 09:42:52.892  1896  2947 I wm_task_moved: [174,1,2]
+07-09 09:42:52.892  1896  2947 I am_focused_stack: [0,1,0,reuseOrNewTask]
+07-09 09:42:52.892  1896  2947 I wm_task_moved: [174,1,2]
+07-09 09:42:52.892  1896  2947 I am_create_task: [0,174]
+07-09 09:42:52.892  1896  2947 I am_create_activity: [0,3368638,174,com.android.settings/.deviceinfo.UsbModeChooserActivity,android.intent.action.MAIN,NULL,NULL,276856832]
+07-09 09:42:52.892  1896  2947 I wm_task_moved: [174,1,2]
+07-09 09:42:52.894  1896  2947 I am_pause_activity: [0,63403618,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:42:52.895  2873  2873 I am_on_paused_called: [0,com.android.searchlauncher.SearchLauncher,handlePauseActivity]
+07-09 09:42:52.897  1896  5226 I sysui_multi_action: [757,128,758,4,793,8343,794,1761,795,8343,796,32,806,android,857,USB,858,1,947,0]
+07-09 09:42:52.897  1896  5226 I notification_clicked: [-1|android|32|null|1000,8343,8343,1761]
+07-09 09:42:52.897  1896  1896 I sysui_histogram: [note_click_longevity,0]
+07-09 09:42:52.897  1896  1896 I sysui_multi_action: [757,804,799,note_click_longevity,801,0,802,1]
+07-09 09:42:52.903  1896  2202 I am_restart_activity: [0,3368638,174,com.android.settings/.deviceinfo.UsbModeChooserActivity]
+07-09 09:42:52.904  1896  2202 I am_set_resumed_activity: [0,com.android.settings/.deviceinfo.UsbModeChooserActivity,minimalResumeActivityLocked]
+07-09 09:42:52.906  1896  1930 I sysui_count: [window_time_0,84]
+07-09 09:42:52.906  1896  1930 I sysui_multi_action: [757,803,799,window_time_0,802,84]
+07-09 09:42:52.958  5271  5271 I am_on_resume_called: [0,com.android.settings.deviceinfo.UsbModeChooserActivity,LAUNCH_ACTIVITY]
+07-09 09:42:53.042  1896  1941 I am_activity_launch_time: [0,3368638,com.android.settings/.deviceinfo.UsbModeChooserActivity,140,140]
+07-09 09:42:53.044  1896  1941 I sysui_multi_action: [319,168,322,165,325,103,757,761,758,8,759,2,806,com.android.settings,871,com.android.settings.deviceinfo.UsbModeChooserActivity,904,android,905,0]
+07-09 09:42:54.596  1896  2202 I am_finish_activity: [0,3368638,174,com.android.settings/.deviceinfo.UsbModeChooserActivity,app-request]
+07-09 09:42:54.597  1896  2202 I am_focused_stack: [0,0,1,finishActivity adjustFocus]
+07-09 09:42:54.597  1896  2202 I wm_task_moved: [173,1,0]
+07-09 09:42:54.598  1896  2202 I am_pause_activity: [0,3368638,com.android.settings/.deviceinfo.UsbModeChooserActivity]
+07-09 09:42:54.612  1896  1930 I sysui_count: [window_time_0,2]
+07-09 09:42:54.612  1896  1930 I sysui_multi_action: [757,803,799,window_time_0,802,2]
+07-09 09:42:54.614  5271  5271 I am_on_paused_called: [0,com.android.settings.deviceinfo.UsbModeChooserActivity,handlePauseActivity]
+07-09 09:42:54.614  1896  2202 I am_destroy_activity: [0,3368638,174,com.android.settings/.deviceinfo.UsbModeChooserActivity,finish-imm]
+07-09 09:42:54.619  1896  2202 I am_set_resumed_activity: [0,com.android.launcher3/com.android.searchlauncher.SearchLauncher,resumeTopActivityInnerLocked]
+07-09 09:42:54.620  1896  2202 I am_resume_activity: [0,63403618,173,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:42:54.663  1896  1930 I sysui_count: [window_time_0,0]
+07-09 09:42:54.663  1896  1930 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-09 09:42:54.663  2873  2873 I am_on_resume_called: [0,com.android.searchlauncher.SearchLauncher,RESUME_ACTIVITY]
+07-09 09:42:54.667  5271  5271 I am_on_stop_called: [0,com.android.settings.deviceinfo.UsbModeChooserActivity,destroy]
+07-09 09:42:54.846  1896  2058 I wm_task_removed: [174,removeAppToken: last token]
+07-09 09:42:54.846  1896  2058 I wm_task_removed: [174,removeTask]
+07-09 09:42:54.951  1896  1896 I sysui_multi_action: [757,128,758,5,759,8,793,10398,794,3816,795,10398,796,32,806,android,857,USB,858,1,947,0]
+07-09 09:42:54.951  1896  1896 I notification_canceled: [-1|android|32|null|1000,8,10398,10398,3816,NULL]
+07-09 09:42:54.954  1896  1896 I notification_enqueue: [1000,1896,android,27,NULL,-1,Notification(channel=USB pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC),0]
+07-09 09:42:55.356   592   592 I auditd  : avc:  denied  { find } for interface=vendor.qti.hardware.perf::IPerf pid=6061 scontext=u:r:mediaprovider:s0:c512,c768 tcontext=u:object_r:hal_perf_hwservice:s0 tclass=hwservice_manager permissive=0
+07-09 09:42:55.698  2186  2404 I sysui_multi_action: [757,1093,758,4,793,4009,1094,9437184,1095,2]
+07-09 09:42:56.058  1896  1930 I am_uid_idle: 10016
+07-09 09:42:56.189  1896  1929 I am_pss  : [3547,10057,com.google.process.gapps,4244480,3424256,0]
+07-09 09:42:56.232  1896  1929 I am_pss  : [3010,10003,android.process.acore,11414528,9949184,0]
+07-09 09:42:56.269  1896  1929 I am_pss  : [3172,10014,com.google.process.gapps,4825088,3518464,0]
+07-09 09:42:56.704  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1006,1094,9437184,1095,2]
+07-09 09:43:06.762  2186  2404 I sysui_multi_action: [757,1093,758,4,793,10057,1094,9437184,1095,2]
+07-09 09:43:07.776  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1009,1094,9437184,1095,2]
+07-09 09:43:08.785  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1014,1094,9437184,1095,2]
+07-09 09:43:14.624  1896  1929 I am_pss  : [3069,10039,com.google.android.googlequicksearchbox:search,110743552,101597184,0]
+07-09 09:43:14.668  1896  1929 I am_pss  : [5515,10071,com.google.android.apps.maps,44482560,42115072,0]
+07-09 09:43:15.958  1896  1929 I am_pss  : [6061,10011,android.process.media,5542912,4542464,0]
+07-09 09:43:16.008  1896  1929 I am_pss  : [4777,10093,com.google.android.youtube,41463808,38543360,0]
+07-09 09:43:25.917  1896  1930 I am_uid_idle: 10003
+07-09 09:43:34.091  2683  3875 I c2dm    : [0,,2,2]
+07-09 09:43:34.161  1896  1929 I am_pss  : [3531,10026,com.android.vending,35719168,26103808,0]
+07-09 09:43:34.196  1896  1929 I am_pss  : [5271,1000,com.android.settings,19200000,15814656,0]
+07-09 09:43:34.230  1896  1929 I am_pss  : [5664,10098,com.google.android.music:main,28953600,26157056,0]
+07-09 09:43:34.253  1896  1929 I am_pss  : [2811,1000,com.qualcomm.qti.services.secureui:sui_service,3308544,2600960,0]
+07-09 09:43:34.275  1896  1929 I am_pss  : [2794,10030,com.android.test.soundtrigger,2549760,1953792,0]
+07-09 09:43:34.294  1896  1929 I am_pss  : [2775,1000,com.quicinc.wbcserviceapp,2636800,2043904,0]
+07-09 09:43:34.312  1896  1929 I am_pss  : [2766,1001,com.qualcomm.qti.loadcarrier,2824192,2191360,0]
+07-09 09:43:34.336  1896  1929 I am_pss  : [2313,1001,com.android.phone,27770880,23638016,0]
+07-09 09:43:34.353  1896  1929 I am_pss  : [2290,1001,com.qualcomm.qti.telephonyservice,3454976,2592768,0]
+07-09 09:43:34.370  1896  1929 I am_pss  : [2278,1000,.dataservices,5653504,4702208,0]
+07-09 09:43:34.376  2683  3894 I c2dm    : [1,,2,2]
+07-09 09:43:34.393  1896  1929 I am_pss  : [2186,10035,com.android.systemui,73530368,64786432,0]
+07-09 09:43:34.425  1896  1929 I am_pss  : [1896,1000,system,160762880,150446080,0]
+07-09 09:43:36.134  2186  2404 I sysui_multi_action: [757,1093,758,4,793,27350,1094,9437184,1095,2]
+07-09 09:43:37.150  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1015,1094,9437184,1095,2]
+07-09 09:43:43.612  2186  2404 I sysui_multi_action: [757,1093,758,4,793,6462,1094,9437184,1095,2]
+07-09 09:43:44.186  1896  1929 I am_pss  : [5453,1000,com.generalmobile.gmservice,5141504,3923968,0]
+07-09 09:43:44.213  1896  1929 I am_pss  : [3010,10003,android.process.acore,10408960,8945664,0]
+07-09 09:43:45.282  2186  2404 I sysui_multi_action: [757,1093,758,4,793,1670,1094,9437184,1095,2]
+07-09 09:43:45.553  1896  1930 I am_uid_idle: 10026
+07-09 09:43:51.437  1896  1930 I am_uid_idle: 10098
+07-09 09:43:54.580  1896  1945 I power_sleep_requested: 0
+07-09 09:43:54.651  1896  1945 I am_pause_activity: [0,63403618,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:43:54.653  2873  2873 I am_on_paused_called: [0,com.android.searchlauncher.SearchLauncher,handlePauseActivity]
+07-09 09:43:54.664  1896  1930 I am_stop_activity: [0,63403618,com.android.launcher3/com.android.searchlauncher.SearchLauncher]
+07-09 09:43:54.691  2873  2873 I am_on_stop_called: [0,com.android.searchlauncher.SearchLauncher,sleeping]
+07-09 09:43:54.891  1896  1939 I sysui_view_visibility: [223,100]
+07-09 09:43:54.891  1896  1939 I sysui_multi_action: [757,223,758,1]
+07-09 09:43:54.921  2186  2186 I sysui_multi_action: [757,196,758,2,759,0]
+07-09 09:43:54.921  2186  2186 I sysui_status_bar_state: [1,0,0,0,0,1]
+07-09 09:43:54.930  1896  2818 I notification_expansion: [-1|android|26|null|1000,0,0,70369,70369,63797]
+07-09 09:43:54.933  2186  2186 I sysui_view_visibility: [111,100]
+07-09 09:43:54.934  2186  2186 I sysui_multi_action: [757,111,758,1]
+07-09 09:43:54.934  2186  2186 I sysui_multi_action: [757,126,758,1,759,126,833,0,927,0,928,0]
+07-09 09:43:54.934  2186  2186 I sysui_multi_action: [757,115,758,1,759,115,833,0,927,1,928,1]
+07-09 09:43:54.934  2186  2186 I sysui_multi_action: [757,113,758,1,759,113,833,0,927,2,928,0]
+07-09 09:43:54.934  2186  2186 I sysui_multi_action: [757,122,758,1,759,122,833,0,927,3,928,1]
+07-09 09:43:54.934  2186  2186 I sysui_multi_action: [757,116,758,1,759,116,833,0,927,4,928,0]
+07-09 09:43:54.934  2186  2186 I sysui_multi_action: [757,119,758,1,759,119,833,0,927,5,928,0]
+07-09 09:43:54.941  1896  2818 I sysui_view_visibility: [127,100]
+07-09 09:43:54.942  1896  2818 I sysui_multi_action: [757,127,758,1]
+07-09 09:43:54.942  1896  2818 I sysui_histogram: [note_load,2]
+07-09 09:43:54.942  1896  2818 I sysui_multi_action: [757,804,799,note_load,801,2,802,1]
+07-09 09:43:54.942  1896  2818 I notification_panel_revealed: 2
+07-09 09:43:54.951  1896  1896 I sysui_multi_action: [757,198,758,2,759,3]
+07-09 09:43:54.951  1896  1896 I power_screen_state: [0,3,0,0,0]
+07-09 09:43:54.951  1896  1896 I screen_toggled: 0
+07-09 09:43:54.951  1896  1896 I sysui_histogram: [screen_timeout,60]
+07-09 09:43:54.951  1896  1896 I sysui_multi_action: [757,804,799,screen_timeout,801,60,802,1]
+07-09 09:43:54.951  1896  1896 I power_screen_broadcast_send: 1
+07-09 09:43:54.999  1896  2987 I sysui_view_visibility: [127,0]
+07-09 09:43:54.999  1896  2987 I sysui_multi_action: [757,127,758,2]
+07-09 09:43:54.999  1896  2987 I notification_panel_hidden: 
+07-09 09:43:55.074  1896  1896 I power_screen_broadcast_done: [0,123,1]
+07-09 09:43:59.663  2186  2186 I sysui_multi_action: [757,196,758,1,759,0]
+07-09 09:43:59.663  2186  2186 I sysui_status_bar_state: [1,1,0,0,0,1]
+07-09 09:44:05.287  1896  1929 I am_pss  : [4777,10093,com.google.android.youtube,41788416,38866944,0]
+07-09 09:44:10.074  1896  1929 I am_pss  : [3943,10072,com.google.android.apps.messaging,21761024,19206144,0]
+07-09 09:44:10.132  1896  1929 I am_pss  : [4284,10007,com.google.android.ims,11766784,9981952,0]
+07-09 09:44:10.181  1896  1929 I am_pss  : [3994,10064,com.google.android.tts,49244160,44494848,0]
+07-09 09:44:25.004  1896  1929 I am_pss  : [3069,10039,com.google.android.googlequicksearchbox:search,70233088,61071360,0]
+07-09 09:44:25.065  1896  1929 I am_pss  : [2873,1000,com.android.launcher3,73761792,67801088,0]
+07-09 09:44:25.104  1896  1929 I am_pss  : [2888,10014,com.google.process.gservices,5294080,4165632,0]
+07-09 09:44:25.140  1896  1929 I am_pss  : [3010,10003,android.process.acore,10413056,8949760,0]
+07-09 09:44:45.281  2186  2404 I sysui_multi_action: [757,1093,758,4,793,60000,1094,9437184,1095,2]
+07-09 09:44:47.702  2186  2404 I sysui_multi_action: [757,1093,758,4,793,2421,1094,9437184,1095,2]

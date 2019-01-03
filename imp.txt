@@ -1,0 +1,44 @@
+1)big data
+2)Block chain
+3)IOT
+_____________________________
+some linux concepts:
+1)logging &audio
+2)runlevel
+3)permission
+4)change ownership
+5)user creation
+6)group
+7)network
+8)s/w install
+9)environment varaibles
+10)system admin command
+11)apache
+12)ftp
+13)disk
+14)encryption
+15)hording
+
+________________________________________
+
+1)proxy and VPN(in opera browser) concepts
+2)evernote,pcloud,google drive =>for storing data
+____________________________________________________
+cybrary link:1 video => https://www.cybrary.it/
+
+6 videos about github: =>https://www.youtube.com/watch?v=xuB1Id2Wxak
+
+about vmware:26 videos:=>https://www.youtube.com/watch?v=WBEMBeTo5wE&list=PL349217FB0EBD33C5
+
+diff b/w VPN and proxy: => https://youtu.be/Z8LSy66fklk
+pythonsites:
+======================
+https://www.udemy.com/complete-python-bootcamp/
+https://www.udemy.com/courses/search/?q=python%20data%20structure&src=ukw
+https://www.udemy.com/python-the-complete-python-developer-course/
+https://www.udemy.com/python-and-django-full-stack-web-developer-bootcamp/
+https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/
+https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/
+
+https://www.pluralsight.com/search?q=python
+https://www.packtpub.com/application-development/python-gui-programming-tkinter

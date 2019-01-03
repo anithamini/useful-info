@@ -1,0 +1,18 @@
+<6>[   41.143761] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[   41.143771] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(795,89)[45]
+<6>[   41.144516] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[   41.148658] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[   41.148670] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[   41.149345] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[   41.149533] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(795,89)[45]
+<6>[   41.149744] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[   41.156711] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[   41.156722] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[   41.157941] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[   41.157956] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(795,89)[45]
+<6>[   41.159335] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99
+<6>[   41.165012] <<GTP-FUNC>> Func:gt1x_ts_irq_handler@Line:200
+<6>[   41.165023] <<GTP-FUNC>> Func:gt1x_irq_disable@Line:117
+<6>[   41.166090] <<GTP-FUNC>> Func:gt1x_touch_event_handler@Line:1221
+<6>[   41.166102] <<GTP-DBG>>[gt1x_touch_event_handler:1361](0)(795,89)[45]
+<6>[   41.166513] <<GTP-FUNC>> Func:gt1x_irq_enable@Line:99

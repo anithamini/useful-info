@@ -1,0 +1,452 @@
+Current Alarm Manager state:
+  Settings:
+    min_futurity=+5s0ms
+    min_interval=+60s0ms
+    allow_while_idle_short_time=+5s0ms
+    allow_while_idle_long_time=+15m0s0ms
+    allow_while_idle_whitelist_duration=+10s0ms
+
+  nowRTC=1522669532454=2018-04-02 17:15:32 nowELAPSED=+5d3h3m3s437ms
+  mLastTimeChangeClockTime=1522659605415=2018-04-02 14:30:05
+  mLastTimeChangeRealtime=+5d0h17m36s397ms
+  Next non-wakeup alarm: +141ms = 2018-04-02 17:15:32
+  Next wakeup: +13s548ms = 2018-04-02 17:15:46
+  Num time change events: 1
+
+  Next alarm clock information: 
+
+  Pending alarm batches: 53
+Batch{dd09668 num=1 start=442983578 end=442983578 flgs=0x8}:
+    ELAPSED #0: Alarm{c13ea81 type 3 when 442981628 android}
+      tag=*alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+      type=3 whenElapsed=+141ms when=-1s809ms
+      window=-1ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{68d975b: PendingIntentRecord{9c95bf8 android broadcastIntent}}
+Batch{6b45726 num=1 start=442986628 end=442986628 flgs=0x8}:
+    ELAPSED #0: Alarm{abadf67 type 3 when 442986628 android}
+      tag=*alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+      type=3 whenElapsed=+3s191ms when=+3s191ms
+      window=-1ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{ac596d3: PendingIntentRecord{447b210 android broadcastIntent}}
+Batch{24cb114 num=1 start=442996985 end=442996985 flgs=0x9}:
+    ELAPSED_WAKEUP #0: Alarm{213adbd type 2 when 442996985 android}
+      tag=*walarm*:android.content.syncmanager.SYNC_ALARM
+      type=2 whenElapsed=+13s548ms when=+13s548ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{a221eec: PendingIntentRecord{c7b42b5 android broadcastIntent}}
+Batch{e7ebfb2 num=1 start=443010982 end=443010982 flgs=0x1}:
+    ELAPSED #0: Alarm{c0b03 type 3 when 443010982 android}
+      tag=*alarm*:android.intent.action.TIME_TICK
+      type=3 whenElapsed=+27s545ms when=+27s545ms
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{a6eb26b: PendingIntentRecord{540c1c8 android broadcastIntent}}
+Batch{7cdca80 num=1 start=443014343 end=443041166 flgs=0x8}:
+    ELAPSED_WAKEUP #0: Alarm{55268b9 type 2 when 443014343 com.android.phone}
+      tag=*walarm*:com.android.internal.telephony.data-stall
+      type=2 whenElapsed=+30s906ms when=+30s906ms
+      window=-1ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{81524fe: PendingIntentRecord{9226b74 com.android.phone broadcastIntent}}
+Batch{cba545f num=1 start=443166245 end=445866245}:
+    RTC #0: Alarm{8bbfaea type 1 when 1522669715262 com.truecaller}
+      tag=*alarm*:com.truecaller.intent.action.MISSED_CALL_POST_REMINDER
+      type=1 whenElapsed=+3m2s808ms when=2018-04-02 17:18:35
+      window=-1ms repeatInterval=3600000 count=0 flags=0x0
+      operation=PendingIntent{2032c46: PendingIntentRecord{3f26021 com.truecaller startService}}
+Batch{1850eac num=1 start=443491367 end=443941367}:
+    RTC #0: Alarm{527d775 type 1 when 1522670040384 com.android.picasso.app.compat.animated}
+      tag=*alarm*:com.android.picasso.app.compat.animated/com.android.eoase.print.MS
+      type=1 whenElapsed=+8m27s930ms when=2018-04-02 17:24:00
+      window=-1ms repeatInterval=600000 count=0 flags=0x0
+      operation=PendingIntent{5bad34a: PendingIntentRecord{3d1a22d com.android.picasso.app.compat.animated startService}}
+Batch{f1a930a num=1 start=443812240 end=446512240}:
+    RTC #0: Alarm{b5f95a7 type 1 when 1522670361257 com.icoolme.android.weather}
+      tag=*alarm*:com.aicoolme.android.weather.updateweather
+      type=1 whenElapsed=+13m48s803ms when=2018-04-02 17:29:21
+      window=-1ms repeatInterval=3600000 count=0 flags=0x0
+      operation=PendingIntent{d75ca54: PendingIntentRecord{9d73729 com.icoolme.android.weather broadcastIntent}}
+Batch{ad9d77b num=1 start=443815841 end=445165841 flgs=0x8}:
+    ELAPSED #0: Alarm{477b360 type 3 when 443815841 android}
+      tag=*alarm*:com.android.server.action.NETWORK_STATS_POLL
+      type=3 whenElapsed=+13m52s404ms when=+13m52s404ms
+      window=-1ms repeatInterval=1800000 count=0 flags=0x8
+      operation=PendingIntent{10c709d: PendingIntentRecord{309f912 android broadcastIntent}}
+Batch{28a6998 num=1 start=443842941 end=444491212 flgs=0x4}:
+    ELAPSED_WAKEUP #0: Alarm{4ab75f1 type 2 when 443842941 com.facebook.services}
+      tag=*walarm*:KeepaliveManager.ACTION_INEXACT_ALARM.PreloadedFBNS.com.facebook.services
+      type=2 whenElapsed=+14m19s504ms when=+14m19s504ms
+      window=-1ms repeatInterval=0 count=0 flags=0x4
+      operation=PendingIntent{456d5d6: PendingIntentRecord{b065c55 com.facebook.services broadcastIntent}}
+Batch{7a47057 num=1 start=447014601 end=450041617}:
+    ELAPSED #0: Alarm{cf7cd16 type 3 when 447014601 com.truecaller}
+      tag=*alarm*:com.truecaller.action.ACTION_UPDATE_PRESENCE_FOR_CURRENT_USER
+      type=3 whenElapsed=+1h7m11s164ms when=+1h7m11s164ms
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{b033697: PendingIntentRecord{fd2d122 com.truecaller broadcastIntent}}
+Batch{5888744 num=1 start=447449008 end=447449008 flgs=0x9}:
+    RTC #0: Alarm{92506d type 1 when 1522673998025 android}
+      tag=*alarm*:com.android.server.action.UPDATE_TWILIGHT_STATE
+      type=1 whenElapsed=+1h14m25s571ms when=2018-04-02 18:29:58
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{6449d0c: PendingIntentRecord{658b655 android broadcastIntent}}
+Batch{6f0802d num=1 start=447487142 end=450868564}:
+    RTC #0: Alarm{33aa533 type 1 when 1522674036159 com.yulong.android.security}
+      tag=*alarm*:com.yulong.android.security.impl.cacheclean.scandisk
+      type=1 whenElapsed=+1h15m3s705ms when=2018-04-02 18:30:36
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{6c010f0: PendingIntentRecord{73dc4e4 com.yulong.android.security broadcastIntent}}
+Batch{b427962 num=1 start=450750983 end=456580286}:
+    RTC #0: Alarm{ab368ee type 1 when 1522677300000 com.icoolme.android.weather}
+      tag=*alarm*:com.icoolme.android.weather.REMIND_NIGHT
+      type=1 whenElapsed=+2h9m27s546ms when=2018-04-02 19:25:00
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{e70618f: PendingIntentRecord{368ce9b com.icoolme.android.weather broadcastIntent}}
+Batch{15baf3 num=1 start=454684766 end=463464406}:
+    RTC_WAKEUP #0: Alarm{608615b type 0 when 1522681233783 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+3h15m1s329ms when=2018-04-02 20:30:33
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{69d5df8: PendingIntentRecord{972c2d1 com.cube26.coolstore startService}}
+Batch{328d3b0 num=1 start=454833753 end=463725133}:
+    RTC_WAKEUP #0: Alarm{761b837 type 0 when 1522681382770 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+3h17m30s316ms when=2018-04-02 20:33:02
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{c4661a4: PendingIntentRecord{48fbb0d com.cube26.coolstore startService}}
+Batch{301f229 num=1 start=455034694 end=464076780}:
+    RTC_WAKEUP #0: Alarm{18fa0d3 type 0 when 1522681583711 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+3h20m51s257ms when=2018-04-02 20:36:23
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{359f410: PendingIntentRecord{a09fb09 com.cube26.coolstore startService}}
+Batch{452c9ae num=1 start=460050983 end=460050983 flgs=0x9}:
+    RTC_WAKEUP #0: Alarm{a9772f type 0 when 1522686600000 android}
+      tag=*walarm*:ScheduleConditionProvider.EVALUATE
+      type=0 whenElapsed=+4h44m27s546ms when=2018-04-02 22:00:00
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{ac40a47: PendingIntentRecord{854991a android broadcastIntent}}
+Batch{b47134f num=1 start=461549782 end=475478184}:
+    RTC_WAKEUP #0: Alarm{27999a1 type 0 when 1522688098799 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+5h9m26s345ms when=2018-04-02 22:24:58
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{e1ba7c6: PendingIntentRecord{808f387 com.cube26.coolstore startService}}
+Batch{33f7adc num=1 start=461718650 end=475773703}:
+    RTC_WAKEUP #0: Alarm{b752edd type 0 when 1522688267667 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+5h12m15s213ms when=2018-04-02 22:27:47
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{11a7a52: PendingIntentRecord{6f74123 com.cube26.coolstore startService}}
+Batch{b9e87e5 num=1 start=464559748 end=480745624}:
+    RTC_WAKEUP #0: Alarm{5d2ba type 0 when 1522691108765 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+5h59m36s311ms when=2018-04-02 23:15:08
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{e8b956b: PendingIntentRecord{4b768c8 com.cube26.coolstore startService}}
+Batch{6b4bd61 num=1 start=464564912 end=480754661}:
+    RTC_WAKEUP #0: Alarm{6ae6086 type 0 when 1522691113929 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+5h59m41s475ms when=2018-04-02 23:15:13
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{74c1d47: PendingIntentRecord{83e4974 com.cube26.coolstore startService}}
+Batch{9ece9d num=1 start=464565673 end=480755993}:
+    RTC_WAKEUP #0: Alarm{ffff12 type 0 when 1522691114690 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+5h59m42s236ms when=2018-04-02 23:15:14
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{6a346e3: PendingIntentRecord{9b088e0 com.cube26.coolstore startService}}
+Batch{71eb799 num=1 start=464569731 end=480763095}:
+    RTC_WAKEUP #0: Alarm{d5afa5e type 0 when 1522691118748 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.rmnlibrary.RMNRegistrationService
+      type=0 whenElapsed=+5h59m46s294ms when=2018-04-02 23:15:18
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{ab96e3f: PendingIntentRecord{445530c com.cube26.coolstore startService}}
+Batch{81a3455 num=1 start=490615005 end=555415005}:
+    RTC_WAKEUP #0: Alarm{e0574b type 0 when 1522717164022 com.cube26.coolstore}
+      tag=*walarm*:UPDATE_CONFIGURATION
+      type=0 whenElapsed=+13h13m51s568ms when=2018-04-03 06:29:24
+      window=-1ms repeatInterval=86400000 count=0 flags=0x0
+      operation=PendingIntent{9203528: PendingIntentRecord{7d90241 com.cube26.coolstore broadcastIntent}}
+Batch{dd85e6a num=1 start=493050983 end=530605286}:
+    RTC #0: Alarm{2d45c95 type 1 when 1522719600000 com.icoolme.android.weather}
+      tag=*alarm*:com.icoolme.android.weather.REMIND
+      type=1 whenElapsed=+13h54m27s546ms when=2018-04-03 07:10:00
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{8df01aa: PendingIntentRecord{dacf195 com.icoolme.android.weather broadcastIntent}}
+Batch{1e0af5b num=1 start=497850983 end=497850983 flgs=0x5}:
+    RTC_WAKEUP #0: Alarm{482e98a type 0 when 1522724400000 com.yulong.android.calendar}
+      tag=*walarm*:yulong.intent.action.CUSTOMDAY_NEXTALERT
+      type=0 whenElapsed=+15h14m27s546ms when=2018-04-03 08:30:00
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{ae36872: PendingIntentRecord{f86a8b3 com.yulong.android.calendar broadcastIntent}}
+Batch{d7a93f8 num=1 start=497850983 end=497850983 flgs=0x5}:
+    RTC_WAKEUP #0: Alarm{b5ee418 type 0 when 1522724400000 com.yulong.android.calendar}
+      tag=*walarm*:yulong.intent.action.CUSTOMDAY_NEXTALERT
+      type=0 whenElapsed=+15h14m27s546ms when=2018-04-03 08:30:00
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{41a8140: PendingIntentRecord{ea7a87f com.yulong.android.calendar broadcastIntent}}
+Batch{16c0d1 num=1 start=510450983 end=510450983 flgs=0x1}:
+    RTC #0: Alarm{efb99be type 1 when 1522737000000 android}
+      tag=*alarm*:android.intent.action.DATE_CHANGED
+      type=1 whenElapsed=+18h44m27s546ms when=2018-04-03 12:00:00
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{ec8a1f: PendingIntentRecord{9c6716c android broadcastIntent}}
+Batch{b15f736 num=1 start=512348608 end=512348608 flgs=0x1}:
+    RTC_WAKEUP #0: Alarm{4d393ca type 0 when 1522738897625 com.android.providers.calendar}
+      tag=*walarm*:com.android.providers.calendar.SCHEDULE_ALARM
+      type=0 whenElapsed=+19h16m5s171ms when=2018-04-03 12:31:37
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{d59a93b: PendingIntentRecord{f5f3858 com.android.providers.calendar broadcastIntent}}
+Batch{370e637 num=1 start=512349728 end=512349728 flgs=0x5}:
+    RTC_WAKEUP #0: Alarm{17f2296 type 0 when 1522738898745 com.yulong.android.calendar}
+      tag=*walarm*:com.android.providers.calendar.SCHEDULE_ALARM
+      type=0 whenElapsed=+19h16m6s291ms when=2018-04-03 12:31:38
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{5af9e17: PendingIntentRecord{abb8204 com.yulong.android.calendar broadcastIntent}}
+Batch{2c0f7a4 num=1 start=512351995 end=512351995 flgs=0x1}:
+    RTC_WAKEUP #0: Alarm{582d222 type 0 when 1522738901012 com.android.providers.calendar}
+      tag=*walarm*:com.android.providers.calendar.SCHEDULE_ALARM
+      type=0 whenElapsed=+19h16m8s558ms when=2018-04-03 12:31:41
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{d0604b3: PendingIntentRecord{670ba70 com.android.providers.calendar broadcastIntent}}
+Batch{475990d num=1 start=519420751 end=584220751 flgs=0x8}:
+    ELAPSED_WAKEUP #0: Alarm{31fee6e type 2 when 519420751 android}
+      tag=*walarm*:android.appwidget.action.APPWIDGET_UPDATE
+      type=2 whenElapsed=+21h13m57s314ms when=+21h13m57s314ms
+      window=-1ms repeatInterval=86400000 count=0 flags=0x8
+      operation=PendingIntent{652390f: PendingIntentRecord{eff0d9c android broadcastIntent}}
+Batch{7c250c2 num=1 start=519448236 end=576800478}:
+    RTC_WAKEUP #0: Alarm{d60837a type 0 when 1522745997253 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+21h14m24s799ms when=2018-04-03 14:29:57
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{483572b: PendingIntentRecord{6bd6788 com.cube26.coolstore startService}}
+Batch{a63aed3 num=1 start=519456432 end=519456432 flgs=0x9}:
+    RTC_WAKEUP #0: Alarm{be35d46 type 0 when 1522746005449 android}
+      tag=*walarm*:EventConditionProvider.EVALUATE
+      type=0 whenElapsed=+21h14m32s995ms when=2018-04-03 14:30:05
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{cd00f6a: PendingIntentRecord{485253c android broadcastIntent}}
+Batch{5e7ea10 num=1 start=519484016 end=576863093}:
+    RTC_WAKEUP #0: Alarm{c857434 type 0 when 1522746033033 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+21h15m0s579ms when=2018-04-03 14:30:33
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{272825d: PendingIntentRecord{f6807d2 com.cube26.coolstore startService}}
+Batch{56fb909 num=1 start=519824904 end=577459647}:
+    RTC_WAKEUP #0: Alarm{11f9fa0 type 0 when 1522746373921 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+21h20m41s467ms when=2018-04-03 14:36:13
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{2d9e759: PendingIntentRecord{31acf1e com.cube26.coolstore startService}}
+Batch{e8b70e num=1 start=522105854 end=522105854 flgs=0x1}:
+    ELAPSED_WAKEUP #0: Alarm{a2e1456 type 2 when 522105854 com.google.android.googlequicksearchbox}
+      tag=*walarm*:com.google.android.apps.gsa.sidekick.ENTRY_SYNC_RECOVERY_REFRESH
+      type=2 whenElapsed=+21h58m42s417ms when=+21h58m42s417ms
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{6a0bf2a: PendingIntentRecord{12c611b com.google.android.googlequicksearchbox startService}}
+Batch{db0652f num=1 start=526350058 end=588878667}:
+    RTC_WAKEUP #0: Alarm{9de378b type 0 when 1522752899075 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+23h9m26s621ms when=2018-04-03 16:24:59
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{90c3068: PendingIntentRecord{9607c81 com.cube26.coolstore startService}}
+Batch{449973c num=1 start=526508390 end=589155748}:
+    RTC_WAKEUP #0: Alarm{c975fbd type 0 when 1522753057407 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+23h12m4s953ms when=2018-04-03 16:27:37
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{4cd89b2: PendingIntentRecord{d240d03 com.cube26.coolstore startService}}
+Batch{3d1dcc5 num=1 start=529355943 end=594138966}:
+    RTC_WAKEUP #0: Alarm{6fd361a type 0 when 1522755904960 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+23h59m32s506ms when=2018-04-03 17:15:04
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{268254b: PendingIntentRecord{4b6eb28 com.cube26.coolstore startService}}
+Batch{6788041 num=1 start=529356599 end=529356599 flgs=0x9}:
+    ELAPSED #0: Alarm{ba899e6 type 3 when 529356599 android}
+      tag=*alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+      type=3 whenElapsed=+23h59m33s162ms when=+23h59m33s162ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{b16c623: PendingIntentRecord{b233720 android broadcastIntent}}
+Batch{391cb27 num=1 start=529357001 end=594140817}:
+    RTC_WAKEUP #0: Alarm{82391d4 type 0 when 1522755906018 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+23h59m33s564ms when=2018-04-03 17:15:06
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{b8bdf7d: PendingIntentRecord{546e72 com.cube26.coolstore startService}}
+Batch{bc5f2c3 num=1 start=529357399 end=594141514}:
+    RTC_WAKEUP #0: Alarm{911f740 type 0 when 1522755906416 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+23h59m33s962ms when=2018-04-03 17:15:06
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{17bf679: PendingIntentRecord{176ffbe com.cube26.coolstore startService}}
+Batch{c8af81f num=1 start=529357767 end=594142158}:
+    RTC_WAKEUP #0: Alarm{5bf476c type 0 when 1522755906784 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.daise.ds.DaiSe
+      type=0 whenElapsed=+23h59m34s330ms when=2018-04-03 17:15:06
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{3bc8135: PendingIntentRecord{a9f59ca com.cube26.coolstore startService}}
+Batch{f70f73b num=1 start=569071119 end=569071119 flgs=0xd}:
+    RTC_WAKEUP #0: Alarm{36a29c4 type 0 when 1522795620136 com.yulong.android.backup}
+      tag=*walarm*:com.yulong.android.backup.SYSTEM_BACKUP_REMIND
+      type=0 whenElapsed=+1d11h1m27s682ms when=2018-04-04 04:17:00
+      window=0 repeatInterval=0 count=0 flags=0xd
+      operation=PendingIntent{a902891: PendingIntentRecord{ce3a3f6 com.yulong.android.backup broadcastIntent}}
+Batch{10f6e58 num=1 start=614340133 end=2558340133}:
+    RTC_WAKEUP #0: Alarm{b885264 type 0 when 1522840889150 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.deviceData.service.DeviceDataPostService
+      type=0 whenElapsed=+1d23h35m56s696ms when=2018-04-04 16:51:29
+      window=-1ms repeatInterval=2592000000 count=0 flags=0x0
+      operation=PendingIntent{f7dbccd: PendingIntentRecord{b9e0982 com.cube26.coolstore startService}}
+Batch{740fbb1 num=1 start=692257901 end=879217392}:
+    RTC #0: Alarm{1aa30d0 type 1 when 1522918806918 com.truecaller}
+      tag=*alarm*:com.truecaller/.service.AlarmReceiver
+      type=1 whenElapsed=+2d21h14m34s464ms when=2018-04-05 14:30:06
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{13658c9: PendingIntentRecord{967de3b com.truecaller broadcastIntent}}
+Batch{f414896 num=1 start=692308073 end=886708073}:
+    RTC #0: Alarm{5c16aef type 1 when 1522918857090 com.cube26.coolstore}
+      tag=*alarm*:com.cube26.coolstore/com.cube26.store.widget.util.UpdateReceiver
+      type=1 whenElapsed=+2d21h15m24s636ms when=2018-04-05 14:30:57
+      window=-1ms repeatInterval=259200000 count=0 flags=0x0
+      operation=PendingIntent{5c989fc: PendingIntentRecord{aa43f3d com.cube26.coolstore broadcastIntent}}
+Batch{cedcc17 num=1 start=1037842276 end=1491442276}:
+    RTC_WAKEUP #0: Alarm{9ff46da type 0 when 1523264391293 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.appusage.receivers.AppUsageAlarmReceiver
+      type=0 whenElapsed=+6d21h14m18s839ms when=2018-04-09 14:29:51
+      window=-1ms repeatInterval=604800000 count=0 flags=0x0
+      operation=PendingIntent{fe3c70b: PendingIntentRecord{4960c6d com.cube26.coolstore broadcastIntent}}
+Batch{6391804 num=1 start=1297057905 end=1937617399}:
+    RTC #0: Alarm{8fb5801 type 1 when 1523523606922 com.truecaller}
+      tag=*alarm*:com.truecaller/.service.AlarmReceiver
+      type=1 whenElapsed=+9d21h14m34s468ms when=2018-04-12 14:30:06
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{99af6a6: PendingIntentRecord{cec2317 com.truecaller broadcastIntent}}
+Batch{2b8a1ed num=1 start=1642657895 end=2542417382}:
+    RTC #0: Alarm{dd71c94 type 1 when 1523869206912 com.truecaller}
+      tag=*alarm*:com.truecaller/.service.AlarmReceiver
+      type=1 whenElapsed=+13d21h14m34s458ms when=2018-04-16 14:30:06
+      window=-1ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{dc4733d: PendingIntentRecord{537bd37 com.truecaller broadcastIntent}}
+Batch{4415822 num=1 start=3025042270 end=4969042270}:
+    RTC_WAKEUP #0: Alarm{d5c0c83 type 0 when 1525251591287 com.cube26.coolstore}
+      tag=*walarm*:com.cube26.coolstore/com.android.library.appusage.receivers.AppUsageAlarmReceiver
+      type=0 whenElapsed=+29d21h14m18s833ms when=2018-05-02 14:29:51
+      window=-1ms repeatInterval=2592000000 count=0 flags=0x0
+      operation=PendingIntent{c536e00: PendingIntentRecord{e999297 com.cube26.coolstore broadcastIntent}}
+
+  Past-due non-wakeup alarms: (none)
+    Number of delayed alarms: 0, total delay time: 0
+    Max delay time: 0, max non-interactive time: +10m45s279ms
+
+  Broadcast ref count: 0
+
+  mAllowWhileIdleMinTime=+5s0ms
+  Last allow while idle dispatch times:
+  UID u0a4: -2h45m25s163ms
+  UID u0a14: -32s454ms
+  UID u0a22: -22s934ms
+  UID u0a38: -10m31s348ms
+  UID u0a104: -2h42m7s510ms
+
+  Top Alarms:
+    +2m26s377ms running, 0 wakeups, 3632 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +1m57s171ms running, 0 wakeups, 2081 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    +49s442ms running, 0 wakeups, 2 alarms: u0a99:com.truecaller
+      *alarm*:com.truecaller.action.ACTION_UPDATE_PRESENCE_FOR_CURRENT_USER
+    +32s563ms running, 2 wakeups, 2 alarms: u10a16:com.android.providers.calendar
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +31s759ms running, 1 wakeups, 1 alarms: u0a40:com.google.android.googlequicksearchbox
+      *walarm*:run_background_task121
+    +31s752ms running, 1 wakeups, 1 alarms: u0a40:com.google.android.googlequicksearchbox
+      *walarm*:run_background_task-171
+    +31s740ms running, 1 wakeups, 1 alarms: u0a40:com.google.android.googlequicksearchbox
+      *walarm*:run_background_task119
+    +31s705ms running, 1 wakeups, 1 alarms: u0a16:com.android.providers.calendar
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +31s392ms running, 1 wakeups, 1 alarms: u0a4:com.yulong.android.calendar
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +24s975ms running, 2 wakeups, 2 alarms: u0a24:com.cube26.coolstore
+      *walarm*:com.cube26.coolstore/com.android.library.appusage.receivers.AppUsageAlarmReceiver
+ 
+  Alarm Stats:
+  1000:com.yulong.android.register +73ms running, 1 wakeups:
+    +73ms 1 wakes 1 alarms, last -2h43m8s618ms:
+      *walarm*:com.yulong.android.action.START_NETREG_REGISTOR
+  1000:android +3m20s743ms running, 61 wakeups:
+    +2m26s377ms 0 wakes 3632 alarms, last -4s871ms:
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +1m57s171ms 0 wakes 2081 alarms, last -4s858ms:
+      *alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    +14s517ms 0 wakes 165 alarms, last -32s454ms:
+      *alarm*:android.intent.action.TIME_TICK
+    +12s625ms 0 wakes 6 alarms, last -16m7s596ms:
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +3s513ms 2 wakes 2 alarms, last -48m5s577ms:
+      *walarm*:com.mediatek.location.providercheck
+    +350ms 57 wakes 57 alarms, last -46s453ms:
+      *walarm*:android.content.syncmanager.SYNC_ALARM
+    +187ms 1 wakes 1 alarms, last -2h26m19s446ms:
+      *walarm*:com.yulong.android.service.Watchdog.CLEAN_DAEMON
+    +6ms 1 wakes 1 alarms, last -2h41m10s505ms:
+      *walarm*:com.android.server.WifiManager.action.START_SCAN
+  1000:com.android.systemui +4ms running, 1 wakeups:
+    +4ms 1 wakes 1 alarms, last -2h41m22s612ms:
+      *walarm*:com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD
+  1001:com.android.phone +412ms running, 49 wakeups:
+    +398ms 47 wakes 47 alarms, last -42s75ms:
+      *walarm*:com.android.internal.telephony.data-stall
+    +14ms 2 wakes 2 alarms, last -31s391ms:
+      *walarm*:com.android.internal.telephony.data-reconnect.default
+  u0a4:com.yulong.android.calendar +31s392ms running, 1 wakeups:
+    +31s392ms 1 wakes 1 alarms, last -2h45m25s163ms:
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+  u0a16:com.android.providers.calendar +31s705ms running, 1 wakeups:
+    +31s705ms 1 wakes 1 alarms, last -2h45m26s594ms:
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+  u0a21:com.yulong.android.security +32ms running, 0 wakeups:
+    +32ms 0 wakes 1 alarms, last -44m56s357ms:
+      *alarm*:com.yulong.android.security.impl.cacheclean.scandisk
+  u0a22:com.google.android.gms +4ms running, 0 wakeups:
+    +4ms 0 wakes 1 alarms, last -22s934ms:
+      *alarm*:com.google.android.intent.action.GCM_RECONNECT
+  u0a24:com.cube26.coolstore +25s67ms running, 5 wakeups:
+    +24s975ms 2 wakes 2 alarms, last -2h46m1s903ms:
+      *walarm*:com.cube26.coolstore/com.android.library.appusage.receivers.AppUsageAlarmReceiver
+    +553ms 3 wakes 3 alarms, last -2h45m30s328ms:
+      *walarm*:com.cube26.coolstore/com.android.library.http.HTTPLibraryAlarmSchedulingService
+    +87ms 0 wakes 1 alarms, last -2h43m8s618ms:
+      *alarm*:com.cube26.coolstore/com.cube26.store.widget.util.UpdateReceiver
+  u0a34:com.yulong.coolmessage +81ms running, 2 wakeups:
+    +81ms 2 wakes 2 alarms, last -2h42m59s526ms:
+      *walarm*:com.yulong.android.contacts.startSimImportService
+  u0a38:com.facebook.services +30ms running, 4 wakeups:
+    +15ms 2 wakes 2 alarms, last -11m30s350ms:
+      *walarm*:KeepaliveManager.ACTION_INEXACT_ALARM.PreloadedFBNS.com.facebook.services
+    +15ms 2 wakes 2 alarms, last -10m31s348ms:
+      *walarm*:com.facebook.rti.mqtt.common.e.y.ACTION_ALARM.PreloadedFBNS.com.facebook.services
+  u0a40:com.google.android.googlequicksearchbox +33s299ms running, 4 wakeups:
+    +31s759ms 1 wakes 1 alarms, last -2h45m25s562ms:
+      *walarm*:run_background_task121
+    +31s752ms 1 wakes 1 alarms, last -2h45m25s562ms:
+      *walarm*:run_background_task-171
+    +31s740ms 1 wakes 1 alarms, last -2h45m25s562ms:
+      *walarm*:run_background_task119
+    +1s540ms 1 wakes 1 alarms, last -2h44m52s49ms:
+      *walarm*:run_background_task-172
+  u0a93:com.icoolme.android.weather +159ms running, 0 wakeups:
+    +159ms 0 wakes 5 alarms, last -46m52s999ms:
+      *alarm*:com.aicoolme.android.weather.updateweather
+  u0a99:com.truecaller +49s446ms running, 0 wakeups:
+    +49s442ms 0 wakes 2 alarms, last -52m48s842ms:
+      *alarm*:com.truecaller.action.ACTION_UPDATE_PRESENCE_FOR_CURRENT_USER
+    +4ms 0 wakes 2 alarms, last -56m57s192ms:
+      *alarm*:com.truecaller.intent.action.MISSED_CALL_POST_REMINDER
+  u0a107:com.android.picasso.app.compat.animated +7ms running, 0 wakeups:
+    +7ms 0 wakes 4 alarms, last -1m32s70ms:
+      *alarm*:com.android.picasso.app.compat.animated/com.android.eoase.print.MS
+  u10a16:com.android.providers.calendar +32s563ms running, 2 wakeups:
+    +32s563ms 2 wakes 2 alarms, last -2h45m1s832ms:
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2

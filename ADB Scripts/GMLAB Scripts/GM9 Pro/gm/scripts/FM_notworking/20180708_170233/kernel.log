@@ -1,0 +1,8 @@
+<6>[  690.131764] sec_ts 1-0048: [R] tID:0 mc:0 tc:0 lx:133 ly:1635 v:0107 cal:A2(00) id(0,0) p:0 P00T0000
+<14>[  690.151038] init: processing action (persist.service.sdlog.enable=1 && sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.rc:1004)
+<11>[  690.153282] init: property_set("ro.boottime.sdlog", "690152470463") failed: property already set
+<14>[  690.241511] init: Service 'sdlog' (pid 6716) exited with status 0
+<14>[  692.071069] init: Untracked pid 2741 exited with status 0
+<31>[  692.074418] logd: logdr: UID=0 GID=0 PID=6739 b tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+<14>[  692.074966] init: Service 'sdlog' (pid 6731) exited with status 0
+<6>[  692.469968] sec_ts 1-0048: [R] tID:0 mc:0 tc:0 lx:169 ly:1657 v:0107 cal:A2(00) id(0,0) p:0 P00T0000

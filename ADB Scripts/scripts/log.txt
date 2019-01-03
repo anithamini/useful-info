@@ -1,0 +1,38 @@
+
+C:\Users\GMTEST_USER\Desktop\Stability>python MOcall_BT.py 100 
+Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxxxxxxx }
+Starting: Intent { act=android.settings.BLUETOOTH_SETTINGS }
+Starting: Intent { act=android.settings.BLUETOOTH_SETTINGS }
+Warning: Activity not started, its current task has been brought to the front
+('Itr', 1)
+--------------------------------
+sim not present, please insert the sim and start the test
+Connecting the call to MT_num...
+
+Call successfully connected and in progress...
+
+Call is in background!!!...
+
+Bluetooth is ON!!!
+Bluetooth is OFF!!!
+call ENDED!!!
+Terminate batch job (Y/N)? 
+
+C:\Users\GMTEST_USER\Desktop\Stability>python BT_ON_OFF_Test1.py 100 
+restarting adbd as root
+remount succeeded
+=======================================================================
+Stability test started
+=======================================================================
+-----------------
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
+
+C:\Users\GMTEST_USER\Desktop\Stability>python WiFi_on_off_Test1.py 100 
+
+C:\Users\GMTEST_USER\Desktop\Stability>python Camera_Preview_Test.py 100 
+adbd is already running as root
+remount succeeded
+-----------------
+Terminate batch job (Y/N)? 
+
+C:\Users\GMTEST_USER\Desktop\Stability>

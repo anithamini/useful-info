@@ -1,0 +1,403 @@
+
+MediaFocusControl dump time: 11:25:22 AM
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@faa761d -- pack: com.generalmobile.app.musicplayer -- client: android.media.AudioManager@51c9466com.generalmobile.app.musicplayer.player.PlayerService@15fb4d6 -- gain: GAIN -- flags:  -- loss: none -- notified: true -- uid: 10093 -- attr: AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null -- sdk:26
+
+
+No external focus policy
+
+
+
+ Notify on duck:  true
+
+ In ring or call: false
+
+
+
+Audio event log: focus commands as seen by MediaFocusControl
+07-24 12:44:50:207 requestAudioFocus() from uid/pid 10039/10937 clientId=android.media.AudioManager@56d13b6com.google.android.apps.gsa.speech.audio.c.b@3708b7 callingPack=com.google.android.googlequicksearchbox req=4 flags=0x0 sdk=26
+07-24 12:45:01:461 abandonAudioFocus() from uid/pid 10039/10937 clientId=android.media.AudioManager@56d13b6com.google.android.apps.gsa.speech.audio.c.b@3708b7
+07-24 12:45:04:431 requestAudioFocus() from uid/pid 10039/10937 clientId=android.media.AudioManager@56d13b6com.google.android.apps.gsa.speech.audio.c.b@3708b7 callingPack=com.google.android.googlequicksearchbox req=4 flags=0x0 sdk=26
+07-24 12:45:13:585 abandonAudioFocus() from uid/pid 10039/10937 clientId=android.media.AudioManager@56d13b6com.google.android.apps.gsa.speech.audio.c.b@3708b7
+07-24 12:50:19:882 abandonAudioFocus() from uid/pid 10053/12390 clientId=android.media.AudioManager@592de87org.chromium.content.browser.AudioFocusDelegate@2c011b4
+07-24 12:50:19:904 abandonAudioFocus() from uid/pid 10053/12390 clientId=android.media.AudioManager@592de87org.chromium.content.browser.AudioFocusDelegate@b31a152
+07-24 12:50:19:927 abandonAudioFocus() from uid/pid 10053/12390 clientId=android.media.AudioManager@592de87org.chromium.content.browser.AudioFocusDelegate@269520
+07-24 12:50:19:942 abandonAudioFocus() from uid/pid 10053/12390 clientId=android.media.AudioManager@592de87org.chromium.content.browser.AudioFocusDelegate@89d6ed9
+07-24 12:50:19:956 abandonAudioFocus() from uid/pid 10053/12390 clientId=android.media.AudioManager@592de87org.chromium.content.browser.AudioFocusDelegate@7a4809e
+07-24 12:50:19:969 abandonAudioFocus() from uid/pid 10053/12390 clientId=android.media.AudioManager@592de87org.chromium.content.browser.AudioFocusDelegate@86f177f
+07-24 12:50:19:981 abandonAudioFocus() from uid/pid 10053/12390 clientId=android.media.AudioManager@592de87org.chromium.content.browser.AudioFocusDelegate@bafe34c
+07-24 15:20:22:581 requestAudioFocus() from uid/pid 10100/24248 clientId=android.media.AudioManager@98b53ecom.whatsapp.voipcalling.aw@4323f9f callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-24 15:20:28:760 abandonAudioFocus() from uid/pid 10100/24248 clientId=android.media.AudioManager@98b53ecom.whatsapp.voipcalling.aw@4323f9f
+07-24 15:22:03:237 requestAudioFocus() from uid/pid 10100/24799 clientId=android.media.AudioManager@1cf058acom.whatsapp.voipcalling.aw@b9197fb callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-24 15:22:08:800 abandonAudioFocus() from uid/pid 10100/24799 clientId=android.media.AudioManager@1cf058acom.whatsapp.voipcalling.aw@b9197fb
+07-24 15:22:11:016 requestAudioFocus() from uid/pid 10100/24799 clientId=android.media.AudioManager@1cf058acom.whatsapp.voipcalling.aw@b9197fb callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-24 15:23:01:180 requestAudioFocus() from uid/pid 10100/25533 clientId=android.media.AudioManager@790556bcom.whatsapp.voipcalling.aw@e3d28c8 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-24 15:23:07:309 abandonAudioFocus() from uid/pid 10100/25533 clientId=android.media.AudioManager@790556bcom.whatsapp.voipcalling.aw@e3d28c8
+07-25 08:02:08:100 requestAudioFocus() from uid/pid 10100/31363 clientId=android.media.AudioManager@bbe6a7fcom.whatsapp.voipcalling.aw@1c03a4c callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:02:13:708 abandonAudioFocus() from uid/pid 10100/31363 clientId=android.media.AudioManager@bbe6a7fcom.whatsapp.voipcalling.aw@1c03a4c
+07-25 08:02:15:830 requestAudioFocus() from uid/pid 10100/31363 clientId=android.media.AudioManager@bbe6a7fcom.whatsapp.voipcalling.aw@1c03a4c callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:02:26:911 abandonAudioFocus() from uid/pid 10100/31363 clientId=android.media.AudioManager@bbe6a7fcom.whatsapp.voipcalling.aw@1c03a4c
+07-25 08:04:20:070 requestAudioFocus() from uid/pid 10100/31985 clientId=android.media.AudioManager@ebf26bdcom.whatsapp.voipcalling.aw@85f44b2 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:04:22:621 abandonAudioFocus() from uid/pid 10100/31985 clientId=android.media.AudioManager@ebf26bdcom.whatsapp.voipcalling.aw@85f44b2
+07-25 08:05:19:450 requestAudioFocus() from uid/pid 10100/31985 clientId=android.media.AudioManager@ebf26bdcom.whatsapp.voipcalling.aw@85f44b2 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:05:32:998 abandonAudioFocus() from uid/pid 10100/31985 clientId=android.media.AudioManager@ebf26bdcom.whatsapp.voipcalling.aw@85f44b2
+07-25 08:07:12:671 requestAudioFocus() from uid/pid 10100/32337 clientId=android.media.AudioManager@2853057com.whatsapp.voipcalling.aw@1ba4744 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:07:18:360 abandonAudioFocus() from uid/pid 10100/32337 clientId=android.media.AudioManager@2853057com.whatsapp.voipcalling.aw@1ba4744
+07-25 08:07:20:509 requestAudioFocus() from uid/pid 10100/32337 clientId=android.media.AudioManager@2853057com.whatsapp.voipcalling.aw@1ba4744 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:08:08:646 requestAudioFocus() from uid/pid 10100/634 clientId=android.media.AudioManager@8f689aecom.whatsapp.voipcalling.aw@97fd34f callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:08:14:408 abandonAudioFocus() from uid/pid 10100/634 clientId=android.media.AudioManager@8f689aecom.whatsapp.voipcalling.aw@97fd34f
+07-25 08:08:16:681 requestAudioFocus() from uid/pid 10100/634 clientId=android.media.AudioManager@8f689aecom.whatsapp.voipcalling.aw@97fd34f callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:09:26:869 requestAudioFocus() from uid/pid 10100/1450 clientId=android.media.AudioManager@1765668com.whatsapp.voipcalling.aw@a26aa81 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:09:29:466 abandonAudioFocus() from uid/pid 10100/1450 clientId=android.media.AudioManager@1765668com.whatsapp.voipcalling.aw@a26aa81
+07-25 08:09:34:516 requestAudioFocus() from uid/pid 10100/1450 clientId=android.media.AudioManager@1765668com.whatsapp.voipcalling.aw@a26aa81 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:10:07:394 requestAudioFocus() from uid/pid 10100/2147 clientId=android.media.AudioManager@681e6acom.whatsapp.voipcalling.aw@5956f5b callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:10:10:718 abandonAudioFocus() from uid/pid 10100/2147 clientId=android.media.AudioManager@681e6acom.whatsapp.voipcalling.aw@5956f5b
+07-25 08:10:14:876 requestAudioFocus() from uid/pid 10100/2147 clientId=android.media.AudioManager@681e6acom.whatsapp.voipcalling.aw@5956f5b callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:12:38:644 requestAudioFocus() from uid/pid 10100/2886 clientId=android.media.AudioManager@a081cb6com.whatsapp.voipcalling.aw@8f7ddb7 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:12:44:998 abandonAudioFocus() from uid/pid 10100/2886 clientId=android.media.AudioManager@a081cb6com.whatsapp.voipcalling.aw@8f7ddb7
+07-25 08:12:46:900 requestAudioFocus() from uid/pid 10100/2886 clientId=android.media.AudioManager@a081cb6com.whatsapp.voipcalling.aw@8f7ddb7 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:13:25:213 requestAudioFocus() from uid/pid 10100/4112 clientId=android.media.AudioManager@a468397com.whatsapp.voipcalling.aw@9e83984 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:13:27:800 abandonAudioFocus() from uid/pid 10100/4112 clientId=android.media.AudioManager@a468397com.whatsapp.voipcalling.aw@9e83984
+07-25 08:13:32:408 requestAudioFocus() from uid/pid 10100/4112 clientId=android.media.AudioManager@a468397com.whatsapp.voipcalling.aw@9e83984 callingPack=com.whatsapp req=2 flags=0x0 sdk=27
+07-25 08:13:36:367 abandonAudioFocus() from uid/pid 10100/4112 clientId=android.media.AudioManager@a468397com.whatsapp.voipcalling.aw@9e83984
+07-25 08:51:41:208 requestAudioFocus() from uid/pid 10093/13231 clientId=android.media.AudioManager@8f13eeecom.generalmobile.app.musicplayer.player.PlayerService@8eaddf3 callingPack=com.generalmobile.app.musicplayer req=1 flags=0x0 sdk=26
+07-25 08:52:53:737 requestAudioFocus() from uid/pid 10093/13496 clientId=android.media.AudioManager@f4673a7com.generalmobile.app.musicplayer.player.PlayerService@892bab0 callingPack=com.generalmobile.app.musicplayer req=1 flags=0x0 sdk=26
+07-25 08:53:13:031 requestAudioFocus() from uid/pid 10093/13706 clientId=android.media.AudioManager@cc2e945com.generalmobile.app.musicplayer.player.PlayerService@251fe44 callingPack=com.generalmobile.app.musicplayer req=1 flags=0x0 sdk=26
+07-25 08:54:55:280 requestAudioFocus() from uid/pid 10093/13939 clientId=android.media.AudioManager@eadd4c1com.generalmobile.app.musicplayer.player.PlayerService@4fa2b2d callingPack=com.generalmobile.app.musicplayer req=1 flags=0x0 sdk=26
+07-25 08:55:14:552 requestAudioFocus() from uid/pid 10093/14148 clientId=android.media.AudioManager@51c9466com.generalmobile.app.musicplayer.player.PlayerService@15fb4d6 callingPack=com.generalmobile.app.musicplayer req=1 flags=0x0 sdk=26
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Muted: false
+   Min: 1
+   Max: 5
+   Current: 1 (earpiece): 4, 2 (speaker): 4, 80 (bt_a2dp): 4, 40000000 (default): 4
+   Devices: earpiece
+- STREAM_SYSTEM:
+   Muted: true
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 10, 2 (speaker): 0, 4 (headset): 1, 20 (bt_sco_hs): 10, 40000000 (default): 10
+   Devices: speaker
+- STREAM_RING:
+   Muted: true
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 10, 2 (speaker): 0, 20 (bt_sco_hs): 10, 40000000 (default): 10
+   Devices: speaker
+- STREAM_MUSIC:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 5, 2 (speaker): 3, 4 (headset): 12, 80 (bt_a2dp): 8, 4000000 (usb_headset): 4, 40000000 (default): 5
+   Devices: speaker
+- STREAM_ALARM:
+   Muted: false
+   Min: 0
+   Max: 7
+   Current: 2 (speaker): 1, 40000000 (default): 6
+   Devices: speaker
+- STREAM_NOTIFICATION:
+   Muted: true
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 10, 2 (speaker): 0, 4 (headset): 1, 20 (bt_sco_hs): 10, 40000000 (default): 10
+   Devices: speaker
+- STREAM_BLUETOOTH_SCO:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 12, 40000000 (default): 7
+   Devices: earpiece
+- STREAM_SYSTEM_ENFORCED:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 15, 2 (speaker): 15, 20 (bt_sco_hs): 15, 40000000 (default): 15
+   Devices: speaker
+- STREAM_DTMF:
+   Muted: true
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 10, 2 (speaker): 0, 4 (headset): 10, 20 (bt_sco_hs): 10, 80 (bt_a2dp): 10, 40000000 (default): 10
+   Devices: speaker
+- STREAM_TTS:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 5, 2 (speaker): 3, 4 (headset): 12, 80 (bt_a2dp): 8, 4000000 (usb_headset): 4, 40000000 (default): 5
+   Devices: speaker
+- STREAM_ACCESSIBILITY:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 5, 2 (speaker): 3, 4 (headset): 12, 80 (bt_a2dp): 8, 4000000 (usb_headset): 4, 40000000 (default): 5
+   Devices: speaker
+
+- mute affected streams = 0x2e
+
+Ringer mode: 
+- mode (internal) = VIBRATE
+- mode (external) = VIBRATE
+- ringer mode affected streams = 0x126 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_DTMF)
+- ringer mode muted streams = 0x126 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_DTMF)
+- delegate = ZenModeHelper
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@e3f6ab1,mVisible=false)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_INACTIVE
+  mSafeMediaVolumeIndex=80
+  mSafeUsbMediaVolumeIndex=40
+  sIndependentA11yVolume=false
+  mPendingVolumeCommand=null
+  mMusicActiveMs=2820001
+  mMcc=404
+  mCameraSoundForced=true
+  mHasVibrator=true
+  mVolumePolicy=VolumePolicy[volumeDownToEnterSilent=true,volumeUpToExitSilent=true,doNotDisturbWhenSilent=true,vibrateToSilentDebounce=400]
+  mAvrcpAbsVolSupported=false
+
+Audio policies:
+
+PlaybackActivityMonitor dump time: 11:25:22 AM
+
+  playback listeners:
+ (S)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@9688b96
+
+
+  players:
+  ID:15 -- type:android.media.SoundPool -- u/pid:1000/3500 -- state:idle -- attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+  ID:23 -- type:android.media.SoundPool -- u/pid:10035/4035 -- state:idle -- attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+  ID:887 -- type:android.media.MediaPlayer -- u/pid:10035/4035 -- state:stopped -- attr:AudioAttributes: usage=USAGE_VOICE_COMMUNICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+  ID:903 -- type:android.media.MediaPlayer -- u/pid:10035/4035 -- state:stopped -- attr:AudioAttributes: usage=USAGE_VOICE_COMMUNICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+  ID:6655 -- type:android.media.MediaPlayer -- u/pid:10026/6594 -- state:idle -- attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+  ID:6711 -- type:android.media.MediaPlayer -- u/pid:10093/14148 -- state:paused -- attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null
+
+  ducked players piids:
+
+  muted player piids:
+
+  banned uids:
+
+Audio event log: playback activity as reported through PlayerBase
+07-25 08:35:01:799 player piid:15 state:started
+07-25 08:35:02:416 player piid:15 state:started
+07-25 08:35:02:974 player piid:15 state:started
+07-25 08:35:03:564 player piid:15 state:started
+07-25 08:35:05:525 player piid:15 state:started
+07-25 08:35:08:760 player piid:15 state:started
+07-25 08:35:12:688 player piid:15 state:started
+07-25 08:35:16:806 player piid:15 state:started
+07-25 08:35:19:461 player piid:15 state:started
+07-25 08:35:22:173 player piid:15 state:started
+07-25 08:35:22:848 player piid:15 state:started
+07-25 08:35:23:405 player piid:15 state:started
+07-25 08:35:24:010 player piid:15 state:started
+07-25 08:35:24:643 player piid:15 state:started
+07-25 08:35:25:928 player piid:15 state:started
+07-25 08:35:29:156 player piid:15 state:started
+07-25 08:35:31:900 player piid:15 state:started
+07-25 08:35:33:123 player piid:15 state:started
+07-25 08:35:45:173 player piid:15 state:started
+07-25 08:35:45:355 player piid:15 state:started
+07-25 08:35:45:538 player piid:15 state:started
+07-25 08:35:45:722 player piid:15 state:started
+07-25 08:35:45:900 player piid:15 state:started
+07-25 08:35:46:071 player piid:15 state:started
+07-25 08:35:46:252 player piid:15 state:started
+07-25 08:35:49:910 player piid:15 state:started
+07-25 08:36:59:443 player piid:15 state:started
+07-25 08:37:05:829 player piid:15 state:started
+07-25 08:39:32:508 player piid:15 state:started
+07-25 08:39:32:716 player piid:15 state:started
+07-25 08:39:32:906 player piid:15 state:started
+07-25 08:39:33:108 player piid:15 state:started
+07-25 08:39:33:338 player piid:15 state:started
+07-25 08:39:46:550 player piid:15 state:started
+07-25 08:39:47:810 player piid:15 state:started
+07-25 08:39:48:473 player piid:15 state:started
+07-25 08:39:51:145 player piid:15 state:started
+07-25 08:40:15:299 player piid:15 state:started
+07-25 08:40:22:597 player piid:15 state:started
+07-25 08:40:25:300 player piid:15 state:started
+07-25 08:40:29:368 player piid:15 state:started
+07-25 08:40:54:679 player piid:15 state:started
+07-25 08:41:04:992 player piid:15 state:started
+07-25 08:41:05:673 player piid:15 state:started
+07-25 08:41:08:357 player piid:15 state:started
+07-25 08:41:12:470 player piid:15 state:started
+07-25 08:41:44:547 player piid:15 state:started
+07-25 08:41:54:233 player piid:15 state:started
+07-25 08:41:58:217 player piid:15 state:started
+07-25 08:42:19:495 player piid:15 state:started
+07-25 08:42:19:643 player piid:15 state:started
+07-25 08:42:19:810 player piid:15 state:started
+07-25 08:42:19:985 player piid:15 state:started
+07-25 08:42:20:181 player piid:15 state:started
+07-25 08:42:20:358 player piid:15 state:started
+07-25 08:42:20:526 player piid:15 state:started
+07-25 08:42:30:258 player piid:15 state:started
+07-25 08:42:33:553 player piid:15 state:started
+07-25 08:42:36:241 player piid:15 state:started
+07-25 08:42:37:431 player piid:15 state:started
+07-25 08:51:38:219 new player piid:6679 uid/pid:10093/13231 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+07-25 08:51:39:507 player piid:6679 state:stopped
+07-25 08:51:40:853 player piid:15 state:started
+07-25 08:51:40:960 player piid:6679 new AudioAttributes:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null
+07-25 08:51:40:961 player piid:6679 has OP_PLAY_AUDIO:true in uid:10093
+07-25 08:51:41:013 player piid:6679 state:started
+07-25 08:51:46:808 player piid:6679 state:paused
+07-25 08:51:51:432 releasing player piid:6679
+07-25 08:52:50:679 new player piid:6687 uid/pid:10093/13496 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+07-25 08:52:51:759 player piid:6687 state:stopped
+07-25 08:52:53:383 player piid:15 state:started
+07-25 08:52:53:479 player piid:6687 new AudioAttributes:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null
+07-25 08:52:53:480 player piid:6687 has OP_PLAY_AUDIO:true in uid:10093
+07-25 08:52:53:548 player piid:6687 state:started
+07-25 08:52:59:242 player piid:6687 state:paused
+07-25 08:53:04:023 releasing player piid:6687
+07-25 08:53:09:906 new player piid:6695 uid/pid:10093/13706 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+07-25 08:53:10:892 player piid:6695 state:stopped
+07-25 08:53:12:691 player piid:15 state:started
+07-25 08:53:12:783 player piid:6695 new AudioAttributes:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null
+07-25 08:53:12:784 player piid:6695 has OP_PLAY_AUDIO:true in uid:10093
+07-25 08:53:12:839 player piid:6695 state:started
+07-25 08:53:18:576 player piid:6695 state:paused
+07-25 08:53:23:270 releasing player piid:6695
+07-25 08:54:52:231 new player piid:6703 uid/pid:10093/13939 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+07-25 08:54:53:248 player piid:6703 state:stopped
+07-25 08:54:54:967 player piid:15 state:started
+07-25 08:54:55:048 player piid:6703 new AudioAttributes:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null
+07-25 08:54:55:048 player piid:6703 has OP_PLAY_AUDIO:true in uid:10093
+07-25 08:54:55:098 player piid:6703 state:started
+07-25 08:55:00:845 player piid:6703 state:paused
+07-25 08:55:05:587 releasing player piid:6703
+07-25 08:55:11:468 new player piid:6711 uid/pid:10093/14148 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+07-25 08:55:12:464 player piid:6711 state:stopped
+07-25 08:55:14:215 player piid:15 state:started
+07-25 08:55:14:297 player piid:6711 new AudioAttributes:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null
+07-25 08:55:14:297 player piid:6711 has OP_PLAY_AUDIO:true in uid:10093
+07-25 08:55:14:354 player piid:6711 state:started
+07-25 08:55:20:088 player piid:6711 state:paused
+07-25 08:55:21:688 player piid:15 state:started
+
+RecordActivityMonitor dump time: 11:25:22 AM
+
+
+
+Event logs:
+Audio event log: phone state (logged after successfull call to AudioSystem.setPhoneState(int))
+07-25 08:10:15:088 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2147 selected mode=MODE_IN_COMMUNICATION by pid=2147
+07-25 08:10:15:729 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2147 selected mode=MODE_IN_COMMUNICATION by pid=2147
+07-25 08:10:16:408 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2147 selected mode=MODE_IN_COMMUNICATION by pid=2147
+07-25 08:10:26:619 setMode(MODE_NORMAL) from package=AudioService pid=2147 selected mode=MODE_NORMAL by pid=0
+07-25 08:12:38:661 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2886 selected mode=MODE_IN_COMMUNICATION by pid=2886
+07-25 08:12:38:693 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2886 selected mode=MODE_IN_COMMUNICATION by pid=2886
+07-25 08:12:39:057 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2886 selected mode=MODE_IN_COMMUNICATION by pid=2886
+07-25 08:12:44:917 setMode(MODE_NORMAL) from package=com.whatsapp pid=2886 selected mode=MODE_NORMAL by pid=0
+07-25 08:12:47:261 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2886 selected mode=MODE_IN_COMMUNICATION by pid=2886
+07-25 08:12:47:878 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2886 selected mode=MODE_IN_COMMUNICATION by pid=2886
+07-25 08:12:48:524 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=2886 selected mode=MODE_IN_COMMUNICATION by pid=2886
+07-25 08:12:58:599 setMode(MODE_NORMAL) from package=AudioService pid=2886 selected mode=MODE_NORMAL by pid=0
+07-25 08:13:25:248 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=4112 selected mode=MODE_IN_COMMUNICATION by pid=4112
+07-25 08:13:25:297 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=4112 selected mode=MODE_IN_COMMUNICATION by pid=4112
+07-25 08:13:25:672 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=4112 selected mode=MODE_IN_COMMUNICATION by pid=4112
+07-25 08:13:27:504 setMode(MODE_NORMAL) from package=com.whatsapp pid=4112 selected mode=MODE_NORMAL by pid=0
+07-25 08:13:32:689 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=4112 selected mode=MODE_IN_COMMUNICATION by pid=4112
+07-25 08:13:33:322 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=4112 selected mode=MODE_IN_COMMUNICATION by pid=4112
+07-25 08:13:33:950 setMode(MODE_IN_COMMUNICATION) from package=com.whatsapp pid=4112 selected mode=MODE_IN_COMMUNICATION by pid=4112
+07-25 08:13:36:337 setMode(MODE_NORMAL) from package=com.whatsapp pid=4112 selected mode=MODE_NORMAL by pid=0
+
+
+Audio event log: wired device connection (logged before onSetWiredDeviceConnectionState() is executed)
+07-12 09:40:11:468 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-12 09:40:11:929 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-12 09:53:16:634 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-12 09:53:16:965 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 08:33:02:914 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 08:33:03:452 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 09:57:02:618 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 09:57:02:680 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 10:40:55:023 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 10:40:55:182 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 10:44:50:587 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 10:44:50:681 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 10:45:00:172 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 10:45:00:735 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 10:45:03:283 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 10:45:03:769 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 10:45:12:971 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 10:45:13:486 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_AVAILABLE addr: name:) from android
+07-16 11:14:21:156 setWiredDeviceConnectionState( type:4 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+07-16 11:14:21:673 setWiredDeviceConnectionState( type:80000010 state:DEVICE_STATE_UNAVAILABLE addr: name:) from android
+
+
+Audio event log: force use (logged before setForceUse() is executed)
+07-25 08:13:18:989 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:13:26:716 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to setSpeakerphoneOn(false) from u/pid:10100/4112
+07-25 08:13:33:344 setForceUse(FOR_COMMUNICATION, FORCE_SPEAKER) due to setSpeakerphoneOn(true) from u/pid:10100/4112
+07-25 08:13:35:696 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to setSpeakerphoneOn(false) from u/pid:10100/4112
+07-25 08:13:48:378 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:13:48:598 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:21:05:858 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:21:07:115 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:21:52:037 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:21:55:798 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:51:41:013 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:51:46:809 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:52:53:549 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:52:59:244 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:53:12:840 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:53:18:576 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:54:55:099 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:55:00:846 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:55:14:354 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+07-25 08:55:20:088 setForceUse(FOR_MEDIA, FORCE_NO_BT_A2DP) due to setBluetoothA2dpOn(false) from u/pid:1000/3500
+
+
+Audio event log: volume changes (logged when command received by AudioService)
+07-23 09:00:04:352 setStreamVolume(stream:STREAM_ALARM index:1 flags:0x0) from com.android.systemui
+07-23 09:00:04:462 setStreamVolume(stream:STREAM_ALARM index:2 flags:0x0) from com.android.systemui
+07-23 09:00:04:859 setStreamVolume(stream:STREAM_ALARM index:1 flags:0x0) from com.android.systemui
+07-23 09:00:05:344 setStreamVolume(stream:STREAM_MUSIC index:1 flags:0x0) from com.android.systemui
+07-23 09:00:05:476 setStreamVolume(stream:STREAM_MUSIC index:2 flags:0x0) from com.android.systemui
+07-23 09:01:09:817 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 09:01:09:829 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-23 09:48:39:329 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-23 10:51:23:598 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:23:942 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:23:994 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:045 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:095 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:147 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:200 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:246 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:298 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:350 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:402 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:452 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:506 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:535 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-23 10:51:24:830 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_LOWER flags:0x1011) from android/MediaSessionService uid:1000
+07-23 10:51:24:842 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-24 12:32:40:291 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-25 08:51:42:959 adjustSuggestedStreamVolume(sugg:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1011) from android/android uid:1000
+07-25 08:51:42:985 adjustSuggestedStreamVolume(sugg:STREAM_MUSIC dir:ADJUST_SAME flags:0x1010) from android/android uid:1000
+07-25 08:51:47:530 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_RAISE flags:0x1011) from android/MediaSessionService uid:1000
+07-25 08:51:47:877 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-25 08:51:48:328 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_RAISE flags:0x1011) from android/MediaSessionService uid:1000
+07-25 08:51:48:649 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-25 08:51:52:599 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_RAISE flags:0x1011) from android/MediaSessionService uid:1000
+07-25 08:51:52:859 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-25 08:52:37:260 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_RAISE flags:0x1011) from android/MediaSessionService uid:1000
+07-25 08:52:37:274 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+07-25 08:52:38:760 setStreamVolume(stream:STREAM_MUSIC index:2 flags:0x0) from com.android.systemui
+07-25 08:52:38:831 setStreamVolume(stream:STREAM_MUSIC index:3 flags:0x0) from com.android.systemui
+07-25 08:52:38:874 setStreamVolume(stream:STREAM_MUSIC index:4 flags:0x0) from com.android.systemui
+07-25 08:52:39:487 setStreamVolume(stream:STREAM_MUSIC index:3 flags:0x0) from com.android.systemui
+07-25 08:52:40:143 setStreamVolume(stream:STREAM_RING index:0 flags:0x0) from com.android.systemui

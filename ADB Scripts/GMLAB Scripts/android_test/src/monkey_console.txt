@@ -1,0 +1,59 @@
+  bash arg: -s
+  bash arg: 950
+  bash arg: --throttle
+  bash arg: 500
+  bash arg: -v
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-crashes
+  bash arg: --ignore-security-exceptions
+  bash arg: --kill-process-after-error
+  bash arg: --pct-trackball
+  bash arg: 12
+  bash arg: --pct-touch
+  bash arg: 35
+  bash arg: --pct-motion
+  bash arg: 10
+  bash arg: --pct-nav
+  bash arg: 3
+  bash arg: --pct-syskeys
+  bash arg: 5
+  bash arg: --pct-appswitch
+  bash arg: 10
+  bash arg: --pct-anyevent
+  bash arg: 1
+  bash arg: --pct-flip
+  bash arg: 15
+  bash arg: --pct-majornav
+  bash arg: 9
+  bash arg: 10
+:Monkey: seed=950 count=10
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 35.0%
+//   1: 10.0%
+//   2: 0.0%
+//   3: 12.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 3.0%
+//   7: 9.0%
+//   8: 5.0%
+//   9: 10.0%
+//   10: 15.0%
+//   11: 1.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.android.apps.docs/.app.NewMainProxyActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.docs/.app.NewMainProxyActivity } in package com.google.android.apps.docs
+    // activityResuming(com.android.settings)
+    // Allowing start of Intent { cmp=com.google.android.apps.docs/.welcome.warmwelcome.TrackingWelcomeActivity } in package com.google.android.apps.docs
+:Sending Touch (ACTION_DOWN): 0:(715.0,56.0)
+:Sending Touch (ACTION_UP): 0:(720.0,55.74886)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(393.0,471.0)
+Events injected: 10
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=1 rotations=0
+## Network stats: elapsed time=2578ms (0ms mobile, 0ms wifi, 2578ms not connected)
+// Monkey finished

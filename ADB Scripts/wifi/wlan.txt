@@ -1,0 +1,1525 @@
+Wi-Fi is enabled
+Stay-awake conditions: 2
+mInIdleMode false
+mScanPending false
+WifiController:
+ total records=20257
+ rec[0]: time=01-22 15:00:46.767 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[1]: time=01-22 15:01:46.134 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[2]: time=01-22 15:02:46.131 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[3]: time=01-22 15:04:14.773 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[4]: time=01-22 15:04:46.132 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[5]: time=01-22 15:05:46.133 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[6]: time=01-22 15:06:53.889 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[7]: time=01-22 15:06:55.861 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[8]: time=01-22 15:08:40.369 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[9]: time=01-22 15:10:32.994 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[10]: time=01-22 15:11:33.042 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[11]: time=01-22 15:12:33.057 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[12]: time=01-22 15:14:19.061 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[13]: time=01-22 15:15:19.130 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[14]: time=01-22 15:16:19.202 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[15]: time=01-22 15:16:53.886 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[16]: time=01-22 15:18:08.991 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[17]: time=01-22 15:19:09.056 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[18]: time=01-22 15:20:09.126 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[19]: time=01-22 15:21:09.168 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[20]: time=01-22 15:21:33.081 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[21]: time=01-22 15:22:33.106 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[22]: time=01-22 15:23:33.173 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[23]: time=01-22 15:24:33.237 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[24]: time=01-22 15:24:40.658 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[25]: time=01-22 15:24:40.990 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[26]: time=01-22 15:25:40.647 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[27]: time=01-22 15:26:05.147 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[28]: time=01-22 15:26:05.188 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[29]: time=01-22 15:26:21.161 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[30]: time=01-22 15:27:12.290 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[31]: time=01-22 15:27:12.424 processed=DefaultState org=DeviceActiveState dest=<null> what=155651(0x26003)
+ rec[32]: time=01-22 15:27:18.376 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[33]: time=01-22 15:27:43.446 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[34]: time=01-22 15:27:45.107 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[35]: time=01-22 15:27:45.185 processed=DefaultState org=DeviceActiveState dest=<null> what=155650(0x26002)
+ rec[36]: time=01-22 15:27:45.321 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[37]: time=01-22 15:27:45.444 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[38]: time=01-22 15:27:57.178 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[39]: time=01-22 15:28:45.080 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[40]: time=01-22 15:29:45.079 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[41]: time=01-22 15:30:17.271 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[42]: time=01-22 15:30:45.080 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[43]: time=01-22 15:31:45.347 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[44]: time=01-22 15:32:28.115 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[45]: time=01-22 15:32:30.118 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[46]: time=01-22 15:32:45.827 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[47]: time=01-22 15:33:45.827 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[48]: time=01-22 15:34:45.828 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[49]: time=01-22 15:36:45.828 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[50]: time=01-22 15:37:13.301 processed=DeviceActiveState org=DeviceActiveState dest=<null> what=155660(0x2600c)
+ rec[51]: time=01-22 15:37:31.312 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[52]: time=01-22 15:37:45.826 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[53]: time=01-22 15:38:45.830 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[54]: time=01-22 15:39:45.826 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[55]: time=01-22 15:40:36.098 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[56]: time=01-22 15:40:45.827 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[57]: time=01-22 15:41:45.827 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[58]: time=01-22 15:42:45.827 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[59]: time=01-22 15:43:45.828 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[60]: time=01-22 15:44:33.867 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[61]: time=01-22 15:44:45.827 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[62]: time=01-22 15:45:45.058 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[63]: time=01-22 15:46:45.054 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[64]: time=01-22 15:47:45.058 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[65]: time=01-22 15:48:45.058 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[66]: time=01-22 15:49:10.925 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[67]: time=01-22 15:49:45.055 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[68]: time=01-22 15:50:45.056 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[69]: time=01-22 15:51:45.854 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[70]: time=01-22 15:52:45.222 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[71]: time=01-22 15:52:59.618 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[72]: time=01-22 15:53:06.230 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[73]: time=01-22 15:53:06.562 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[74]: time=01-22 15:54:06.216 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[75]: time=01-22 15:55:20.841 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[76]: time=01-22 15:56:06.219 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[77]: time=01-22 15:56:47.291 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[78]: time=01-22 15:58:08.313 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[79]: time=01-22 15:59:08.374 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[80]: time=01-22 15:59:12.985 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[81]: time=01-22 16:00:42.516 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[82]: time=01-22 16:00:42.841 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[83]: time=01-22 16:01:42.501 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[84]: time=01-22 16:02:42.500 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[85]: time=01-22 16:03:42.497 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[86]: time=01-22 16:04:42.503 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[87]: time=01-22 16:04:52.319 processed=StaEnabledState org=DeviceActiveState dest=StaDisabledWithScanState what=155656(0x26008)
+ rec[88]: time=01-22 16:04:52.344 processed=DefaultState org=StaDisabledWithScanState dest=<null> what=155668(0x26014)
+ rec[89]: time=01-22 16:05:04.744 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=DeviceActiveState what=155656(0x26008)
+ rec[90]: time=01-22 16:05:04.770 processed=DefaultState org=DeviceActiveState dest=<null> what=155667(0x26013)
+ rec[91]: time=01-22 16:05:17.097 processed=StaEnabledState org=DeviceActiveState dest=StaDisabledWithScanState what=155656(0x26008)
+ rec[92]: time=01-22 16:05:17.114 processed=DefaultState org=StaDisabledWithScanState dest=<null> what=155668(0x26014)
+ rec[93]: time=01-22 16:05:24.206 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=DeviceActiveState what=155656(0x26008)
+ rec[94]: time=01-22 16:05:24.227 processed=DefaultState org=DeviceActiveState dest=<null> what=155667(0x26013)
+ rec[95]: time=01-22 16:05:36.543 processed=StaEnabledState org=DeviceActiveState dest=StaDisabledWithScanState what=155656(0x26008)
+ rec[96]: time=01-22 16:05:36.558 processed=DefaultState org=StaDisabledWithScanState dest=<null> what=155668(0x26014)
+ rec[97]: time=01-22 16:05:42.501 processed=DefaultState org=StaDisabledWithScanState dest=<null> what=155652(0x26004)
+ rec[98]: time=01-22 16:05:43.603 processed=StaDisabledWithScanState org=StaDisabledWithScanState dest=DeviceActiveState what=155656(0x26008)
+ rec[99]: time=01-22 16:05:43.617 processed=DefaultState org=DeviceActiveState dest=<null> what=155667(0x26013)
+curState=DeviceActiveState
+mScreenOff false
+mDeviceIdle false
+mPluggedType 2
+mIdleMillis 900000
+mSleepPolicy 2
+mPersistWifiState 1
+mAirplaneModeOn false
+mNotificationEnabled true
+mNotificationRepeatTime 0
+mNotificationShown false
+mNumScansSinceNetworkStateChange 0
+mEnableTrafficStatsPoll false
+mTrafficStatsPollToken 3877
+mTxPkts 0
+mRxPkts 0
+mDataActivity 0
+
+Locks held:
+Locks acquired: 0 full, 0 full high perf, 0 scan
+Locks released: 0 full, 0 full high perf, 0 scan
+
+Locks held:
+
+mMulticastEnabled 12
+mMulticastDisabled 12
+Multicast Locks held:
+
+WifiStateMachine:
+ total records=47805
+ rec[0]: time=01-22 15:51:50.999 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=287225344/346333207 0 0 found=19 known=0 got=19 bcn=0 con=3 untrustedcn=0 last=
+ rec[1]: time=01-22 15:52:59.633 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=287294610/346402473 0 0
+ rec[2]: time=01-22 15:52:59.651 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=287294628/346402491 0 0
+ rec[3]: time=01-22 15:53:06.245 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=287301223/346409086 0 0
+ rec[4]: time=01-22 15:53:06.263 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=287301241/346409104 0 0
+ rec[5]: time=01-22 15:54:30.368 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=287385346/346493208 0 0 found=17 known=0 got=17 bcn=0 con=3 untrustedcn=0 last=
+ rec[6]: time=01-22 15:56:47.305 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=287522282/346630145 0 0
+ rec[7]: time=01-22 15:56:47.325 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=287522303/346630165 0 0
+ rec[8]: time=01-22 15:57:10.520 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=287545497/346653360 0 0 found=18 known=0 got=18 bcn=0 con=3 untrustedcn=0 last=
+ rec[9]: time=01-22 15:59:12.995 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=287667972/346775835 0 0
+ rec[10]: time=01-22 15:59:13.013 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=287667991/346775854 0 0
+ rec[11]: time=01-22 16:00:30.295 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=287745272/346853135 0 0 found=20 known=0 got=20 bcn=0 con=3 untrustedcn=0 last=
+ rec[12]: time=01-22 16:00:42.526 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=287757503/346865366 0 0
+ rec[13]: time=01-22 16:00:42.543 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=287757521/346865384 0 0
+ rec[14]: time=01-22 16:03:10.147 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=287905124/347012987 0 0 found=17 known=0 got=17 bcn=0 con=3 untrustedcn=0 last=
+ rec[15]: time=01-22 16:04:50.466 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288005443/347113306 1000 0 num=2
+ rec[16]: time=01-22 16:04:50.471 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288005449/347113312 1000 0 num=2
+ rec[17]: time=01-22 16:04:50.499 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=288005476/347113339 1000 2789 ic=0 proc(ms):1 onGoing full rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:12049788] from screen [on:0 period:2225354]
+ rec[18]: time=01-22 16:04:50.500 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288005477/347113340 1000 0 num=2
+ rec[19]: time=01-22 16:04:50.508 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288005486/347113348 1000 0 num=2
+ rec[20]: time=01-22 16:04:50.553 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288005531/347113394 1000 0 num=2
+ rec[21]: time=01-22 16:04:50.558 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288005536/347113398 1000 0 num=2
+ rec[22]: time=01-22 16:04:50.860 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288005838/347113700 1000 0 num=2
+ rec[23]: time=01-22 16:04:51.502 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=288006479/347114342 0 0 found=20 known=0 got=20 bcn=0 con=3 untrustedcn=0 last=
+ rec[24]: time=01-22 16:04:51.512 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288006490/347114353 1000 0 num=2
+ rec[25]: time=01-22 16:04:51.825 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288006802/347114665 1000 0 num=2
+ rec[26]: time=01-22 16:04:52.320 processed=DisconnectedState org=DisconnectedState dest=ScanModeState what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE rt=288007298/347115161 3 0
+ rec[27]: time=01-22 16:04:52.354 processed=DefaultState org=ScanModeState dest=<null> what=131083(0x2000b) !(-5)CMD_START_SUPPLICANT rt=288007332/347115195 0 0
+ rec[28]: time=01-22 16:04:52.380 processed=DefaultState org=ScanModeState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288007357/347115220 0 0
+ rec[29]: time=01-22 16:04:52.380 processed=DefaultState org=ScanModeState dest=<null> what=131205(0x20085) !(-5)CMD_DISABLE_P2P_RSP uid=1000 rt=288007357/347115220 0 0
+ rec[30]: time=01-22 16:04:52.395 processed=SupplicantStartedState org=ScanModeState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288007373/347115235 0 0
+ rec[31]: time=01-22 16:04:52.444 processed=DefaultState org=ScanModeState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288007422/347115284 0 0
+ rec[32]: time=01-22 16:04:52.459 processed=SupplicantStartedState org=ScanModeState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288007436/347115299 0 0
+ rec[33]: time=01-22 16:05:04.744 processed=DefaultState org=ScanModeState dest=<null> what=131083(0x2000b) !(-5)CMD_START_SUPPLICANT rt=288019722/347127584 0 0
+ rec[34]: time=01-22 16:05:04.747 processed=ScanModeState org=ScanModeState dest=DisconnectedState what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE rt=288019724/347127587 1 0
+ rec[35]: time=01-22 16:05:04.788 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131149(0x2004d) !CMD_SET_HIGH_PERF_MODE rt=288019766/347127628 0 0
+ rec[36]: time=01-22 16:05:04.821 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288019799/347127661 0 0
+ rec[37]: time=01-22 16:05:04.821 processed=DisconnectedState org=DisconnectedState dest=<null> what=143371(0x2300b) !P2P_CONNECTION_CHANGED uid=1000 rt=288019799/347127662 0 0 st=UNKNOWN/IDLE
+ rec[38]: time=01-22 16:05:04.822 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288019799/347127662 1000 0 num=2
+ rec[39]: time=01-22 16:05:04.840 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288019817/347127680 0 0
+ rec[40]: time=01-22 16:05:04.848 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288019826/347127689 1000 0 num=2
+ rec[41]: time=01-22 16:05:04.858 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=288019835/347127697 1000 2790 ic=0 proc(ms):3 onGoing full rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:14359] from screen [on:0 period:2239713]
+ rec[42]: time=01-22 16:05:04.875 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288019852/347127715 0 0
+ rec[43]: time=01-22 16:05:04.896 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288019874/347127736 0 0
+ rec[44]: time=01-22 16:05:05.800 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=288020777/347128640 0 0 found=23 known=0 got=23 bcn=0 con=3 untrustedcn=0 last=
+ rec[45]: time=01-22 16:05:05.834 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288020812/347128674 1000 0 num=2
+ rec[46]: time=01-22 16:05:06.145 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288021122/347128985 1000 0 num=2
+ rec[47]: time=01-22 16:05:14.863 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=288029839/347137702 1000 2791 ic=0 proc(ms):1 onGoing full rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10004] from screen [on:0 period:2249717]
+ rec[48]: time=01-22 16:05:15.854 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=288030831/347138694 0 0 found=25 known=0 got=25 bcn=0 con=3 untrustedcn=0 last=
+ rec[49]: time=01-22 16:05:15.872 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288030849/347138712 1000 0 num=2
+ rec[50]: time=01-22 16:05:16.186 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288031164/347139027 1000 0 num=2
+ rec[51]: time=01-22 16:05:17.098 processed=DisconnectedState org=DisconnectedState dest=ScanModeState what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE rt=288032076/347139939 3 0
+ rec[52]: time=01-22 16:05:17.111 processed=DefaultState org=ScanModeState dest=<null> what=131083(0x2000b) !(-5)CMD_START_SUPPLICANT rt=288032088/347139951 0 0
+ rec[53]: time=01-22 16:05:17.131 processed=DefaultState org=ScanModeState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288032108/347139971 0 0
+ rec[54]: time=01-22 16:05:17.131 processed=DefaultState org=ScanModeState dest=<null> what=131205(0x20085) !(-5)CMD_DISABLE_P2P_RSP uid=1000 rt=288032108/347139971 0 0
+ rec[55]: time=01-22 16:05:17.147 processed=SupplicantStartedState org=ScanModeState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288032125/347139987 0 0
+ rec[56]: time=01-22 16:05:17.199 processed=DefaultState org=ScanModeState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288032176/347140039 0 0
+ rec[57]: time=01-22 16:05:17.214 processed=SupplicantStartedState org=ScanModeState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288032191/347140054 0 0
+ rec[58]: time=01-22 16:05:24.206 processed=DefaultState org=ScanModeState dest=<null> what=131083(0x2000b) !(-5)CMD_START_SUPPLICANT rt=288039183/347147046 0 0
+ rec[59]: time=01-22 16:05:24.206 processed=ScanModeState org=ScanModeState dest=DisconnectedState what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE rt=288039184/347147047 1 0
+ rec[60]: time=01-22 16:05:24.251 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131149(0x2004d) !CMD_SET_HIGH_PERF_MODE rt=288039228/347147091 0 0
+ rec[61]: time=01-22 16:05:24.267 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288039244/347147107 0 0
+ rec[62]: time=01-22 16:05:24.267 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288039245/347147107 1000 0 num=2
+ rec[63]: time=01-22 16:05:24.267 processed=DisconnectedState org=DisconnectedState dest=<null> what=143371(0x2300b) !P2P_CONNECTION_CHANGED uid=1000 rt=288039245/347147107 0 0 st=UNKNOWN/IDLE
+ rec[64]: time=01-22 16:05:24.287 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288039264/347147127 0 0
+ rec[65]: time=01-22 16:05:24.287 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288039264/347147127 1000 0 num=2
+ rec[66]: time=01-22 16:05:24.321 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288039298/347147161 0 0
+ rec[67]: time=01-22 16:05:24.338 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288039316/347147179 0 0
+ rec[68]: time=01-22 16:05:24.339 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=288039316/347147179 1000 2792 ic=0 proc(ms):11 onGoing full rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:9477] from screen [on:0 period:2259194]
+ rec[69]: time=01-22 16:05:25.279 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=288040256/347148119 0 0 found=26 known=0 got=26 bcn=0 con=3 untrustedcn=0 last=
+ rec[70]: time=01-22 16:05:25.302 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288040279/347148142 1000 0 num=2
+ rec[71]: time=01-22 16:05:25.614 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288040592/347148454 1000 0 num=2
+ rec[72]: time=01-22 16:05:34.334 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=288049311/347157174 1000 2793 ic=0 proc(ms):0 onGoing full rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:9995] from screen [on:0 period:2269189]
+ rec[73]: time=01-22 16:05:35.110 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288050087/347157950 0 0
+ rec[74]: time=01-22 16:05:35.124 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288050102/347157965 0 0
+ rec[75]: time=01-22 16:05:35.303 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=288050280/347158143 0 0 found=23 known=0 got=23 bcn=0 con=3 untrustedcn=0 last=
+ rec[76]: time=01-22 16:05:35.319 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288050297/347158160 1000 0 num=2
+ rec[77]: time=01-22 16:05:35.631 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288050608/347158471 1000 0 num=2
+ rec[78]: time=01-22 16:05:36.545 processed=DisconnectedState org=DisconnectedState dest=ScanModeState what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE rt=288051523/347159385 3 0
+ rec[79]: time=01-22 16:05:36.558 processed=DefaultState org=ScanModeState dest=<null> what=131083(0x2000b) !(-5)CMD_START_SUPPLICANT rt=288051536/347159398 0 0
+ rec[80]: time=01-22 16:05:36.580 processed=DefaultState org=ScanModeState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288051558/347159421 0 0
+ rec[81]: time=01-22 16:05:36.580 processed=DefaultState org=ScanModeState dest=<null> what=131205(0x20085) !(-5)CMD_DISABLE_P2P_RSP uid=1000 rt=288051558/347159421 0 0
+ rec[82]: time=01-22 16:05:36.596 processed=SupplicantStartedState org=ScanModeState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288051574/347159436 0 0
+ rec[83]: time=01-22 16:05:36.653 processed=DefaultState org=ScanModeState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288051631/347159493 0 0
+ rec[84]: time=01-22 16:05:36.668 processed=SupplicantStartedState org=ScanModeState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288051646/347159509 0 0
+ rec[85]: time=01-22 16:05:43.606 processed=DefaultState org=ScanModeState dest=<null> what=131083(0x2000b) !(-5)CMD_START_SUPPLICANT rt=288058584/347166447 0 0
+ rec[86]: time=01-22 16:05:43.607 processed=ScanModeState org=ScanModeState dest=DisconnectedState what=131144(0x20048) !CMD_SET_OPERATIONAL_MODE rt=288058585/347166447 1 0
+ rec[87]: time=01-22 16:05:43.641 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131149(0x2004d) !CMD_SET_HIGH_PERF_MODE rt=288058619/347166482 0 0
+ rec[88]: time=01-22 16:05:43.665 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288058643/347166506 0 0
+ rec[89]: time=01-22 16:05:43.666 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288058643/347166506 1000 0 num=2
+ rec[90]: time=01-22 16:05:43.666 processed=DisconnectedState org=DisconnectedState dest=<null> what=143371(0x2300b) !P2P_CONNECTION_CHANGED uid=1000 rt=288058643/347166506 0 0 st=UNKNOWN/IDLE
+ rec[91]: time=01-22 16:05:43.684 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288058662/347166524 0 0
+ rec[92]: time=01-22 16:05:43.684 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288058662/347166525 1000 0 num=2
+ rec[93]: time=01-22 16:05:43.728 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=288058705/347166568 0 0
+ rec[94]: time=01-22 16:05:43.729 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=288058706/347166569 1000 2794 ic=0 proc(ms):0 onGoing full rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:9395] from screen [on:0 period:2278584]
+ rec[95]: time=01-22 16:05:43.743 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=288058720/347166583 0 0
+ rec[96]: time=01-22 16:05:44.664 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=288059641/347167504 0 0 found=24 known=0 got=24 bcn=0 con=3 untrustedcn=0 last=
+ rec[97]: time=01-22 16:05:44.691 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288059669/347167531 1000 0 num=2
+ rec[98]: time=01-22 16:05:45.001 processed=DefaultState org=DisconnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=288059978/347167841 1000 0 num=2
+ rec[99]: time=01-22 16:05:53.737 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=288068714/347176576 1000 2795 ic=0 proc(ms):0 onGoing full rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10008] from screen [on:0 period:2288592]
+curState=DisconnectedState
+SupplicantStateTracker:
+ total records=3
+ rec[0]: time=01-18 15:40:08.037 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[1]: time=01-19 11:44:44.182 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[2]: time=01-19 11:45:02.922 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+curState=UninitializedState
+mAuthFailureInSupplicantBroadcast false
+mAuthFailureReason 0
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0}
+mWifiInfo SSID: <unknown ssid>, BSSID: <none>, MAC: b8:de:5e:00:9e:d7, Supplicant state: DISCONNECTED, RSSI: -127, Link speed: -1Mbps, Frequency: -1MHz, Net ID: -1, Metered hint: false, score: 0
+mDhcpResults null
+mNetworkInfo [type: WIFI[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: <unknown ssid>, failover: false, available: true, roaming: false, metered: false]
+mLastSignalLevel -1
+mLastBssid null
+mLastNetworkId -1
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 4
+CountryCode sent to driver IN
+mConnectionReqCount 3
+mUntrustedReqCount 0
+Wlan Wake Reasons:null
+
+Dump of WifiConfigManager
+WifiConfigManager - Log Begin ----
+WifiConfigManager - Log End ----
+WifiConfigManager - Configured networks Begin ----
+ID: 0 SSID: "Maruti" PROVIDER-NAME: null BSSID: null FQDN: null PRIO: 0 HIDDEN: false
+ NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+ hasEverConnected: true
+ numAssociation 2
+creationtime=01-17 13:25:47.904
+ validatedInternetAccess
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ sim_num 
+Enterprise config:
+IP config:
+IP assignment: DHCP
+Proxy settings: NONE
+ cuid=10025 cname=com.google.android.setupwizard luid=10025 lname=com.google.android.setupwizard lcuid=10025 userApproved=USER_UNSPECIFIED noInternetAccessExpected=false roamingFailureBlackListTimeMilli: 1000
+
+ID: 1 SSID: "GM 8 d" PROVIDER-NAME: null BSSID: null FQDN: null PRIO: 0 HIDDEN: false
+ NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+ hasEverConnected: true
+ numAssociation 6
+creationtime=01-17 19:24:31.955
+ validatedInternetAccess
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ sim_num 
+Enterprise config:
+IP config:
+IP assignment: DHCP
+Proxy settings: NONE
+ cuid=1000 cname=android.uid.system:1000 luid=1000 lname=android.uid.system:1000 lcuid=1000 userApproved=USER_UNSPECIFIED noInternetAccessExpected=false roamingFailureBlackListTimeMilli: 1000
+
+WifiConfigManager - Configured networks End ----
+WifiConfigManager - Next network ID to be allocated 2
+WifiConfigManager - Last selected network ID -1
+
+Dump of PasspointManager
+PasspointManager - Providers Begin ---
+PasspointManager - Providers End ---
+PasspointManager - Next provider ID to be assigned 0
+Last sweep 96:25:54.714 ago.
+
+Chipset information :-----------------------------------------------
+FW Version is: CNSS-PR-4-0-00422
+Driver Version is: 3.0.11.85
+Supported Feature set: -1
+--------------------------------------------------------------------
+Bug dump 0
+system time = 01-22 16:05:02.652
+kernel time = 288017.630
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> send_adm_topology
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> send_audtable
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> send_audvoltable
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> send_afe_topology
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 235, Topology Id 10001160
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> send_afe_cal
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-22 16:04:57.998   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-22 16:04:57.999   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-22 16:04:57.999   459  4605 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 235 path = 0
+01-22 16:04:57.999   459  4605 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-22 16:04:57.999   459  4605 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+01-22 16:04:58.000   459  4605 D audio_hw_primary: select_devices: done
+01-22 16:04:58.000   459  4605 E audio_hw_primary: start_output_stream: cannot open device '/dev/snd/pcmC0D4p': Too many open files
+01-22 16:04:58.001   459  4605 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+01-22 16:04:58.002   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:04:58.002   459  4605 D audio_hw_primary: disable_snd_device: snd_device(6: speaker)
+01-22 16:04:58.002   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:04:58.059   459  4605 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+01-22 16:04:58.060   459  4605 D audio_hw_primary: start_output_stream: enter: stream(0xe8c2c800)usecase(12: audio-ull-playback) devices(0x2)
+01-22 16:04:58.060   459  4605 D audio_hw_primary: select_devices for use case (audio-ull-playback)
+01-22 16:04:58.060   459  4605 D msm8916_platform: platform_get_output_snd_device, temporarily_1 force to set snd_device=235
+01-22 16:04:58.060   459  4605 D audio_hw_primary: select_devices: out_snd_device(6: speaker) in_snd_device(0: )
+01-22 16:04:58.060   459  4605 I msm8916_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 12 device (speaker)
+01-22 16:04:58.060   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:04:58.060   459  4605 I msm8916_platform: platform_check_and_set_codec_backend_cfg: becf: new_snd_devices[0] is speaker
+01-22 16:04:58.060   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 current bit width: 16 sample rate: 48000 channels: 2 usecase 12 device (speaker)
+01-22 16:04:58.060   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+01-22 16:04:58.061   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: only 48KHZ sample rate is supported Configure afe to default Sample Rate(48k)
+01-22 16:04:58.061   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 sample rate: 48000 channels: 2
+01-22 16:04:58.061   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+01-22 16:04:58.061   459  4605 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+01-22 16:04:58.061   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+01-22 16:04:58.061   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+01-22 16:04:58.061   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:04:58.061   459  4605 D smartpa_feedback: start_smartpa_feedback_processing: open pcm device #38
+01-22 16:04:58.061   459  4605 E smartpa_feedback: start_smartpa_feedback_processing: cannot open device '/dev/snd/pcmC0D38c': Too many open files
+01-22 16:04:58.062   459  4605 E smartpa_feedback:  update_smartpa_calib_data fopen failed
+01-22 16:04:58.062   459  4605 E smartpa_feedback: Invalid Re from /persist/audio/speaker_calibdata.bin, val=-1
+01-22 16:04:58.062   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:04:58.062   459  4605 D audio_hw_primary: enable_snd_device: snd_device(6: speaker)
+01-22 16:04:58.065   459  4605 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+01-22 16:04:58.065   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:04:58.065   459  4605 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+01-22 16:04:58.065   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 235, path = 0, app id = 0x11131, sample rate = 48000
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_asm_topology
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_adm_topology
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_audtable
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_audvoltable
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_afe_topology
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 235, Topology Id 10001160
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_afe_cal
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 235 path = 0
+01-22 16:04:58.066   459  4605 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-22 16:04:58.067   459  4605 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+01-22 16:04:58.068   459  4605 D audio_hw_primary: select_devices: done
+01-22 16:04:58.068   459  4605 E audio_hw_primary: start_output_stream: cannot open device '/dev/snd/pcmC0D4p': Too many open files
+01-22 16:04:58.068   459  4605 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+01-22 16:04:58.070   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:04:58.070   459  4605 D audio_hw_primary: disable_snd_device: snd_device(6: speaker)
+01-22 16:04:58.070   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:04:58.127   459  4605 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+01-22 16:04:58.130   459   459 D audio_hw_primary: out_standby: enter: stream (0xe8c2c800) usecase(12: audio-ull-playback)
+01-22 16:04:58.130   459   459 D audio_hw_primary: out_standby: exit
+01-22 16:04:58.136   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:04:58.137   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:04:58.137   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:04:58.137   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:04:58.137   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:04:58.138   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:04:59.138   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:04:59.139   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:04:59.139   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:04:59.139   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:04:59.139   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:04:59.139   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:00.003  1668  1668 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+01-22 16:05:00.004  1668  1668 D KeyguardUpdateMonitor: handleTimeUpdate
+01-22 16:05:00.139   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:00.141   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:00.141   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:00.141   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:00.141   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:00.141   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:01.141   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:01.142   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:01.143   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:01.143   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:01.143   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:01.143   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:02.143   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:02.144   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:02.144   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:02.144   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:02.144   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:02.144   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:02.649   474   474 E WifiHAL : wifi_get_wake_reason_stats: Logger feature not supported 
+01-22 16:05:02.651  1418  6642 E WifiVendorHal: getWlanWakeReasonCount(l.2256) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Bug dump 1
+system time = 01-22 16:05:15.006
+kernel time = 288029.984
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+01-22 16:05:10.478   459  4605 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+01-22 16:05:10.478   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 235, path = 0, app id = 0x11131, sample rate = 48000
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> send_asm_topology
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> send_adm_topology
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> send_audtable
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> send_audvoltable
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+01-22 16:05:10.478   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> send_afe_topology
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 235, Topology Id 10001160
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> send_afe_cal
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 235 path = 0
+01-22 16:05:10.479   459  4605 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-22 16:05:10.479   459  4605 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+01-22 16:05:10.480   459  4605 D audio_hw_primary: select_devices: done
+01-22 16:05:10.480   459  4605 E audio_hw_primary: start_output_stream: cannot open device '/dev/snd/pcmC0D4p': Too many open files
+01-22 16:05:10.480   459  4605 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+01-22 16:05:10.481   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:10.481   459  4605 D audio_hw_primary: disable_snd_device: snd_device(6: speaker)
+01-22 16:05:10.482   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:10.538   459  4605 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+01-22 16:05:10.538   459  4605 D audio_hw_primary: start_output_stream: enter: stream(0xe8c2c800)usecase(12: audio-ull-playback) devices(0x2)
+01-22 16:05:10.539   459  4605 D audio_hw_primary: select_devices for use case (audio-ull-playback)
+01-22 16:05:10.539   459  4605 D msm8916_platform: platform_get_output_snd_device, temporarily_1 force to set snd_device=235
+01-22 16:05:10.539   459  4605 D audio_hw_primary: select_devices: out_snd_device(6: speaker) in_snd_device(0: )
+01-22 16:05:10.539   459  4605 I msm8916_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 12 device (speaker)
+01-22 16:05:10.539   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:10.539   459  4605 I msm8916_platform: platform_check_and_set_codec_backend_cfg: becf: new_snd_devices[0] is speaker
+01-22 16:05:10.539   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 current bit width: 16 sample rate: 48000 channels: 2 usecase 12 device (speaker)
+01-22 16:05:10.539   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+01-22 16:05:10.539   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: only 48KHZ sample rate is supported Configure afe to default Sample Rate(48k)
+01-22 16:05:10.539   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 sample rate: 48000 channels: 2
+01-22 16:05:10.539   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+01-22 16:05:10.539   459  4605 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+01-22 16:05:10.539   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+01-22 16:05:10.539   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+01-22 16:05:10.539   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:10.540   459  4605 D smartpa_feedback: start_smartpa_feedback_processing: open pcm device #38
+01-22 16:05:10.540   459  4605 E smartpa_feedback: start_smartpa_feedback_processing: cannot open device '/dev/snd/pcmC0D38c': Too many open files
+01-22 16:05:10.541   459  4605 E smartpa_feedback:  update_smartpa_calib_data fopen failed
+01-22 16:05:10.541   459  4605 E smartpa_feedback: Invalid Re from /persist/audio/speaker_calibdata.bin, val=-1
+01-22 16:05:10.541   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:10.541   459  4605 D audio_hw_primary: enable_snd_device: snd_device(6: speaker)
+01-22 16:05:10.544   459  4605 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+01-22 16:05:10.544   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:10.544   459  4605 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+01-22 16:05:10.544   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 235, path = 0, app id = 0x11131, sample rate = 48000
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> send_asm_topology
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> send_adm_topology
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> send_audtable
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-22 16:05:10.544   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> send_audvoltable
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> send_afe_topology
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 235, Topology Id 10001160
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> send_afe_cal
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 235 path = 0
+01-22 16:05:10.545   459  4605 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-22 16:05:10.545   459  4605 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+01-22 16:05:10.548   459  4605 D audio_hw_primary: select_devices: done
+01-22 16:05:10.548   459  4605 E audio_hw_primary: start_output_stream: cannot open device '/dev/snd/pcmC0D4p': Too many open files
+01-22 16:05:10.549   459  4605 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+01-22 16:05:10.550   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:10.550   459  4605 D audio_hw_primary: disable_snd_device: snd_device(6: speaker)
+01-22 16:05:10.550   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:10.607   459  4605 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+01-22 16:05:10.608   459   459 D audio_hw_primary: out_standby: enter: stream (0xe8c2c800) usecase(12: audio-ull-playback)
+01-22 16:05:10.608   459   459 D audio_hw_primary: out_standby: exit
+01-22 16:05:11.158   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:11.159   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:11.159   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:11.159   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:11.159   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:11.159   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:11.322   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10222948): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:11.492   469   469 I chatty  : uid=1000(system) memtrack@1.0-se identical 6 lines
+01-22 16:05:11.492   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10222955): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:12.159   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:12.161   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:12.161   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:12.161   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:12.161   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:12.161   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:13.161   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:13.163   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:13.163   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:13.163   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:13.163   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:13.163   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:14.163   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:14.164   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:14.164   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:14.164   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:14.164   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:14.164   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:15.005   474   474 E WifiHAL : wifi_get_wake_reason_stats: Logger feature not supported 
+01-22 16:05:15.006  1418  6642 E WifiVendorHal: getWlanWakeReasonCount(l.2256) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Bug dump 2
+system time = 01-22 16:05:34.452
+kernel time = 288049.430
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+01-22 16:05:29.999   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:29.999   459  4605 I msm8916_platform: platform_check_and_set_codec_backend_cfg: becf: new_snd_devices[0] is speaker
+01-22 16:05:29.999   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 current bit width: 16 sample rate: 48000 channels: 2 usecase 12 device (speaker)
+01-22 16:05:29.999   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+01-22 16:05:29.999   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: only 48KHZ sample rate is supported Configure afe to default Sample Rate(48k)
+01-22 16:05:29.999   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 sample rate: 48000 channels: 2
+01-22 16:05:29.999   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+01-22 16:05:29.999   459  4605 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+01-22 16:05:29.999   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+01-22 16:05:29.999   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+01-22 16:05:29.999   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:29.999   459  4605 D smartpa_feedback: start_smartpa_feedback_processing: open pcm device #38
+01-22 16:05:29.999   459  4605 E smartpa_feedback: start_smartpa_feedback_processing: cannot open device '/dev/snd/pcmC0D38c': Too many open files
+01-22 16:05:30.001   459  4605 E smartpa_feedback:  update_smartpa_calib_data fopen failed
+01-22 16:05:30.001   459  4605 E smartpa_feedback: Invalid Re from /persist/audio/speaker_calibdata.bin, val=-1
+01-22 16:05:30.001   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:30.001   459  4605 D audio_hw_primary: enable_snd_device: snd_device(6: speaker)
+01-22 16:05:30.004   459  4605 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+01-22 16:05:30.004   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:30.004   459  4605 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+01-22 16:05:30.004   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 235, path = 0, app id = 0x11131, sample rate = 48000
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> send_asm_topology
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> send_adm_topology
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> send_audtable
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-22 16:05:30.004   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> send_audvoltable
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> send_afe_topology
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 235, Topology Id 10001160
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> send_afe_cal
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 235 path = 0
+01-22 16:05:30.005   459  4605 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-22 16:05:30.005   459  4605 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+01-22 16:05:30.007   459  4605 D audio_hw_primary: select_devices: done
+01-22 16:05:30.007   459  4605 E audio_hw_primary: start_output_stream: cannot open device '/dev/snd/pcmC0D4p': Too many open files
+01-22 16:05:30.007   459  4605 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+01-22 16:05:30.008   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:30.008   459  4605 D audio_hw_primary: disable_snd_device: snd_device(6: speaker)
+01-22 16:05:30.008   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:30.065   459  4605 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+01-22 16:05:30.065   459   459 D audio_hw_primary: out_standby: enter: stream (0xe8c2c800) usecase(12: audio-ull-playback)
+01-22 16:05:30.065   459   459 D audio_hw_primary: out_standby: exit
+01-22 16:05:30.142   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223043): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:30.142   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223044): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:30.192   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:30.193   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:30.193   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:30.193   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:30.193   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:30.193   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:30.222   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223045): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:31.172   469   469 I chatty  : uid=1000(system) memtrack@1.0-se identical 20 lines
+01-22 16:05:31.172   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223142): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:31.194   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:31.182   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223143): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:31.195   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:31.196   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:31.196   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:31.196   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:31.196   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:31.182   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223144): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:32.182   469   469 I chatty  : uid=1000(system) memtrack@1.0-se identical 17 lines
+01-22 16:05:32.182   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223264): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:32.196   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:32.197   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:32.197   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:32.197   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:32.197   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:32.197   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:32.192   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223265): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:32.222   469   469 I chatty  : uid=1000(system) memtrack@1.0-se identical 2 lines
+01-22 16:05:32.222   469   469 W memtrack@1.0-se: type=1400 audit(0.0:10223268): avc: denied { search } for name="proc" dev="debugfs" ino=10498 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=dir permissive=0
+01-22 16:05:33.197   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:33.199   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:33.199   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:33.199   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:33.199   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:33.199   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:33.202 14550 18008 I notify Status:: 200
+01-22 16:05:33.202 14550 18008 I notify URL: http://telpacdn2.streamprovider.net/storeoid/notification/notify.txt
+01-22 16:05:33.203 14550 18008 I notify msg: ﻿{
+01-22 16:05:33.203 14550 18008 I notify msg: 	"title": "Google Duo ile tüm arkadaşlarınızla tek bir tuşla yüz yüze konuşun.",
+01-22 16:05:33.203 14550 18008 I notify msg:     	"subtitle": "",
+01-22 16:05:33.203 14550 18008 I notify msg: 	"content": "Google Duo’yu hemen deneyin.",
+01-22 16:05:33.203 14550 18008 I notify msg: 	"imgurl": "http://telpacdn2.streamprovider.net/storeoid/notification/image001.jpg",
+01-22 16:05:33.203 14550 18008 I notify msg: 	"button": "Hemen Dene",
+01-22 16:05:33.203 14550 18008 I notify msg: 	"url": "http://bit.ly/2xYbHiN",
+01-22 16:05:33.203 14550 18008 I notify msg: 	"colorCode": "#4A86F1",
+01-22 16:05:33.203 14550 18008 I notify msg: 	"notifyver": 10001,
+01-22 16:05:33.203 14550 18008 I notify msg: 	"packageName": ""
+01-22 16:05:33.204 14550 18008 I notify msg: }
+01-22 16:05:33.208 14550 18008 W System.err: org.json.JSONException: No value for title_en
+01-22 16:05:33.208 14550 18008 W System.err: 	at org.json.JSONObject.get(JSONObject.java:392)
+01-22 16:05:33.209 14550 18008 W System.err: 	at org.json.JSONObject.getString(JSONObject.java:553)
+01-22 16:05:33.209 14550 18008 W System.err: 	at com.generalmobile.storeoid.notification.NotificationAlarmReceiver$checkNotification.doInBackground(NotificationAlarmReceiver.java:140)
+01-22 16:05:33.209 14550 18008 W System.err: 	at com.generalmobile.storeoid.notification.NotificationAlarmReceiver$checkNotification.doInBackground(NotificationAlarmReceiver.java:63)
+01-22 16:05:33.209 14550 18008 W System.err: 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+01-22 16:05:33.209 14550 18008 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+01-22 16:05:33.209 14550 18008 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+01-22 16:05:33.209 14550 18008 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+01-22 16:05:33.209 14550 18008 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+01-22 16:05:33.209 14550 18008 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+01-22 16:05:33.209 14550 18008 E notify  : Exception!!
+01-22 16:05:33.212 14550 18057 W notification: test mode: false
+01-22 16:05:34.199   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:34.201   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:34.201   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:34.201   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:34.201   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:34.201   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:34.451   474   474 E WifiHAL : wifi_get_wake_reason_stats: Logger feature not supported 
+01-22 16:05:34.452  1418  6642 E WifiVendorHal: getWlanWakeReasonCount(l.2256) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Bug dump 3
+system time = 01-22 16:05:53.857
+kernel time = 288068.834
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+01-22 16:05:49.347   459  4605 D audio_hw_primary: enable_snd_device: snd_device(6: speaker)
+01-22 16:05:49.349   459  4605 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+01-22 16:05:49.349   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:49.349   459  4605 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+01-22 16:05:49.350   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 235, path = 0, app id = 0x11131, sample rate = 48000
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_asm_topology
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_adm_topology
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_audtable
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_audvoltable
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_afe_topology
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 235, Topology Id 10001160
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> send_afe_cal
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-22 16:05:49.350   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-22 16:05:49.351   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-22 16:05:49.351   459  4605 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 235 path = 0
+01-22 16:05:49.351   459  4605 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-22 16:05:49.351   459  4605 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+01-22 16:05:49.352   459  4605 D audio_hw_primary: select_devices: done
+01-22 16:05:49.352   459  4605 E audio_hw_primary: start_output_stream: cannot open device '/dev/snd/pcmC0D4p': Too many open files
+01-22 16:05:49.352   459  4605 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+01-22 16:05:49.353   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:49.353   459  4605 D audio_hw_primary: disable_snd_device: snd_device(6: speaker)
+01-22 16:05:49.353   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:49.411   459  4605 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+01-22 16:05:49.411   459  4605 D audio_hw_primary: start_output_stream: enter: stream(0xe8c2c800)usecase(12: audio-ull-playback) devices(0x2)
+01-22 16:05:49.411   459  4605 D audio_hw_primary: select_devices for use case (audio-ull-playback)
+01-22 16:05:49.411   459  4605 D msm8916_platform: platform_get_output_snd_device, temporarily_1 force to set snd_device=235
+01-22 16:05:49.412   459  4605 D audio_hw_primary: select_devices: out_snd_device(6: speaker) in_snd_device(0: )
+01-22 16:05:49.412   459  4605 I msm8916_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 12 device (speaker)
+01-22 16:05:49.412   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:49.412   459  4605 I msm8916_platform: platform_check_and_set_codec_backend_cfg: becf: new_snd_devices[0] is speaker
+01-22 16:05:49.412   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 current bit width: 16 sample rate: 48000 channels: 2 usecase 12 device (speaker)
+01-22 16:05:49.412   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+01-22 16:05:49.412   459  4605 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: only 48KHZ sample rate is supported Configure afe to default Sample Rate(48k)
+01-22 16:05:49.412   459  4605 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 sample rate: 48000 channels: 2
+01-22 16:05:49.412   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+01-22 16:05:49.412   459  4605 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+01-22 16:05:49.412   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: (59) check_usecases curr device: speaker, usecase device: backends match 0
+01-22 16:05:49.412   459  4605 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+01-22 16:05:49.412   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:49.412   459  4605 D smartpa_feedback: start_smartpa_feedback_processing: open pcm device #38
+01-22 16:05:49.412   459  4605 E smartpa_feedback: start_smartpa_feedback_processing: cannot open device '/dev/snd/pcmC0D38c': Too many open files
+01-22 16:05:49.413   459  4605 E smartpa_feedback:  update_smartpa_calib_data fopen failed
+01-22 16:05:49.413   459  4605 E smartpa_feedback: Invalid Re from /persist/audio/speaker_calibdata.bin, val=-1
+01-22 16:05:49.414   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:49.414   459  4605 D audio_hw_primary: enable_snd_device: snd_device(6: speaker)
+01-22 16:05:49.417   459  4605 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+01-22 16:05:49.417   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:49.417   459  4605 I audio_hw_utils: ULL doesnt need sending app type cfg, returning
+01-22 16:05:49.417   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(1) new_snd_devices(0)
+01-22 16:05:49.417   459  4605 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 235, path = 0, app id = 0x11131, sample rate = 48000
+01-22 16:05:49.417   459  4605 D ACDB-LOADER: ACDB -> send_asm_topology
+01-22 16:05:49.417   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-22 16:05:49.417   459  4605 D ACDB-LOADER: ACDB -> send_adm_topology
+01-22 16:05:49.417   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-22 16:05:49.417   459  4605 D ACDB-LOADER: ACDB -> send_audtable
+01-22 16:05:49.417   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> send_audvoltable
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> send_afe_topology
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 235, Topology Id 10001160
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> send_afe_cal
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 235 path = 0
+01-22 16:05:49.418   459  4605 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-22 16:05:49.418   459  4605 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-ull-playback speaker
+01-22 16:05:49.419   459  4605 D audio_hw_primary: select_devices: done
+01-22 16:05:49.419   459  4605 E audio_hw_primary: start_output_stream: cannot open device '/dev/snd/pcmC0D4p': Too many open files
+01-22 16:05:49.420   459  4605 D audio_hw_primary: disable_audio_route: reset and update mixer path: audio-ull-playback speaker
+01-22 16:05:49.421   459  4605 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-22 16:05:49.421   459  4605 D audio_hw_primary: disable_snd_device: snd_device(6: speaker)
+01-22 16:05:49.421   459  4605 D msm8916_platform: platform_split_snd_device: snd_device(6) num devices(0) new_snd_devices(0)
+01-22 16:05:49.478   459  4605 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+01-22 16:05:49.479   459   459 D audio_hw_primary: out_standby: enter: stream (0xe8c2c800) usecase(12: audio-ull-playback)
+01-22 16:05:49.479   459   459 D audio_hw_primary: out_standby: exit
+01-22 16:05:50.226   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:50.228   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:50.228   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:50.228   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:50.228   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:50.228   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:51.228   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:51.229   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:51.230   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:51.230   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:51.230   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:51.230   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:52.230   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:52.231   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:52.231   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:52.231   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:52.231   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:52.231   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:53.231   756   841 D ThermalEngine: sensor_wait: xo_therm Wait done.
+01-22 16:05:53.233   756   841 D ThermalEngine: sensor_monitor: xo_therm Reading 38000 .
+01-22 16:05:53.233   756   841 I ThermalEngine: Sensor:xo_therm:38000 mC
+01-22 16:05:53.233   756   841 D ThermalEngine: update_active_thresh: xo_therm Active(1), Hi(1) 41000, Lo(0) -2147483648, desc(0) Interval(1) 1000
+01-22 16:05:53.233   756   841 D ThermalEngine: sensor_monitor: xo_therm Sensor wait.
+01-22 16:05:53.233   756   841 D ThermalEngine: sensor_wait: xo_therm Wait start. 1000ms
+01-22 16:05:53.855   474   474 E WifiHAL : wifi_get_wake_reason_stats: Logger feature not supported 
+01-22 16:05:53.856  1418  6642 E WifiVendorHal: getWlanWakeReasonCount(l.2256) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+
+--------------------------------------------------------------------
+No fates fetched for "Last failed connection fates"
+HAL provided zero fates for "Latest fates"
+No last mile log for "Last failed last-mile log"
+-------------------------- Latest last-mile log ---------------------------
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 0/0   #P:5
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+IpManager.wlan0 APF dump:
+  No active ApfFilter; IpManager not yet started.
+
+IpManager.wlan0 current ProvisioningConfiguration:
+  N/A
+
+IpManager.wlan0 StateMachine dump:
+  01-18 15:39:57.823 - ERROR Failed to disable IPv6: java.lang.IllegalStateException: command '1 interface ipv6 wlan0 disable' failed with '400 1 Failed to change IPv6 state (No such file or directory)'
+  01-18 15:39:57.831 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 15:40:03.747 - OBSERVED interfaceAdded(wlan0)
+  01-18 17:48:29.839 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 17:49:37.211 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 17:49:40.625 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 17:50:44.534 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 18:40:51.651 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 18:40:55.922 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 18:41:00.814 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 18:41:08.510 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 18:41:11.298 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-18 18:41:14.523 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 11:34:24.546 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 11:35:55.954 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 11:35:57.231 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 11:36:59.028 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 11:44:44.032 - CMD_STOP wlan0/-1 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 11:44:45.103 - OBSERVED interfaceRemoved(wlan0)
+  01-19 11:45:01.896 - OBSERVED interfaceAdded(wlan0)
+  01-19 21:09:52.223 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 21:10:08.873 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 21:11:35.819 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 21:11:37.317 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 21:26:31.846 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-19 21:26:48.279 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-22 12:42:29.101 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-22 12:43:21.801 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-22 12:44:00.795 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 false [rcvd_in=StoppedState, proc_in=StoppedState]
+  01-22 13:02:43.588 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+
+IpManager.wlan0 connectivity packet log:
+
+Debug with python and scapy via:
+shell$ python
+>>> from scapy import all as scapy
+>>> scapy.Ether("<paste_hex_string>".decode("hex")).show2()
+
+Dump of WifiConnectivityManager
+WifiConnectivityManager - Log Begin ----
+01-22 13:23:45.645 - start a single scan from watchdogHandler
+01-22 13:23:45.645 - scheduleWatchdogTimer
+01-22 13:23:46.640 - AllSingleScanListener onResults: start network selection
+01-22 13:23:46.646 - About to run SavedNetworkEvaluator :
+01-22 13:23:46.646 - did not see any good candidates.
+01-22 13:23:46.646 - About to run ScoredNetworkEvaluator :
+01-22 13:23:46.647 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:24:50.847 - periodicScanTimerHandler
+01-22 13:24:51.950 - AllSingleScanListener onResults: start network selection
+01-22 13:24:51.957 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 13:24:51.957 - About to run SavedNetworkEvaluator :
+01-22 13:24:51.958 - did not see any good candidates.
+01-22 13:24:51.958 - About to run ScoredNetworkEvaluator :
+01-22 13:24:51.958 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:27:54.499 - periodicScanTimerHandler
+01-22 13:27:55.512 - AllSingleScanListener onResults: start network selection
+01-22 13:27:55.527 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 13:27:55.527 - About to run SavedNetworkEvaluator :
+01-22 13:27:55.527 - did not see any good candidates.
+01-22 13:27:55.527 - About to run ScoredNetworkEvaluator :
+01-22 13:27:55.528 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:30:34.499 - periodicScanTimerHandler
+01-22 13:30:35.523 - AllSingleScanListener onResults: start network selection
+01-22 13:30:35.529 - About to run SavedNetworkEvaluator :
+01-22 13:30:35.529 - did not see any good candidates.
+01-22 13:30:35.529 - About to run ScoredNetworkEvaluator :
+01-22 13:30:35.530 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:33:14.500 - periodicScanTimerHandler
+01-22 13:33:15.507 - AllSingleScanListener onResults: start network selection
+01-22 13:33:15.515 - Networks filtered out due to low signal strength: IM_Mobiles:fa:9f:c2:bf:58:94(2.4GHz)-87 / 
+01-22 13:33:15.515 - About to run SavedNetworkEvaluator :
+01-22 13:33:15.515 - did not see any good candidates.
+01-22 13:33:15.515 - About to run ScoredNetworkEvaluator :
+01-22 13:33:15.516 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:35:54.501 - periodicScanTimerHandler
+01-22 13:35:55.538 - AllSingleScanListener onResults: start network selection
+01-22 13:35:55.544 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 13:35:55.544 - About to run SavedNetworkEvaluator :
+01-22 13:35:55.545 - did not see any good candidates.
+01-22 13:35:55.545 - About to run ScoredNetworkEvaluator :
+01-22 13:35:55.545 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:38:34.502 - periodicScanTimerHandler
+01-22 13:38:35.558 - AllSingleScanListener onResults: start network selection
+01-22 13:38:35.565 - About to run SavedNetworkEvaluator :
+01-22 13:38:35.566 - did not see any good candidates.
+01-22 13:38:35.566 - About to run ScoredNetworkEvaluator :
+01-22 13:38:35.566 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:41:14.504 - periodicScanTimerHandler
+01-22 13:41:15.552 - AllSingleScanListener onResults: start network selection
+01-22 13:41:15.560 - About to run SavedNetworkEvaluator :
+01-22 13:41:15.561 - did not see any good candidates.
+01-22 13:41:15.561 - About to run ScoredNetworkEvaluator :
+01-22 13:41:15.561 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:43:54.505 - start a single scan from watchdogHandler
+01-22 13:43:54.505 - scheduleWatchdogTimer
+01-22 13:43:54.509 - periodicScanTimerHandler
+01-22 13:43:55.576 - AllSingleScanListener onResults: start network selection
+01-22 13:43:55.582 - About to run SavedNetworkEvaluator :
+01-22 13:43:55.582 - did not see any good candidates.
+01-22 13:43:55.582 - About to run ScoredNetworkEvaluator :
+01-22 13:43:55.583 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:46:34.510 - periodicScanTimerHandler
+01-22 13:46:35.558 - AllSingleScanListener onResults: start network selection
+01-22 13:46:35.565 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 13:46:35.565 - About to run SavedNetworkEvaluator :
+01-22 13:46:35.565 - did not see any good candidates.
+01-22 13:46:35.565 - About to run ScoredNetworkEvaluator :
+01-22 13:46:35.566 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:49:14.511 - periodicScanTimerHandler
+01-22 13:49:15.610 - AllSingleScanListener onResults: start network selection
+01-22 13:49:15.618 - About to run SavedNetworkEvaluator :
+01-22 13:49:15.618 - did not see any good candidates.
+01-22 13:49:15.618 - About to run ScoredNetworkEvaluator :
+01-22 13:49:15.619 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:51:32.078 - handleScreenStateChanged: screenOn=false
+01-22 13:51:32.080 - startConnectivityScan: screenOn=false wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 13:51:36.021 - handleScreenStateChanged: screenOn=true
+01-22 13:51:36.022 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 13:51:37.144 - AllSingleScanListener onResults: start network selection
+01-22 13:51:37.151 - About to run SavedNetworkEvaluator :
+01-22 13:51:37.151 - did not see any good candidates.
+01-22 13:51:37.151 - About to run ScoredNetworkEvaluator :
+01-22 13:51:37.152 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:51:42.930 - handleScreenStateChanged: screenOn=false
+01-22 13:51:42.931 - startConnectivityScan: screenOn=false wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 13:52:15.872 - handleScreenStateChanged: screenOn=true
+01-22 13:52:15.872 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 13:52:16.915 - AllSingleScanListener onResults: start network selection
+01-22 13:52:16.921 - About to run SavedNetworkEvaluator :
+01-22 13:52:16.921 - did not see any good candidates.
+01-22 13:52:16.921 - About to run ScoredNetworkEvaluator :
+01-22 13:52:16.922 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:52:36.049 - periodicScanTimerHandler
+01-22 13:52:37.156 - AllSingleScanListener onResults: start network selection
+01-22 13:52:37.169 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 13:52:37.169 - About to run SavedNetworkEvaluator :
+01-22 13:52:37.170 - did not see any good candidates.
+01-22 13:52:37.170 - About to run ScoredNetworkEvaluator :
+01-22 13:52:37.171 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:53:34.235 - periodicScanTimerHandler
+01-22 13:53:35.289 - AllSingleScanListener onResults: start network selection
+01-22 13:53:35.297 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 13:53:35.297 - About to run SavedNetworkEvaluator :
+01-22 13:53:35.297 - did not see any good candidates.
+01-22 13:53:35.298 - About to run ScoredNetworkEvaluator :
+01-22 13:53:35.298 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:54:54.236 - periodicScanTimerHandler
+01-22 13:54:55.325 - AllSingleScanListener onResults: start network selection
+01-22 13:54:55.331 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 13:54:55.331 - About to run SavedNetworkEvaluator :
+01-22 13:54:55.332 - did not see any good candidates.
+01-22 13:54:55.332 - About to run ScoredNetworkEvaluator :
+01-22 13:54:55.332 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 13:57:34.239 - periodicScanTimerHandler
+01-22 13:57:35.363 - AllSingleScanListener onResults: start network selection
+01-22 13:57:35.374 - About to run SavedNetworkEvaluator :
+01-22 13:57:35.374 - did not see any good candidates.
+01-22 13:57:35.374 - About to run ScoredNetworkEvaluator :
+01-22 13:57:35.375 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:01:02.346 - periodicScanTimerHandler
+01-22 14:01:03.342 - AllSingleScanListener onResults: start network selection
+01-22 14:01:03.348 - About to run SavedNetworkEvaluator :
+01-22 14:01:03.348 - did not see any good candidates.
+01-22 14:01:03.348 - About to run ScoredNetworkEvaluator :
+01-22 14:01:03.348 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:04:02.528 - periodicScanTimerHandler
+01-22 14:04:02.532 - start a single scan from watchdogHandler
+01-22 14:04:02.532 - scheduleWatchdogTimer
+01-22 14:04:03.492 - AllSingleScanListener onResults: start network selection
+01-22 14:04:03.497 - About to run SavedNetworkEvaluator :
+01-22 14:04:03.498 - did not see any good candidates.
+01-22 14:04:03.498 - About to run ScoredNetworkEvaluator :
+01-22 14:04:03.499 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:06:42.529 - periodicScanTimerHandler
+01-22 14:06:43.510 - AllSingleScanListener onResults: start network selection
+01-22 14:06:43.518 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:06:43.518 - About to run SavedNetworkEvaluator :
+01-22 14:06:43.518 - did not see any good candidates.
+01-22 14:06:43.518 - About to run ScoredNetworkEvaluator :
+01-22 14:06:43.519 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:09:22.530 - periodicScanTimerHandler
+01-22 14:09:23.500 - AllSingleScanListener onResults: start network selection
+01-22 14:09:23.508 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:09:23.509 - About to run SavedNetworkEvaluator :
+01-22 14:09:23.509 - did not see any good candidates.
+01-22 14:09:23.509 - About to run ScoredNetworkEvaluator :
+01-22 14:09:23.510 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:12:02.530 - periodicScanTimerHandler
+01-22 14:12:03.493 - AllSingleScanListener onResults: start network selection
+01-22 14:12:03.499 - About to run SavedNetworkEvaluator :
+01-22 14:12:03.499 - did not see any good candidates.
+01-22 14:12:03.499 - About to run ScoredNetworkEvaluator :
+01-22 14:12:03.500 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:14:42.531 - periodicScanTimerHandler
+01-22 14:14:43.497 - AllSingleScanListener onResults: start network selection
+01-22 14:14:43.503 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:14:43.503 - About to run SavedNetworkEvaluator :
+01-22 14:14:43.503 - did not see any good candidates.
+01-22 14:14:43.503 - About to run ScoredNetworkEvaluator :
+01-22 14:14:43.504 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:17:22.532 - periodicScanTimerHandler
+01-22 14:17:23.500 - AllSingleScanListener onResults: start network selection
+01-22 14:17:23.507 - About to run SavedNetworkEvaluator :
+01-22 14:17:23.507 - did not see any good candidates.
+01-22 14:17:23.507 - About to run ScoredNetworkEvaluator :
+01-22 14:17:23.508 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:20:02.533 - periodicScanTimerHandler
+01-22 14:20:03.510 - AllSingleScanListener onResults: start network selection
+01-22 14:20:03.517 - About to run SavedNetworkEvaluator :
+01-22 14:20:03.517 - did not see any good candidates.
+01-22 14:20:03.517 - About to run ScoredNetworkEvaluator :
+01-22 14:20:03.518 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:24:02.779 - periodicScanTimerHandler
+01-22 14:24:02.782 - start a single scan from watchdogHandler
+01-22 14:24:02.783 - scheduleWatchdogTimer
+01-22 14:24:03.753 - AllSingleScanListener onResults: start network selection
+01-22 14:24:03.760 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:24:03.761 - About to run SavedNetworkEvaluator :
+01-22 14:24:03.762 - did not see any good candidates.
+01-22 14:24:03.762 - About to run ScoredNetworkEvaluator :
+01-22 14:24:03.762 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:26:42.780 - periodicScanTimerHandler
+01-22 14:26:43.755 - AllSingleScanListener onResults: start network selection
+01-22 14:26:43.770 - Networks filtered out due to low signal strength: Immaneni Meghana's IPhone:f6:f4:6f:22:33:bb(2.4GHz)-87 / 
+01-22 14:26:43.771 - About to run SavedNetworkEvaluator :
+01-22 14:26:43.771 - did not see any good candidates.
+01-22 14:26:43.771 - About to run ScoredNetworkEvaluator :
+01-22 14:26:43.771 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:29:22.781 - periodicScanTimerHandler
+01-22 14:29:23.744 - AllSingleScanListener onResults: start network selection
+01-22 14:29:23.751 - About to run SavedNetworkEvaluator :
+01-22 14:29:23.752 - did not see any good candidates.
+01-22 14:29:23.752 - About to run ScoredNetworkEvaluator :
+01-22 14:29:23.752 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:32:02.782 - periodicScanTimerHandler
+01-22 14:32:03.746 - AllSingleScanListener onResults: start network selection
+01-22 14:32:03.754 - About to run SavedNetworkEvaluator :
+01-22 14:32:03.754 - did not see any good candidates.
+01-22 14:32:03.754 - About to run ScoredNetworkEvaluator :
+01-22 14:32:03.755 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:34:42.783 - periodicScanTimerHandler
+01-22 14:34:43.744 - AllSingleScanListener onResults: start network selection
+01-22 14:34:43.751 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:34:43.752 - Networks filtered out due to low signal strength: InnoGuest:f6:9f:c2:bf:58:94(2.4GHz)-86 / 
+01-22 14:34:43.752 - About to run SavedNetworkEvaluator :
+01-22 14:34:43.752 - did not see any good candidates.
+01-22 14:34:43.752 - About to run ScoredNetworkEvaluator :
+01-22 14:34:43.753 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:37:22.784 - periodicScanTimerHandler
+01-22 14:37:23.759 - AllSingleScanListener onResults: start network selection
+01-22 14:37:23.767 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:37:23.767 - About to run SavedNetworkEvaluator :
+01-22 14:37:23.767 - did not see any good candidates.
+01-22 14:37:23.767 - About to run ScoredNetworkEvaluator :
+01-22 14:37:23.768 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:40:22.963 - periodicScanTimerHandler
+01-22 14:40:23.925 - AllSingleScanListener onResults: start network selection
+01-22 14:40:23.932 - About to run SavedNetworkEvaluator :
+01-22 14:40:23.932 - did not see any good candidates.
+01-22 14:40:23.932 - About to run ScoredNetworkEvaluator :
+01-22 14:40:23.933 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:44:02.783 - periodicScanTimerHandler
+01-22 14:44:02.787 - start a single scan from watchdogHandler
+01-22 14:44:02.787 - scheduleWatchdogTimer
+01-22 14:44:03.752 - AllSingleScanListener onResults: start network selection
+01-22 14:44:03.761 - About to run SavedNetworkEvaluator :
+01-22 14:44:03.762 - did not see any good candidates.
+01-22 14:44:03.762 - About to run ScoredNetworkEvaluator :
+01-22 14:44:03.762 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:46:59.797 - periodicScanTimerHandler
+01-22 14:47:00.787 - AllSingleScanListener onResults: start network selection
+01-22 14:47:00.793 - Networks filtered out due to low signal strength: InnoGuest:f6:9f:c2:8f:6e:41(2.4GHz)-87 / 
+01-22 14:47:00.793 - About to run SavedNetworkEvaluator :
+01-22 14:47:00.794 - did not see any good candidates.
+01-22 14:47:00.794 - About to run ScoredNetworkEvaluator :
+01-22 14:47:00.794 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:49:43.134 - periodicScanTimerHandler
+01-22 14:49:44.099 - AllSingleScanListener onResults: start network selection
+01-22 14:49:44.105 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:49:44.105 - About to run SavedNetworkEvaluator :
+01-22 14:49:44.105 - did not see any good candidates.
+01-22 14:49:44.105 - About to run ScoredNetworkEvaluator :
+01-22 14:49:44.106 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:52:23.306 - periodicScanTimerHandler
+01-22 14:52:24.269 - AllSingleScanListener onResults: start network selection
+01-22 14:52:24.281 - About to run SavedNetworkEvaluator :
+01-22 14:52:24.281 - did not see any good candidates.
+01-22 14:52:24.282 - About to run ScoredNetworkEvaluator :
+01-22 14:52:24.282 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:55:03.763 - periodicScanTimerHandler
+01-22 14:55:04.740 - AllSingleScanListener onResults: start network selection
+01-22 14:55:04.747 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 14:55:04.747 - About to run SavedNetworkEvaluator :
+01-22 14:55:04.747 - did not see any good candidates.
+01-22 14:55:04.748 - About to run ScoredNetworkEvaluator :
+01-22 14:55:04.748 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 14:57:43.764 - periodicScanTimerHandler
+01-22 14:57:44.749 - AllSingleScanListener onResults: start network selection
+01-22 14:57:44.756 - About to run SavedNetworkEvaluator :
+01-22 14:57:44.756 - did not see any good candidates.
+01-22 14:57:44.756 - About to run ScoredNetworkEvaluator :
+01-22 14:57:44.757 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:00:23.765 - periodicScanTimerHandler
+01-22 15:00:24.725 - AllSingleScanListener onResults: start network selection
+01-22 15:00:24.734 - About to run SavedNetworkEvaluator :
+01-22 15:00:24.734 - did not see any good candidates.
+01-22 15:00:24.735 - About to run ScoredNetworkEvaluator :
+01-22 15:00:24.735 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:03:03.133 - periodicScanTimerHandler
+01-22 15:03:04.080 - AllSingleScanListener onResults: start network selection
+01-22 15:03:04.087 - About to run SavedNetworkEvaluator :
+01-22 15:03:04.087 - did not see any good candidates.
+01-22 15:03:04.087 - About to run ScoredNetworkEvaluator :
+01-22 15:03:04.088 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:04:12.896 - start a single scan from watchdogHandler
+01-22 15:04:12.896 - scheduleWatchdogTimer
+01-22 15:04:13.884 - AllSingleScanListener onResults: start network selection
+01-22 15:04:13.891 - About to run SavedNetworkEvaluator :
+01-22 15:04:13.891 - did not see any good candidates.
+01-22 15:04:13.891 - About to run ScoredNetworkEvaluator :
+01-22 15:04:13.892 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:05:43.134 - periodicScanTimerHandler
+01-22 15:05:44.108 - AllSingleScanListener onResults: start network selection
+01-22 15:05:44.117 - About to run SavedNetworkEvaluator :
+01-22 15:05:44.118 - did not see any good candidates.
+01-22 15:05:44.118 - About to run ScoredNetworkEvaluator :
+01-22 15:05:44.118 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:10:20.552 - periodicScanTimerHandler
+01-22 15:10:21.626 - AllSingleScanListener onResults: start network selection
+01-22 15:10:21.639 - About to run SavedNetworkEvaluator :
+01-22 15:10:21.640 - did not see any good candidates.
+01-22 15:10:21.640 - About to run ScoredNetworkEvaluator :
+01-22 15:10:21.640 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:13:00.552 - periodicScanTimerHandler
+01-22 15:13:01.606 - AllSingleScanListener onResults: start network selection
+01-22 15:13:01.614 - About to run SavedNetworkEvaluator :
+01-22 15:13:01.615 - did not see any good candidates.
+01-22 15:13:01.615 - About to run ScoredNetworkEvaluator :
+01-22 15:13:01.615 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:15:40.553 - periodicScanTimerHandler
+01-22 15:15:41.614 - AllSingleScanListener onResults: start network selection
+01-22 15:15:41.619 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 15:15:41.619 - About to run SavedNetworkEvaluator :
+01-22 15:15:41.620 - did not see any good candidates.
+01-22 15:15:41.620 - About to run ScoredNetworkEvaluator :
+01-22 15:15:41.620 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:18:20.410 - periodicScanTimerHandler
+01-22 15:18:21.467 - AllSingleScanListener onResults: start network selection
+01-22 15:18:21.477 - About to run SavedNetworkEvaluator :
+01-22 15:18:21.478 - did not see any good candidates.
+01-22 15:18:21.478 - About to run ScoredNetworkEvaluator :
+01-22 15:18:21.478 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:21:00.411 - periodicScanTimerHandler
+01-22 15:21:01.476 - AllSingleScanListener onResults: start network selection
+01-22 15:21:01.485 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 15:21:01.485 - About to run SavedNetworkEvaluator :
+01-22 15:21:01.486 - did not see any good candidates.
+01-22 15:21:01.486 - About to run ScoredNetworkEvaluator :
+01-22 15:21:01.486 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:24:12.754 - periodicScanTimerHandler
+01-22 15:24:12.760 - start a single scan from watchdogHandler
+01-22 15:24:12.761 - scheduleWatchdogTimer
+01-22 15:24:13.834 - AllSingleScanListener onResults: start network selection
+01-22 15:24:13.841 - About to run SavedNetworkEvaluator :
+01-22 15:24:13.841 - did not see any good candidates.
+01-22 15:24:13.842 - About to run ScoredNetworkEvaluator :
+01-22 15:24:13.842 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:26:52.755 - periodicScanTimerHandler
+01-22 15:26:53.799 - AllSingleScanListener onResults: start network selection
+01-22 15:26:53.805 - About to run SavedNetworkEvaluator :
+01-22 15:26:53.805 - did not see any good candidates.
+01-22 15:26:53.805 - About to run ScoredNetworkEvaluator :
+01-22 15:26:53.806 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:27:12.438 - handleScreenStateChanged: screenOn=false
+01-22 15:27:12.439 - startConnectivityScan: screenOn=false wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 15:27:45.147 - handleScreenStateChanged: screenOn=true
+01-22 15:27:45.147 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 15:27:46.209 - AllSingleScanListener onResults: start network selection
+01-22 15:27:46.221 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 15:27:46.221 - About to run SavedNetworkEvaluator :
+01-22 15:27:46.222 - did not see any good candidates.
+01-22 15:27:46.222 - About to run ScoredNetworkEvaluator :
+01-22 15:27:46.222 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:28:05.153 - periodicScanTimerHandler
+01-22 15:28:06.140 - AllSingleScanListener onResults: start network selection
+01-22 15:28:06.151 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 15:28:06.151 - Networks filtered out due to low signal strength: InnoGuest:f6:9f:c2:8f:6e:41(2.4GHz)-90 / 
+01-22 15:28:06.151 - About to run SavedNetworkEvaluator :
+01-22 15:28:06.152 - did not see any good candidates.
+01-22 15:28:06.152 - About to run ScoredNetworkEvaluator :
+01-22 15:28:06.152 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:29:05.224 - periodicScanTimerHandler
+01-22 15:29:06.201 - AllSingleScanListener onResults: start network selection
+01-22 15:29:06.209 - About to run SavedNetworkEvaluator :
+01-22 15:29:06.209 - did not see any good candidates.
+01-22 15:29:06.209 - About to run ScoredNetworkEvaluator :
+01-22 15:29:06.210 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:30:25.225 - periodicScanTimerHandler
+01-22 15:30:26.197 - AllSingleScanListener onResults: start network selection
+01-22 15:30:26.202 - About to run SavedNetworkEvaluator :
+01-22 15:30:26.202 - did not see any good candidates.
+01-22 15:30:26.202 - About to run ScoredNetworkEvaluator :
+01-22 15:30:26.203 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:33:05.974 - periodicScanTimerHandler
+01-22 15:33:06.941 - AllSingleScanListener onResults: start network selection
+01-22 15:33:06.955 - About to run SavedNetworkEvaluator :
+01-22 15:33:06.955 - did not see any good candidates.
+01-22 15:33:06.956 - About to run ScoredNetworkEvaluator :
+01-22 15:33:06.956 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:35:45.976 - periodicScanTimerHandler
+01-22 15:35:46.945 - AllSingleScanListener onResults: start network selection
+01-22 15:35:46.950 - About to run SavedNetworkEvaluator :
+01-22 15:35:46.950 - did not see any good candidates.
+01-22 15:35:46.951 - About to run ScoredNetworkEvaluator :
+01-22 15:35:46.951 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:38:25.976 - periodicScanTimerHandler
+01-22 15:38:26.959 - AllSingleScanListener onResults: start network selection
+01-22 15:38:26.966 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 15:38:26.967 - About to run SavedNetworkEvaluator :
+01-22 15:38:26.967 - did not see any good candidates.
+01-22 15:38:26.967 - About to run ScoredNetworkEvaluator :
+01-22 15:38:26.967 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:41:10.008 - periodicScanTimerHandler
+01-22 15:41:11.002 - AllSingleScanListener onResults: start network selection
+01-22 15:41:11.008 - About to run SavedNetworkEvaluator :
+01-22 15:41:11.008 - did not see any good candidates.
+01-22 15:41:11.009 - About to run ScoredNetworkEvaluator :
+01-22 15:41:11.009 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:43:50.009 - periodicScanTimerHandler
+01-22 15:43:50.977 - AllSingleScanListener onResults: start network selection
+01-22 15:43:50.986 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 15:43:50.986 - About to run SavedNetworkEvaluator :
+01-22 15:43:50.986 - did not see any good candidates.
+01-22 15:43:50.987 - About to run ScoredNetworkEvaluator :
+01-22 15:43:50.987 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:44:53.303 - start a single scan from watchdogHandler
+01-22 15:44:53.303 - scheduleWatchdogTimer
+01-22 15:44:54.268 - AllSingleScanListener onResults: start network selection
+01-22 15:44:54.274 - About to run SavedNetworkEvaluator :
+01-22 15:44:54.275 - did not see any good candidates.
+01-22 15:44:54.275 - About to run ScoredNetworkEvaluator :
+01-22 15:44:54.275 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:46:29.239 - periodicScanTimerHandler
+01-22 15:46:30.217 - AllSingleScanListener onResults: start network selection
+01-22 15:46:30.223 - Networks filtered out due to low signal strength: IM_Mobiles:fa:9f:c2:bf:58:94(2.4GHz)-86 / 
+01-22 15:46:30.223 - About to run SavedNetworkEvaluator :
+01-22 15:46:30.224 - did not see any good candidates.
+01-22 15:46:30.224 - About to run ScoredNetworkEvaluator :
+01-22 15:46:30.224 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:49:09.240 - periodicScanTimerHandler
+01-22 15:49:10.231 - AllSingleScanListener onResults: start network selection
+01-22 15:49:10.238 - About to run SavedNetworkEvaluator :
+01-22 15:49:10.238 - did not see any good candidates.
+01-22 15:49:10.238 - About to run ScoredNetworkEvaluator :
+01-22 15:49:10.239 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:51:50.038 - periodicScanTimerHandler
+01-22 15:51:51.007 - AllSingleScanListener onResults: start network selection
+01-22 15:51:51.013 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 15:51:51.013 - Networks filtered out due to low signal strength: InnoGuest:f6:9f:c2:bf:58:94(2.4GHz)-88 / 
+01-22 15:51:51.013 - About to run SavedNetworkEvaluator :
+01-22 15:51:51.014 - did not see any good candidates.
+01-22 15:51:51.014 - About to run ScoredNetworkEvaluator :
+01-22 15:51:51.014 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:54:29.407 - periodicScanTimerHandler
+01-22 15:54:30.371 - AllSingleScanListener onResults: start network selection
+01-22 15:54:30.380 - About to run SavedNetworkEvaluator :
+01-22 15:54:30.380 - did not see any good candidates.
+01-22 15:54:30.380 - About to run ScoredNetworkEvaluator :
+01-22 15:54:30.380 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 15:57:09.408 - periodicScanTimerHandler
+01-22 15:57:10.526 - AllSingleScanListener onResults: start network selection
+01-22 15:57:10.534 - About to run SavedNetworkEvaluator :
+01-22 15:57:10.534 - did not see any good candidates.
+01-22 15:57:10.534 - About to run ScoredNetworkEvaluator :
+01-22 15:57:10.534 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:00:29.152 - periodicScanTimerHandler
+01-22 16:00:30.298 - AllSingleScanListener onResults: start network selection
+01-22 16:00:30.305 - About to run SavedNetworkEvaluator :
+01-22 16:00:30.306 - did not see any good candidates.
+01-22 16:00:30.306 - About to run ScoredNetworkEvaluator :
+01-22 16:00:30.306 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:03:09.153 - periodicScanTimerHandler
+01-22 16:03:10.149 - AllSingleScanListener onResults: start network selection
+01-22 16:03:10.156 - About to run SavedNetworkEvaluator :
+01-22 16:03:10.156 - did not see any good candidates.
+01-22 16:03:10.156 - About to run ScoredNetworkEvaluator :
+01-22 16:03:10.156 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:04:51.506 - AllSingleScanListener onResults: start network selection
+01-22 16:04:51.510 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 16:04:51.510 - About to run SavedNetworkEvaluator :
+01-22 16:04:51.510 - did not see any good candidates.
+01-22 16:04:51.510 - About to run ScoredNetworkEvaluator :
+01-22 16:04:51.510 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:04:52.320 - handleConnectionStateChanged: state=transitioning
+01-22 16:04:52.335 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:04:52.338 - Set WiFi disabled
+01-22 16:04:52.338 - Stopping WifiConnectivityManager
+01-22 16:05:04.757 - Set WiFi enabled
+01-22 16:05:04.757 - Starting up WifiConnectivityManager
+01-22 16:05:04.782 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:04.785 - handleConnectionStateChanged: state=disconnected
+01-22 16:05:04.786 - scheduleWatchdogTimer
+01-22 16:05:04.786 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:05.816 - AllSingleScanListener onResults: start network selection
+01-22 16:05:05.832 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 16:05:05.832 - About to run SavedNetworkEvaluator :
+01-22 16:05:05.833 - did not see any good candidates.
+01-22 16:05:05.833 - About to run ScoredNetworkEvaluator :
+01-22 16:05:05.833 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:05:15.860 - AllSingleScanListener onResults: start network selection
+01-22 16:05:15.870 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 16:05:15.870 - About to run SavedNetworkEvaluator :
+01-22 16:05:15.871 - did not see any good candidates.
+01-22 16:05:15.871 - About to run ScoredNetworkEvaluator :
+01-22 16:05:15.871 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:05:17.105 - handleConnectionStateChanged: state=transitioning
+01-22 16:05:17.106 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:17.108 - Set WiFi disabled
+01-22 16:05:17.109 - Stopping WifiConnectivityManager
+01-22 16:05:24.217 - Set WiFi enabled
+01-22 16:05:24.218 - Starting up WifiConnectivityManager
+01-22 16:05:24.245 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:24.246 - handleConnectionStateChanged: state=disconnected
+01-22 16:05:24.246 - scheduleWatchdogTimer
+01-22 16:05:24.247 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:25.285 - AllSingleScanListener onResults: start network selection
+01-22 16:05:25.300 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 16:05:25.300 - About to run SavedNetworkEvaluator :
+01-22 16:05:25.301 - did not see any good candidates.
+01-22 16:05:25.301 - About to run ScoredNetworkEvaluator :
+01-22 16:05:25.301 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:05:35.307 - AllSingleScanListener onResults: start network selection
+01-22 16:05:35.314 - About to run SavedNetworkEvaluator :
+01-22 16:05:35.315 - did not see any good candidates.
+01-22 16:05:35.315 - About to run ScoredNetworkEvaluator :
+01-22 16:05:35.315 - ScoredNetworkEvaluator did not see any good candidates.
+01-22 16:05:36.547 - handleConnectionStateChanged: state=transitioning
+01-22 16:05:36.554 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:36.556 - Set WiFi disabled
+01-22 16:05:36.556 - Stopping WifiConnectivityManager
+01-22 16:05:43.609 - Set WiFi enabled
+01-22 16:05:43.610 - Starting up WifiConnectivityManager
+01-22 16:05:43.637 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:43.638 - handleConnectionStateChanged: state=disconnected
+01-22 16:05:43.638 - scheduleWatchdogTimer
+01-22 16:05:43.639 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+01-22 16:05:44.683 - AllSingleScanListener onResults: start network selection
+01-22 16:05:44.689 - Networks filtered out due to invalid SSID: e2:9f:c2:bf:58:2d / 
+01-22 16:05:44.689 - About to run SavedNetworkEvaluator :
+01-22 16:05:44.690 - did not see any good candidates.
+01-22 16:05:44.690 - About to run ScoredNetworkEvaluator :
+01-22 16:05:44.690 - ScoredNetworkEvaluator did not see any good candidates.
+WifiConnectivityManager - Log End ----
+
+WifiMetrics:
+mConnectionEvents:
+mWifiLogProto.numSavedNetworks=2
+mWifiLogProto.numOpenNetworks=2
+mWifiLogProto.numPersonalNetworks=0
+mWifiLogProto.numEnterpriseNetworks=0
+mWifiLogProto.numHiddenNetworks=0
+mWifiLogProto.numPasspointNetworks=0
+mWifiLogProto.isLocationEnabled=false
+mWifiLogProto.isScanningAlwaysEnabled=false
+mWifiLogProto.numNetworksAddedByUser=0
+mWifiLogProto.numNetworksAddedByApps=2
+mWifiLogProto.numNonEmptyScanResults=2878
+mWifiLogProto.numEmptyScanResults=0
+mWifiLogProto.numOneshotScans=4273
+mWifiLogProto.numBackgroundScans=0
+mScanReturnEntries:
+  SCAN_UNKNOWN: 0
+  SCAN_SUCCESS: 4272
+  SCAN_FAILURE_INTERRUPTED: 0
+  SCAN_FAILURE_INVALID_CONFIGURATION: 0
+  FAILURE_WIFI_DISABLED: 0
+mSystemStateEntries: <state><screenOn> : <scansInitiated>
+  WIFI_UNKNOWN       ON: 0
+  WIFI_DISABLED      ON: 15
+  WIFI_DISCONNECTED  ON: 4258
+  WIFI_ASSOCIATED    ON: 0
+  WIFI_UNKNOWN      OFF: 0
+  WIFI_DISABLED     OFF: 0
+  WIFI_DISCONNECTED OFF: 0
+  WIFI_ASSOCIATED   OFF: 0
+mWifiLogProto.numConnectivityWatchdogPnoGood=0
+mWifiLogProto.numConnectivityWatchdogPnoBad=0
+mWifiLogProto.numConnectivityWatchdogBackgroundGood=0
+mWifiLogProto.numConnectivityWatchdogBackgroundBad=0
+mWifiLogProto.numLastResortWatchdogTriggers=0
+mWifiLogProto.numLastResortWatchdogBadAssociationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadAuthenticationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadDhcpNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadOtherNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogAvailableNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAssociation=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAuthentication=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadDhcp=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadOther=0
+mWifiLogProto.numLastResortWatchdogSuccesses=0
+mWifiLogProto.recordDurationSec=347155
+mWifiLogProto.rssiPollRssiCount: Printing counts for [-127, 0]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.rssiPollDeltaCount: Printing counts for [-127, 127]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.alertReasonCounts=()
+mWifiLogProto.numTotalScanResults=72756
+mWifiLogProto.numOpenNetworkScanResults=14
+mWifiLogProto.numPersonalNetworkScanResults=72742
+mWifiLogProto.numEnterpriseNetworkScanResults=0
+mWifiLogProto.numHiddenNetworkScanResults=2642
+mWifiLogProto.numHotspot2R1NetworkScanResults=0
+mWifiLogProto.numHotspot2R2NetworkScanResults=0
+mWifiLogProto.numScans=2863
+mWifiLogProto.WifiScoreCount: [0, 60]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.SoftApManagerReturnCodeCounts:
+  SUCCESS: 0
+  FAILED_GENERAL_ERROR: 0
+  FAILED_NO_CHANNEL: 0
+
+mWifiLogProto.numHalCrashes=0
+mWifiLogProto.numWificondCrashes=0
+mWifiLogProto.numWifiOnFailureDueToHal=0
+mWifiLogProto.numWifiOnFailureDueToWificond=0
+StaEventList:
+
+Dump of WifiBackupRestore
+
